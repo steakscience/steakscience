@@ -1,0 +1,48 @@
+<head>
+ <!--  /**
+ * @license
+ * MyFonts Webfont Build ID 3328218, 2017-01-06T13:02:43-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: NeueHaasUnicaPro-Bold by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/bold/
+ * Licensed pageviews: 500,000
+ * 
+ * Webfont: NeueHaasUnicaPro-Italic by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/italic/
+ * Licensed pageviews: 250,000
+ * 
+ * Webfont: NeueHaasUnicaPro-Regular by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/regular/
+ * Licensed pageviews: 500,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3328218
+ * Webfonts copyright: Copyright &#x00A9; 2015 Monotype Imaging Inc.  All rights
+ * reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/ -->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }} – {{site.title | escape}}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="Nirawit Jittipairoj">
+  <!-- <link rel="stylesheet" href="{{ "/css/tachyons.css" | prepend: site.baseurl }}"> -->
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+  <link rel="stylesheet" href="{{ "/css/unica.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/unicamedium.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/unicablack.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  {% seo %}
+</head>

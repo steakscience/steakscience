@@ -1,0 +1,30 @@
+title: steakscience
+description: "A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://steakscience.com" # the base hostname & protocol for your site
+
+#Information that is used to create the Terms of Service & Privacy Policy pages
+# company: Company Name
+# location: Location
+# start-year: 2016
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, package.json, gulpfile.js, README.md]
+include: [_pages, _posts]
+permalink: /:title/
+
+gems:
+    - jekyll-minifier
+    - jekyll/figure
+    - jekyll-sitemap
+    - jekyll-seo-tag
+    - s3_website
+    - jekyll-analytics
+    - jekyll-feed
+    - jekyll-typogrify
+
+jekyll_analytics: 
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-61560416-2       # Required - replace with your tracking id
+    anonymizeIp: true   

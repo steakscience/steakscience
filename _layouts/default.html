@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body class="">
+
+<div class="db w-100 ph3-ns ph2-m ph4 cf bg-light-gray mb4-ns mb3">
+{% include header.html %}
+</div>
+
+  <!-- <div class="w-70-ns w-80-m w-100 center ph3-ns ph2-m ph4"> -->
+    
+    <main class="w-100">{{content}}</main>
+    
+  <!-- </div> -->
+  
+</body>
+
+{% if page.js %}
+	<script src="{{page.js}}"></script>
+{% endif %}
+
+{% if page.jquery %}
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+	  crossorigin="anonymous">
+	</script>
+{% endif %}
+
+</html>

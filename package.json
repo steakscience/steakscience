@@ -1,0 +1,24 @@
+{
+  "name": "terminal-point",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrkhdly/terminal-point.git"
+  },
+  "author": "mrkhdly",
+  "license": "CC0",
+  "devDependencies": {
+    "browser-sync": "^2.14.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-shell": "^0.5.2",
+    "gulp-uncss": "^1.0.6",
+    "tachyons": "^4.5.3"
+  }
+}

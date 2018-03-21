@@ -1,0 +1,250 @@
+people:
+  - text: Adam Kingman
+    link: http://www.adamkingman.com/about/
+
+  - text: Andrew Kim
+    link: http://www.ichelleim.com/
+
+  - text: Austin Kleon
+    link: https://austinkleon.com/
+
+  - text: Casey Newton
+    link: http://cnewton.org/about/
+
+  - text: Christopher Nolan
+    link: https://www.nytimes.com/2014/11/02/magazine/the-exacting-expansive-mind-of-christopher-nolan.html
+
+  - text: Craig Mod
+    link: https://craigmod.com/
+
+  - text: David Pierce
+    link: https://twitter.com/pierce
+
+  - text: Jon Bell
+    link: http://www.lot23.com/
+
+  # - text: Ralf Groene
+  #   link: http://steakscience.com/images/redmond/microsoft-10.jpg
+
+
+blogs:
+  - text: Benedict Evans
+    link: https://www.ben-evans.com/
+
+  - text: Craig Mod
+    link: https://craigmod.com/essays/
+
+  - text: iA
+    link: https://ia.net/topics/
+
+  - text: Randomwire
+    link: https://randomwire.com/
+
+  - text: Pixel Envy
+    link: https://pxlnv.com/
+
+  - text: Stratechery
+    link: https://stratechery.com/
+
+  - text: Wait But Why
+    link: https://waitbutwhy.com/
+
+
+books:
+  - text: Adulthood for Beginners
+    link: https://smile.amazon.com/dp/B01LZXZK2H/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+
+  - text: The End of Faith
+    link: https://smile.amazon.com/dp/B000VUCIZE/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+
+  - text: Ender’s Game
+    link: https://smile.amazon.com/Enders-Ender-Quintet-Orson-Scott/dp/0812550706?sa-no-redirect=1
+
+  - text: Felt
+    link: http://www.ichelleim.com/shop/felt
+
+  - text: Hatching Twitter
+    link: https://smile.amazon.com/dp/B00CDUVSQ0/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+
+  - text: Steal Like an Artist
+    link: https://smile.amazon.com/dp/B0074QGGK6/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+
+  - text: Super Normal
+    link: https://smile.amazon.com/Super-Normal-Sensations-Naoto-Fukasawa/dp/3037781068?sa-no-redirect=1
+
+podcasts:
+  - text: Exponent
+    link: http://exponent.fm/
+
+  - text: Gadget Lab
+    link: https://www.wired.com/tag/gadget-lab-podcasts/
+
+  - text: Happy Sad Confused
+    link: http://pca.st/happysad
+
+  - text: Pod Save America
+    link: https://crooked.com/podcast-series/pod-save-america/
+
+  - text: Reply All
+    link: https://www.gimletmedia.com/reply-all
+
+  - text: The Talk Show
+    link: https://daringfireball.net/thetalkshow/
+
+  - text: Tomorrow
+    link: http://pca.st/tomorrow
+
+  - text: What the DUCK?
+    link: https://moonduck.tv/podcast
+
+  - text: The Wish List
+    link: https://drive.google.com/drive/folders/1K3-KAVCZ7N0KO5CzwbsVQ96PlPLrncso?usp=sharing
+
+gadgets:
+  - text: Essential Phone
+    link: https://media.wired.com/photos/5971397e023c38366e1ae481/master/w_839,c_limit/0817-WI-FFESSE-02.jpg
+
+  - text: HP Veer
+    link: https://s.blogcdn.com/www.engadget.com/media/2011/05/20110510-21573454--img7600-1305189294.jpg
+
+  - text: Instrmnt 01-A
+    link: https://vimeo.com/128077305
+
+  - text: Leopold FC660M
+    link: https://www.bazaargadgets.com/image/cache/catalog//products/computernetworking/officekeyboards/Leopoldfc660mCherryClearSwitch66keysMechanicalGamingKeyboard-SKU190235-5-800x800.jpg
+
+  - text: Nintendo Labo
+    link: https://youtu.be/P3Bd3HUMkyU
+
+  - text: Nintendo Switch
+    link: https://youtu.be/f5uik5fgIaI
+
+  - text: Nokia N9
+    link: https://vimeo.com/37102103
+
+  - text: Nokia Lumia 920
+    link: https://vimeo.com/54098050
+
+  - text: Project Ara
+    link: https://www.youtube.com/watch?v=aWW5mQadZAY
+
+  - text: Sony RX1
+    link: http://www.minimallyminimal.com/blog/8-months-with-the-sony-rx1
+
+  - text: Xbox One S
+    link: https://www.behance.net/gallery/41447195/Xbox-One-S-Design-by-Xbox-Design-Team
+
+movies:
+  - text: The Dark Knight
+    link: https://www.youtube.com/watch?v=EXeTwQWrcwY
+
+  - text: Ex Machina
+    link: https://www.youtube.com/watch?v=EoQuVnKhxaM
+
+  - text: The Prestige
+    link: https://www.youtube.com/watch?v=DHoXum3M9eE
+
+  - text: The Social Network
+    link: https://www.youtube.com/watch?v=lB95KLmpLR4
+
+  - text: Spotlight
+    link: https://www.youtube.com/watch?v=EwdCIpbTN5g
+
+tv:
+  - text: American Vandal
+    link: https://www.youtube.com/watch?v=m3tkFOtM6go
+
+  - text: Billions
+    link: https://www.youtube.com/watch?v=_raEUMLL-ZI
+
+  - text: Homeland
+    link: https://www.youtube.com/watch?v=KyFmS3wRPCQ
+
+  - text: The Man in the High Castle
+    link: https://www.youtube.com/watch?v=zzayf9GpXCI
+
+  - text: Silicon Valley
+    link: https://www.youtube.com/watch?v=69V__a49xtw
+
+  - text: The West Wing
+    link: https://en.wikipedia.org/wiki/The_West_Wing
+
+  - text: Westworld
+    link: https://www.youtube.com/watch?v=IuS5huqOND4
+
+apps:
+  - text: Alfred
+    link: https://www.alfredapp.com/
+
+  - text: Arq
+    link: https://www.arqbackup.com/
+
+  - text: Essential
+    link: https://www.essential.com/
+
+  - text: Fantastical
+    link: https://flexibits.com/fantastical
+
+  - text: Feedly (via Reeder and Newsfold)
+    link: https://www.feedly.com/
+
+  - text: Google (Android, Calendar, Photos, Pixel)
+    link: https://www.google.com/
+
+  - text: iA Writer
+    link: https://ia.net/writer/
+
+  - text: Instapaper
+    link: https://www.instapaper.com/
+
+  - text: Jekyll
+    link: https://jekyllrb.com/
+
+  - text: Microsoft (Devices)
+    link: https://www.microsoft.com/en-us/devices
+
+  - text: Muji
+    link: http://www.muji.com/us/
+
+  - text: Nuzzel
+    link: http://nuzzel.com/
+
+  - text: Pinterest
+    link: http://pinterest.com/
+
+  - text: Pocket Casts
+    link: https://www.shiftyjelly.com/pocketcasts/
+
+  - text: Private Internet Access
+    link: https://www.privateinternetaccess.com/
+
+  - text: Simplenote
+    link: https://simplenote.com/
+
+  - text: Sonos
+    link: http://www.sonos.com/
+
+  - text: Square
+    link: https://squareup.com/
+
+  - text: Sublime Text
+    link: https://www.sublimetext.com/
+
+  - text: Tofugu (Wanikani)
+    link: http://www.tofugu.com/
+
+  - text: Twitter (via TweetDeck and Flamingo)
+    link: https://twitter.com/
+
+quotes:
+  - text: Let’s make better mistakes tomorrow.
+    link: https://books.google.com/books?id=GX8ODAAAQBAJ&pg=PA289&lpg=PA289&dq=let%27s+make+better+mistakes+tomorrow+twitter&source=bl&ots=vnGtl9UvPm&sig=y0Bs3blA1_4o3RtgeSGHOMq_P2c&hl=en&sa=X&ved=0ahUKEwii4-WlzvvZAhVCGGMKHUNaDfU4ChDoAQhAMAk#v=onepage&q=let's%20make%20better%20mistakes%20tomorrow%20twitter&f=false
+
+  - text: Life is too short to do mediocre work and definitely too short to build shitty things.
+    link: https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d
+
+
+
+
+
+

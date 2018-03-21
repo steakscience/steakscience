@@ -1,0 +1,20 @@
+<header class="db w-100">
+
+	<nav class="db center w-75-ns w-80-m w-100 mb4-l mb4-m mb3 cf">
+		<!-- logo -->
+
+      <div class="dib w-50-l w-100 ma0 pa0 v-top">
+	      <a class="link pt0 mt0" href="/">
+	        <img src="/images/logo.svg" class="v-top mt0 pt0 w-100" id="logo" alt="steakscience">
+	      </a>
+      </div>
+
+  	  <div class="dib w-40-l w-100 fr-l v-btm tr pt3 pt4-m pt3-l ttl">
+  	    {% for nav-links in site.data.nav-links %}
+		  <a href="{{nav-links.href}}" class="v-btm link mid-gray hover-dark-gray bold f5-ns f6 dib mr0 ml4-ns ml3 lh-solid">{{nav-links.text}}</a>
+		{% endfor %}
+  	  </div>
+
+  	</nav>
+
+</header>
