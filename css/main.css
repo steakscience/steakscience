@@ -23,6 +23,15 @@ a:hover { transition: color .15s ease-in; color: #777;}
 a:active { transition: color .15s ease-in; }
 a:focus { transition: color .15s ease-in; }
 
+/*prevent drag*/
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
 #logo {
 	/*margin-top: -0.25px;*/
 	opacity: 0.8;

@@ -8,6 +8,9 @@ people:
   - text: Austin Kleon
     link: https://austinkleon.com/
 
+  - text: Axel Roesler
+    link: https://art.washington.edu/people/axel-roesler
+
   - text: Casey Newton
     link: http://cnewton.org/about/
 
@@ -21,21 +24,33 @@ people:
     link: https://twitter.com/pierce
 
   - text: Jon Bell
-    link: http://www.lot23.com/
+    link: https://youtu.be/43URYLExNsw?t=17
 
-  # - text: Ralf Groene
-  #   link: http://steakscience.com/images/redmond/microsoft-10.jpg
+  - text: Jonathan Nolan
+    link: https://en.wikipedia.org/wiki/Jonathan_Nolan
+
+  - text: Naoto Fukasawa
+    link: http://www.naotofukasawa.com/
+
+  - text: Ralf Groene
+    link: /images/redmond/ralf_surface_shirt.jpg
 
 
 blogs:
   - text: Benedict Evans
     link: https://www.ben-evans.com/
 
+  - text: The Cooper Review
+    link: https://thecooperreview.com/
+
   - text: Craig Mod
     link: https://craigmod.com/essays/
 
   - text: iA
     link: https://ia.net/topics/
+
+  - text: The Interface
+    link: https://www.getrevue.co/profile/caseynewton
 
   - text: Randomwire
     link: https://randomwire.com/
@@ -54,8 +69,11 @@ books:
   - text: Adulthood for Beginners
     link: https://smile.amazon.com/dp/B01LZXZK2H/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
 
-  - text: The End of Faith
-    link: https://smile.amazon.com/dp/B000VUCIZE/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+  - text: Designing Design
+    link: https://smile.amazon.com/Designing-Design-Kenya-Hara/dp/3037784504?sa-no-redirect=1
+
+  # - text: The End of Faith
+  #   link: https://smile.amazon.com/dp/B000VUCIZE/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
 
   - text: Ender’s Game
     link: https://smile.amazon.com/Enders-Ender-Quintet-Orson-Scott/dp/0812550706?sa-no-redirect=1
@@ -76,14 +94,23 @@ podcasts:
   - text: Exponent
     link: http://exponent.fm/
 
+  - text: The Ezra Klein Show
+    link: http://pca.st/ezraklein
+
   - text: Gadget Lab
     link: https://www.wired.com/tag/gadget-lab-podcasts/
 
   - text: Happy Sad Confused
     link: http://pca.st/happysad
 
+  - text: History of Japan
+    link: http://pca.st/Gsee
+
   - text: Pod Save America
     link: https://crooked.com/podcast-series/pod-save-america/
+
+  - text: Recode Decode
+    link: http://pca.st/recode
 
   - text: Reply All
     link: https://www.gimletmedia.com/reply-all
@@ -91,11 +118,14 @@ podcasts:
   - text: The Talk Show
     link: https://daringfireball.net/thetalkshow/
 
+  - text: Techmeme Ride Home
+    link: http://pca.st/9saH
+
   - text: Tomorrow
     link: http://pca.st/tomorrow
 
-  - text: What the DUCK?
-    link: https://moonduck.tv/podcast
+  # - text: What the DUCK?
+  #   link: https://moonduck.tv/podcast
 
   - text: The Wish List
     link: https://drive.google.com/drive/folders/1K3-KAVCZ7N0KO5CzwbsVQ96PlPLrncso?usp=sharing
@@ -113,6 +143,9 @@ gadgets:
   - text: Leopold FC660M
     link: https://www.bazaargadgets.com/image/cache/catalog//products/computernetworking/officekeyboards/Leopoldfc660mCherryClearSwitch66keysMechanicalGamingKeyboard-SKU190235-5-800x800.jpg
 
+  - text: Microsoft Surface Pro
+    link: /the-future-is-in-redmond/
+
   - text: Nintendo Labo
     link: https://youtu.be/P3Bd3HUMkyU
 
@@ -128,8 +161,14 @@ gadgets:
   - text: Project Ara
     link: https://www.youtube.com/watch?v=aWW5mQadZAY
 
+  - text: Ressence Type 1H
+    link: https://shop.hodinkee.com/blogs/journal/ressence-type-1h-limited-edition-for-hodinkee
+
   - text: Sony RX1
     link: http://www.minimallyminimal.com/blog/8-months-with-the-sony-rx1
+
+  - text: Sony Xperia Z5 Compact
+    link: http://ksassets.timeincuk.net/wp/uploads/sites/54/2015/09/Sony-Z5-Hands-On-Video-00-06-20-22-Still004-3.jpg
 
   - text: Xbox One S
     link: https://www.behance.net/gallery/41447195/Xbox-One-S-Design-by-Xbox-Design-Team
@@ -140,6 +179,9 @@ movies:
 
   - text: Ex Machina
     link: https://www.youtube.com/watch?v=EoQuVnKhxaM
+
+  - text: Isle of Dogs
+    link: https://www.youtube.com/watch?v=dt__kig8PVU
 
   - text: The Prestige
     link: https://www.youtube.com/watch?v=DHoXum3M9eE
@@ -185,7 +227,7 @@ apps:
   - text: Fantastical
     link: https://flexibits.com/fantastical
 
-  - text: Feedly (via Reeder and Newsfold)
+  - text: Feedly (via Reeder)
     link: https://www.feedly.com/
 
   - text: Google (Android, Calendar, Photos, Pixel)
@@ -199,6 +241,9 @@ apps:
 
   - text: Jekyll
     link: https://jekyllrb.com/
+
+  - text: Karabiner
+    link: https://pqrs.org/osx/karabiner/
 
   - text: Microsoft (Devices)
     link: https://www.microsoft.com/en-us/devices
@@ -227,6 +272,9 @@ apps:
   - text: Square
     link: https://squareup.com/
 
+  - text: Stripe
+    link: https://stripe.com/
+
   - text: Sublime Text
     link: https://www.sublimetext.com/
 
@@ -236,13 +284,42 @@ apps:
   - text: Twitter (via TweetDeck and Flamingo)
     link: https://twitter.com/
 
+music:
+  - text: Auto Rock
+    link: https://open.spotify.com/track/6hC5plClTfeHbLKfO0megG?si=qcQICD-RSACycokcuLXQUg
+
+  - text: The Earth Is Not a Cold Dead Place
+    link: https://open.spotify.com/album/4ENmFqXRtBpigsdIhSuNJL?si=a1rwHkekQ5-nexF0BSRyZA
+
+  - text: High Violet (Expanded Edition)
+    link: https://open.spotify.com/album/36VJqCEgUg3nj0Eyxtc1av?si=nXotmHq4RuCIkog5cMsuSA
+
+  - text: Information Chase
+    link: https://open.spotify.com/album/6uZM0Hrjsz8FGfpK93uUVQ?si=U7RHaUnaSZWRkoTlmBx_9A
+
+  - text: Transatlanticism
+    link: https://open.spotify.com/track/7DDRPKLKFIvDbNSQmnz19Y?si=y3Q7YFhuT6eYMKu5qOgQVA
+
+
 quotes:
+  - text: Good design is honest.
+    author: Dieter Rams
+    link: https://www.vitsoe.com/us/about/good-design
+
   - text: Let’s make better mistakes tomorrow.
     link: https://books.google.com/books?id=GX8ODAAAQBAJ&pg=PA289&lpg=PA289&dq=let%27s+make+better+mistakes+tomorrow+twitter&source=bl&ots=vnGtl9UvPm&sig=y0Bs3blA1_4o3RtgeSGHOMq_P2c&hl=en&sa=X&ved=0ahUKEwii4-WlzvvZAhVCGGMKHUNaDfU4ChDoAQhAMAk#v=onepage&q=let's%20make%20better%20mistakes%20tomorrow%20twitter&f=false
 
   - text: Life is too short to do mediocre work and definitely too short to build shitty things.
+    author: Stewart Butterfield
     link: https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d
 
+  # - text: The designer’s role is the role of good citizenship.
+  #   author: Milton Glaser
+  #   link: https://the-brandidentity.com/feed/civilization/
+
+  - text: Too many designers try to make their work seem special by making it as noticeable as possible. The objects that really make a difference to our lives are often the least noticeable ones, that don't try to grab our attention — they’re super normal.
+    author: Jasper Morrison + Naoto Fukasawa
+    link: https://www.nytimes.com/2006/06/11/style/11iht-dlede12.1944160.html
 
 
 

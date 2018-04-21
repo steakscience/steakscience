@@ -93,7 +93,7 @@ Some photos of the event:
 ![](/images/smk/c2.jpg)
 {% endfigure %}
 
-{% figure caption:"This guy works at Github on the Atom team. For some reason, I thought it would be a good idea to tell him I use Sublime Text because Atom is slow. He was nice about it though." | class:"leftCaption" %}
+{% figure caption:"This guy works at Github on the Atom team. For some reason, I thought it would be a good idea to tell him I use Sublime Text because Atom is slow. I should have said, “I appreciate you making an opensource text editor that everyone can use.” Sorry about that." | class:"leftCaption" %}
 ![](/images/smk/c3.jpg)
 {% endfigure %}
 

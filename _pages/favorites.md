@@ -24,7 +24,7 @@ permalink: /favorites/
 				</ul>
 
 			<!-- Gadgets -->
-			<h2 class="bold f2-ns f3 mb2 lh-title mt0 black-70">Gadgets</h2>
+			<h2 class="bold f2-ns f3 mb2 lh-title mt0 black-70">Things</h2>
 				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
 					{% for gadgets in site.data.favorites.gadgets %}
 					<li class="mb2"><a class="gray hover-mid-gray" href="{{gadgets.link}}" target="_blank">{{gadgets.text}}</a></li>
@@ -72,6 +72,14 @@ permalink: /favorites/
 				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
 					{% for tv in site.data.favorites.tv %}
 					<li class="mb2"><a class="gray hover-mid-gray" href="{{tv.link}}" target="_blank">{{tv.text}}</a></li>
+					{% endfor %}
+				</ul>
+
+			<!-- Music -->
+			<h2 class="bold f2-ns f3 mb2 lh-title mt0 black-70">Music</h2>
+				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
+					{% for item in site.data.favorites.music %}
+					<li class="mb2">{{item.text}}</li>
 					{% endfor %}
 				</ul>
 

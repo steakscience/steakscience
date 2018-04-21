@@ -23,11 +23,13 @@ The huge plus is that it’s very fun to share my thoughts and photos.
 
 ## About me
 
-I was born in raised in Thailand. Things were pretty uneventful until my dad brought home gadgets and I grew to love those little machines.
+When I was growing up, my dad would always bring home gadgets and I loved playing with them.
 
-Now, I’m studying Industrial Design at the University of Washington. The program is multidisciplinary and I love getting to explore the lines between Industrial and Interaction Design. 
+Now, I’m studying Industrial Design at the University of Washington. The program is multidisciplinary and I love getting to explore the intersection of Industrial and Interaction Design.
 
-Next, I’ll be out there, making the little machines that I love so much.
+After this, I’ll be out there somewhere making gadgets.
+
+Product of [UW Design](https://art.washington.edu/design){:target="_blank"}.
 
 ****
 
