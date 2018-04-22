@@ -236,6 +236,9 @@ apps:
   - text: Homebrew
     link: https://brew.sh/
 
+  - text: Hyper
+    link: https://hyper.is/
+
   - text: iA Writer
     link: https://ia.net/writer/
 
