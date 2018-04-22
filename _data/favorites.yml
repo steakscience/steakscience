@@ -221,17 +221,8 @@ apps:
   - text: Arq
     link: https://www.arqbackup.com/
 
-  - text: Essential
-    link: https://www.essential.com/
-
   - text: Fantastical
     link: https://flexibits.com/fantastical
-
-  - text: Feedly (via Reeder)
-    link: https://www.feedly.com/
-
-  - text: Google (Android, Calendar, Photos, Pixel)
-    link: https://www.google.com/
 
   - text: Homebrew
     link: https://brew.sh/
@@ -251,29 +242,48 @@ apps:
   - text: Karabiner
     link: https://pqrs.org/osx/karabiner/
 
-  - text: Kill the Newsletter!
-    link: https://www.kill-the-newsletter.com/
-
-  - text: Microsoft (Devices)
-    link: https://www.microsoft.com/en-us/devices
-
-  - text: Muji
-    link: http://www.muji.com/us/
-
   - text: Nuzzel
     link: http://nuzzel.com/
-
-  - text: Pinterest
-    link: http://pinterest.com/
 
   - text: Pocket Casts
     link: https://www.shiftyjelly.com/pocketcasts/
 
-  - text: Private Internet Access
-    link: https://www.privateinternetaccess.com/
+  - text: Reeder
+    link: http://reederapp.com/mac/
 
   - text: Simplenote
     link: https://simplenote.com/
+
+  - text: Wanikani
+    link: http://www.wanikani.com/
+
+  - text: Visual Studio Code
+    link: https://code.visualstudio.com/
+
+services:
+  - text: Essential
+    link: https://www.essential.com/
+
+  - text: Google (Android, Calendar, Photos, Pixel)
+    link: https://www.google.com/
+
+  - text: Kill the Newsletter!
+    link: https://www.kill-the-newsletter.com/
+
+  - text: Muji
+    link: http://www.muji.com/us/
+
+  - text: Microsoft (Devices)
+    link: https://www.microsoft.com/en-us/devices
+
+  - text: Nintendo
+    link: https://www.nintendo.com/
+
+  - text: Pinterest
+    link: http://pinterest.com/
+
+  - text: Private Internet Access
+    link: https://www.privateinternetaccess.com/
 
   - text: Sonos
     link: http://www.sonos.com/
@@ -284,14 +294,8 @@ apps:
   - text: Stripe
     link: https://stripe.com/
 
-  - text: Tofugu (Wanikani)
-    link: http://www.tofugu.com/
-
   - text: Twitter (via TweetDeck and Flamingo)
     link: https://twitter.com/
-
-  - text: Visual Studio Code
-    link: https://code.visualstudio.com/
 
 music:
   - text: Auto Rock

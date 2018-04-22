@@ -31,8 +31,8 @@ permalink: /favorites/
 					{% endfor %}
 				</ul>
 
-			<!-- Apps, Companies, and Services -->
-			<h2 class="bold f2-ns f3 mb2 lh-title mt0 black-70">Apps, Companies, and Services</h2>
+			<!-- Apps -->
+			<h2 class="bold f2-ns f3 mb2 lh-title mt0 black-70">Apps</h2>
 				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
 					{% for apps in site.data.favorites.apps %}
 					<li class="mb2"><a class="gray hover-mid-gray" href="{{apps.link}}" target="_blank">{{apps.text}}</a></li>
@@ -42,6 +42,14 @@ permalink: /favorites/
 		</div>
 
 		<div class="fl pl4-l pl6-m pl0 w-50-ns w-100">
+
+			<!-- Companies and Services -->
+			<h2 class="bold f2-ns f3 mb2 lh-title mt0 black-70">Companies + Services</h2>
+				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
+					{% for apps in site.data.favorites.services %}
+					<li class="mb2"><a class="gray hover-mid-gray" href="{{apps.link}}" target="_blank">{{apps.text}}</a></li>
+					{% endfor %}
+				</ul>
 
 			<!-- Blogs -->
 			<h2 class="bold f2-ns f3 mb2 lh-title mt0 black-70">Blogs</h2>
@@ -72,14 +80,6 @@ permalink: /favorites/
 				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
 					{% for tv in site.data.favorites.tv %}
 					<li class="mb2"><a class="gray hover-mid-gray" href="{{tv.link}}" target="_blank">{{tv.text}}</a></li>
-					{% endfor %}
-				</ul>
-
-			<!-- Music -->
-			<h2 class="bold f2-ns f3 mb2 lh-title mt0 black-70">Music</h2>
-				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
-					{% for item in site.data.favorites.music %}
-					<li class="mb2">{{item.text}}</li>
 					{% endfor %}
 				</ul>
 
