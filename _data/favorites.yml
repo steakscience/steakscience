@@ -72,9 +72,6 @@ books:
   - text: Designing Design
     link: https://smile.amazon.com/Designing-Design-Kenya-Hara/dp/3037784504?sa-no-redirect=1
 
-  # - text: The End of Faith
-  #   link: https://smile.amazon.com/dp/B000VUCIZE/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
-
   - text: Ender’s Game
     link: https://smile.amazon.com/Enders-Ender-Quintet-Orson-Scott/dp/0812550706?sa-no-redirect=1
 
@@ -161,6 +158,9 @@ gadgets:
   - text: Project Ara
     link: https://www.youtube.com/watch?v=aWW5mQadZAY
 
+  - text: RAMA XO Aluminum Keycaps
+    link: https://i.imgur.com/FdawPAr.jpg
+
   - text: Ressence Type 1H
     link: https://shop.hodinkee.com/blogs/journal/ressence-type-1h-limited-edition-for-hodinkee
 
@@ -233,6 +233,9 @@ apps:
   - text: Google (Android, Calendar, Photos, Pixel)
     link: https://www.google.com/
 
+  - text: Homebrew
+    link: https://brew.sh/
+
   - text: iA Writer
     link: https://ia.net/writer/
 
@@ -244,6 +247,9 @@ apps:
 
   - text: Karabiner
     link: https://pqrs.org/osx/karabiner/
+
+  - text: Kill the Newsletter!
+    link: https://www.kill-the-newsletter.com/
 
   - text: Microsoft (Devices)
     link: https://www.microsoft.com/en-us/devices
@@ -275,14 +281,14 @@ apps:
   - text: Stripe
     link: https://stripe.com/
 
-  - text: Sublime Text
-    link: https://www.sublimetext.com/
-
   - text: Tofugu (Wanikani)
     link: http://www.tofugu.com/
 
   - text: Twitter (via TweetDeck and Flamingo)
     link: https://twitter.com/
+
+  - text: Visual Studio Code
+    link: https://code.visualstudio.com/
 
 music:
   - text: Auto Rock
