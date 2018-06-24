@@ -23,18 +23,16 @@ The huge plus is that it’s very fun to share my thoughts and photos.
 
 ## About me
 
-When I was growing up, my dad would always bring home gadgets and I loved playing with them.
+For as long as I can remember, I’ve loved gadgets.
 
-Now, I’m studying Industrial Design at the University of Washington. The program is multidisciplinary and I love getting to explore the intersection of Industrial and Interaction Design.
+Now, I’m studying Industrial Design and Interaction Design at the University of Washington.
 
-After this, I’ll be out there somewhere making gadgets.
-
-Product of [UW Design](https://art.washington.edu/design){:target="_blank"}.
+Next, I’ll be exploring the intersection of those two fields and designing interactive objects.
 
 ****
 
 ## Colophon
 
-Typeset in Neue Haas Unica ([Univers with a heart, Helvetica with a soul](http://go.monotype.com/rs/monotype/images/NeueHaasUnicaSpecimen.pdf){:target="_blank"}). Built with Jekyll and hosted on Amazon S3.
+Typeset in Work Sans and Dia. Built with Jekyll and hosted on Amazon S3.
 
 Made with love in Seattle by [Nirawit Jittipairoj](http://nirawit.me){:target="_blank"}.

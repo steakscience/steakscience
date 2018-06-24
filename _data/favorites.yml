@@ -29,6 +29,9 @@ people:
   - text: Jonathan Nolan
     link: https://en.wikipedia.org/wiki/Jonathan_Nolan
 
+  - text: Lisa Joy
+    link: https://www.elle.com/culture/movies-tv/a19181638/lisa-joy-westworld-tv-interview-season-two/
+
   - text: Naoto Fukasawa
     link: http://www.naotofukasawa.com/
 
@@ -118,8 +121,8 @@ podcasts:
   - text: Techmeme Ride Home
     link: http://pca.st/9saH
 
-  - text: Tomorrow
-    link: http://pca.st/tomorrow
+  # - text: Tomorrow
+  #   link: http://pca.st/tomorrow
 
   # - text: What the DUCK?
   #   link: https://moonduck.tv/podcast
@@ -159,7 +162,7 @@ gadgets:
     link: https://www.youtube.com/watch?v=aWW5mQadZAY
 
   - text: RAMA XO Aluminum Keycaps
-    link: https://i.imgur.com/FdawPAr.jpg
+    link: /images/misc/rama_alu_xo.jpg
 
   - text: Ressence Type 1H
     link: https://shop.hodinkee.com/blogs/journal/ressence-type-1h-limited-edition-for-hodinkee
@@ -180,9 +183,6 @@ movies:
   - text: Ex Machina
     link: https://www.youtube.com/watch?v=EoQuVnKhxaM
 
-  - text: Isle of Dogs
-    link: https://www.youtube.com/watch?v=dt__kig8PVU
-
   - text: The Prestige
     link: https://www.youtube.com/watch?v=DHoXum3M9eE
 
@@ -201,12 +201,6 @@ tv:
 
   - text: Homeland
     link: https://www.youtube.com/watch?v=KyFmS3wRPCQ
-
-  - text: The Man in the High Castle
-    link: https://www.youtube.com/watch?v=zzayf9GpXCI
-
-  - text: Silicon Valley
-    link: https://www.youtube.com/watch?v=69V__a49xtw
 
   - text: The West Wing
     link: https://en.wikipedia.org/wiki/The_West_Wing
@@ -257,12 +251,13 @@ apps:
   - text: Wanikani
     link: http://www.wanikani.com/
 
-  - text: Visual Studio Code
-    link: https://code.visualstudio.com/
 
 services:
   - text: Essential
     link: https://www.essential.com/
+
+  - text: GitHub
+    link: https://github.com/
 
   - text: Google (Android, Calendar, Photos, Pixel)
     link: https://www.google.com/
@@ -281,9 +276,6 @@ services:
 
   - text: Pinterest
     link: http://pinterest.com/
-
-  - text: Private Internet Access
-    link: https://www.privateinternetaccess.com/
 
   - text: Sonos
     link: http://www.sonos.com/

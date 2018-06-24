@@ -1,5 +1,5 @@
 body {
-  font-family: 'NeueHaasUnicaPro-Regular',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: 'Dia-Regular','NeueHaasUnicaPro-Regular',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: normal;
 
   font-feature-settings:"liga";
@@ -76,6 +76,10 @@ blockquote {
 	.heroCaption {
 		margin-bottom: 1.5rem;
 	}
+
+	.src figcaption {
+		font-size: 0.8rem;
+	}
 }
 
 /*big*/
@@ -113,7 +117,7 @@ h1, h2, h3, h4 {
 
     color: rgba(0,0,0,0.75);
 
-    font-family: 'NeueHaasUnicaPro-Bold';
+    font-family: 'Dia-Bold','NeueHaasUnicaPro-Bold', sans-serif;
 }
 
 .about h2 {
@@ -127,26 +131,39 @@ h1, h2, h3, h4 {
 	/*manual line height fix*/
 	line-height: 1.1;
 	padding-top: 0.1rem;
+
+    /* font-family: 'NeueHaasUnicaPro-Black', sans-serif !important; */
+
 }
 
 .bold, .b, strong {
-	font-family: 'NeueHaasUnicaPro-Bold';
+	font-family: 'Dia-Bold','NeueHaasUnicaPro-Bold';
+	font-weight: normal;
+}
+
+.dia-bold {
+	font-family: 'Dia-Bold';
+	font-weight: normal;
+}
+
+.fg-bold {
+	font-family: 'Founders Grotesk Bold';
 	font-weight: normal;
 }
 
 .italic, em {
-	font-family: 'NeueHaasUnicaPro-Italic';
+	font-family: 'Dia-RegularItalic','NeueHaasUnicaPro-Italic';
 	font-weight: normal;
 	font-style: normal;
 }
 
 .medium {
-	font-family: 'NeueHaasUnicaPro-Medium';
+	font-family: 'Dia-Regular','NeueHaasUnicaPro-Medium';
 	font-weight: normal;
 }
 
 .blackfont {
-	font-family: 'NeueHaasUnicaPro-Black';
+	font-family: 'Founders Grotesk Bold','Work Sans','Dia-Black','Work Sans', 'NeueHaasUnicaPro-Black';
 	font-weight: normal;
 }
 
@@ -162,7 +179,9 @@ h1, h2, h3, h4 {
 
 .small-caps {
 	font-variant: small-caps;
-	letter-spacing: 0.06em;
+	/* letter-spacing: 0.06em; */
+	/* fixed for dia */
+	letter-spacing: 0.02em;
 }
 
 figure {
@@ -174,12 +193,13 @@ img {
 }
 
 #postBody figure {
-	margin-top: 2rem;
+	/* margin-top: 2rem; */
+	margin-top: 1rem;
 	margin-bottom: 0rem;
 }
 
 figure.heroFigure figcaption {
-	font-family: 'NeueHaasUnicaPro-Medium';
+	font-family: 'Dia-Regular','NeueHaasUnicaPro-Medium';
 
 	-moz-font-feature-settings: "c2sc", "smcp";
 	-ms-font-feature-settings: "c2sc", "smcp";
@@ -197,14 +217,15 @@ figure.heroFigure figcaption {
 }
 
 figure.src figcaption {
-	font-family: 'NeueHaasUnicaPro-Medium';
+	font-family: 'Dia-Regular','NeueHaasUnicaPro-Medium';
 
 	-moz-font-feature-settings: "c2sc", "smcp";
 	-ms-font-feature-settings: "c2sc", "smcp";
 	-webkit-font-feature-settings: "c2sc", "smcp";
 	font-feature-settings: "c2sc", "smcp";
-	letter-spacing: 0.06em;
-	color: white;
+	/* letter-spacing: 0.06em; */
+	/* color: white; */
+	color: rgba(255,255,255,0.8);
 	text-align: right;
 
 	font-size: 1rem;
@@ -215,11 +236,12 @@ figure.src figcaption {
 }
 
 figure.leftCaption figcaption{
-	font-family: 'NeueHaasUnicaPro-Regular';
+	font-family: 'Dia-Regular','NeueHaasUnicaPro-Regular';
 
-	color: #555;
+	color: #777;
 	font-size: 1rem;
- 	margin-bottom: 2rem;
+	margin-bottom: 2rem;
+	text-align: center; 
 }
 
 figure.src figcaption a {

@@ -1,9 +1,9 @@
 <div class="w-75-ns w-80-m w-100 center ph3-ns ph2-m ph4">
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
-	<span class="bold gray f4-ns f6 ttu small-caps"><span itemprop="datePublished">{{include.myPost.date | date_to_long_string}}</span> <span class="black-30">&middot;</span> <a href="{{site.baseurl}}/categories/#{{include.myPost.categories}}" class="hover-mid-gray">{{include.myPost.categories}}</a></span>
+	<span class="dia-bold gray f4-ns f6"><span itemprop="datePublished">{{include.myPost.date | date: "%-d %B %Y"}}</span> <span class="black-30">&middot;</span> <a href="{{site.baseurl}}/categories/#{{include.myPost.categories}}" class="hover-mid-gray ttc">{{include.myPost.categories}}</a></span>
 	<h1 class="blackfont black-80 lh-title f1-ns f2 mt2 mb3-ns mb2 postTitle" itemprop="name headline">
-	<a href="{{include.myPost.url}}" class="black-80 hover-black-90">{{include.myPost.title}}</a>
+	<a href="{{include.myPost.url}}" class="black-80 hover-black-90">{{include.myPost.title | widont}}</a>
 	</h1>
 
 	{% if include.myPost.hero_vid %}

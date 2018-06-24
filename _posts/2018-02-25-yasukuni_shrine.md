@@ -11,9 +11,9 @@ On the 72<sup>nd</sup> anniversary of Japan’s surrender in World War II, I vis
 
 Yasukuni Shrine commemorates soldiers who fought and lost their lives in service of Japan. It is also where their souls are enshrined, resting peacefully for eternity.
 
-After World War II, the United States imposed the separate church and state onto Japan. The shrine, previously ran by the government, had to become secular or break off into a private institution. The government chose the latter, and since then, the shrine has been owned and operated by a ultra right-wing nationalist group. The shrine is now also home to a revisionist history museum.
+After World War II, the United States imposed the separation of church and state onto Japan. The shrine, previously ran by the government, had to become secular or break off into a private institution. The government chose the latter, and since then, the shrine has been owned and operated by a ultra right-wing nationalist group. The shrine is now also home to a revisionist history museum.
 
-In the 70s, priests secretly enshrined the souls of a thousand war criminals, including those directly responsible for planning and ordering atrocities in WWII. Enshrinement effectively forgave them of their sins and their souls are now honored alongside other servicemen and women.
+In the 70s, priests secretly enshrined the souls of a thousand war criminals, including those directly responsible for planning and ordering atrocities in WWII. Enshrinement effectively erased their sins and their souls are now honored alongside other servicemen and women.
 
 As a result, Yasukuni Shrine has since been mired in controversy. Japan is a pacifist country now, with its constitution outlawing war and a proper military (Japan has a self-defense force). As such, many Japanese oppose the enshrinement, seeing it as a step backwards to Japan’s imperialist past. Asian countries, having been victims of Japan’s war crimes, see the shrine as a celebration of Japan’s actions in the war and a lack of remorse.
 
@@ -37,7 +37,7 @@ Some were anti-China, some were pro-Taiwan, and others were advocating for domes
 ![](/images/yasukuni/DSC03751.jpg)
 {% endfigure %}
 
-In front of the Yasukuni entrance, someone had started a poll asking whether there will be a crisis with North Korea, whether Japan should expand the powers of its military, and whether Japan should possess the ability to perform pre-emptive strikes. As you can see, the answers are overwhelmingly yes, but there’s probably some sample bias in asking this crowd as well.
+In front of the Yasukuni entrance, someone had started a poll asking whether there will be a crisis with North Korea, whether Japan should expand the powers of its military, and whether Japan should possess the ability to conduct pre-emptive strikes. As you can see, the answers are overwhelmingly yes, but there’s probably some sample bias in asking this crowd as well.
 
 {% figure %}
 ![](/images/yasukuni/DSC03757.jpg)

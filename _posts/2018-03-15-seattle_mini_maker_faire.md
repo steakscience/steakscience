@@ -17,7 +17,7 @@ Really, this is how you make Silicon Valley.
 
 ****
 
-{% figure caption:"Cutting some copper and making a  basic light-up LED." | class:"leftCaption" %}
+{% figure caption:"A man cuts some copper and making a basic light-up LED." | class:"leftCaption" %}
 ![](/images/makerfaire/1.jpg)
 {% endfigure %}
 

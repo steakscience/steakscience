@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Dia-Light';
+  src: url('webfonts/DiaLight.eot');
+  src: url('webfonts/DiaLight.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/DiaLight.woff') format('woff'),
+       url('webfonts/DiaLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dia-Regular';
+  src: url('webfonts/DiaRegular.eot');
+  src: url('webfonts/DiaRegular.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/DiaRegular.woff') format('woff'),
+       url('webfonts/DiaRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dia-RegularItalic';
+  src: url('webfonts/Dia-RegularItalic.eot');
+  src: url('webfonts/Dia-RegularItalic.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Dia-RegularItalic.woff') format('woff'),
+       url('webfonts/Dia-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dia-Bold';
+  src: url('webfonts/DiaBold.eot');
+  src: url('webfonts/DiaBold.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/DiaBold.woff') format('woff'),
+       url('webfonts/DiaBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dia-BoldItalic';
+  src: url('webfonts/Dia-BoldItalic.eot');
+  src: url('webfonts/Dia-BoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Dia-BoldItalic.woff') format('woff'),
+       url('webfonts/Dia-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dia-Black';
+  src: url('webfonts/DiaBlack.eot');
+  src: url('webfonts/DiaBlack.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/DiaBlack.woff') format('woff'),
+       url('webfonts/DiaBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}

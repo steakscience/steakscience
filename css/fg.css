@@ -1,0 +1,12 @@
+@font-face {
+    font-family:'Founders Grotesk Bold';
+    src: url('webfonts/Founders Grotesk Bold.eot');
+	src: url('webfonts/Founders Grotesk Bold.eot?#iefix') format('embedded-opentype'),
+		url('webfonts/Founders Grotesk Bold.woff') format('woff'),
+		url('webfonts/Founders Grotesk Bold.ttf') format('truetype'),
+		url('webfonts/Founders Grotesk Bold.svg#Founders Grotesk Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-FB04;
+}
