@@ -146,9 +146,18 @@ h1, h2, h3, h4 {
 	font-weight: normal;
 }
 
-.fg-bold {
-	font-family: 'Founders Grotesk Bold';
+.fg-semibold {
+	font-family: 'Founders Grotesk Semibold';
 	font-weight: normal;
+}
+
+.fg-medium {
+	font-family: 'Founders Grotesk Medium';
+	font-weight: normal;
+}
+
+.fg-fix {
+	letter-spacing: 0.03rem;
 }
 
 .italic, em {
@@ -165,6 +174,9 @@ h1, h2, h3, h4 {
 .blackfont {
 	font-family: 'Founders Grotesk Bold','Work Sans','Dia-Black','Work Sans', 'NeueHaasUnicaPro-Black';
 	font-weight: normal;
+
+	/* fg fix */
+	letter-spacing: 0.03rem;
 }
 
 @supports(font-feature-settings: 'smcp') {

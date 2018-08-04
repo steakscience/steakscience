@@ -35,8 +35,8 @@ people:
   - text: Naoto Fukasawa
     link: http://www.naotofukasawa.com/
 
-  - text: Ralf Groene
-    link: /images/redmond/ralf_surface_shirt.jpg
+  # - text: Ralf Groene
+  #   link: /images/redmond/ralf_surface_shirt.jpg
 
 
 blogs:
@@ -69,8 +69,8 @@ blogs:
 
 
 books:
-  - text: Adulthood for Beginners
-    link: https://smile.amazon.com/dp/B01LZXZK2H/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+  # - text: Adulthood for Beginners
+  #   link: https://smile.amazon.com/dp/B01LZXZK2H/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
 
   - text: Designing Design
     link: https://smile.amazon.com/Designing-Design-Kenya-Hara/dp/3037784504?sa-no-redirect=1
@@ -199,8 +199,14 @@ tv:
   - text: Billions
     link: https://www.youtube.com/watch?v=_raEUMLL-ZI
 
+  - text: Bojack Horseman
+    link: 
+
   - text: Homeland
     link: https://www.youtube.com/watch?v=KyFmS3wRPCQ
+
+  - text: Nathan for You
+    link: 
 
   - text: The West Wing
     link: https://en.wikipedia.org/wiki/The_West_Wing

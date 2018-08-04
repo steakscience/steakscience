@@ -9,7 +9,7 @@ permalink: /categories/
 
 	{% for post in site.categories.design %}
 		<span class="db dia-bold gray f4-ns f5 mb2-ns mb1 lh-solid">{{ post.date | date_to_long_string }}</span>
-		<h2 class="fg-bold f2-ns f3 db mb4-ns mb3 mt0 lh-title"><a class="mid-gray hover-dark-gray" href="{{ post.url }}">{{ post.title }}</a></h2>
+		<h2 class="fg-semibold fg-fix f2-ns f3 db mb4-ns mb3 mt0 lh-title"><a class="mid-gray hover-dark-gray" href="{{ post.url }}">{{ post.title }}</a></h2>
 	{% endfor %}
 </div>
 
@@ -18,7 +18,7 @@ permalink: /categories/
 
 	{% for post in site.categories.technology %}
 		<span class="db dia-bold gray f4-ns f5 mb2-ns mb1 lh-solid">{{ post.date | date_to_long_string }}</span>
-		<h2 class="fg-bold f2-ns f3 db mb4-ns mb3 mt0 lh-title"><a class="mid-gray hover-dark-gray" href="{{ post.url }}">{{ post.title }}</a></h2>
+		<h2 class="fg-semibold fg-fix f2-ns f3 db mb4-ns mb3 mt0 lh-title"><a class="mid-gray hover-dark-gray" href="{{ post.url }}">{{ post.title }}</a></h2>
 	{% endfor %}
 </div>
 
@@ -27,7 +27,7 @@ permalink: /categories/
 
 	{% for post in site.categories.culture %}
 		<span class="db dia-bold gray f4-ns f5 mb2-ns mb1 lh-solid">{{ post.date | date_to_long_string }}</span>
-		<h2 class="fg-bold f2-ns f3 db mb4-ns mb3 mt0 lh-title"><a class="mid-gray hover-dark-gray" href="{{ post.url }}">{{ post.title }}</a></h2>
+		<h2 class="fg-semibold fg-fix f2-ns f3 db mb4-ns mb3 mt0 lh-title"><a class="mid-gray hover-dark-gray" href="{{ post.url }}">{{ post.title }}</a></h2>
 	{% endfor %}
 </div>
 
@@ -36,7 +36,7 @@ permalink: /categories/
 
 	{% for post in site.categories.personal %}
 		<span class="db dia-bold gray f4-ns f5 mb2-ns mb1 lh-solid">{{ post.date | date_to_long_string }}</span>
-		<h2 class="fg-bold f2-ns f3 db mb4-ns mb3 mt0 lh-title"><a class="mid-gray hover-dark-gray" href="{{ post.url }}">{{ post.title }}</a></h2>
+		<h2 class="fg-semibold fg-fix f2-ns f3 db mb4-ns mb3 mt0 lh-title"><a class="mid-gray hover-dark-gray" href="{{ post.url }}">{{ post.title }}</a></h2>
 	{% endfor %}
 </div>
 
@@ -46,6 +46,6 @@ permalink: /categories/
 
 	{% for post in site.categories.humor %}
 		<span class="db dia-bold gray f4-ns f5 mb2-ns mb1 lh-solid">{{ post.date | date_to_long_string }}</span>
-		<h2 class="fg-bold f2-ns f3 db mb4-ns mb3 mt0 lh-title"><a class="mid-gray hover-dark-gray" href="{{ post.url }}">{{ post.title }}</a></h2>
+		<h2 class="fg-semibold fg-fix f2-ns f3 db mb4-ns mb3 mt0 lh-title"><a class="mid-gray hover-dark-gray" href="{{ post.url }}">{{ post.title }}</a></h2>
 	{% endfor %}
 </div>

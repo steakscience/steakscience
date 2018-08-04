@@ -3,8 +3,8 @@ layout: page
 title: About
 permalink: /about/
 image: /images/misc/steakscience.jpg
-js: /js/portraits.js
-jquery: yes
+# js: /js/portraits.js
+# jquery: yes
 ---
 
 ## About steakscience
@@ -18,7 +18,7 @@ The huge plus is that it’s very fun to share my thoughts and photos.
 ****
 
 <div id="portrait-container" class="db center w-40-l w-50-m w-80 cf mw6">
-	<img id="original-portrait" src="/images/portraits/1.jpg" class="br-100" />
+	<img id="original-portrait" src="/images/portraits/new.jpg" class="br-100" />
 </div>
 
 ## About me
