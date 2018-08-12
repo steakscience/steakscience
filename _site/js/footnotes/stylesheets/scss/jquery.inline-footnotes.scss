@@ -1,0 +1,126 @@
+// Control the border appearance and size
+$footnote-border-color: #cccccc !default;
+$footnote-border-size: 3px !default;
+
+// Color of the "up" arrow in in-line footnotes:
+$footnote-arrow-color: white !default;
+
+$leading: 28px !default;
+
+// Footnote font size:
+$footnote-font-size: 0.7em !default;
+
+// how wide should the footnotes be:
+$footnote-width: 133px !default;
+
+// The max width at which we can display sidebar footnotes. Will mostly likely be different for you:
+$max-column-width-for-sidebar: 1155px !default;
+
+// Footnote stuff
+sup[id^="fnref"] {
+	top: -0.25em;
+	line-height: 0;
+	font-size: inherit;
+}
+
+.reversefootnote {
+	display: none;
+}
+
+.inline-footnote {
+	&.closed {
+		display: none;
+	}
+	&.opened {
+		position: relative;
+		display: block;
+		margin: auto;
+		top: auto !important;
+		margin-bottom: $leading;
+		border-top: $footnote-border-size solid $footnote-border-color;
+		border-bottom: $footnote-border-size solid $footnote-border-color;
+		margin-top: $leading;
+		padding-top: $leading / 3;
+		padding-bottom: $leading / 3;
+		padding-left: $leading / 2;
+		padding-right: $leading / 2;
+		& > *:first-child {
+			margin-top: 0;
+		}
+		&:after, &:before {
+			bottom: 100%;
+			left: 50%;
+			border: solid transparent;
+			content: " ";
+			height: 0;
+			width: 0;
+			position: absolute;
+			pointer-events: none;
+		}
+		&:after {
+			border-color: rgba(0, 0, 0, 0);
+			border-bottom-color: $footnote-arrow-color;
+			border-width: 20px;
+			margin-left: -20px;
+		}
+		&:before {
+			border-color: rgba(0, 0, 0, 0);
+			border-bottom-color: $footnote-border-color;
+			border-width: 24px;
+			margin-left: -24px;
+		}
+	}
+	&.cloned {
+		display: none;
+	}
+	sup {
+		display: none;
+	}
+}
+
+/* 
+ You can copy this media query (minus the "{") as the mediaQuery option for the javascript to have a consistent switching:
+*/
+@media screen and (min-width: $max-column-width-for-sidebar) {
+	.inline-footnote {
+		&.closed, &.opened,&.cloned {
+			display: block;
+			position: absolute;
+			font-size: $footnote-font-size;
+			margin-top: $footnote-font-size * -2;
+			width: $footnote-width;
+			border: 0;
+			top: auto;
+			padding: 0;
+			left: -1 * $footnote-width - $leading / 2;
+			p,ul,ol {
+				margin-top: $leading * 0.7;
+				&:first-child {
+					margin-top: 0;
+				}
+			}
+			* {
+				line-height: 1.25;
+			}
+		}
+		&.opened {
+			& > *:first-child {
+				margin-top: $leading;
+			}
+			&:before, &:after {
+				display: none;
+			}
+		}
+		&.hidden {
+			display: none;
+		}
+		sup {
+			display: inline;
+			top: 0;
+			font-size: inherit;
+			&:after {
+				content: ". ";
+			}
+		}
+	}
+}

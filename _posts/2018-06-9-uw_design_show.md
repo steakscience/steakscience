@@ -7,14 +7,14 @@ categories: personal
 image: /images/design_show/hero.jpg
 ---
 
-Every year, graduating UW Design students put together a show to exhibit their best work. 
+Every year, graduating [UW Design](https://art.washington.edu/design){:target="_blank"} students put together a show to exhibit their best work. 
 
 This year, I’m part of the graduating class and I think we’ve put together an incredible show. We are showcasing critical, interesting, and wide-ranging work. There’s some great convention stuff, along with some more conceptual and vulnerable work on display.
 
 You should come take a look. I think you’ll like it.
 
 <span class="gray">
-UW Design Show 2018<br>
+[UW Design Show 2018](http://uwdesignshow.com/){:target="_blank"}<br>
 Jacob Lawrence Gallery<br>
 June 6–16, 2018<br><br>
 Gallery Hours:<br>

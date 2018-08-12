@@ -1,9 +1,9 @@
-<footer class="db w-100 ph3-ns ph2-m ph4 cf bg-light-gray">
-	<div class="db center w-75-ns w-80-m w-100 dia-bold f5-ns f6 lh-solid">
+<footer id="footer" class="ph0-ns ph2 fg-medium">
+	<div class="db w-100 f5-ns f6 lh-solid mb2 cf">
 
 		{% if include.myPost.next %}
 	    <div class="fl mv3 mr1 tl v-mid">
-	        <a href="{{include.myPost.next.url}}" class="link mid-gray hover-dark-gray">
+	        <a href="{{include.myPost.next.url}}" class="link black-60 hover-black-40">
 	            <span class="v-mid">&#60;&nbsp;&nbsp;{{include.myPost.next.title}}</span>
 	        </a>
 	    </div>
@@ -11,7 +11,7 @@
 
 	    {% if include.myPost.previous %}
 	    <div class="fr mv3 ml1 tr v-mid">
-	        <a href="{{include.myPost.previous.url}}" class="link mid-gray hover-dark-gray">
+	        <a href="{{include.myPost.previous.url}}" class="link">
 	            <span class="v-mid">{{include.myPost.previous.title}}&nbsp;&nbsp;&#62;</span>
 	        </a>
 	    </div>

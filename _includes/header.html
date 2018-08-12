@@ -1,20 +1,38 @@
-<header class="db w-100">
+<header class="db w-100 relative" id="nav">
+	
+	<div class="dib titlePad">
+		<a class="link" href="/">
+			<img src="{{site.baseurl}}/images/logo_white.svg" id="logo" class="link dim fl">
+		</a>
+	</div>
 
-	<nav class="db center w-75-ns w-80-m w-100 mb4-l mb4-m mb3 cf">
-		<!-- logo -->
+	
 
-      <div class="dib w-40-l w-100 ma0 pa0 v-top">
-	      <a class="link pt0 mt0" href="/">
-	        <img src="/images/logo.svg" class="v-top mt0 pt0 w-100" id="logo" alt="steakscience">
-	      </a>
-      </div>
+  	<div id="navWrapper" class="cf dib">	
+		<div id="hamWrapper">
+			<img src="{{site.baseurl}}/images/hamburger.svg" id="hamburger" class="link v-mid fr">
+			<!-- <img src="{{site.baseurl}}/images/close.svg" id="close" class="link v-mid fr show"> -->
+		</div>
+	</div>
 
-  	  <div class="dib w-40-l w-100 fr-l v-btm tr pt3 pt4-m pt3-l ttl">
-  	    {% for nav-links in site.data.nav-links %}
-		  <a href="{{nav-links.href}}" class="v-btm link mid-gray hover-dark-gray bold f5-ns f6 dib mr0 ml4-ns ml3 lh-solid">{{nav-links.text}}</a>
-		{% endfor %}
-  	  </div>
+	<div id="menuWrapper">
+		<div id="menu">
 
-  	</nav>
+			<img src="{{site.baseurl}}/images/logo_white.svg" id="menuLogo" class="">
+			<h1 class="f2 fg-semibold white lh-solid mb0">steakscience</h1>
+			<p class="ideal-book f4 white-60 mt0 mw6">A blog about technology, design, and culture. Probably off-topic.</p>
+
+			<!-- white line -->
+			<div class="bt b--white-20 bw1 w-100 menuLine"></div>
+
+			<!-- links -->
+			<ul class="list pl0">
+				{% for nav-links in site.data.nav-links %}
+				<li class="mb4 f3 fg-medium"><a href="{{nav-links.href}}" class="white-80 hover-white-60">{{nav-links.text}}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+
 
 </header>

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="w-75-ns w-80-m w-100 center ph3-ns ph2-m ph4 pb5-ns pb4 pageBody lh-copy mid-gray f45 f5 lh-copy about">
+<!-- <div class="w-75-ns w-80-m w-100 center ph3-ns ph2-m ph4 pb5-ns pb4 pageBody lh-copy mid-gray f45 f5 lh-copy about">
 	<h1 class="blackfont black-80 lh-title f2-ns f2 mt2 mb3-ns mb2">{{page.title}}</h1>
 
 	<figure class="heroFigure"><img class="" src="{{page.image}}" />
@@ -11,4 +11,21 @@ layout: default
 	</figure>
 
 	{{content}}
+</div> -->
+
+<!-- title bar -->
+<div class="bg-dark db w-100 mb0 titlePad" id="titleBar" itemscope itemtype="http://schema.org/BlogPosting">
+	<span class="white-70 fg-semibold f45"><span itemprop="datePublished">{{include.myPost.date | date: "%-d %B %Y"}}</span> <span class="white-40">&middot;</span>
+	<a href="{{site.baseurl}}/categories/#{{include.myPost.categories}}" class="ttl white-60 hover-white-40 fg-medium">#{{include.myPost.categories}}</a></span>
+	
+	<h1 class="lh-solid f1-ns f2 mt3 pt1 mb2-ns mb1 fg-bold" itemprop="name headline">
+		<a href="{{include.myPost.url}}" class="white hover-white-80">{{include.myPost.title | widont}}</a>
+	</h1>
+
 </div>
+
+<!-- left strip -->
+<div class="bg-mid" id="leftStrip">
+</div>
+
+{{content}}

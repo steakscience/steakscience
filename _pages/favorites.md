@@ -4,95 +4,111 @@ title: Favorites
 permalink: /favorites/
 ---
 
-<div class="mb4-ns mb3">
-	<h1 class="blackfont black-80 lh-title f2-ns f2 mt2 mb2">Favorites</h1>
+<div class="titlePad" id="livePic">
+	<img src="/images/misc/tv.gif" id="tv">
+</div>
 
-	<p class="f3-ns f4 lh-copy mid-gray measure mt1">Inspired by <a href="http://joesparano.com/greats" target="_blank">Joe Sparano’s Greats™</a>, I compiled a list of my favorite people, gadgets, reads, and movies.</p>
+<div class="simP">
+	<div class="archiveWrapper pt4">
 
-	<hr />
+		<section class="db cf mb3-ns mb1">
+			<div class="dib mb3-ns mb2 fl favItem">
+				<h2 class="fg-bold black-80 lh-title f2-ns f3 mt2 mb2">Designers</h2>
 
-	<div class="cf">
-
-		<div class="fl w-50-ns w-100">
-
-			<!-- People -->
-			<h2 class="dia-bold f3-ns f3 mb2 lh-title mt0 black-70">People</h2>
-				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
-					{% for people in site.data.favorites.people %}
-					<li class="mb2"><a class="gray hover-mid-gray" href="{{people.link}}" target="_blank">{{people.text}}</a></li>
-					{% endfor %}
+				<ul class="list pl0 mt3">
+				{% for i in site.data.favorites.people.designers %}
+					<li data-image-url="{{i.image}}" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="{{ i.link }}" target="_blank">{{ i.text }}</a></li>	
+				{% endfor %}
 				</ul>
+			</div>
 
-			<!-- Gadgets -->
-			<h2 class="dia-bold f3-ns f3 mb2 lh-title mt0 black-70">Things</h2>
-				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
-					{% for gadgets in site.data.favorites.gadgets %}
-					<li class="mb2"><a class="gray hover-mid-gray" href="{{gadgets.link}}" target="_blank">{{gadgets.text}}</a></li>
-					{% endfor %}
+			<div class="dib mb3-ns mb2 fl favItem">
+				<h2 class="fg-bold black-80 lh-title f2-ns f3 mt2 mb2">Writers</h2>
+
+				<ul class="list pl0 mt3">
+				{% for i in site.data.favorites.people.writers %}
+					<li data-image-url="{{i.image}}" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="{{ i.link }}" target="_blank">{{ i.text }}</a></li>	
+				{% endfor %}
 				</ul>
+			</div>
+		</section>
 
-			<!-- Apps -->
-			<h2 class="dia-bold f3-ns f3 mb2 lh-title mt0 black-70">Apps</h2>
-				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
-					{% for apps in site.data.favorites.apps %}
-					<li class="mb2"><a class="gray hover-mid-gray" href="{{apps.link}}" target="_blank">{{apps.text}}</a></li>
-					{% endfor %}
+		<section class="db cf mb3-ns mb1">
+			<div class="dib mb3-ns mb2 fl favItem">
+				<h2 class="fg-bold black-80 lh-title f2-ns f3 mt2 mb2">Gadgets</h2>
+
+				<ul class="list pl0 mt3">
+				{% for i in site.data.favorites.things.gadgets %}
+					<li data-image-url="{{i.image}}" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="{{ i.link }}" target="_blank">{{ i.text }}</a></li>	
+				{% endfor %}
 				</ul>
+			</div>
 
-		</div>
+			<div class="dib mb3-ns mb2 fl favItem">
+				<h2 class="fg-bold black-80 lh-title f2-ns f3 mt2 mb2">Keyboards</h2>
 
-		<div class="fl pl4-l pl6-m pl0 w-50-ns w-100">
-
-			<!-- Companies and Services -->
-			<h2 class="dia-bold f3-ns f3 mb2 lh-title mt0 black-70">Companies + Services</h2>
-				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
-					{% for apps in site.data.favorites.services %}
-					<li class="mb2"><a class="gray hover-mid-gray" href="{{apps.link}}" target="_blank">{{apps.text}}</a></li>
-					{% endfor %}
+				<ul class="list pl0 mt3">
+				{% for i in site.data.favorites.things.keyboards %}
+					<li data-image-url="{{i.image}}" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="{{ i.link }}" target="_blank">{{ i.text }}</a></li>	
+				{% endfor %}
 				</ul>
+			</div>
 
-			<!-- Blogs -->
-			<h2 class="dia-bold f3-ns f3 mb2 lh-title mt0 black-70">Blogs</h2>
-				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
-					{% for blogs in site.data.favorites.blogs %}
-					<li class="mb2"><a class="gray hover-mid-gray" href="{{blogs.link}}" target="_blank">{{blogs.text}}</a></li>
-					{% endfor %}
+			<div class="dib mb3-ns mb2 fl favItem">
+				<h2 class="fg-bold black-80 lh-title f2-ns f3 mt2 mb2">Misc</h2>
+
+				<ul class="list pl0 mt3">
+				{% for i in site.data.favorites.things.misc %}
+					<li data-image-url="{{i.image}}" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="{{ i.link }}" target="_blank">{{ i.text }}</a></li>	
+				{% endfor %}
 				</ul>
+			</div>
+		</section>
 
-			<!-- Books -->
-			<h2 class="dia-bold f3-ns f3 mb2 lh-title mt0 black-70">Books</h2>
-				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
-					{% for books in site.data.favorites.books %}
-					<li class="mb2"><a class="gray hover-mid-gray" href="{{books.link}}" target="_blank">{{books.text}}</a></li>
-					{% endfor %}
+		<section class="db cf mb3-ns mb1">
+			<div class="dib mb3-ns mb2 fl favItem">
+				<h2 class="fg-bold black-80 lh-title f2-ns f3 mt2 mb2">TV</h2>
+
+				<ul class="list pl0 mt3">
+				{% for i in site.data.favorites.tv %}
+					<li data-image-url="{{i.image}}" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="{{ i.link }}" target="_blank">{{ i.text }}</a></li>	
+				{% endfor %}
 				</ul>
+			</div>
 
-			<!-- Movies -->
-			<h2 class="dia-bold f3-ns f3 mb2 lh-title mt0 black-70">Movies</h2>
-				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
-					{% for movies in site.data.favorites.movies %}
-					<li class="mb2"><a class="gray hover-mid-gray" href="{{movies.link}}" target="_blank">{{movies.text}}</a></li>
-					{% endfor %}
+			<div class="dib mb3-ns mb2 fl favItem">
+				<h2 class="fg-bold black-80 lh-title f2-ns f3 mt2 mb2">Movies</h2>
+
+				<ul class="list pl0 mt3">
+				{% for i in site.data.favorites.movies %}
+					<li data-image-url="{{i.image}}" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="{{ i.link }}" target="_blank">{{ i.text }}</a></li>	
+				{% endfor %}
 				</ul>
+			</div>
+		</section>
 
-			<!-- TV -->
-			<h2 class="dia-bold f3-ns f3 mb2 lh-title mt0 black-70">TV Shows</h2>
-				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
-					{% for tv in site.data.favorites.tv %}
-					<li class="mb2"><a class="gray hover-mid-gray" href="{{tv.link}}" target="_blank">{{tv.text}}</a></li>
-					{% endfor %}
+		<section class="db cf mb3-ns mb1">
+			<div class="dib mb3-ns mb2 fl favItem">
+				<h2 class="fg-bold black-80 lh-title f2-ns f3 mt2 mb2">Books</h2>
+
+				<ul class="list pl0 mt3">
+				{% for i in site.data.favorites.reads.books %}
+					<li data-image-url="{{i.image}}" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="{{ i.link }}" target="_blank">{{ i.text }}</a></li>	
+				{% endfor %}
 				</ul>
+			</div>
 
-			<!-- Podcasts -->
-			<h2 class="dia-bold f3-ns f3 mb2 lh-title mt0 black-70">Podcasts</h2>
-				<ul class="mt1 list pl0 f4-ns f5 gray lh-title mb5-ns mb4">
-					{% for podcasts in site.data.favorites.podcasts %}
-					<li class="mb2"><a class="gray hover-mid-gray" href="{{podcasts.link}}" target="_blank">{{podcasts.text}}</a></li>
-					{% endfor %}
+			<div class="dib mb3-ns mb2 fl favItem">
+				<h2 class="fg-bold black-80 lh-title f2-ns f3 mt2 mb2">Podcasts</h2>
+
+				<ul class="list pl0 mt3">
+				{% for i in site.data.favorites.podcasts %}
+					<li data-image-url="{{i.image}}" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="{{ i.link }}" target="_blank">{{ i.text }}</a></li>	
+				{% endfor %}
 				</ul>
-
-		</div>
+			</div>
+		</section>
+		
 
 	</div>
-
 </div>

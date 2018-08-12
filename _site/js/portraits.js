@@ -1,1 +1,47 @@
-function cyclePortraitPhotos(){var t=loadPortraitPhotos(),r=t;setInterval(function(){var o=$("#portrait"+r).css("z-index")?$("#portrait"+r).css("z-index"):"0";$("#portrait"+r).css("z-index",parseInt(o)+1),0==r&&(r=t+1),r--},7e3)}function loadPortraitPhotos(){var t=["4.jpg","5.jpg","6.jpg"];return t.forEach(function(t,r){var o=document.createElement("img");o.id="portrait"+r;var a="/images/portraits/"+t;$(o).attr("src",a),$(o).css("position","absolute"),$(o).css("top","0"),$(o).css("left","0"),$(o).css("z-index","-1"),$(o).addClass("br-100"),$("#portrait-container").prepend(o)}),t.length-1}window.onload=function(){cyclePortraitPhotos()};
+window.onload = function () {
+
+    cyclePortraitPhotos();
+};
+
+// load and cycle the portrait images
+function cyclePortraitPhotos() {
+    var imageRange = loadPortraitPhotos();
+
+
+    var index = imageRange;
+    setInterval(function () {
+        var currentZIndex = $('#portrait' + index).css('z-index') ? $('#portrait' + index).css('z-index') : '0';
+
+        $('#portrait' + index).css('z-index', parseInt(currentZIndex) + 1);
+        if (index == 0) {
+            index = imageRange + 1;
+        }
+        index--;
+    }, 7000); // change portrait interval here (milliseconds)
+}
+
+// create portrait imgs and return index range
+function loadPortraitPhotos() {
+    // hardcode photos in here. They need to be hosted in the /images folder, and their names must be in this array for them to be included in background transition
+    var images = ['4.jpg', '5.jpg', '6.jpg'];
+
+    images.forEach(function (image, index) {
+        var elem = document.createElement("img");
+        elem.id = 'portrait' + index;
+
+        // use the second uri for hosting, first for testing
+        var uri = '/images/portraits/' + image;
+        // var uri = 'http://nirawit.me/images/portraits' + image;
+
+        $(elem).attr('src', uri);
+        $(elem).css('position', 'absolute');
+        $(elem).css('top', '0');
+        $(elem).css('left', '0');
+        $(elem).css('z-index', '-1');
+        $(elem).addClass('br-100');
+
+        $('#portrait-container').prepend(elem);
+    });
+
+    return images.length - 1;
+}

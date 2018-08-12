@@ -22,13 +22,15 @@ gem "minima", "~> 2.0"
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
    gem 'jekyll-figure'
-   gem 'jekyll-minifier'
+   # gem 'jekyll-minifier'
+   # gem 'octopress-minify-html'
    gem 'jekyll-sitemap'
    gem 'jekyll-seo-tag'
    gem 's3_website'
    gem 'jekyll-analytics'
    gem 'jekyll-typogrify'
    gem 'ffi', '1.9.18'
+   gem 'jekyll-autoprefixer'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

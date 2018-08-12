@@ -1,31 +1,72 @@
+---
+
+---
+
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
 
-<body class="">
+<body class="bg-light">
 
-<div class="db w-100 ph3-ns ph2-m ph4 cf bg-light-gray mb4-ns mb3">
+<!-- <div class="db w-100 ph3-ns ph2-m ph4 cf bg-light-gray mb4-ns mb3"> -->
+<div class="db w-100 cf mt0 bg-dark">
 {% include header.html %}
 </div>
 
   <!-- <div class="w-70-ns w-80-m w-100 center ph3-ns ph2-m ph4"> -->
     
-    <main class="w-100">{{content}}</main>
+    <main class="w-100">{{content | caps | widont }}</main>
     
   <!-- </div> -->
   
 </body>
 
-{% if page.js %}
-	<script src="{{page.js}}"></script>
-{% endif %}
+<!-- load jquery -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous">
+  </script> -->
 
-{% if page.jquery %}
-	<script
-	  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-	  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-	  crossorigin="anonymous">
-	</script>
+  <!-- random color scheme https://stackoverflow.com/questions/40791621/change-color-scheme-on-refresh -->
+  <script type="text/javascript">
+    $( document ).ready(function() {
+      var listOfClasses = ["blue","red","green", "yellow", "gray", "purple"];
+      var randomNum = Math.floor(Math.random() * listOfClasses.length); 
+      $("html").addClass(listOfClasses[randomNum]);
+    });
+  </script>
+
+<!-- menu stuff -->
+<script type="text/javascript">
+	$(function() {
+	  $('#hamburger').on('click', function() {
+	    // $('#hamburger').toggleClass('opened');
+	    // $('#close').toggleClass('show');
+	    // $('#hamburger').attr("src","{{site.baseurl}}/images/close.svg");
+
+	    var src = ($(this).attr('src') === "{{site.baseurl}}/images/hamburger.svg")
+            ? "{{site.baseurl}}/images/close.svg"
+            : "{{site.baseurl}}/images/hamburger.svg"
+         $(this).attr('src', src);
+
+	    $('#menu').toggleClass('visible');
+	    $('body').toggleClass('noScroll');
+	  });
+
+	});
+</script>
+
+<!-- footnote -->
+<script src="/js/footnotes/dist/jquery.inline-footnotes.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+  	$.inlineFootnotes();
+  });
+</script>
+
+{% if page.js %}
+	<script src="/js/{{page.js}}"></script>
 {% endif %}
 
 </html>

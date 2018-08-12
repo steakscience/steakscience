@@ -15,7 +15,8 @@ include: [_pages, _posts]
 permalink: /:title/
 
 gems:
-    - jekyll-minifier
+    # - jekyll-minifier
+    # - octopress-minify-html
     - jekyll/figure
     - jekyll-sitemap
     - jekyll-seo-tag
@@ -23,6 +24,13 @@ gems:
     - jekyll-analytics
     - jekyll-feed
     - jekyll-typogrify
+    - jekyll-autoprefixer
+
+autoprefixer:
+  only_production: true
+
+sass:
+  style: compressed
 
 jekyll_analytics: 
   GoogleAnalytics:          # Add, if you want to track with Google Analytics

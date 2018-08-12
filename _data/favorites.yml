@@ -1,52 +1,93 @@
 people:
-  - text: Adam Kingman
-    link: http://www.adamkingman.com/about/
+  designers:
+    - text: Adam Kingman
+      link: http://www.adamkingman.com/about/
+      image: /images/fav/adam_kingman.gif
 
-  - text: Andrew Kim
-    link: http://www.ichelleim.com/
+    - text: Andrew Kim
+      link: http://www.ichelleim.com/
+      image: /images/fav/andrew_kim.jpg
+  
+    - text: Axel Roesler
+      link: https://art.washington.edu/people/axel-roesler
+      image: /images/fav/axel_roesler.jpg
 
-  - text: Austin Kleon
-    link: https://austinkleon.com/
+    - text: Erin Murphy
+      link: http://depts.washington.edu/desalum/2017/05/10/erin-murphy/
+      image: /images/fav/erin_murphy.jpg
 
-  - text: Axel Roesler
-    link: https://art.washington.edu/people/axel-roesler
+    - text: Jon Bell
+      link: https://youtu.be/43URYLExNsw?t=17
+      image: /images/fav/jon_bell.jpg
 
-  - text: Casey Newton
-    link: http://cnewton.org/about/
+    - text: Michael Bierut
+      link: https://www.pentagram.com/about/michael-bierut
+      image: /images/fav/michael_bierut.jpg
 
-  - text: Christopher Nolan
-    link: https://www.nytimes.com/2014/11/02/magazine/the-exacting-expansive-mind-of-christopher-nolan.html
+    - text: Naoto Fukasawa
+      link: http://www.naotofukasawa.com/
+      image: /images/fav/naoto_fukasawa.jpg
 
-  - text: Craig Mod
-    link: https://craigmod.com/
+    - text: Paul Stamatiou
+      link: https://paulstamatiou.com/
+      image: /images/fav/paul_stamatiou.jpg
 
-  - text: David Pierce
-    link: https://twitter.com/pierce
+  writers:
+    - text: Austin Kleon
+      link: https://austinkleon.com/
+      image: /images/fav/austin_kleon.jpg
 
-  - text: Jon Bell
-    link: https://youtu.be/43URYLExNsw?t=17
+    - text: Ben Thompson
+      link: https://www.stratechery.com/
+      image: /images/fav/ben_thompson.jpg
 
-  - text: Jonathan Nolan
-    link: https://en.wikipedia.org/wiki/Jonathan_Nolan
+    - text: Benedict Evans
+      link: https://www.ben-evans.com/
+      image: /images/fav/austin_kleon.jpg
 
-  - text: Lisa Joy
-    link: https://www.elle.com/culture/movies-tv/a19181638/lisa-joy-westworld-tv-interview-season-two/
+    - text: Casey Newton
+      link: http://cnewton.org/about/
+      image: /images/fav/casey_newton.jpg
 
-  - text: Naoto Fukasawa
-    link: http://www.naotofukasawa.com/
+    - text: Christopher Nolan
+      link: https://www.nytimes.com/2014/11/02/magazine/the-exacting-expansive-mind-of-christopher-nolan.html
+      image: /images/fav/christopher_nolan.jpg
 
-  # - text: Ralf Groene
-  #   link: /images/redmond/ralf_surface_shirt.jpg
+    - text: Craig Mod
+      link: https://craigmod.com/
+      image: /images/fav/craig_mod.jpg
+
+    - text: David Pierce
+      link: https://twitter.com/pierce
+      image: /images/fav/david_pierce.jpg
+
+    - text: Jonathan Nolan
+      link: https://en.wikipedia.org/wiki/Jonathan_Nolan
+      image: /images/fav/jonathan_nolan.jpg
+
+    - text: Joshua Topolsky
+      link: https://en.m.wikipedia.org/wiki/Joshua_Topolsky
+      image: /images/fav/joshua_topolsky.jpg
+
+    - text: Kara Swisher
+      link: https://en.m.wikipedia.org/wiki/Kara_Swisher
+      image: /images/fav/kara_swisher.jpg
+
+    - text: Lisa Joy
+      link: https://www.elle.com/culture/movies-tv/a19181638/lisa-joy-westworld-tv-interview-season-two/
+      image: /images/fav/lisa_joy.jpg
+
+    - text: Nick Bilton
+      link: https://en.m.wikipedia.org/wiki/Nick_Bilton
+      image: /images/fav/nick_bilton.jpg
 
 
-blogs:
-  - text: Benedict Evans
-    link: https://www.ben-evans.com/
-
+reads:
+  websites:
   - text: The Cooper Review
     link: https://thecooperreview.com/
 
-  - text: Craig Mod
+  - text: Craig Mod’s Essays
     link: https://craigmod.com/essays/
 
   - text: iA
@@ -67,59 +108,91 @@ blogs:
   - text: Wait But Why
     link: https://waitbutwhy.com/
 
+  books:
+  - text: American Kingpin
+    link: https://smile.amazon.com/American-Kingpin-Criminal-Mastermind-Behind/dp/0143129023/ref=sr_1_1?ie=UTF8&qid=1534046195&sr=8-1&keywords=american+kingpin
+    image: /images/fav/american_kingpin.jpg
 
-books:
-  # - text: Adulthood for Beginners
-  #   link: https://smile.amazon.com/dp/B01LZXZK2H/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+  - text: Bad Blood
+    link: https://smile.amazon.com/Bad-Blood-Secrets-Silicon-Startup-ebook/dp/B078VW3VM7/ref=sr_1_1?ie=UTF8&qid=1534046211&sr=8-1&keywords=bad+blood
+    image: /images/fav/bad_blood.jpg
 
   - text: Designing Design
     link: https://smile.amazon.com/Designing-Design-Kenya-Hara/dp/3037784504?sa-no-redirect=1
+    image: /images/fav/designing_design.jpg
 
   - text: Ender’s Game
     link: https://smile.amazon.com/Enders-Ender-Quintet-Orson-Scott/dp/0812550706?sa-no-redirect=1
+    image: /images/fav/enders_game.jpg
 
   - text: Felt
     link: http://www.ichelleim.com/shop/felt
+    image: /images/fav/felt.png
 
   - text: Hatching Twitter
     link: https://smile.amazon.com/dp/B00CDUVSQ0/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+    image: /images/fav/hatching_twitter.jpg
 
   - text: Steal Like an Artist
     link: https://smile.amazon.com/dp/B0074QGGK6/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+    image: /images/fav/steal_artist.jpg
 
   - text: Super Normal
     link: https://smile.amazon.com/Super-Normal-Sensations-Naoto-Fukasawa/dp/3037781068?sa-no-redirect=1
+    image: /images/fav/super_normal.jpg
 
 podcasts:
+  - text: The Daily
+    link: https://www.nytimes.com/podcasts/the-daily
+    image: /images/fav/the_daily.jpg
+
   - text: Exponent
     link: http://exponent.fm/
+    image: /images/fav/exponent.jpg
 
   - text: The Ezra Klein Show
-    link: http://pca.st/ezraklein
-
-  - text: Gadget Lab
-    link: https://www.wired.com/tag/gadget-lab-podcasts/
+    link: https://www.vox.com/ezra-klein-show-podcast
+    image: /images/fav/ezra.jpg
 
   - text: Happy Sad Confused
     link: http://pca.st/happysad
+    image: /images/fav/happysad.jpg
 
   - text: History of Japan
-    link: http://pca.st/Gsee
+    link: http://isaacmeyer.net/
+    image: /images/fav/history_of_japan.jpg
+
+  - text: Longform
+    link: https://longform.org/podcast
+    image: /images/fav/longform.jpg
+
+  - text: The Observatory
+    link: https://designobserver.com/topic/theobservatory/1045
+    image: /images/fav/obs.jpg
 
   - text: Pod Save America
     link: https://crooked.com/podcast-series/pod-save-america/
+    image: /images/fav/psa.jpg
 
   - text: Recode Decode
-    link: http://pca.st/recode
+    link: https://www.recode.net/recode-decode-podcast-kara-swisher
+    image: /images/fav/recode_decode.jpg
 
-  - text: Reply All
-    link: https://www.gimletmedia.com/reply-all
+  - text: Recode Media
+    link: https://www.recode.net/recode-media-podcast
+    image: /images/fav/recode_media.jpg
+
+  - text: The Rewatchables
+    link: https://www.theringer.com/the-rewatchables
+    image: /images/fav/rewatch.jpg
 
   - text: The Talk Show
     link: https://daringfireball.net/thetalkshow/
+    image: /images/fav/talk_show.jpg
 
   - text: Techmeme Ride Home
     link: http://pca.st/9saH
+    image: /images/fav/techmeme.jpg
 
   # - text: Tomorrow
   #   link: http://pca.st/tomorrow
@@ -129,90 +202,135 @@ podcasts:
 
   - text: The Wish List
     link: https://drive.google.com/drive/folders/1K3-KAVCZ7N0KO5CzwbsVQ96PlPLrncso?usp=sharing
+    image: /images/fav/wishlist.jpg
 
-gadgets:
-  - text: Essential Phone
-    link: https://media.wired.com/photos/5971397e023c38366e1ae481/master/w_839,c_limit/0817-WI-FFESSE-02.jpg
+things:
+  gadgets:
+    - text: Essential Phone
+      link: https://www.wired.com/story/inside-andy-rubins-quest-to-create-an-os-for-everything/
+      image: /images/fav/essential.jpg
 
-  - text: HP Veer
-    link: https://s.blogcdn.com/www.engadget.com/media/2011/05/20110510-21573454--img7600-1305189294.jpg
+    - text: HP Veer
+      link: https://en.m.wikipedia.org/wiki/HP_Veer
+      image: /images/fav/veer.jpg
 
-  - text: Instrmnt 01-A
-    link: https://vimeo.com/128077305
+    - text: Microsoft Surface Go
+      link: /the-future-is-in-redmond/
+      image: /images/fav/surface_go.jpg
 
-  - text: Leopold FC660M
-    link: https://www.bazaargadgets.com/image/cache/catalog//products/computernetworking/officekeyboards/Leopoldfc660mCherryClearSwitch66keysMechanicalGamingKeyboard-SKU190235-5-800x800.jpg
+    - text: Nintendo Switch
+      link: https://youtu.be/f5uik5fgIaI
+      image: /images/fav/switch.jpg
 
-  - text: Microsoft Surface Pro
-    link: /the-future-is-in-redmond/
+    - text: Nokia N9
+      link: https://vimeo.com/37102103
+      image: /images/fav/n9.jpg
 
-  - text: Nintendo Labo
-    link: https://youtu.be/P3Bd3HUMkyU
+    - text: Nokia Lumia 920
+      link: https://vimeo.com/54098050
+      image: /images/fav/lumia_920.jpg
 
-  - text: Nintendo Switch
-    link: https://youtu.be/f5uik5fgIaI
+    - text: Project Ara
+      link: https://www.youtube.com/watch?v=aWW5mQadZAY
+      image: /images/fav/ara.jpg
 
-  - text: Nokia N9
-    link: https://vimeo.com/37102103
+    - text: Sony RX1
+      link: http://www.minimallyminimal.com/blog/8-months-with-the-sony-rx1
+      image: /images/fav/rx1.jpg
 
-  - text: Nokia Lumia 920
-    link: https://vimeo.com/54098050
+    - text: Sony Xperia Z5 Compact
+      link: https://en.m.wikipedia.org/wiki/Sony_Xperia_Z5_Compact
+      image: /images/fav/xperia_z5c.jpg
 
-  - text: Project Ara
-    link: https://www.youtube.com/watch?v=aWW5mQadZAY
+    - text: teenage engineering OP-1
+      link: https://www.teenageengineering.com/products/op-1
+      image: /images/fav/op-1.jpg
 
-  - text: RAMA XO Aluminum Keycaps
-    link: /images/misc/rama_alu_xo.jpg
+    - text: Xbox One S
+      link: https://www.behance.net/gallery/41447195/Xbox-One-S-Design-by-Xbox-Design-Team
+      image: /images/fav/xbox_one_s.jpg
 
-  - text: Ressence Type 1H
-    link: https://shop.hodinkee.com/blogs/journal/ressence-type-1h-limited-edition-for-hodinkee
+  keyboards:
+    - text: Exent
+      link: 
+      image: /images/fav/exent.jpg
 
-  - text: Sony RX1
-    link: http://www.minimallyminimal.com/blog/8-months-with-the-sony-rx1
+    - text: HHKB Pro 2
+      link: 
+      image: /images/fav/hhkb.jpg
 
-  - text: Sony Xperia Z5 Compact
-    link: http://ksassets.timeincuk.net/wp/uploads/sites/54/2015/09/Sony-Z5-Hands-On-Video-00-06-20-22-Still004-3.jpg
+    - text: Leopold FC660M
+      link: 
+      image: /images/fav/fc660m.jpg
 
-  - text: Xbox One S
-    link: https://www.behance.net/gallery/41447195/Xbox-One-S-Design-by-Xbox-Design-Team
 
+  misc:
+    - text: Instrmnt 01-A
+      link: https://vimeo.com/128077305
+      image: /images/fav/instrmnt.jpg
+
+
+    - text: Nintendo Labo
+      link: https://youtu.be/P3Bd3HUMkyU
+      image: /images/fav/labo.jpg
+
+
+    - text: Ressence Type 1H
+      link: https://shop.hodinkee.com/blogs/journal/ressence-type-1h-limited-edition-for-hodinkee
+      image: /images/fav/ressence.jpg
+
+    
+
+    
 movies:
   - text: The Dark Knight
     link: https://www.youtube.com/watch?v=EXeTwQWrcwY
+    image: /images/fav/dark_knight.jpg
 
   - text: Ex Machina
     link: https://www.youtube.com/watch?v=EoQuVnKhxaM
+    image: /images/fav/ex_machina.jpg
 
   - text: The Prestige
     link: https://www.youtube.com/watch?v=DHoXum3M9eE
+    image: /images/fav/the_prestige.jpg
 
   - text: The Social Network
     link: https://www.youtube.com/watch?v=lB95KLmpLR4
+    image: /images/fav/social_network.jpg
 
   - text: Spotlight
     link: https://www.youtube.com/watch?v=EwdCIpbTN5g
+    image: /images/fav/spotlight.jpg
 
 tv:
   - text: American Vandal
     link: https://www.youtube.com/watch?v=m3tkFOtM6go
+    image: /images/fav/american_vandal.jpg
 
   - text: Billions
     link: https://www.youtube.com/watch?v=_raEUMLL-ZI
+    image: /images/fav/billions.jpg
 
   - text: Bojack Horseman
-    link: 
+    link: https://youtu.be/i1eJMig5Ik4
+    image: /images/fav/bojack.jpg
 
   - text: Homeland
     link: https://www.youtube.com/watch?v=KyFmS3wRPCQ
+    image: /images/fav/homeland.jpg
 
-  - text: Nathan for You
-    link: 
+  - text: Man in the High Castle
+    link: https://youtu.be/zzayf9GpXCI
+    image: /images/fav/mithc.jpg
 
   - text: The West Wing
     link: https://en.wikipedia.org/wiki/The_West_Wing
+    image: /images/fav/west_wing.jpg
 
   - text: Westworld
     link: https://www.youtube.com/watch?v=IuS5huqOND4
+    image: /images/fav/westworld.jpg
 
 apps:
   - text: Alfred

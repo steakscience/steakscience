@@ -1,18 +1,27 @@
-<div class="w-75-ns w-80-m w-100 center ph3-ns ph2-m ph4">
-
-<article itemscope itemtype="http://schema.org/BlogPosting">
-	<span class="dia-bold gray f4-ns f6"><span itemprop="datePublished">{{include.myPost.date | date: "%-d %B %Y"}}</span> <span class="black-30">&middot;</span> <a href="{{site.baseurl}}/categories/#{{include.myPost.categories}}" class="hover-mid-gray ttc">{{include.myPost.categories}}</a></span>
-	<h1 class="blackfont black-80 lh-title f1-ns f2 mt2 mb3-ns mb2 postTitle" itemprop="name headline">
-	<a href="{{include.myPost.url}}" class="black-80 hover-black-90">{{include.myPost.title | widont}}</a>
+<!-- title bar -->
+<div class="bg-dark db w-100 mb0 titlePad" id="titleBar" itemscope itemtype="http://schema.org/BlogPosting">
+	<span class="white-70 fg-semibold f45"><span itemprop="datePublished">{{include.myPost.date | date: "%-d %B %Y"}}</span> <span class="white-40">&middot;</span>
+	<a href="{{site.baseurl}}/categories/#{{include.myPost.categories}}" class="ttl white-60 hover-white-40 fg-medium">#{{include.myPost.categories}}</a></span>
+	
+	<h1 class="lh-solid f1-ns f2 mt3 pt1 mb2-ns mb1 fg-bold" itemprop="name headline">
+		<a href="{{include.myPost.url}}" class="white hover-white-80">{{include.myPost.title | widont}}</a>
 	</h1>
 
+</div>
+
+<!-- left strip -->
+<div class="bg-mid" id="leftStrip">
+</div>
+
+<!-- article wrap -->
+<article id="articleWrapper" class="pb5-ns pb4">
 	{% if include.myPost.hero_vid %}
-		<video class="pb2-ns pb1 mh0 w-100" width=100% autoplay="autoplay" poster="{{include.myPost.image}}">
+		<video class="pb2 mh0 w-100" id="heroVid" width=100% autoplay="autoplay" muted poster="{{include.myPost.image}}">
 			<source src="{{include.myPost.hero_vid}}" type="video/mp4" />
 		</video>
 
 	{% else %}
-		<figure class="heroFigure"><img class="" src="{{include.myPost.image}}" />
+		<figure id="heroImg"><img class="" src="{{include.myPost.image}}" />
 		{% if include.myPost.caption %}
 		  <figcaption class="heroCaption pb2">{{include.myPost.caption}}</figcaption>
 		  {% endif %}
@@ -20,12 +29,11 @@
 
 	{% endif %}
 
-	<section class="db center f45 f5 lh-copy dark-gray pb5-ns pb4" id="postBody" itemprop="articleBody">
-		
+	<section class="db f4-ns f5 lh-copy black-70 cf" id="postBody" itemprop="articleBody">
 
 		{{include.myPost.content | widont | jt_caps}}
 
 	</section>
-</article>
+	
 
-</div>
+</article>
