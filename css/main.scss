@@ -68,6 +68,21 @@ blockquote {
 	/*padding-right: 1rem;*/
 }
 
+.dim:hover,
+.dim:focus {
+	opacity:.7;
+	transition:opacity .15s ease-in;
+}
+
+/*surround em dash with thin space*/
+.emdash::before {
+	content: " ";
+}
+
+.emdash::after {
+	content: " ";
+}
+
 .heroCaption {
  	margin-top: -2rem;
  	padding-right: 0.8rem;
@@ -132,6 +147,11 @@ blockquote {
 		margin-bottom: 0.5rem;
 	}
 
+	#postBody h2, .about h2 {
+		float: left;
+		margin-left: 2rem;
+	}
+
 	blockquote {
 		margin-left: 1.5rem;
 		margin-right: 1.5rem;
@@ -139,10 +159,10 @@ blockquote {
 		clear: both;
 	}
 
-	#postBody h2, .about h2 {
+	/*#postBody h2, .about h2 {
 		margin-left: 1.5rem;
 		margin-right: 1.5rem;
-	}
+	}*/
 
 	hr {
 		margin-left: 49%;
@@ -184,6 +204,10 @@ blockquote {
 
 	.simP {
 		min-width: 0;
+	}
+
+	.footerBlock p {
+		max-width: 14em;
 	}
 }
 
@@ -238,6 +262,10 @@ blockquote {
 		float: right;
 	}
 
+	.footerBlock {
+		/*height: 8rem;*/
+	}
+
 	.embed-container {
 	  width: 70%;
 	  padding-bottom: calc(56.25% * 0.7);
@@ -263,13 +291,18 @@ blockquote {
 		float: right;
 	}
 
+	#postBody h2, .about h2 {
+		max-width: 36rem;
+		min-width: 36rem;
+		float: right;
+	}
+
 	blockquote p {
 		min-width: 0 !important;
 	}
 
 	#postBody h2, .about h2 {
-		margin-left: auto;
-		margin-right: auto;
+		margin-right: var(--rightMargin);
 	}
 
 	hr {
@@ -285,7 +318,8 @@ blockquote {
 	:root {
 		--menuWidth: 30vw;
 		--translateAmount: -30vw;
-		--leftStrip: 15vw;
+		/*--leftStrip: 15vw;*/
+		--leftStrip: 20vw;
 		--rightMargin: 10%;
 		--titlePad: 10vw;
 	}
@@ -296,7 +330,11 @@ blockquote {
 	}
 
 	.simP {
-		min-width: 36em;
+		min-width: 40em;
+	}
+
+	.footerBlock p {
+		max-width: none;
 	}
 
 }
@@ -368,11 +406,11 @@ hr {
     clear: both;
 }
 
-#postBody h2, .about h2 { /*##*/
-	max-width: 36rem; /*same as p*/
+#postBody h2, .about h2 {
+
     display: block;
-    margin-bottom: -0.5rem;
-    margin-top: 3rem;
+    margin-bottom: -0.3rem;
+    margin-top: 1.5rem;
 
     color: rgba(0,0,0,0.75);
 
@@ -627,7 +665,8 @@ html.green {
 }
 
 html.yellow {
-    --color-light: #FDF7E6;
+    /*--color-light: #FDF7E6;*/
+    --color-light: #fdf9ef;
     /*--color-light: #fff7e1;*/
     --color-mid: #FCEFCA;
     /*--color-dark: #EBCF80;*/
@@ -638,16 +677,27 @@ html.yellow {
 html.gray {
     --color-light: #F6F6F6;
     --color-mid: #E9E9E9;
-    --color-dark: #9C9C9C; 
+    /*--color-dark: #9C9C9C;*/
+    --color-dark: #868686;
     --color-darker: #808080;
 }
 
 html.purple {
     --color-light: #FAF4FF;
+    --color-light: #fcf7ff;
     /*--color-light: #f5effb;*/
     --color-mid: #F1E5FB;
     --color-dark: #9B7CB5; 
     --color-darker: #8666a0;
+}
+
+html.orange {
+	/*dubbed GRAPEFRUIT :)*/
+	/*--color-light: #fff2ef;*/
+	--color-light: #ffece8;
+    --color-mid: #fdc2b5;
+    --color-dark: #ff8a70;
+    --color-darker: #ff6f4f;
 }
 
 /*end pallette*/
@@ -669,6 +719,7 @@ html.purple {
 	color: rgba(0,0,0,0.6);
 	text-decoration: underline;
 	text-decoration-color: var(--color-dark);
+	-webkit-text-decoration-color: var(--color-dark);
 }
 
 #postBody a:hover {
@@ -734,8 +785,12 @@ html.purple {
 }
 
 #footer {
-	margin-left: calc(var(--leftStrip) + 1.5rem);
-	margin-right: var(--rightMargin);
+    /*width: 100%;
+    max-width: 85em;
+    margin-left: auto;
+    margin-right: auto;*/
+	background: var(--color-dark);
+	/*margin-top: 5rem;*/
 }
 
 #heroImg {
@@ -812,10 +867,20 @@ html.purple {
 }
 
 .favItem {
-	min-width: 13em;
-	margin-right: 1rem;
+	min-width: 14em;
+	/*margin-right: 1.5rem;*/
+	padding-right: 1.5rem;
 	/*fixes wrapping on mobile*/
 	white-space: nowrap;
+}
+
+.footerBlock {
+	width: 100%;
+    max-width: 85em;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 0;
 }
 
 /*NAV STUFF
@@ -836,6 +901,7 @@ _________*/
 
 #menu {
 	position: sticky;
+	position: -webkit-sticky;
 	top: 0;
 	right: 0;
 	/*height: 100%;*/
@@ -846,6 +912,10 @@ _________*/
 	/*transform: translateX(calc(var(--menuWidth)));*/
 	/*transform: translateX(var(--menuWidth));
 	transition: all .2s ease;*/
+}
+
+.icon {
+	width: 2rem;
 }
 
 body.noScroll {
@@ -898,6 +968,7 @@ body.noScroll {
 #livePic {
 	float: left;
 	position: sticky;
+	position: -webkit-sticky;
 	margin-top: 2rem;
 	top: 2rem;
 	padding-left: 4rem;
@@ -906,6 +977,7 @@ body.noScroll {
 
 #livePic img, {
 	position: sticky;
+	position: -webkit-sticky;
 	top: 0;
 	width: 100%;
 	max-width: 22rem;

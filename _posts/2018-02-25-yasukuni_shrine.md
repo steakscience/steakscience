@@ -181,5 +181,5 @@ What is old is new again.
 <br>
 [Lowy Institute’s 15 August Photo Essay](https://www.lowyinstitute.org/the-interpreter/photo-essay-yasukuni-shrine-15-august){:target="_blank"}
 
-[^1]: Instead, Japan has Self-Defense Forces only for domestic use, although this has changed recently.
+[^1]: Instead, Japan have Self-Defense Forces. They’re only for domestic use, although this has changed recently.
 [^n]: Beer and yakisoba are typical festival food, but the yakisoba here is especially bad.

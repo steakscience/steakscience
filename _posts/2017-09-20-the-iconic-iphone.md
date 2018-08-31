@@ -7,7 +7,7 @@ categories: design
 image: /images/notch/og.jpg
 ---
 
-With any Apple-related topic, there are no shortage of opinions. Most of them are rushed, sensationalistic, and not worth anyone’s time — they’re just there to attract pageviews and boost ad revenue. Then there’s the small segment of thoughtful and nuanced pieces that are actually worth your time.
+With any Apple-related topic, there are no shortage of opinions. Most of them are rushed, sensationalistic, and not worth anyone’s time—they’re just there to attract pageviews and boost ad revenue. Then there’s the small segment of thoughtful and nuanced pieces that are actually worth your time.
 
 In any case, with this flood of opinion, you can be sure the “correct take” is hidden in there somewhere. However, with the iPhone X notch, that doesn’t seem to be the case. 
 
@@ -56,7 +56,7 @@ They are nearly identical from the front. Philippe Starck, an industrial designe
 
 So what happens when the iPhone’s home button disappears? The iconic iPhone silhouette also disappears.
 
-Then there’s the other problem of the front-facing camera and FaceID. They still need to be in front and they aren’t ever going away — we will always have front-facing cameras. 
+Then there’s the other problem of the front-facing camera and FaceID. They still need to be in front and they aren’t ever going away—we will always have front-facing cameras. 
 
 **How do you solve these two problems?** Design is all about compromises and managing tradeoffs. And the notch is definitely a tradeoff. It's there because we need space for cameras and sensors.
 

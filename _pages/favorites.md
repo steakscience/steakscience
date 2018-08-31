@@ -31,6 +31,16 @@ permalink: /favorites/
 				{% endfor %}
 				</ul>
 			</div>
+
+			<!-- <div class="dib mb3-ns mb2 fl favItem">
+				<h2 class="fg-bold black-80 lh-title f2-ns f3 mt2 mb2">Actors & Performers</h2>
+
+				<ul class="list pl0 mt3">
+				{% for i in site.data.favorites.people.performers %}
+					<li data-image-url="{{i.image}}" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="{{ i.link }}" target="_blank">{{ i.text }}</a></li>	
+				{% endfor %}
+				</ul>
+			</div> -->
 		</section>
 
 		<section class="db cf mb3-ns mb1">

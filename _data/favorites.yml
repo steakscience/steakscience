@@ -7,6 +7,10 @@ people:
     - text: Andrew Kim
       link: http://www.ichelleim.com/
       image: /images/fav/andrew_kim.jpg
+
+    - text: Annabelle Gould
+      link: https://www.agould.com/
+      image: /images/fav/annabelle_gould.jpg
   
     - text: Axel Roesler
       link: https://art.washington.edu/people/axel-roesler
@@ -28,9 +32,13 @@ people:
       link: http://www.naotofukasawa.com/
       image: /images/fav/naoto_fukasawa.jpg
 
-    - text: Paul Stamatiou
-      link: https://paulstamatiou.com/
-      image: /images/fav/paul_stamatiou.jpg
+    # - text: Paul Stamatiou
+    #   link: https://paulstamatiou.com/
+    #   image: /images/fav/paul_stamatiou.jpg
+
+    - text: Ralf Groene
+      link: https://www.wired.com/story/surface-go-microsofts-big-bet-on-a-tiny-computer-future/
+      image: /images/fav/ralf_groene.jpg
 
   writers:
     - text: Austin Kleon
@@ -41,9 +49,9 @@ people:
       link: https://www.stratechery.com/
       image: /images/fav/ben_thompson.jpg
 
-    - text: Benedict Evans
-      link: https://www.ben-evans.com/
-      image: /images/fav/benedict_evans.jpg
+    # - text: Benedict Evans
+    #   link: https://www.ben-evans.com/
+    #   image: /images/fav/benedict_evans.jpg
 
     - text: Casey Newton
       link: http://cnewton.org/about/
@@ -80,6 +88,27 @@ people:
     - text: Nick Bilton
       link: https://en.m.wikipedia.org/wiki/Nick_Bilton
       image: /images/fav/nick_bilton.jpg
+
+  performers:
+    - text: Christian Bale
+      link: https://austinkleon.com/
+      image: /images/fav/austin_kleon.jpg
+
+    - text: Machine
+      link: https://austinkleon.com/
+      image: /images/fav/austin_kleon.jpg
+
+    - text: PyrionFlax
+      link: https://austinkleon.com/
+      image: /images/fav/austin_kleon.jpg
+
+    - text: Austin Kleon
+      link: https://austinkleon.com/
+      image: /images/fav/austin_kleon.jpg
+
+    - text: Austin Kleon
+      link: https://austinkleon.com/
+      image: /images/fav/austin_kleon.jpg
 
 
 reads:
@@ -265,7 +294,7 @@ things:
 
 
   misc:
-    - text: Instrmnt 01-A
+    - text: Instrmnt 01
       link: https://vimeo.com/128077305
       image: /images/fav/instrmnt.jpg
 
@@ -292,7 +321,7 @@ movies:
     image: /images/fav/ex_machina.jpg
 
   - text: The Prestige
-    link: https://www.youtube.com/watch?v=DHoXum3M9eE
+    link: https://youtu.be/ijXruSzfGEc
     image: /images/fav/the_prestige.jpg
 
   - text: The Social Network

@@ -23,7 +23,7 @@ There has always been a deal-breaker with every PC; an “all-day” battery tha
 
 ---
 
-In the past, Microsoft tried to fix the bloatware problem by introducing *Signature*, a line of computers with the bloatware removed. However, this fixed only half of the problem — no software can make up for ugly displays and wobbly plastic.
+In the past, Microsoft tried to fix the bloatware problem by introducing *Signature*, a line of computers with the bloatware removed. However, this fixed only half of the problem—no software can make up for ugly displays and wobbly plastic.
 
 To many, the solution was obvious: Microsoft should just make hardware! But the reason they couldn’t was also obvious: Microsoft was a software vendor and had to ensure a level playing field for manufacturers and making their own computer would disrupt that balance. However, everything changed with Windows 8.
 
@@ -41,7 +41,7 @@ Surface is the physical manifestation of Windows. It is the culmination of the b
 ![](/images/redmond/surface-1.jpg)
 {% endfigure %}
 
-The computer of the future is not the iPad nor is it the new MacBook. The iPad excels at content consumption, but to do serious work, you’ll have to resort to a clumsy keyboard case. The new MacBook is the inverse — it is productive, but its keyboard is always there, whether you need it or not. Surface on the other hand, can seamlessly transform from a laptop to a tablet. It will change personal computing forever.
+The computer of the future is not the iPad nor is it the new MacBook. The iPad excels at content consumption, but to do serious work, you’ll have to resort to a clumsy keyboard case. The new MacBook is the inverse—it is productive, but its keyboard is always there, whether you need it or not. Surface on the other hand, can seamlessly transform from a laptop to a tablet. It will change personal computing forever.
 
 Technology has always been about looking to the future and getting excited about the possibilities. To me, Surface is the embodiment of that spirit, and one I can’t stop getting excited about.
 

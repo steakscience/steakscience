@@ -17,7 +17,7 @@ Although many have aspired to create a meal-replacement drink for decades, none 
 
 ---
 
-As a species, we have done a great job — we colonized the earth and we eternally established ourselves on the very top of the food chain. However, as the most intelligent inhabitants of this planet, we have failed miserably. We have trashed the Earth and our way of life is not only unsustainable, it is grossly wasteful. Meat is especially inefficient — one kilogram of beef requires 30 kilograms of grain to make, not to mention the unspeakable atrocities we have to subject our animals to just to feed ourselves. According to projections, we will need to double our food production to feed ourselves in 40 years. Doubling our production would mean much more cruelty and waste.
+As a species, we have done a great job—we colonized the earth and we eternally established ourselves on the very top of the food chain. However, as the most intelligent inhabitants of this planet, we have failed miserably. We have trashed the Earth and our way of life is not only unsustainable, it is grossly wasteful. Meat is especially inefficient—one kilogram of beef requires 30 kilograms of grain to make, not to mention the unspeakable atrocities we have to subject our animals to just to feed ourselves. According to projections, we will need to double our food production to feed ourselves in 40 years. Doubling our production would mean much more cruelty and waste.
 
 In *Interstellar*, when asked about the survival of the human species, Cooper (Matthew McConaughey) says, “We’ll find a way, we always have.” Soylent is incredibly efficient, humane, and easy to store and transport. Maybe this is it. Maybe Soylent is going to solve our food crisis.
 
@@ -43,7 +43,7 @@ The other benefit is that every meal has just the right amount of nutrition and 
 ![](/images/soylent/soylent-1.jpg)
 {% endfigure %}
 
-Of course, there are some drawbacks to Soylent. The first that everyone always mentions is that food is not just sustenance, it is also a social activity. That is true, but the reality is, a lot of the time people eat their meals alone, in which case, Soylent would be great. I don’t completely dismiss real food. Cooking is an art form and there many experiences exclusive to dining. This is where I think Soylent marketing has it wrong — they should promote replacing quick and solitary meals with Soylent, not promote going full-time Soylent.
+Of course, there are some drawbacks to Soylent. The first that everyone always mentions is that food is not just sustenance, it is also a social activity. That is true, but the reality is, a lot of the time people eat their meals alone, in which case, Soylent would be great. I don’t completely dismiss real food. Cooking is an art form and there many experiences exclusive to dining. This is where I think Soylent marketing has it wrong—they should promote replacing quick and solitary meals with Soylent, not promote going full-time Soylent.
 
 There are some small annoyances with consuming a mostly liquid diet. Some people have experienced some problems with their jaw because they don’t chew enough, but this has not been an issue with myself or others I’ve talked to. Also, drinking Soylent psychologically decreases the urge to drink water, which can become problematic in the summer. I have definitely experienced dehydration. The last annoyance I can come up with is that Soylent contains a lot of grains, which makes me quite gassy. I fart more than usual.
 

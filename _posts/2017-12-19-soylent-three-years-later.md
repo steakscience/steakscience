@@ -9,13 +9,13 @@ image: /images/soylent_3/hero.jpg
 
 For the past three years, I’ve replaced most of my meals with Soylent.
 
-Three years is a great time to reflect on the state of Soylent — the company and the mission, as well as what Soylent has been like for me.
+Three years is a great time to reflect on the state of Soylent—the company and the mission, as well as what Soylent has been like for me.
 
 ----
 
 ## The Soylent Dream
 
-Before I fell in love with Soylent, I fell in love with *the idea of Soylent*. The idea that we have the understanding and the technology to create the perfect food for ourselves. Food that is nutritionally perfect (most of what we eat are not). Food that is efficient — efficient to manufacture and efficient to transport.
+Before I fell in love with Soylent, I fell in love with *the idea of Soylent*. The idea that we have the understanding and the technology to create the perfect food for ourselves. Food that is nutritionally perfect (most of what we eat are not). Food that is efficient—efficient to manufacture and efficient to transport.
 
 Instead of shipping around perishable solids, we can ship powder. Then, by just adding clean water, people can make the nutritionally perfect meal.
 
@@ -61,4 +61,4 @@ Now for the direct answer. The average person needs 2000 calories per day. A sin
 
 Ha. I do like real food.
 
-Most food I have access to is bad — unhealthy, tastes bad, time-consuming to eat, and expensive. I never say Soylent is for everyone, but it is perfect for me.
+Most food I have access to is bad—unhealthy, tastes bad, time-consuming to eat, and expensive. I never say Soylent is for everyone, but it is perfect for me.

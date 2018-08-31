@@ -161,7 +161,7 @@
 
   
 
-  <!-- Begin Jekyll SEO tag v2.4.0 -->
+  <!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>The Future is in Redmond | steakscience</title>
 <meta name="generator" content="Jekyll v3.4.3" />
 <meta property="og:title" content="The Future is in Redmond" />
@@ -197,7 +197,7 @@
 
   	<div id="navWrapper" class="cf dib">	
 		<div id="hamWrapper">
-			<img src="/images/hamburger.svg" id="hamburger" class="link v-mid fr">
+			<img src="/images/hamburger.svg" id="hamburger" class="link v-mid fr dim">
 			<!-- <img src="/images/close.svg" id="close" class="link v-mid fr show"> -->
 		</div>
 	</div>
@@ -205,7 +205,9 @@
 	<div id="menuWrapper">
 		<div id="menu">
 
-			<img src="/images/logo_white.svg" id="menuLogo" class="">
+			<a class="link" href="/">
+				<img src="/images/logo_white.svg" id="menuLogo" class="link dim">
+			</a>
 			<h1 class="f2 fg-semibold white lh-solid mb0">steakscience</h1>
 			<p class="ideal-book f4 white-60 mt0 mw6">A blog about technology, design, and culture. Probably off-topic.</p>
 
@@ -245,7 +247,7 @@
 </div>
 
 <!-- article wrap -->
-<article id="articleWrapper" class="pb5-ns pb4">
+<article id="articleWrapper" class="">
 	
 		<figure id="heroImg"><img class="" src="/images/redmond/microsoft-13.jpg" />
 		
@@ -272,7 +274,7 @@
 
 <hr />
 
-<p>In the past, Microsoft tried to fix the bloatware problem by introducing <em>Signature</em>, a line of computers with the bloatware removed. However, this fixed only half of the problem — no software can make up for ugly displays and wobbly&nbsp;plastic.</p>
+<p>In the past, Microsoft tried to fix the bloatware problem by introducing <em>Signature</em>, a line of computers with the bloatware removed. However, this fixed only half of the problem—no software can make up for ugly displays and wobbly&nbsp;plastic.</p>
 
 <p>To many, the solution was obvious: Microsoft should just make hardware! But the reason they couldn’t was also obvious: Microsoft was a software vendor and had to ensure a level playing field for manufacturers and making their own computer would disrupt that balance. However, everything changed with Windows&nbsp;8.</p>
 
@@ -294,7 +296,7 @@
   <figcaption>Microsoft</figcaption>
 </figure>
 
-<p>The computer of the future is not the iPad nor is it the new MacBook. The iPad excels at content consumption, but to do serious work, you’ll have to resort to a clumsy keyboard case. The new MacBook is the inverse — it is productive, but its keyboard is always there, whether you need it or not. Surface on the other hand, can seamlessly transform from a laptop to a tablet. It will change personal computing&nbsp;forever.</p>
+<p>The computer of the future is not the iPad nor is it the new MacBook. The iPad excels at content consumption, but to do serious work, you’ll have to resort to a clumsy keyboard case. The new MacBook is the inverse—it is productive, but its keyboard is always there, whether you need it or not. Surface on the other hand, can seamlessly transform from a laptop to a tablet. It will change personal computing&nbsp;forever.</p>
 
 <p>Technology has always been about looking to the future and getting excited about the possibilities. To me, Surface is the embodiment of that spirit, and one I can’t stop getting excited&nbsp;about.</p>
 
@@ -345,28 +347,45 @@
 	
 
 </article>
-<!-- <footer id="footer" class="ph0-ns ph2 fg-medium">
-	<div class="db w-100 f5-ns f6 lh-solid mb2 cf">
+<footer id="footer" class="fg-medium cf pv0 ph4-l ph4 mt5-ns mt3">
+	<div class="footerBlock">
 
 		
-	    <div class="fl mv3 mr1 tl v-mid">
-	        <a href="/drinking-the-future/" class="link black-60 hover-black-40">
-	            <span class="v-mid">&#60;&nbsp;&nbsp;Drinking the&nbsp;Future</span>
+	    <div class="fl tl cf dim">
+
+	        <a href="/drinking-the-future/" class="link white hover-white">
+
+	    		<!-- <img src="/images/next.svg" class="icon fr"> -->
+
+	    		<div class="v-mid">
+	    			<img src="/images/prev.svg" class="icon dib v-mid" style="position: relative; left: 0;">
+	    			<p class="v-mid dib ml2 f4" style="padding-top: 0.5rem;">Drinking the&nbsp;Future</p>
+	    		</div>
+
 	        </a>
+
 	    </div>
 	    
 
-	    
-	    <div class="fr mv3 ml1 tr v-mid">
-	        <a href="/werobot-2015/" class="link">
-	            <span class="v-mid">WeRobot 2015&nbsp;&nbsp;&#62;</span>
+		
+	    <div class="fr tr cf dim">
+
+	        <a href="/werobot-2015/" class="link white hover-white">
+
+	    		<!-- <img src="/images/next.svg" class="icon fr"> -->
+
+	    		<div class="v-mid">
+	    			<p class="v-mid dib mr2 f4" style="padding-top: 0.5rem;">WeRobot&nbsp;2015</p>
+	    			<img src="/images/next.svg" class="icon dib v-mid" style="position: relative; right: 0;">
+	    		</div>
+
 	        </a>
+
 	    </div>
 	    
 
-    </div>
-
-</footer> -->
+	</div>
+</footer>
 </main>
     
   <!-- </div> -->
@@ -382,7 +401,7 @@
   <!-- random color scheme https://stackoverflow.com/questions/40791621/change-color-scheme-on-refresh -->
   <script type="text/javascript">
     $( document ).ready(function() {
-      var listOfClasses = ["blue","red","green", "yellow", "gray", "purple"];
+      var listOfClasses = ["blue","red","green", "yellow", "gray", "purple", "orange"];
       var randomNum = Math.floor(Math.random() * listOfClasses.length); 
       $("html").addClass(listOfClasses[randomNum]);
     });
