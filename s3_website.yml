@@ -4,7 +4,7 @@ s3_bucket: steakscience.com
 
 gzip: true
 
-cache_control: public, no-transform, max-age=1200, s-maxage=1200
+cache_control: public, no-transform, max-age=432000, s-maxage=432000
 
 # set s3_token if using temporary credentials with a session token (eg: when assuming a role)
 # s3_token: YOUR_AWS_S3_SESSION_TOKEN
@@ -32,7 +32,8 @@ cache_control: public, no-transform, max-age=1200, s-maxage=1200
 
 # ignore_on_server: that_folder_of_stuff_i_dont_keep_locally
 
-# exclude_from_upload:
+exclude_from_upload:
+  - /images/fav/backup
 #   - those_folders_of_stuff
 #   - i_wouldnt_want_to_upload
 

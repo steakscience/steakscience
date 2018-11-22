@@ -1,0 +1,37 @@
+---
+item:
+      - title: Moon Tray
+        link: https://jackmarple.com/
+        tag: look
+        text:
+            - p: I recently came across the work of Jack Marple, an industrial designer based in Seattle.
+            - p: One particularly interesting piece of his work is Moon Tray, a concrete dish for storing random odds and ends. It’s a pretty straightforward product, but the twist lies in the concept and the material.
+            - p: We all dream of making something simple, beautiful, and delightful. This is it. The tray is a simple geometric form with a dish created by a spherical depression. As a result, the dish mimics the moon, and the concrete creates a moon-like surface.
+            - p: It’s delicate and brutalist at the same time. It’s pretty neat.
+        photo:
+            - img: moontray1.png
+            - img: moontray2.jpg
+
+      - title: Gradient Flatware
+        link: https://jackmarple.com/
+        tag: look
+        text:
+            - p: Also by Marple is Gradient Flatware. Also a very simple concept with an interesting twist.
+            - p: "Our hands yearn for tactility while our mouths love smoothness. So Marple designed utensils with this in mind: one end being smooth and the other being coarse, and in between, a beautiful gradation of textures."
+            - p: Now as you read this, you’re probably thinking, “this is so obvious. Of course things should be this way!” Well, they aren’t and that’s what makes this design so Fukasawa-esque.
+        photo:
+            - img: gradient1.jpg
+            - img: gradient2.jpg
+
+      - title: Why This Cartoonist Keeps Pitching the New Yorker—Even After 100 Rejections
+        link: https://www.ideo.com/blog/why-this-cartoonist-keeps-pitching-the-new-yorker-even-after-100-rejections
+        tag: read
+        text:
+            - p: Juan Astasio, a designer at IDEO, is such an inspiration.
+            - p: He dreams of publishing cartoons in The New Yorker magazine, and has spent years and years sending in submissions, only to be rejected every time. One of his cartoons was described by the curator as “the worst he has ever seen.”
+            - p: "I’m a designer myself and sure, rejection is part of the job. But I’d be lying if I said rejection doesn’t hurt, and that my conviction doesn’t sway after failure. What sets Juan apart is exactly this: he isn’t deterred. In fact, his conviction gets stronger every time."
+            - p: I used to think that the most important trait for a creative is curiosity. I don’t think that’s the case anymore—it’s resolve.
+        photo:
+            - img: cartoon1.jpg
+            - img: cartoon2.jpg
+...

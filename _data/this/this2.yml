@@ -1,0 +1,44 @@
+---
+item:
+      - title: Steve Jobs on the Post-PC Era
+        link: https://youtu.be/YfJ3QxJYsw8
+        tag: watch
+        text:
+            - p: The same year Apple released the first iPad, Steve Jobs announced that the PC era was over.
+            - p: PCs, like trucks, were once important, he said. But now, most people don’t really need all that added functionality that trucks offer anymore—they just need sedans, or in this case, tablets.
+            - p: It’s incredible how prescient this statement was. Sure, some people still need a traditional desktop setup, but the vast majority of people are so much happier on iPads. For them, they’re not missing out on any functionality. Heck, they’re probably even more empowered now, since traditional computers were so user-hostile that it was impossible to fully harness their functionality anyway.
+        youtube: YfJ3QxJYsw8
+
+      - title: Apple’s “What’s a Computer?” Ad
+        link: https://vimeo.com/244960609
+        tag: watch
+        text:
+            - p: In what is probably the greatest ad ever, Apple asks “what’s a computer”?
+            - p: For many of us, computers are clunky machines running archaic operating systems with a modern sheen. Sure, they’re more portable now, and some of them are pretty good.
+            - p: We don’t really consider tablets to be computers. We’re told “they’re not for real work” and “they can’t do X or Y,” but they can and they are great. They’re perfect for those who don’t want to worry about file management, viruses, hard drive failures, and the rest of that nightmare. To borrow an Apple phrase from the past, iPads are “computers for the rest of us.”
+        vimeo: 244960609
+        photo:
+            - img: ipad.jpg
+
+      - title: Surface Go
+        link: https://www.wired.com/story/surface-go-microsofts-big-bet-on-a-tiny-computer-future/
+        tag: read
+        text:
+            - p: "[I have a soft spot for the Surface family of devices](/the-future-is-in-redmond/). They are gorgeous and the people behind them are empathetic craftsmen. They’re not just talking the talk when they say they want to make tools for everyday people, they mean it and they try their absolute hardest."
+            - p: The problem is, their tools run an archaic operating system. So as much as the Surface Go wants to embrace the future, it’s anchored down by the past.
+            - p: Tablet mode on Windows is a mess and while the Surface Go is very portable, it’s still using a traditional Intel processor that is slow and power-hungry. Meanwhile, the new iPads are more performant than MacBook Pros, despite running a power-efficient processor.
+            - p: If this is a battle to create the computer of the future, Microsoft is betting on gasoline-powered tanks while Apple is using space lasers.
+        photo:
+            - img: surface_go1.jpg
+            - img: surface_go2.jpg
+
+      - title: James Ball’s Guide to Computing
+        link: https://www.docubyte.com/works/guide-to-computing/
+        tag: look
+        text:
+            - p: James Ball is really good at photographing computers. Like, really good.
+            - p: His latest work is a “visual history of computing”, which is basically a collection of beautiful pictures of old computers, photographed in the most minimalist and cleanest way possible.
+        photo:
+            - img: james_ball1.jpg
+            - img: james_ball2.png
+...

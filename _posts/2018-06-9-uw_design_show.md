@@ -2,6 +2,7 @@
 layout: post
 author: Nirawit Jittipairoj
 title:  UW Design Show 2018
+subtitle: From all of us, this is for you.
 date:   2018-06-09
 categories: personal
 image: /images/design_show/hero.jpg

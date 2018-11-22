@@ -1,7 +1,7 @@
 people:
   designers:
     - text: Adam Kingman
-      link: http://www.adamkingman.com/about/
+      link: https://vimeo.com/261970094#t=90s
       image: /images/fav/adam_kingman.gif
 
     - text: Andrew Kim
@@ -16,12 +16,20 @@ people:
       link: https://art.washington.edu/people/axel-roesler
       image: /images/fav/axel_roesler.jpg
 
+    - text: Basheer Tome
+      link: https://vimeo.com/280101119
+      image: /images/fav/basheer_tome.jpg
+
     - text: Erin Murphy
       link: http://depts.washington.edu/desalum/2017/05/10/erin-murphy/
       image: /images/fav/erin_murphy.jpg
 
+    # - text: Google Hardware Team
+    #   link: https://vimeo.com/294244638
+    #   image: /images/fav/google.jpg
+
     - text: Jon Bell
-      link: https://youtu.be/43URYLExNsw?t=17
+      link: https://youtu.be/b70KerNb0RA?t=8
       image: /images/fav/jon_bell.jpg
 
     - text: Michael Bierut
@@ -41,17 +49,21 @@ people:
       image: /images/fav/ralf_groene.jpg
 
   writers:
+    - text: Alexandra Petri
+      link: https://www.washingtonpost.com/people/alexandra-petri/?utm_term=.6b42a6485ec9
+      image: /images/fav/alexandra_petri.jpg
+    
+    - text: Austin Carr
+      link: http://www.austincarr.com/archive-list/
+      image: /images/fav/austin_carr.jpg
+
     - text: Austin Kleon
       link: https://austinkleon.com/
       image: /images/fav/austin_kleon.jpg
-
+    
     - text: Ben Thompson
       link: https://www.stratechery.com/
       image: /images/fav/ben_thompson.jpg
-
-    # - text: Benedict Evans
-    #   link: https://www.ben-evans.com/
-    #   image: /images/fav/benedict_evans.jpg
 
     - text: Casey Newton
       link: http://cnewton.org/about/
@@ -69,13 +81,13 @@ people:
       link: https://twitter.com/pierce
       image: /images/fav/david_pierce.jpg
 
+    - text: Ezra Klein
+      link: https://www.vox.com/authors/ezra-klein
+      image: /images/fav/ezra_klein.jpg
+
     - text: Jonathan Nolan
       link: https://en.wikipedia.org/wiki/Jonathan_Nolan
       image: /images/fav/jonathan_nolan.jpg
-
-    - text: Joshua Topolsky
-      link: https://en.m.wikipedia.org/wiki/Joshua_Topolsky
-      image: /images/fav/joshua_topolsky.jpg
 
     - text: Kara Swisher
       link: https://en.m.wikipedia.org/wiki/Kara_Swisher
@@ -89,26 +101,22 @@ people:
       link: https://en.m.wikipedia.org/wiki/Nick_Bilton
       image: /images/fav/nick_bilton.jpg
 
-  performers:
+  misc:
     - text: Christian Bale
       link: https://austinkleon.com/
-      image: /images/fav/austin_kleon.jpg
+      image: /images/fav/christian_bale.jpg
 
-    - text: Machine
-      link: https://austinkleon.com/
-      image: /images/fav/austin_kleon.jpg
+    - text: Jake Kanner
+      link: https://moonduck.tv/team/siractionslacks
+      image: /images/fav/jake_kanner.jpg
 
-    - text: PyrionFlax
-      link: https://austinkleon.com/
-      image: /images/fav/austin_kleon.jpg
+    - text: Jon Lovett
+      link: https://www.nytimes.com/2017/11/22/magazine/the-voices-in-blue-americas-head.html
+      image: /images/fav/jon_lovett.jpg
 
-    - text: Austin Kleon
-      link: https://austinkleon.com/
-      image: /images/fav/austin_kleon.jpg
-
-    - text: Austin Kleon
-      link: https://austinkleon.com/
-      image: /images/fav/austin_kleon.jpg
+    - text: Timothée Chalamet
+      link: https://www.gq.com/story/timothee-chalamet-has-arrived
+      image: /images/fav/timothee_chalamet.jpg
 
 
 reads:
@@ -169,6 +177,57 @@ reads:
   - text: Super Normal
     link: https://smile.amazon.com/Super-Normal-Sensations-Naoto-Fukasawa/dp/3037781068?sa-no-redirect=1
     image: /images/fav/super_normal.jpg
+
+  articles:
+  - text: Not Another Yves Béhar Profile!
+    link: https://www.fastcompany.com/90222019/not-another-yves-behar-profile
+    image: /images/fav/yves_behar.jpg
+
+  - text: The Shape of Things to Come
+    link: https://www.newyorker.com/magazine/2015/02/23/shape-things-come
+    image: /images/fav/shape.jpg
+
+  - text: One More Thing
+    link: https://www.wired.com/2017/05/apple-park-new-silicon-valley-campus/
+    image: /images/fav/apple_park.jpg
+
+  - text: Christmas Gifts and the Meaning of Design
+    link: https://stratechery.com/2014/christmas-gifts-meaning-design-2/
+    image: /images/fav/hat.jpg
+
+  - text: The Exacting, Expansive Mind of Christopher Nolan
+    link: https://www.nytimes.com/2014/11/02/magazine/the-exacting-expansive-mind-of-christopher-nolan.html
+    image: /images/fav/nolan.jpg
+
+  - text: What I Learned Designing a Logo for Hillary Clinton
+    link: https://designobserver.com/feature/im-with-her/39523
+    image: /images/fav/hillary.jpg
+
+  - text: The Road to Superintelligence
+    link: https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html
+    image: /images/fav/superintelligence.jpg
+
+  - text: Convenience Store Woman
+    link: https://longreads.com/2018/08/14/convenience-store-woman/
+    image: /images/fav/convenience.jpg
+
+  - text: Zach Woods in the Woods
+    link: https://www.gq.com/story/zach-woods-in-the-woods
+    image: /images/fav/woods.jpg
+
+  - text: The Great High School Impostor
+    link: https://www.gq.com/story/the-great-high-school-impostor
+    image: /images/fav/highschool.jpg
+
+  - text: Apple’s Organizational Crossroads
+    link: https://stratechery.com/2016/apples-organizational-crossroads/
+    image: /images/fav/functional.jpg
+
+  - text: It Is Very Difficult to Get the Train to Stop
+    link: https://www.washingtonpost.com/news/opinions/wp/2018/09/28/it-is-very-difficult-to-get-the-train-to-stop/?noredirect=on&utm_term=.6fd5c3081157
+    image: /images/fav/ford.jpg
+
+
 
 podcasts:
   - text: The Daily
@@ -239,6 +298,14 @@ things:
       link: https://www.wired.com/story/inside-andy-rubins-quest-to-create-an-os-for-everything/
       image: /images/fav/essential.jpg
 
+    - text: Google Home Mini
+      link: https://www.blog.google/products/home/welcoming-mini-and-max-google-home-family/
+      image: /images/fav/home_mini.jpg
+
+    - text: Google Pixel 3
+      link: https://www.blog.google/products/pixel/google-pixel-3/
+      image: /images/fav/pixel_3.jpg
+
     - text: HP Veer
       link: https://en.m.wikipedia.org/wiki/HP_Veer
       image: /images/fav/veer.jpg
@@ -294,6 +361,14 @@ things:
 
 
   misc:
+    - text: Exent
+      link: 
+      image: /images/fav/exent.jpg
+
+    - text: HHKB Pro 2
+      link: 
+      image: /images/fav/hhkb.jpg
+
     - text: Instrmnt 01
       link: https://vimeo.com/128077305
       image: /images/fav/instrmnt.jpg
@@ -320,6 +395,10 @@ movies:
     link: https://www.youtube.com/watch?v=EoQuVnKhxaM
     image: /images/fav/ex_machina.jpg
 
+  - text: Mistaken for Strangers
+    link: https://www.youtube.com/watch?v=qUrBDEdeInw
+    image: /images/fav/mistaken_for_strangers.jpg
+
   - text: The Prestige
     link: https://youtu.be/ijXruSzfGEc
     image: /images/fav/the_prestige.jpg
@@ -341,7 +420,7 @@ tv:
     link: https://www.youtube.com/watch?v=_raEUMLL-ZI
     image: /images/fav/billions.jpg
 
-  - text: Bojack Horseman
+  - text: BoJack Horseman
     link: https://youtu.be/i1eJMig5Ik4
     image: /images/fav/bojack.jpg
 
@@ -457,6 +536,33 @@ music:
 
   - text: Transatlanticism
     link: https://open.spotify.com/track/7DDRPKLKFIvDbNSQmnz19Y?si=y3Q7YFhuT6eYMKu5qOgQVA
+
+clips:
+  - text: BoJack Horseman – Deep Down
+    link: https://youtu.be/KkG7x-hwqN8?t=20
+    image: /images/fav/deepdown.jpg
+  
+  - text: The Dark Knight – Bank Heist
+    link: https://www.youtube.com/watch?v=0OYBEquZ_j0&feature=youtu.be&t=54
+    image: /images/fav/bank.jpg
+
+  - text: Jon Bell – Last Talk of the Day
+    link: https://www.youtube.com/watch?v=b70KerNb0RA&feature=youtu.be&t=8
+    image: /images/fav/lasttalk.jpg
+
+  - text: The Social Network – Hand Covers Bruise
+    link: https://youtu.be/eafsZs0ZZpU
+    image: /images/fav/handbruise.jpg
+
+  - text: The West Wing – Time Zones
+    link: https://www.youtube.com/watch?v=-J1NHzQ1sgc
+    image: /images/fav/timezone.jpg
+
+  - text: Westworld – Playing with Fire
+    link: https://youtu.be/5en7XIUv6D0
+    image: /images/fav/fishtank.jpg
+
+
 
 
 quotes:

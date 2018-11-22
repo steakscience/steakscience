@@ -2,6 +2,7 @@
 layout: post
 author: Nirawit Jittipairoj
 title:  Soylent, Three Years Later
+subtitle: Why don’t you like real food?
 date:   2017-12-19
 categories: culture
 image: /images/soylent_3/hero.jpg

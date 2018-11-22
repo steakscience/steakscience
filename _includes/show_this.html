@@ -1,0 +1,18 @@
+{% include title_bar.html %}
+
+<link rel="stylesheet" property="stylesheet" href="/css/this.css">
+
+<!-- article wrap -->
+<article class="db f4-ns f5 lh-copy black-70 titlePad cf" id="thisBody" itemprop="articleBody">
+
+	{{include.myPost.content | widont | jt_caps | jt_emdash}}
+
+</article>
+	
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+crossorigin="anonymous">
+</script>

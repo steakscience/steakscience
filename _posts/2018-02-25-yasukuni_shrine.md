@@ -2,6 +2,7 @@
 layout: post
 author: Nirawit Jittipairoj
 title:  Hanging out with the Yakuza at Yasukuni Shrine
+subtitle: A Journey into Japan’s Right-Wing Nationalism
 date:   2018-02-25
 categories: culture
 image: /images/yasukuni/hero.jpg
@@ -15,7 +16,7 @@ After World War II, the United States imposed the separation of church and state
 
 In the 70s, priests secretly enshrined the souls of a thousand war criminals, including those directly responsible for planning and ordering atrocities in WWII. Enshrinement effectively erased their sins and their souls are now honored alongside other servicemen and women.
 
-As a result, Yasukuni Shrine has since been mired in controversy. Japan is a pacifist country now, with its constitution outlawing war and a proper military[^1]. As such, many Japanese oppose the enshrinement, seeing it as a step backwards to Japan’s imperialist past. Asian countries, having been victims of Japan’s war crimes, see the shrine as a celebration of Japan’s actions in the war and a lack of remorse.
+As a result, Yasukuni Shrine has since been mired in controversy. Japan is a pacifist country now, with its constitution outlawing war and a proper military.[^1] As such, many Japanese oppose the enshrinement, seeing it as a step backwards to Japan’s imperialist past. Asian countries, having been victims of Japan’s war crimes, see the shrine as a celebration of Japan’s actions in the war and a lack of remorse.
 
 Every once in a while, Prime Minister Shinzō Abe and his ruling party will visit the shrine as a way to please their nationalist and yakuza friends. [On this anniversary day, Abe sent members of his cabinet there on his behalf](https://www.japantimes.co.jp/news/2017/08/15/national/politics-diplomacy/abe-cabinet-steer-clear-war-linked-yasukuni-shrine-anniversary-world-war-ii-surrender/) to avoid souring relations with China and South Korea, as he sought to work with them on the North Korean issue.
 
@@ -117,7 +118,7 @@ The Yakuza operates largely in the open. They have offices that politicians visi
 ![](/images/yasukuni/DSC03827.jpg)
 {% endfigure %}
 
-Knowing all that, I still found it surprising that everyone was just nonchalantly mingling with them. In fact, I think one of them made some room for me as I tried to find a spot to eat some yakisoba[^n] (the cafeteria sold overpriced food and beer).
+Knowing all that, I still found it surprising that everyone was just nonchalantly mingling with them. In fact, I think one of them made some room for me as I tried to find a spot to eat some yakisoba (the cafeteria sold overpriced food and beer).[^n]
 
 {% figure %}
 ![](/images/yasukuni/DSC03831.jpg)

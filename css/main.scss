@@ -22,6 +22,12 @@ body {
   height: 100%;
 
   overflow-x: hidden;
+
+  transition: all .2s ease;
+}
+
+.lh-copy {
+	line-height: 1.4;
 }
 
 h1, h2, h3, h4 {
@@ -87,6 +93,8 @@ blockquote {
  	margin-top: -2rem;
  	padding-right: 0.8rem;
 }
+
+
 
 /*small*/
 @media screen and (min-width: 20em) {
@@ -206,8 +214,22 @@ blockquote {
 		min-width: 0;
 	}
 
+	.subtitle {
+		font-size: 1.5rem;
+	}
+
 	.footerBlock p {
-		max-width: 14em;
+		max-width: 10em;
+	}
+
+	#nav {
+		padding-top: 2rem;
+	}
+}
+
+@media screen and (min-width: 26em) {
+	.footerBlock p {
+		max-width: 18em;
 	}
 }
 
@@ -219,6 +241,10 @@ blockquote {
 
 /*big*/
 @media screen and (min-width: 60em) {
+	#nav {
+		padding-top: 3rem;
+	}
+
 	.f45 {
 		font-size: 1.15rem;
 	}
@@ -318,8 +344,8 @@ blockquote {
 	:root {
 		--menuWidth: 30vw;
 		--translateAmount: -30vw;
-		/*--leftStrip: 15vw;*/
-		--leftStrip: 20vw;
+		--leftStrip: 15vw;
+		/*--leftStrip: 20vw;*/
 		--rightMargin: 10%;
 		--titlePad: 10vw;
 	}
@@ -335,6 +361,10 @@ blockquote {
 
 	.footerBlock p {
 		max-width: none;
+	}
+
+	.subtitle {
+		font-size: 1.8rem;
 	}
 
 }
@@ -410,7 +440,8 @@ hr {
 
     display: block;
     margin-bottom: -0.3rem;
-    margin-top: 1.5rem;
+    /*margin-top: 1.5rem;*/
+    margin-top: 0.5rem;
 
     color: rgba(0,0,0,0.75);
 
@@ -642,14 +673,14 @@ figure.src figcaption a {
 
 html.blue {
     /*--color-light: #E8F0F3;*/
-    --color-light: #fafcfd;
+    --color-light: #f4fafd;
     --color-mid: #DDE8ED;
     --color-dark: #698792;
     --color-darker: #516d77;
 }
 
-html.red {
-    --color-light: #FBF5F6;
+html.pink {
+    --color-light: #fff5f7;
     /*--color-light: #fdeff1;*/
     --color-mid: #F6E2E5;
     --color-dark: #DB7A8A;
@@ -666,7 +697,7 @@ html.green {
 
 html.yellow {
     /*--color-light: #FDF7E6;*/
-    --color-light: #fdf9ef;
+    --color-light: #fffcf5;
     /*--color-light: #fff7e1;*/
     --color-mid: #FCEFCA;
     /*--color-dark: #EBCF80;*/
@@ -678,8 +709,8 @@ html.gray {
     --color-light: #F6F6F6;
     --color-mid: #E9E9E9;
     /*--color-dark: #9C9C9C;*/
-    --color-dark: #868686;
-    --color-darker: #808080;
+    --color-dark: #a5a5a5;
+    --color-darker: #8e8e8e;
 }
 
 html.purple {
@@ -694,10 +725,10 @@ html.purple {
 html.orange {
 	/*dubbed GRAPEFRUIT :)*/
 	/*--color-light: #fff2ef;*/
-	--color-light: #ffece8;
-    --color-mid: #fdc2b5;
-    --color-dark: #ff8a70;
-    --color-darker: #ff6f4f;
+	--color-light: #fffcf5;
+    --color-mid: #ffd5cb;
+    --color-dark: #ff8d73;
+    --color-darker: #ff7151;
 }
 
 /*end pallette*/
@@ -722,7 +753,22 @@ html.orange {
 	-webkit-text-decoration-color: var(--color-dark);
 }
 
-#postBody a:hover {
+#thisBody p a {
+	color: rgba(0,0,0,0.5);
+	text-decoration: underline;
+	text-decoration-color: var(--color-dark);
+	-webkit-text-decoration-color: var(--color-dark);
+}
+
+#postBody .inline-footnote.closed a, #postBody .inline-footnote.opened a, #postBody .inline-footnote.cloned a {
+	color: rgba(0,0,0,0.5);
+}
+
+#postBody a:hover, #postBody .inline-footnote.closed a:hover, #postBody .inline-footnote.opened a:hover, #postBody .inline-footnote.cloned a:hover {
+	color: var(--color-dark);
+}
+
+#thisBody p a:hover, #thisBody .inline-footnote.closed p a:hover, #thisBody .inline-footnote.opened p a:hover, #thisBody .inline-footnote.cloned p a:hover {
 	color: var(--color-dark);
 }
 
@@ -804,10 +850,6 @@ html.orange {
 	margin-top: -2rem;
 }
 
-#nav {
-	padding-top: 3rem;
-}
-
 #logo {
 	width: 6rem;
 }
@@ -868,10 +910,11 @@ html.orange {
 
 .favItem {
 	min-width: 14em;
+	max-width: 16em;
 	/*margin-right: 1.5rem;*/
 	padding-right: 1.5rem;
 	/*fixes wrapping on mobile*/
-	white-space: nowrap;
+	/*white-space: nowrap;*/
 }
 
 .footerBlock {

@@ -2,5 +2,13 @@
 layout: default
 ---
 {% assign post = site.posts.first %}
-{% include show_post.html myPost=post %}
+
+{% if post.layout == 'post' %}
+	{% include show_post.html myPost=post %}
+{% endif %}
+
+{% if post.layout == 'this' %}
+	{% include show_this.html myPost=post %}
+{% endif %}
+
 {% include footer.html myPost=post %}

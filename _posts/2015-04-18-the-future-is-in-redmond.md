@@ -2,6 +2,7 @@
 layout: post
 author: Nirawit Jittipairoj
 title: The Future is in Redmond
+subtitle: Windows Across Your Universe
 date: 2015-04-18
 categories: technology
 image: /images/redmond/microsoft-13.jpg

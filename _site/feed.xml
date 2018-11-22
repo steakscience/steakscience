@@ -1,4 +1,369 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://steakscience.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://steakscience.com/" rel="alternate" type="text/html" /><updated>2018-08-31T14:33:24-07:00</updated><id>http://steakscience.com/</id><title type="html">steakscience</title><subtitle>A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj.</subtitle><entry><title type="html">UW Design Show 2018</title><link href="http://steakscience.com/uw_design_show/" rel="alternate" type="text/html" title="UW Design Show 2018" /><published>2018-06-09T00:00:00-07:00</published><updated>2018-06-09T00:00:00-07:00</updated><id>http://steakscience.com/uw_design_show</id><content type="html" xml:base="http://steakscience.com/uw_design_show/">&lt;p&gt;Every year, graduating &lt;a href=&quot;https://art.washington.edu/design&quot; target=&quot;_blank&quot;&gt;UW Design&lt;/a&gt; students put together a show to exhibit their best work.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-21T20:16:58-08:00</updated><id>http://localhost:4000/</id><title type="html">steakscience</title><subtitle>A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj.</subtitle><entry><title type="html">This! – “What’s a Computer?” Edition</title><link href="http://localhost:4000/this_whats_a_computer/" rel="alternate" type="text/html" title="This! – “What’s a Computer?” Edition" /><published>2018-11-16T00:00:00-08:00</published><updated>2018-11-16T00:00:00-08:00</updated><id>http://localhost:4000/this_whats_a_computer</id><content type="html" xml:base="http://localhost:4000/this_whats_a_computer/">&lt;div class=&quot;w-100 db mb3 cf&quot;&gt;
+	&lt;div class=&quot;v-top dib-ns db fl&quot;&gt;
+		&lt;a href=&quot;https://youtu.be/YfJ3QxJYsw8&quot; target=&quot;_blank&quot; class=&quot;black-70 hover-black-60&quot;&gt;
+			&lt;h2 class=&quot;f4-ns f5 mb1 lh-title mw5&quot;&gt;Steve Jobs on the Post-PC Era&lt;/h2&gt;
+		&lt;/a&gt;
+		&lt;p class=&quot;f6 mb0 lh-title black-40 mt1&quot;&gt;#watch&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;v-top dib-ns db fr-ns fl mb3-ns mb2&quot;&gt;
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;The same year Apple released the first iPad, Steve Jobs announced that the PC era was over.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;The same year Apple released the first iPad, Steve Jobs announced that the PC era was over.&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;PCs, like trucks, were once important, he said. But now, most people don’t really need all that added functionality that trucks offer anymore—they just need sedans, or in this case, tablets.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;PCs, like trucks, were once important, he said. But now, most people don’t really need all that added functionality that trucks offer anymore—they just need sedans, or in this case, tablets.&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;It’s incredible how prescient this statement was. Sure, some people still need a traditional desktop setup, but the vast majority of people are so much happier on iPads. For them, they’re not missing out on any functionality. Heck, they’re probably even more empowered now, since traditional computers were so user-hostile that it was impossible to fully harness their functionality anyway.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;It’s incredible how prescient this statement was. Sure, some people still need a traditional desktop setup, but the vast majority of people are so much happier on iPads. For them, they’re not missing out on any functionality. Heck, they’re probably even more empowered now, since traditional computers were so user-hostile that it was impossible to fully harness their functionality anyway.&lt;/p&gt;
+
+		
+	&lt;/div&gt;
+
+	
+
+	
+		&lt;div class=&quot;w-100 db mb3 cf&quot;&gt;
+		&lt;div class=&quot;embed-container&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/YfJ3QxJYsw8&quot; width=&quot;700&quot; height=&quot;480&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+		&lt;/div&gt;
+	
+
+	
+
+&lt;/div&gt;
+
+&lt;div class=&quot;w-100 db mb3 cf&quot;&gt;
+	&lt;div class=&quot;v-top dib-ns db fl&quot;&gt;
+		&lt;a href=&quot;https://vimeo.com/244960609&quot; target=&quot;_blank&quot; class=&quot;black-70 hover-black-60&quot;&gt;
+			&lt;h2 class=&quot;f4-ns f5 mb1 lh-title mw5&quot;&gt;Apple’s “What’s a Computer?” Ad&lt;/h2&gt;
+		&lt;/a&gt;
+		&lt;p class=&quot;f6 mb0 lh-title black-40 mt1&quot;&gt;#watch&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;v-top dib-ns db fr-ns fl mb3-ns mb2&quot;&gt;
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;In what is probably the greatest ad ever, Apple asks “what’s a computer”?&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;In what is probably the greatest ad ever, Apple asks “what’s a computer”?&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;For many of us, computers are clunky machines running archaic operating systems with a modern sheen. Sure, they’re more portable now, and some of them are pretty good.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;For many of us, computers are clunky machines running archaic operating systems with a modern sheen. Sure, they’re more portable now, and some of them are pretty good.&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;We don’t really consider tablets to be computers. We’re told “they’re not for real work” and “they can’t do X or Y,” but they can and they are great. They’re perfect for those who don’t want to worry about file management, viruses, hard drive failures, and the rest of that nightmare. To borrow an Apple phrase from the past, iPads are “computers for the rest of us.”&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;We don’t really consider tablets to be computers. We’re told “they’re not for real work” and “they can’t do X or Y,” but they can and they are great. They’re perfect for those who don’t want to worry about file management, viruses, hard drive failures, and the rest of that nightmare. To borrow an Apple phrase from the past, iPads are “computers for the rest of us.”&lt;/p&gt;
+
+		
+	&lt;/div&gt;
+
+	
+		&lt;div class=&quot;w-100 db mb3 cf&quot;&gt;
+		&lt;!-- https://github.com/nathancy/jekyll-embed-video --&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+  &lt;iframe width=&quot;500&quot; height=&quot;281&quot; src=&quot;https://player.vimeo.com/video/244960609?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+		&lt;/div&gt;
+	
+
+	
+
+	
+		
+		&lt;img src=&quot;/images/this/ipad.jpg&quot; class=&quot;w-100 db mb3&quot; /&gt;
+		
+	
+
+&lt;/div&gt;
+
+&lt;div class=&quot;w-100 db mb3 cf&quot;&gt;
+	&lt;div class=&quot;v-top dib-ns db fl&quot;&gt;
+		&lt;a href=&quot;https://www.wired.com/story/surface-go-microsofts-big-bet-on-a-tiny-computer-future/&quot; target=&quot;_blank&quot; class=&quot;black-70 hover-black-60&quot;&gt;
+			&lt;h2 class=&quot;f4-ns f5 mb1 lh-title mw5&quot;&gt;Surface Go&lt;/h2&gt;
+		&lt;/a&gt;
+		&lt;p class=&quot;f6 mb0 lh-title black-40 mt1&quot;&gt;#read&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;v-top dib-ns db fr-ns fl mb3-ns mb2&quot;&gt;
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;&lt;a href=&quot;/the-future-is-in-redmond/&quot;&gt;I have a soft spot for the Surface family of devices&lt;/a&gt;. They are gorgeous and the people behind them are empathetic craftsmen. They’re not just talking the talk when they say they want to make tools for everyday people, they mean it and they try their absolute hardest.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;&lt;a href=&quot;/the-future-is-in-redmond/&quot;&gt;I have a soft spot for the Surface family of devices&lt;/a&gt;. They are gorgeous and the people behind them are empathetic craftsmen. They’re not just talking the talk when they say they want to make tools for everyday people, they mean it and they try their absolute hardest.&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;The problem is, their tools run an archaic operating system. So as much as the Surface Go wants to embrace the future, it’s anchored down by the past.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;The problem is, their tools run an archaic operating system. So as much as the Surface Go wants to embrace the future, it’s anchored down by the past.&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;Tablet mode on Windows is a mess and while the Surface Go is very portable, it’s still using a traditional Intel processor that is slow and power-hungry. Meanwhile, the new iPads are more performant than MacBook Pros, despite running a power-efficient processor.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;Tablet mode on Windows is a mess and while the Surface Go is very portable, it’s still using a traditional Intel processor that is slow and power-hungry. Meanwhile, the new iPads are more performant than MacBook Pros, despite running a power-efficient processor.&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;If this is a battle to create the computer of the future, Microsoft is betting on gasoline-powered tanks while Apple is using space lasers.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;If this is a battle to create the computer of the future, Microsoft is betting on gasoline-powered tanks while Apple is using space lasers.&lt;/p&gt;
+
+		
+	&lt;/div&gt;
+
+	
+
+	
+
+	
+		
+		&lt;img src=&quot;/images/this/surface_go1.jpg&quot; class=&quot;w-100 db mb3&quot; /&gt;
+		
+		&lt;img src=&quot;/images/this/surface_go2.jpg&quot; class=&quot;w-100 db mb3&quot; /&gt;
+		
+	
+
+&lt;/div&gt;
+
+&lt;div class=&quot;w-100 db mb3 cf&quot;&gt;
+	&lt;div class=&quot;v-top dib-ns db fl&quot;&gt;
+		&lt;a href=&quot;https://www.docubyte.com/works/guide-to-computing/&quot; target=&quot;_blank&quot; class=&quot;black-70 hover-black-60&quot;&gt;
+			&lt;h2 class=&quot;f4-ns f5 mb1 lh-title mw5&quot;&gt;James Ball’s Guide to Computing&lt;/h2&gt;
+		&lt;/a&gt;
+		&lt;p class=&quot;f6 mb0 lh-title black-40 mt1&quot;&gt;#look&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;v-top dib-ns db fr-ns fl mb3-ns mb2&quot;&gt;
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;James Ball is really good at photographing computers. Like, really good.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;James Ball is really good at photographing computers. Like, really good.&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;His latest work is a “visual history of computing”, which is basically a collection of beautiful pictures of old computers, photographed in the most minimalist and cleanest way possible.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;His latest work is a “visual history of computing”, which is basically a collection of beautiful pictures of old computers, photographed in the most minimalist and cleanest way possible.&lt;/p&gt;
+
+		
+	&lt;/div&gt;
+
+	
+
+	
+
+	
+		
+		&lt;img src=&quot;/images/this/james_ball1.jpg&quot; class=&quot;w-100 db mb3&quot; /&gt;
+		
+		&lt;img src=&quot;/images/this/james_ball2.png&quot; class=&quot;w-100 db mb3&quot; /&gt;
+		
+	
+
+&lt;/div&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">Steve Jobs on the Post-PC Era #watch The same year Apple released the first iPad, Steve Jobs announced that the PC era was over. PCs, like trucks, were once important, he said. But now, most people don’t really need all that added functionality that trucks offer anymore—they just need sedans, or in this case, tablets. It’s incredible how prescient this statement was. Sure, some people still need a traditional desktop setup, but the vast majority of people are so much happier on iPads. For them, they’re not missing out on any functionality. Heck, they’re probably even more empowered now, since traditional computers were so user-hostile that it was impossible to fully harness their functionality anyway. Apple’s “What’s a Computer?” Ad #watch In what is probably the greatest ad ever, Apple asks “what’s a computer”? For many of us, computers are clunky machines running archaic operating systems with a modern sheen. Sure, they’re more portable now, and some of them are pretty good. We don’t really consider tablets to be computers. We’re told “they’re not for real work” and “they can’t do X or Y,” but they can and they are great. They’re perfect for those who don’t want to worry about file management, viruses, hard drive failures, and the rest of that nightmare. To borrow an Apple phrase from the past, iPads are “computers for the rest of us.” Surface Go #read I have a soft spot for the Surface family of devices. They are gorgeous and the people behind them are empathetic craftsmen. They’re not just talking the talk when they say they want to make tools for everyday people, they mean it and they try their absolute hardest. The problem is, their tools run an archaic operating system. So as much as the Surface Go wants to embrace the future, it’s anchored down by the past. Tablet mode on Windows is a mess and while the Surface Go is very portable, it’s still using a traditional Intel processor that is slow and power-hungry. Meanwhile, the new iPads are more performant than MacBook Pros, despite running a power-efficient processor. If this is a battle to create the computer of the future, Microsoft is betting on gasoline-powered tanks while Apple is using space lasers. James Ball’s Guide to Computing #look James Ball is really good at photographing computers. Like, really good. His latest work is a “visual history of computing”, which is basically a collection of beautiful pictures of old computers, photographed in the most minimalist and cleanest way possible.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/this/ipad.jpg" /></entry><entry><title type="html">This! – “Beautiful Gradation of Textures” Edition</title><link href="http://localhost:4000/this_beautiful_gradation_edition/" rel="alternate" type="text/html" title="This! – “Beautiful Gradation of Textures” Edition" /><published>2018-11-08T00:00:00-08:00</published><updated>2018-11-08T00:00:00-08:00</updated><id>http://localhost:4000/this_beautiful_gradation_edition</id><content type="html" xml:base="http://localhost:4000/this_beautiful_gradation_edition/">&lt;div class=&quot;w-100 db mb3 cf&quot;&gt;
+	&lt;div class=&quot;v-top dib-ns db fl&quot;&gt;
+		&lt;a href=&quot;https://jackmarple.com/&quot; target=&quot;_blank&quot; class=&quot;black-70 hover-black-60&quot;&gt;
+			&lt;h2 class=&quot;f4-ns f5 mb1 lh-title mw5&quot;&gt;Moon Tray&lt;/h2&gt;
+		&lt;/a&gt;
+		&lt;p class=&quot;f6 mb0 lh-title black-40 mt1&quot;&gt;#look&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;v-top dib-ns db fr-ns fl mb3-ns mb2&quot;&gt;
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;I recently came across the work of Jack Marple, an industrial designer based in Seattle.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;I recently came across the work of Jack Marple, an industrial designer based in Seattle.&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;One particularly interesting piece of his work is Moon Tray, a concrete dish for storing random odds and ends. It’s a pretty straightforward product, but the twist lies in the concept and the material.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;One particularly interesting piece of his work is Moon Tray, a concrete dish for storing random odds and ends. It’s a pretty straightforward product, but the twist lies in the concept and the material.&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;We all dream of making something simple, beautiful, and delightful. This is it. The tray is a simple geometric form with a dish created by a spherical depression. As a result, the dish mimics the moon, and the concrete creates a moon-like surface.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;We all dream of making something simple, beautiful, and delightful. This is it. The tray is a simple geometric form with a dish created by a spherical depression. As a result, the dish mimics the moon, and the concrete creates a moon-like surface.&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;It’s delicate and brutalist at the same time. It’s pretty neat.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;It’s delicate and brutalist at the same time. It’s pretty neat.&lt;/p&gt;
+
+		
+	&lt;/div&gt;
+
+	
+
+	
+
+	
+		
+		&lt;img src=&quot;/images/this/moontray1.png&quot; class=&quot;w-100 db mb3&quot; /&gt;
+		
+		&lt;img src=&quot;/images/this/moontray2.jpg&quot; class=&quot;w-100 db mb3&quot; /&gt;
+		
+	
+
+&lt;/div&gt;
+
+&lt;div class=&quot;w-100 db mb3 cf&quot;&gt;
+	&lt;div class=&quot;v-top dib-ns db fl&quot;&gt;
+		&lt;a href=&quot;https://jackmarple.com/&quot; target=&quot;_blank&quot; class=&quot;black-70 hover-black-60&quot;&gt;
+			&lt;h2 class=&quot;f4-ns f5 mb1 lh-title mw5&quot;&gt;Gradient Flatware&lt;/h2&gt;
+		&lt;/a&gt;
+		&lt;p class=&quot;f6 mb0 lh-title black-40 mt1&quot;&gt;#look&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;v-top dib-ns db fr-ns fl mb3-ns mb2&quot;&gt;
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;Also by Marple is Gradient Flatware. Also a very simple concept with an interesting twist.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;Also by Marple is Gradient Flatware. Also a very simple concept with an interesting twist.&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;Our hands yearn for tactility while our mouths love smoothness. So Marple designed utensils with this in mind: one end being smooth and the other being coarse, and in between, a beautiful gradation of textures.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;Our hands yearn for tactility while our mouths love smoothness. So Marple designed utensils with this in mind: one end being smooth and the other being coarse, and in between, a beautiful gradation of textures.&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;Now as you read this, you’re probably thinking, “this is so obvious. Of course things should be this way!” Well, they aren’t and that’s what makes this design so Fukasawa-esque.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;Now as you read this, you’re probably thinking, “this is so obvious. Of course things should be this way!” Well, they aren’t and that’s what makes this design so Fukasawa-esque.&lt;/p&gt;
+
+		
+	&lt;/div&gt;
+
+	
+
+	
+
+	
+		
+		&lt;img src=&quot;/images/this/gradient1.jpg&quot; class=&quot;w-100 db mb3&quot; /&gt;
+		
+		&lt;img src=&quot;/images/this/gradient2.jpg&quot; class=&quot;w-100 db mb3&quot; /&gt;
+		
+	
+
+&lt;/div&gt;
+
+&lt;div class=&quot;w-100 db mb3 cf&quot;&gt;
+	&lt;div class=&quot;v-top dib-ns db fl&quot;&gt;
+		&lt;a href=&quot;https://www.ideo.com/blog/why-this-cartoonist-keeps-pitching-the-new-yorker-even-after-100-rejections&quot; target=&quot;_blank&quot; class=&quot;black-70 hover-black-60&quot;&gt;
+			&lt;h2 class=&quot;f4-ns f5 mb1 lh-title mw5&quot;&gt;Why This Cartoonist Keeps Pitching the New Yorker—Even After 100 Rejections&lt;/h2&gt;
+		&lt;/a&gt;
+		&lt;p class=&quot;f6 mb0 lh-title black-40 mt1&quot;&gt;#read&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;v-top dib-ns db fr-ns fl mb3-ns mb2&quot;&gt;
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;Juan Astasio, a designer at IDEO, is such an inspiration.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;Juan Astasio, a designer at IDEO, is such an inspiration.&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;He dreams of publishing cartoons in The New Yorker magazine, and has spent years and years sending in submissions, only to be rejected every time. One of his cartoons was described by the curator as “the worst he has ever seen.”&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;He dreams of publishing cartoons in The New Yorker magazine, and has spent years and years sending in submissions, only to be rejected every time. One of his cartoons was described by the curator as “the worst he has ever seen.”&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;I’m a designer myself and sure, rejection is part of the job. But I’d be lying if I said rejection doesn’t hurt, and that my conviction doesn’t sway after failure. What sets Juan apart is exactly this: he isn’t deterred. In fact, his conviction gets stronger every time.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;I’m a designer myself and sure, rejection is part of the job. But I’d be lying if I said rejection doesn’t hurt, and that my conviction doesn’t sway after failure. What sets Juan apart is exactly this: he isn’t deterred. In fact, his conviction gets stronger every time.&lt;/p&gt;
+
+		
+		&lt;!-- &lt;p class=&quot;measure lh-copy black-60&quot;&gt;&lt;p&gt;I used to think that the most important trait for a creative is curiosity. I don’t think that’s the case anymore—it’s resolve.&lt;/p&gt;
+&lt;/p&gt; --&gt;
+		&lt;p&gt;I used to think that the most important trait for a creative is curiosity. I don’t think that’s the case anymore—it’s resolve.&lt;/p&gt;
+
+		
+	&lt;/div&gt;
+
+	
+
+	
+
+	
+		
+		&lt;img src=&quot;/images/this/cartoon1.jpg&quot; class=&quot;w-100 db mb3&quot; /&gt;
+		
+		&lt;img src=&quot;/images/this/cartoon2.jpg&quot; class=&quot;w-100 db mb3&quot; /&gt;
+		
+	
+
+&lt;/div&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">Moon Tray #look I recently came across the work of Jack Marple, an industrial designer based in Seattle. One particularly interesting piece of his work is Moon Tray, a concrete dish for storing random odds and ends. It’s a pretty straightforward product, but the twist lies in the concept and the material. We all dream of making something simple, beautiful, and delightful. This is it. The tray is a simple geometric form with a dish created by a spherical depression. As a result, the dish mimics the moon, and the concrete creates a moon-like surface. It’s delicate and brutalist at the same time. It’s pretty neat. Gradient Flatware #look Also by Marple is Gradient Flatware. Also a very simple concept with an interesting twist. Our hands yearn for tactility while our mouths love smoothness. So Marple designed utensils with this in mind: one end being smooth and the other being coarse, and in between, a beautiful gradation of textures. Now as you read this, you’re probably thinking, “this is so obvious. Of course things should be this way!” Well, they aren’t and that’s what makes this design so Fukasawa-esque. Why This Cartoonist Keeps Pitching the New Yorker—Even After 100 Rejections #read Juan Astasio, a designer at IDEO, is such an inspiration. He dreams of publishing cartoons in The New Yorker magazine, and has spent years and years sending in submissions, only to be rejected every time. One of his cartoons was described by the curator as “the worst he has ever seen.” I’m a designer myself and sure, rejection is part of the job. But I’d be lying if I said rejection doesn’t hurt, and that my conviction doesn’t sway after failure. What sets Juan apart is exactly this: he isn’t deterred. In fact, his conviction gets stronger every time. I used to think that the most important trait for a creative is curiosity. I don’t think that’s the case anymore—it’s resolve.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/this/moontray2.jpg" /></entry><entry><title type="html">Westworld is Beautiful</title><link href="http://localhost:4000/westworld_is_beautiful/" rel="alternate" type="text/html" title="Westworld is Beautiful" /><published>2018-10-29T00:00:00-07:00</published><updated>2018-10-29T00:00:00-07:00</updated><id>http://localhost:4000/westworld_is_beautiful</id><content type="html" xml:base="http://localhost:4000/westworld_is_beautiful/">&lt;p&gt;If you have not seen &lt;em&gt;Westworld&lt;/em&gt;, you need to see it. The show is incredibly timely. It deals with topics like artificial intelligence and consciousness. It also has great writing and it’s full intricately crafted mysteries. The harder you look at the show, the better it gets.&lt;/p&gt;
+
+&lt;p&gt;But that’s not what we’re here to discuss.&lt;/p&gt;
+
+&lt;p&gt;When watching the show and scrutinizing every line dialogue to decipher what is happening, it’s easy to forget how beautiful the show is. It’s clear that Jonathan Nolan, Lisa Joy, and their team sweat over every shot, and the resulting product is gorgeous.&lt;/p&gt;
+
+&lt;p&gt;But hey, show don’t tell. So here you go: a masterfully edited video by Alejandro Brun, set to the show’s cover of &lt;em&gt;Runaway&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Enjoy it fullscreen, with the audio on.&lt;/p&gt;
+
+&lt;!-- https://github.com/nathancy/jekyll-embed-video --&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+  &lt;iframe width=&quot;500&quot; height=&quot;281&quot; src=&quot;https://player.vimeo.com/video/278340319?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">If you have not seen Westworld, you need to see it. The show is incredibly timely. It deals with topics like artificial intelligence and consciousness. It also has great writing and it’s full intricately crafted mysteries. The harder you look at the show, the better it gets.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/westworld/hero.jpg" /></entry><entry><title type="html">Why is Microsoft Pushing Edge so Aggressively?</title><link href="http://localhost:4000/why_is_microsoft_pushing_edge_so_aggressively/" rel="alternate" type="text/html" title="Why is Microsoft Pushing Edge so Aggressively?" /><published>2018-09-12T00:00:00-07:00</published><updated>2018-09-12T00:00:00-07:00</updated><id>http://localhost:4000/why_is_microsoft_pushing_edge_so_aggressively</id><content type="html" xml:base="http://localhost:4000/why_is_microsoft_pushing_edge_so_aggressively/">&lt;p&gt;Today, some users using a preview version of Windows noticed &lt;a href=&quot;https://www.theverge.com/2018/9/12/17850146/microsoft-windows-10-chrome-firefox-warning&quot; target=&quot;_blank&quot;&gt;something strange when they tried to install Chrome or Firefox&lt;/a&gt;. Windows would hijack their installer with a warning, proclaiming, “you already have Microsoft Edge – the safer, faster browser for Windows 10.”&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/images/edge/warning.jpg&quot; alt=&quot;&quot; /&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;Windows is perplexed and clearly annoyed. Sure, &lt;em&gt;if you must&lt;/em&gt;, you can bypass the warning and install Chrome, but &lt;em&gt;why won’t you just use the safer, faster browser?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This is bizarre to be sure, but this &lt;a href=&quot;https://www.cnet.com/how-to/turn-off-windows-10s-pushy-edge-notifications/&quot; target=&quot;_blank&quot;&gt;isn’t the first time Microsoft has tried—aggressively—to get users to use Edge&lt;/a&gt;. Currently, users running Chrome get notifications about the woes of Chrome (it hurts battery life) and wonders of Edge (it’s built for Windows 10, whatever that means).&lt;/p&gt;
+
+&lt;figure class=&quot;w-60-ns&quot;&gt;
+  &lt;img src=&quot;/images/edge/notification.png&quot; alt=&quot;&quot; /&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;So all this begs the question, why does it matter what browser people use? Why is Microsoft forcing Edge on everyone?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;microsoft-the-services-company&quot;&gt;Microsoft, the Services Company&lt;/h2&gt;
+
+&lt;p&gt;In the past, Windows and Office were cash cows and they basically ruled the company.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Nowadays, not so much. Microsoft wanted everyone on Windows 10 so much that they gave it away for free, then extended the free period because people were still using Windows 7, then extended it again. As for Office, it’s all subscription-based now, and unless you work in a company that buys into the Microsoft ecosystem, you’re probably not using Office, you use Google Docs instead. So Microsoft just wants to get everyone to use their services.&lt;/p&gt;
+
+&lt;p&gt;How is this related to Edge? According to Microsofters (Microsofties?) I talked to, the company’s internal metrics show that people who use Edge use more Microsoft services (OneDrive, Office, Outlook, etc). This means that to get more people on Office 365, Microsoft has to get them to browse the web with Edge.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;correlation-and-causation&quot;&gt;Correlation and Causation&lt;/h2&gt;
+
+&lt;p&gt;In statistics, people throw around the phrase “correlation does not imply causation” a lot and it’s very useful. For example, ice cream sales and the rate of drowning deaths seem to have a direct relationship. As ice cream sales go up, more people drown.&lt;sup id=&quot;fnref:n&quot;&gt;&lt;a href=&quot;#fn:n&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; This would imply that ice cream causes people to drown, but obviously, that’s not the case. But for other contexts, say, an increase in Edge usage and more adoption of Microsoft services, that can be harder to ascertain.&lt;/p&gt;
+
+&lt;p&gt;I haven’t seen Microsoft’s internal metrics, so this next part is pure speculation.&lt;/p&gt;
+
+&lt;p&gt;Does Edge really increase adoption of Microsoft services? I struggle to see the direct line between someone using Edge and someone buying an Office subscription.&lt;/p&gt;
+
+&lt;p&gt;My suspicion is that there is no direct causation — one does not cause the other. Rather, people who use Edge are less-savvy users who stick to the defaults and services recommended to them (in this case, Microsoft services). This means that these people aren’t using these services because of Edge, but because they use whatever Windows tells them to use.&lt;/p&gt;
+
+&lt;p&gt;So, does repeatedly pestering Chrome and Firefox users to switch to Edge result in more Office subscriptions? Probably not. These users are more savvy and make their own decisions on which services to use, so blindly pushing Edge on users is most likely not productive. Probably unproductive.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Windows and Office teams used to fight &lt;em&gt;a lot&lt;/em&gt;. If you ever meet an older MSFT employee at a party, ask them for Windows vs Office stories. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:n&quot;&gt;
+      &lt;p&gt;For a list of funny correlation not causation examples, check out &lt;a href=&quot;http://www.tylervigen.com/spurious-correlations&quot; target=&quot;_blank&quot;&gt;this website&lt;/a&gt; &lt;a href=&quot;#fnref:n&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">Today, some users using a preview version of Windows noticed something strange when they tried to install Chrome or Firefox. Windows would hijack their installer with a warning, proclaiming, “you already have Microsoft Edge – the safer, faster browser for Windows 10.”</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/edge/hero.jpg" /></entry><entry><title type="html">UW Design Show 2018</title><link href="http://localhost:4000/uw_design_show/" rel="alternate" type="text/html" title="UW Design Show 2018" /><published>2018-06-09T00:00:00-07:00</published><updated>2018-06-09T00:00:00-07:00</updated><id>http://localhost:4000/uw_design_show</id><content type="html" xml:base="http://localhost:4000/uw_design_show/">&lt;p&gt;Every year, graduating &lt;a href=&quot;https://art.washington.edu/design&quot; target=&quot;_blank&quot;&gt;UW Design&lt;/a&gt; students put together a show to exhibit their best work.&lt;/p&gt;
 
 &lt;p&gt;This year, I’m part of the graduating class and I think we’ve put together an incredible show. We are showcasing critical, interesting, and wide-ranging work. There’s some great convention stuff, along with some more conceptual and vulnerable work on display.&lt;/p&gt;
 
@@ -65,7 +430,7 @@ Saturday 1–5pm
 &lt;figure&gt;
   &lt;img src=&quot;/images/design_show/8.jpg&quot; alt=&quot;&quot; /&gt;
   
-&lt;/figure&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">Every year, graduating UW Design students put together a show to exhibit their best work.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://steakscience.com/images/design_show/hero.jpg" /></entry><entry><title type="html">21_21 DESIGN SIGHT</title><link href="http://steakscience.com/2121_design_sight/" rel="alternate" type="text/html" title="21_21 DESIGN SIGHT" /><published>2018-04-21T00:00:00-07:00</published><updated>2018-04-21T00:00:00-07:00</updated><id>http://steakscience.com/2121_design_sight</id><content type="html" xml:base="http://steakscience.com/2121_design_sight/">&lt;p&gt;To the Western world, Naoto Fukasawa is known as the designer behind many iconic Muji products.&lt;/p&gt;
+&lt;/figure&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">Every year, graduating UW Design students put together a show to exhibit their best work.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/design_show/hero.jpg" /></entry><entry><title type="html">21_21 DESIGN SIGHT</title><link href="http://localhost:4000/2121_design_sight/" rel="alternate" type="text/html" title="21_21 DESIGN SIGHT" /><published>2018-04-21T00:00:00-07:00</published><updated>2018-04-21T00:00:00-07:00</updated><id>http://localhost:4000/2121_design_sight</id><content type="html" xml:base="http://localhost:4000/2121_design_sight/">&lt;p&gt;To the Western world, Naoto Fukasawa is known as the designer behind many iconic Muji products.&lt;/p&gt;
 
 &lt;p&gt;To the Japanese, Naoto is much more. He promotes design education and is a fixture in the Japanese scene. Naoto, together with fashion designer, Issey Miyaki, and graphic designer, Taku Satoh, founded the 21_21 DESIGN SIGHT museum, where they direct and curate each exhibit.&lt;/p&gt;
 
@@ -149,7 +514,7 @@ Saturday 1–5pm
 
 &lt;p&gt;There are other design museums in Tokyo, but 21_21 stands out as the most interesting one. Other museums, like the Nezu Museum, boasts design work, but in reality are filled with historic paintings and artifacts, not design work.&lt;/p&gt;
 
-&lt;p&gt;So, 21_21 is definitely worth a visit.&lt;/p&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">To the Western world, Naoto Fukasawa is known as the designer behind many iconic Muji products.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://steakscience.com/images/design_sight/hero.jpg" /></entry><entry><title type="html">Seattle Mini Maker Faire</title><link href="http://steakscience.com/seattle_mini_maker_faire/" rel="alternate" type="text/html" title="Seattle Mini Maker Faire" /><published>2018-03-15T00:00:00-07:00</published><updated>2018-03-15T00:00:00-07:00</updated><id>http://steakscience.com/seattle_mini_maker_faire</id><content type="html" xml:base="http://steakscience.com/seattle_mini_maker_faire/">&lt;p&gt;Every once in a while, some government somewhere bombastically declares that they’ll be creating the next Silicon Valley, along with announcing some kind of one-time investment (yeah, it’s going to take more commitment than that).&lt;/p&gt;
+&lt;p&gt;So, 21_21 is definitely worth a visit.&lt;/p&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">To the Western world, Naoto Fukasawa is known as the designer behind many iconic Muji products.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/design_sight/hero.jpg" /></entry><entry><title type="html">Seattle Mini Maker Faire</title><link href="http://localhost:4000/seattle_mini_maker_faire/" rel="alternate" type="text/html" title="Seattle Mini Maker Faire" /><published>2018-03-15T00:00:00-07:00</published><updated>2018-03-15T00:00:00-07:00</updated><id>http://localhost:4000/seattle_mini_maker_faire</id><content type="html" xml:base="http://localhost:4000/seattle_mini_maker_faire/">&lt;p&gt;Every once in a while, some government somewhere bombastically declares that they’ll be creating the next Silicon Valley, along with announcing some kind of one-time investment (yeah, it’s going to take more commitment than that).&lt;/p&gt;
 
 &lt;p&gt;That’s not how it works. It takes culture, education, talent, and time. You can’t just dump money at a borough in some city somewhere. That’s why Silicon Valley cannot be replicated, at least not that easily.&lt;/p&gt;
 
@@ -302,7 +667,7 @@ Saturday 1–5pm
   
 &lt;/figure&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;span class=&quot;black-60&quot;&gt;Photos taken on September 17&lt;sup&gt;th&lt;/sup&gt;, 2017&lt;/span&gt;&lt;/p&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">Every once in a while, some government somewhere bombastically declares that they’ll be creating the next Silicon Valley, along with announcing some kind of one-time investment (yeah, it’s going to take more commitment than that).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://steakscience.com/images/makerfaire/hero.jpg" /></entry><entry><title type="html">Hanging out with the Yakuza at Yasukuni Shrine</title><link href="http://steakscience.com/yasukuni_shrine/" rel="alternate" type="text/html" title="Hanging out with the Yakuza at Yasukuni Shrine" /><published>2018-02-25T00:00:00-08:00</published><updated>2018-02-25T00:00:00-08:00</updated><id>http://steakscience.com/yasukuni_shrine</id><content type="html" xml:base="http://steakscience.com/yasukuni_shrine/">&lt;p&gt;On the 72&lt;sup&gt;nd&lt;/sup&gt; anniversary of Japan’s surrender in World War II, I visited Yasukuni Shrine.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;span class=&quot;black-60&quot;&gt;Photos taken on September 17&lt;sup&gt;th&lt;/sup&gt;, 2017&lt;/span&gt;&lt;/p&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">Every once in a while, some government somewhere bombastically declares that they’ll be creating the next Silicon Valley, along with announcing some kind of one-time investment (yeah, it’s going to take more commitment than that).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/makerfaire/hero.jpg" /></entry><entry><title type="html">Hanging out with the Yakuza at Yasukuni Shrine</title><link href="http://localhost:4000/yasukuni_shrine/" rel="alternate" type="text/html" title="Hanging out with the Yakuza at Yasukuni Shrine" /><published>2018-02-25T00:00:00-08:00</published><updated>2018-02-25T00:00:00-08:00</updated><id>http://localhost:4000/yasukuni_shrine</id><content type="html" xml:base="http://localhost:4000/yasukuni_shrine/">&lt;p&gt;On the 72&lt;sup&gt;nd&lt;/sup&gt; anniversary of Japan’s surrender in World War II, I visited Yasukuni Shrine.&lt;/p&gt;
 
 &lt;p&gt;Yasukuni Shrine commemorates soldiers who fought and lost their lives in service of Japan. It is also where their souls are enshrined, resting peacefully for eternity.&lt;/p&gt;
 
@@ -310,7 +675,7 @@ Saturday 1–5pm
 
 &lt;p&gt;In the 70s, priests secretly enshrined the souls of a thousand war criminals, including those directly responsible for planning and ordering atrocities in WWII. Enshrinement effectively erased their sins and their souls are now honored alongside other servicemen and women.&lt;/p&gt;
 
-&lt;p&gt;As a result, Yasukuni Shrine has since been mired in controversy. Japan is a pacifist country now, with its constitution outlawing war and a proper military&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. As such, many Japanese oppose the enshrinement, seeing it as a step backwards to Japan’s imperialist past. Asian countries, having been victims of Japan’s war crimes, see the shrine as a celebration of Japan’s actions in the war and a lack of remorse.&lt;/p&gt;
+&lt;p&gt;As a result, Yasukuni Shrine has since been mired in controversy. Japan is a pacifist country now, with its constitution outlawing war and a proper military.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; As such, many Japanese oppose the enshrinement, seeing it as a step backwards to Japan’s imperialist past. Asian countries, having been victims of Japan’s war crimes, see the shrine as a celebration of Japan’s actions in the war and a lack of remorse.&lt;/p&gt;
 
 &lt;p&gt;Every once in a while, Prime Minister Shinzō Abe and his ruling party will visit the shrine as a way to please their nationalist and yakuza friends. &lt;a href=&quot;https://www.japantimes.co.jp/news/2017/08/15/national/politics-diplomacy/abe-cabinet-steer-clear-war-linked-yasukuni-shrine-anniversary-world-war-ii-surrender/&quot;&gt;On this anniversary day, Abe sent members of his cabinet there on his behalf&lt;/a&gt; to avoid souring relations with China and South Korea, as he sought to work with them on the North Korean issue.&lt;/p&gt;
 
@@ -442,7 +807,7 @@ Saturday 1–5pm
   
 &lt;/figure&gt;
 
-&lt;p&gt;Knowing all that, I still found it surprising that everyone was just nonchalantly mingling with them. In fact, I think one of them made some room for me as I tried to find a spot to eat some yakisoba&lt;sup id=&quot;fnref:n&quot;&gt;&lt;a href=&quot;#fn:n&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; (the cafeteria sold overpriced food and beer).&lt;/p&gt;
+&lt;p&gt;Knowing all that, I still found it surprising that everyone was just nonchalantly mingling with them. In fact, I think one of them made some room for me as I tried to find a spot to eat some yakisoba (the cafeteria sold overpriced food and beer).&lt;sup id=&quot;fnref:n&quot;&gt;&lt;a href=&quot;#fn:n&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;/images/yasukuni/DSC03831.jpg&quot; alt=&quot;&quot; /&gt;
@@ -525,7 +890,7 @@ Saturday 1–5pm
       &lt;p&gt;Beer and yakisoba are typical festival food, but the yakisoba here is especially bad. &lt;a href=&quot;#fnref:n&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">On the 72nd anniversary of Japan’s surrender in World War II, I visited Yasukuni Shrine.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://steakscience.com/images/yasukuni/hero.jpg" /></entry><entry><title type="html">Seattle Mechanical Keyboard Meetup</title><link href="http://steakscience.com/seattle-mechanical-keyboard/" rel="alternate" type="text/html" title="Seattle Mechanical Keyboard Meetup" /><published>2018-01-14T00:00:00-08:00</published><updated>2018-01-14T00:00:00-08:00</updated><id>http://steakscience.com/seattle-mechanical-keyboard</id><content type="html" xml:base="http://steakscience.com/seattle-mechanical-keyboard/">&lt;p&gt;Twice a year, mechanical keyboard enthusiasts &lt;a href=&quot;https://ckeys.org/events/smkmeetup/&quot;&gt;meetup in Seattle&lt;/a&gt;. Most are from the area, some fly in, and everyone brings their keyboards.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">On the 72nd anniversary of Japan’s surrender in World War II, I visited Yasukuni Shrine.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/yasukuni/hero.jpg" /></entry><entry><title type="html">Seattle Mechanical Keyboard Meetup</title><link href="http://localhost:4000/seattle-mechanical-keyboard/" rel="alternate" type="text/html" title="Seattle Mechanical Keyboard Meetup" /><published>2018-01-14T00:00:00-08:00</published><updated>2018-01-14T00:00:00-08:00</updated><id>http://localhost:4000/seattle-mechanical-keyboard</id><content type="html" xml:base="http://localhost:4000/seattle-mechanical-keyboard/">&lt;p&gt;Twice a year, mechanical keyboard enthusiasts &lt;a href=&quot;https://ckeys.org/events/smkmeetup/&quot;&gt;meetup in Seattle&lt;/a&gt;. Most are from the area, some fly in, and everyone brings their keyboards.&lt;/p&gt;
 
 &lt;p&gt;Inside, there are dozens of tables where people display their keyboards alongside placards detailing the model, switch, keycaps, and other modifications. From there, people walk around and mingle, nerding out about keyboards, typing on them, and just having a great time.&lt;/p&gt;
 
@@ -792,7 +1157,7 @@ Saturday 1–5pm
 
 &lt;p&gt;This was my first meetup and I’m quite new and ignorant about keyboards. Nonetheless, people were always willing to answer questions. The community is awesome, and I had a blast.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;span class=&quot;black-60&quot;&gt;Photos taken on January 13&lt;sup&gt;th&lt;/sup&gt;, 2018&lt;/span&gt;&lt;/p&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">Twice a year, mechanical keyboard enthusiasts meetup in Seattle. Most are from the area, some fly in, and everyone brings their keyboards.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://steakscience.com/images/smk/hero.jpg" /></entry><entry><title type="html">Soylent, Three Years Later</title><link href="http://steakscience.com/soylent-three-years-later/" rel="alternate" type="text/html" title="Soylent, Three Years Later" /><published>2017-12-19T00:00:00-08:00</published><updated>2017-12-19T00:00:00-08:00</updated><id>http://steakscience.com/soylent-three-years-later</id><content type="html" xml:base="http://steakscience.com/soylent-three-years-later/">&lt;p&gt;For the past three years, I’ve replaced most of my meals with Soylent.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;span class=&quot;black-60&quot;&gt;Photos taken on January 13&lt;sup&gt;th&lt;/sup&gt;, 2018&lt;/span&gt;&lt;/p&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">Twice a year, mechanical keyboard enthusiasts meetup in Seattle. Most are from the area, some fly in, and everyone brings their keyboards.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/smk/hero.jpg" /></entry><entry><title type="html">Soylent, Three Years Later</title><link href="http://localhost:4000/soylent-three-years-later/" rel="alternate" type="text/html" title="Soylent, Three Years Later" /><published>2017-12-19T00:00:00-08:00</published><updated>2017-12-19T00:00:00-08:00</updated><id>http://localhost:4000/soylent-three-years-later</id><content type="html" xml:base="http://localhost:4000/soylent-three-years-later/">&lt;p&gt;For the past three years, I’ve replaced most of my meals with Soylent.&lt;/p&gt;
 
 &lt;p&gt;Three years is a great time to reflect on the state of Soylent—the company and the mission, as well as what Soylent has been like for me.&lt;/p&gt;
 
@@ -846,284 +1211,4 @@ Saturday 1–5pm
 
 &lt;p&gt;Ha. I do like real food.&lt;/p&gt;
 
-&lt;p&gt;Most food I have access to is bad—unhealthy, tastes bad, time-consuming to eat, and expensive. I never say Soylent is for everyone, but it is perfect for me.&lt;/p&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">For the past three years, I’ve replaced most of my meals with Soylent.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://steakscience.com/images/soylent_3/hero.jpg" /></entry><entry><title type="html">The Iconic iPhone</title><link href="http://steakscience.com/the-iconic-iphone/" rel="alternate" type="text/html" title="The Iconic iPhone" /><published>2017-09-20T00:00:00-07:00</published><updated>2017-09-20T00:00:00-07:00</updated><id>http://steakscience.com/the-iconic-iphone</id><content type="html" xml:base="http://steakscience.com/the-iconic-iphone/">&lt;p&gt;With any Apple-related topic, there are no shortage of opinions. Most of them are rushed, sensationalistic, and not worth anyone’s time—they’re just there to attract pageviews and boost ad revenue. Then there’s the small segment of thoughtful and nuanced pieces that are actually worth your time.&lt;/p&gt;
-
-&lt;p&gt;In any case, with this flood of opinion, you can be sure the “correct take” is hidden in there somewhere. However, with the iPhone X notch, that doesn’t seem to be the case.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;So here’s my take:&lt;/p&gt;
-
-&lt;p&gt;There are two common arguments against the notch. The first is that the notch is awkward in software. It stands out in iOS’s all-white interface. And it’s there, awkwardly lurking, in landscape when you watch videos and when you browse the web.&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;iPhone X renders webpages with literal white bars on the sides &lt;a href=&quot;https://t.co/ztcWetrLPo&quot;&gt;pic.twitter.com/ztcWetrLPo&lt;/a&gt;&lt;/p&gt;&amp;mdash; Thomas &amp;quot;Kick Nazis out, @jack&amp;quot; Fuchs (@thomasfuchs) &lt;a href=&quot;https://twitter.com/thomasfuchs/status/907764896829452288?ref_src=twsrc%5Etfw&quot;&gt;September 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;The problem is, the people complaining aren’t using the actual device, they are watching screen recordings from emulators. One thing with we learned from the Essential Phone, which also has a notch, is that users stop seeing it within hours. It’s just like how people with glasses don’t see their glasses frames. The notch being an annoying eyesore is not an actual problem.&lt;/p&gt;
-
-&lt;p&gt;That’s not to say the software treatment of the notch is perfect. There are many rough edges and some things are downright inelegant (like landscape web browsing), but it’s important to remember that Apple has total control of the iOS interface. They’re already changing things, and the interface is only going to get better from here.&lt;/p&gt;
-
-&lt;p&gt;The other argument is that the notch is ugly. Why not just cover up the sides and hide it?&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Apps that embrace the notch on the new iPhone X look bad. Look better with a black background for the status bar. Quick comparison &lt;a href=&quot;https://twitter.com/hashtag/iphonex?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#iphonex&lt;/a&gt; &lt;a href=&quot;https://t.co/3o4bJQC4NB&quot;&gt;pic.twitter.com/3o4bJQC4NB&lt;/a&gt;&lt;/p&gt;&amp;mdash; Carlos Gavina (@carlosgavina) &lt;a href=&quot;https://twitter.com/carlosgavina/status/907687992764125185?ref_src=twsrc%5Etfw&quot;&gt;September 12, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;The ugly argument is hard to rebut because aesthetics is subjective. Personally, I think the notch is beautiful and the notch serves a strategic purpose.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The iPhone has always been iconic. Ask anyone to draw an iPhone and they’ll draw a rectangle with a home button.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/notch/home.png&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-
-&lt;p&gt;Now, ask people to draw an Android phone, and you won’t get a consistent result.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/notch/s3.png&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-
-&lt;p&gt;Android phones can look like anything, but you know an iPhone when you see one.&lt;/p&gt;
-
-&lt;p&gt;Here’s Samsung’s Galaxy S8 next to LG’s V30 smartphone.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/images/notch/s8_v30.png&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-
-&lt;p&gt;They are nearly identical from the front. Philippe Starck, an industrial designer, &lt;a href=&quot;https://www.theverge.com/2017/9/15/16311476/philippe-starck-xiaomi-mi-mix-phone-design&quot;&gt;opined that bezel-less phones mark the end of phone design&lt;/a&gt;. He’s right. There’s a lot less to design now.&lt;/p&gt;
-
-&lt;p&gt;So what happens when the iPhone’s home button disappears? The iconic iPhone silhouette also disappears.&lt;/p&gt;
-
-&lt;p&gt;Then there’s the other problem of the front-facing camera and FaceID. They still need to be in front and they aren’t ever going away—we will always have front-facing cameras.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How do you solve these two problems?&lt;/strong&gt; Design is all about compromises and managing tradeoffs. And the notch is definitely a tradeoff. It’s there because we need space for cameras and sensors.&lt;/p&gt;
-
-&lt;p&gt;But here’s the thing: the notch solves the all-bezel-less-phones-look-the-same problem. &lt;strong&gt;They’ve created the new iconic iPhone silhouette&lt;/strong&gt;. Apple has managed to turn an undesirable tradeoff into an elegant solution. That’s incredible.&lt;/p&gt;
-
-&lt;p&gt;So a few years from now when you ask a stranger to draw an iPhone, they won’t be drawing this, or this:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/notch/not.png&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-
-&lt;p&gt;They’ll be drawing this:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/notch/x.png&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">With any Apple-related topic, there are no shortage of opinions. Most of them are rushed, sensationalistic, and not worth anyone’s time—they’re just there to attract pageviews and boost ad revenue. Then there’s the small segment of thoughtful and nuanced pieces that are actually worth your time.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://steakscience.com/images/notch/og.jpg" /></entry><entry><title type="html">Drinking the Future</title><link href="http://steakscience.com/drinking-the-future/" rel="alternate" type="text/html" title="Drinking the Future" /><published>2015-05-30T00:00:00-07:00</published><updated>2015-05-30T00:00:00-07:00</updated><id>http://steakscience.com/drinking-the-future</id><content type="html" xml:base="http://steakscience.com/drinking-the-future/">&lt;p&gt;One afternoon in February 2013, Rob Rhinehart published a &lt;a href=&quot;https://web.archive.org/web/20170316224815/http://robrhinehart.com/?p=298&quot;&gt;blog post&lt;/a&gt; about how he stopped eating food. Unbeknownst to him, he started a revolution and his life, along with many others, would never be the same again:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I hypothesized that the body doesn’t need food itself, merely the chemicals and elements it contains. So, I resolved to embark on an experiment. What if I consumed only the raw ingredients the body uses for energy?”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;His blog exploded in popularity. As it turned out, many people were intrigued by the idea of not eating food. Almost as many wanted to try it out. So Rhinehart came up with the first prototype of what he called “Soylent” and enlisted many enthusiasts in his the trials.&lt;/p&gt;
-
-&lt;p&gt;Although many have aspired to create a meal-replacement drink for decades, none have been this well-executed and well-thought-out. To take Soylent to its next step, Rhinehart started a crowdfunding campaign. In the end, Soylent raked in over one million dollars, exponentially exceeding its target goal of 100 thousand.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;As a species, we have done a great job—we colonized the earth and we eternally established ourselves on the very top of the food chain. However, as the most intelligent inhabitants of this planet, we have failed miserably. We have trashed the Earth and our way of life is not only unsustainable, it is grossly wasteful. Meat is especially inefficient—one kilogram of beef requires 30 kilograms of grain to make, not to mention the unspeakable atrocities we have to subject our animals to just to feed ourselves. According to projections, we will need to double our food production to feed ourselves in 40 years. Doubling our production would mean much more cruelty and waste.&lt;/p&gt;
-
-&lt;p&gt;In &lt;em&gt;Interstellar&lt;/em&gt;, when asked about the survival of the human species, Cooper (Matthew McConaughey) says, “We’ll find a way, we always have.” Soylent is incredibly efficient, humane, and easy to store and transport. Maybe this is it. Maybe Soylent is going to solve our food crisis.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/soylent/soylent-2.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-
-&lt;p&gt;I have always been fascinated by technology and how it will impact our future. When I heard about Soylent, I knew I had to try it out.&lt;/p&gt;
-
-&lt;p&gt;Soylent is a living product, it is constantly being updated and even comes with a changelog. Currently, it is at version 1.4, which is the version I tried.&lt;/p&gt;
-
-&lt;p&gt;Making Soylent is easy, especially if you want to make one bag at a time, which is what I did. All I had to do was dump the whole bag into a pitcher, fill it water, and shake for a minute. Others blend it to achieve perfect consistency, but I find that leaving it overnight in the fridge works just as well. A bag is good for 3–4 meals.&lt;/p&gt;
-
-&lt;p&gt;The first glass is always the hardest. It was very strange to replace a whole meal with just a glass of light brown liquid which tasted foreign. Others have compared the taste to pancake batter, to me, it tasted like a nuttier version of almond milk. The consensus is that Soylent gets much better after the first glass, so I suggest you ease your way in by mixing in some vanilla extract, which makes Soylent quite delicious.&lt;/p&gt;
-
-&lt;p&gt;I drink Soylent 2–3 times a day, usually replacing my breakfast and lunch. Unlike real food, Soylent fills me up instantly. I assume this is related to its aqueous nature. The greatest strength of Soylent however, is that it saves large amounts of time. I can finish a whole meal within 3 minutes and I can multitask while doing so. I cannot stress the importance of this. There are days when I spend hours in the computer lab. Instead of having to waste upwards of 30 minutes on food, I can just drink, focus on my work, and never have to leave the room.&lt;/p&gt;
-
-&lt;p&gt;The other benefit is that every meal has just the right amount of nutrition and energy. Living on campus food has been disastrous in this regard. I can either get overpriced salad and know they I’ll be hungry by 4 PM, or get some processed protein submerged in gravy that ensures that I’m tired and sleepy for the rest of the day. As you can see, the meals are woefully unbalanced and I’m facing undesirable consequences either way. With Soylent however, my energy level is just right. I’m never hungry or full, but rather, I’m in this in-between state that is perfect for getting things done.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/soylent/soylent-1.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-
-&lt;p&gt;Of course, there are some drawbacks to Soylent. The first that everyone always mentions is that food is not just sustenance, it is also a social activity. That is true, but the reality is, a lot of the time people eat their meals alone, in which case, Soylent would be great. I don’t completely dismiss real food. Cooking is an art form and there many experiences exclusive to dining. This is where I think Soylent marketing has it wrong—they should promote replacing quick and solitary meals with Soylent, not promote going full-time Soylent.&lt;/p&gt;
-
-&lt;p&gt;There are some small annoyances with consuming a mostly liquid diet. Some people have experienced some problems with their jaw because they don’t chew enough, but this has not been an issue with myself or others I’ve talked to. Also, drinking Soylent psychologically decreases the urge to drink water, which can become problematic in the summer. I have definitely experienced dehydration. The last annoyance I can come up with is that Soylent contains a lot of grains, which makes me quite gassy. I fart more than usual.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/soylent/soylent-3.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-
-&lt;p&gt;As a whole, Soylent is not bad at all. After drinking it for several weeks, I found myself craving it over a regular meal. Living near campus, I’m surrounded by unhealthy factory-prepared food that don’t even taste good. With that in mind, going Soylent is a no-brainer decision. It’s signficantly healthier and I never feel bloated.&lt;/p&gt;
-
-&lt;p&gt;Ultimately, no one really knows whether a drink will replace food for future generations. But as long as &lt;a href=&quot;http://mosaicscience.com/story/eating-insects&quot;&gt;insects&lt;/a&gt; are the alternative, I’ll be perfectly happy with Soylent.&lt;/p&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">One afternoon in February 2013, Rob Rhinehart published a blog post about how he stopped eating food. Unbeknownst to him, he started a revolution and his life, along with many others, would never be the same again:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://steakscience.com/images/soylent/soylent_fallback.png" /></entry><entry><title type="html">The Future is in Redmond</title><link href="http://steakscience.com/the-future-is-in-redmond/" rel="alternate" type="text/html" title="The Future is in Redmond" /><published>2015-04-18T00:00:00-07:00</published><updated>2015-04-18T00:00:00-07:00</updated><id>http://steakscience.com/the-future-is-in-redmond</id><content type="html" xml:base="http://steakscience.com/the-future-is-in-redmond/">&lt;p&gt;Microsoft is really cool.&lt;/p&gt;
-
-&lt;p&gt;There really isn’t anyone else pursuing something like they are: one operating system across all devices: desktops, tablets, laptops, phones, and TVs (Xbox). It’s wild, it’s crazy, and it’s the future.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;However, Windows has always been held back by bad hardware. PC manufacturers don’t invest enough care and consideration into their products. Instead, making PCs has always been about cutting corners. In their race to the bottom, manufacturers succumb to using the worst of materials, preinstalling bloatware (and &lt;a href=&quot;http://www.theverge.com/2015/2/19/8067505/lenovo-installs-adware-private-data-hackers&quot;&gt;sometimes spyware&lt;/a&gt;), and using cheap hardware that guarantees a frustrating experience. When attempting to compete on the high-end, manufacturers suffer from their lack of expertise with premium materials, driving up prices. As a result, the first generation of aluminum Ultrabooks ended up being more expensive than the MacBook Air, which they were supposed to undercut.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/redmond/microsoft_retail.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-
-&lt;p&gt;There has always been a deal-breaker with every PC; an “all-day” battery that lasts only 3 hours, an unusable trackpad, or unbearable build quality. Using Windows meant having to choose the device with most tolerable flaw.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;In the past, Microsoft tried to fix the bloatware problem by introducing &lt;em&gt;Signature&lt;/em&gt;, a line of computers with the bloatware removed. However, this fixed only half of the problem—no software can make up for ugly displays and wobbly plastic.&lt;/p&gt;
-
-&lt;p&gt;To many, the solution was obvious: Microsoft should just make hardware! But the reason they couldn’t was also obvious: Microsoft was a software vendor and had to ensure a level playing field for manufacturers and making their own computer would disrupt that balance. However, everything changed with Windows 8.&lt;/p&gt;
-
-&lt;p&gt;The new operating system represented Microsoft’s bold vision for the future. Steven Sinofsky, President of Windows at the time, worried that manufacturers wouldn’t be able to make hardware worthy of showcasing the operating system. Windows 8 deserved something better.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;figure class=&quot;src&quot;&gt;
-  &lt;img src=&quot;/images/redmond/surface_covers.jpg&quot; alt=&quot;&quot; /&gt;
-  
-  &lt;figcaption&gt;Microsoft&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Surface is the physical manifestation of Windows. It is the culmination of the best parts of Microsoft. It leverages Microsoft Research’s bleeding edge technology and all of Microsoft’s design and engineering prowess. Surface is the computer Windows deserves.&lt;/p&gt;
-
-&lt;figure class=&quot;src&quot;&gt;
-  &lt;img src=&quot;/images/redmond/surface-1.jpg&quot; alt=&quot;&quot; /&gt;
-  
-  &lt;figcaption&gt;Microsoft&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The computer of the future is not the iPad nor is it the new MacBook. The iPad excels at content consumption, but to do serious work, you’ll have to resort to a clumsy keyboard case. The new MacBook is the inverse—it is productive, but its keyboard is always there, whether you need it or not. Surface on the other hand, can seamlessly transform from a laptop to a tablet. It will change personal computing forever.&lt;/p&gt;
-
-&lt;p&gt;Technology has always been about looking to the future and getting excited about the possibilities. To me, Surface is the embodiment of that spirit, and one I can’t stop getting excited about.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;So I took a pilgrimage to the Mothership yesterday. It’s quite a shame that despite living in Seattle since September, I haven’t been to Redmond yet.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/redmond/microsoft-4.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/redmond/microsoft-5.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/redmond/microsoft-17.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/redmond/microsoft-4.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-&lt;p&gt;Microsoft Commons.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/redmond/microsoft-1.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-&lt;p&gt;I assume this is Satya’s lair. (Update: It’s not.)&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/redmond/microsoft-9.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/redmond/microsoft-10.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-&lt;p&gt;I met one of my favorite designers (and Surface designer) &lt;a href=&quot;https://youtu.be/KrPHpN5HukQ&quot;&gt;Ralf&lt;/a&gt; &lt;a href=&quot;http://architizer.com/blog/ralf-groene-interview/&quot;&gt;Groene&lt;/a&gt; (!!!) It was surreal.&lt;/p&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">Microsoft is really cool.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://steakscience.com/images/redmond/microsoft-13.jpg" /></entry><entry><title type="html">WeRobot 2015</title><link href="http://steakscience.com/werobot-2015/" rel="alternate" type="text/html" title="WeRobot 2015" /><published>2015-04-12T00:00:00-07:00</published><updated>2015-04-12T00:00:00-07:00</updated><id>http://steakscience.com/werobot-2015</id><content type="html" xml:base="http://steakscience.com/werobot-2015/">&lt;p&gt;WeRobot is an annual conference discussing the latest advancements in robotics, as well as robotics law and policy. This year, it is hosted by the University of Washington School of Law.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/werobot/werobot-1.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-&lt;p&gt;Studies show that humans hesitate to smash robot bugs with names and backstories.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/werobot/werobot-2.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/werobot/werobot-3.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/werobot/werobot-2.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-&lt;p&gt;Ryan Calo of UW Law and the Tech Policy Lab asks a question.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/werobot/werobot-5.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-&lt;p&gt;The sea of robot experts.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/werobot/werobot-6.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-&lt;p&gt;Howard Chizeck talks about the legal implications of using telepresence robots for surgery.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/werobot/werobot-7.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-&lt;p&gt;“We need lawyers and other experts in the room when discussing issues regarding robots.”&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/werobot/werobot-8.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-&lt;p&gt;Controlling a robot claw to replace a $30,000 cable.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/werobot/werobot-9.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-&lt;p&gt;Using both an Oculus and a Phantom controller.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/werobot/werobot-11.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-&lt;p&gt;This guy started the R2D2 selfie trend.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/werobot/werobot-13.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-&lt;p&gt;Tony Dyson, creator of R2D2, talks to a life-sized R2-D2 replica.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/werobot/werobot-10.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-&lt;p&gt;Tony Dyson meets the man who spent 6 years on the R2D2 replica.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/images/werobot/werobot-14.jpg&quot; alt=&quot;&quot; /&gt;
-  
-&lt;/figure&gt;
-&lt;p&gt;UW CSE’s PR2 robot in action.&lt;/p&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">WeRobot is an annual conference discussing the latest advancements in robotics, as well as robotics law and policy. This year, it is hosted by the University of Washington School of Law.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://steakscience.com/images/werobot/werobot-12.jpg" /></entry></feed>
+&lt;p&gt;Most food I have access to is bad—unhealthy, tastes bad, time-consuming to eat, and expensive. I never say Soylent is for everyone, but it is perfect for me.&lt;/p&gt;</content><author><name>Nirawit Jittipairoj</name></author><summary type="html">For the past three years, I’ve replaced most of my meals with Soylent.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/soylent_3/hero.jpg" /></entry></feed>

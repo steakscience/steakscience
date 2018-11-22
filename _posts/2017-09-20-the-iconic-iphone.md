@@ -2,6 +2,7 @@
 layout: post
 author: Nirawit Jittipairoj
 title:  The Iconic iPhone
+subtitle: Why the notch is incredible
 date:   2017-09-20
 categories: design
 image: /images/notch/og.jpg

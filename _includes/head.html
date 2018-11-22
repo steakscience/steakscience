@@ -37,11 +37,22 @@
   <meta name="author" content="Nirawit Jittipairoj">
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+  <!-- {% if page.layout == 'this' or myPost.layout == 'this' %}
+    <link rel="stylesheet" href="{{ "/css/this.css" }}">
+  {% endif %} -->
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f75f64">
+
 
   <!-- not critical css -->
+  <!-- <link rel="preload" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css" as="style"> -->
   <link rel="preload" href="{{ "/js/footnotes/stylesheets/jquery.inline-footnotes.css" | prepend: site.baseurl }}" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="{{ "/js/footnotes/stylesheets/jquery.inline-footnotes.css" | prepend: site.baseurl }}"></noscript>
   <link rel="preload" href="{{ "/css/dia.css" | prepend: site.baseurl }}" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="{{ "/css/dia.css" | prepend: site.baseurl }}"></noscript>
   <link rel="preload" href="{{ "/css/fg.css" | prepend: site.baseurl }}" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="{{ "/css/fg.css" | prepend: site.baseurl }}"></noscript>
@@ -152,10 +163,10 @@
 <!-- end loadcss -->
 
   <!-- load jquery -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
     crossorigin="anonymous">
-  </script>
+  </script> -->
 
   {% if page.css %}
     <link rel="stylesheet" href="{{page.css}}" />
