@@ -42,8 +42,8 @@
 
   <!--  -->
 
-  <link rel="canonical" href="http://localhost:4000/favorites/">
-  <link rel="alternate" type="application/rss+xml" title="steakscience" href="http://localhost:4000/feed.xml">
+  <link rel="canonical" href="http://steakscience.com/favorites/">
+  <link rel="alternate" type="application/rss+xml" title="steakscience" href="http://steakscience.com/feed.xml">
 
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -177,14 +177,27 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj." />
 <meta property="og:description" content="A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj." />
-<link rel="canonical" href="http://localhost:4000/favorites/" />
-<meta property="og:url" content="http://localhost:4000/favorites/" />
+<link rel="canonical" href="http://steakscience.com/favorites/" />
+<meta property="og:url" content="http://steakscience.com/favorites/" />
 <meta property="og:site_name" content="steakscience" />
 <script type="application/ld+json">
-{"description":"A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj.","@type":"WebPage","url":"http://localhost:4000/favorites/","headline":"Favorites","@context":"http://schema.org"}</script>
+{"headline":"Favorites","url":"http://steakscience.com/favorites/","description":"A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj.","@type":"WebPage","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-</head>
+
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-61560416-2', 'auto');
+	ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
+	ga('set', 'anonymizeIp', false);
+    </script>
+    <!-- End Google Analytics -->
+    </head>
 
 <body class="bg-light">
 
@@ -302,8 +315,6 @@
 				
 					<li data-image-url="/images/fav/alexandra_petri.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="https://www.washingtonpost.com/people/alexandra-petri/?utm_term=.6b42a6485ec9" target="_blank">Alexandra&nbsp;Petri</a></li>	
 				
-					<li data-image-url="/images/fav/austin_carr.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="http://www.austincarr.com/archive-list/" target="_blank">Austin&nbsp;Carr</a></li>	
-				
 					<li data-image-url="/images/fav/austin_kleon.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="https://austinkleon.com/" target="_blank">Austin&nbsp;Kleon</a></li>	
 				
 					<li data-image-url="/images/fav/ben_thompson.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="https://www.stratechery.com/" target="_blank">Ben&nbsp;Thompson</a></li>	
@@ -319,8 +330,6 @@
 					<li data-image-url="/images/fav/ezra_klein.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="https://www.vox.com/authors/ezra-klein" target="_blank">Ezra&nbsp;Klein</a></li>	
 				
 					<li data-image-url="/images/fav/jonathan_nolan.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="https://en.wikipedia.org/wiki/Jonathan_Nolan" target="_blank">Jonathan&nbsp;Nolan</a></li>	
-				
-					<li data-image-url="/images/fav/kara_swisher.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="https://en.m.wikipedia.org/wiki/Kara_Swisher" target="_blank">Kara&nbsp;Swisher</a></li>	
 				
 					<li data-image-url="/images/fav/lisa_joy.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="https://www.elle.com/culture/movies-tv/a19181638/lisa-joy-westworld-tv-interview-season-two/" target="_blank">Lisa&nbsp;Joy</a></li>	
 				
@@ -415,7 +424,7 @@
 		</section>
 
 		<section class="db cf mb3-ns mb1">
-			<div class="dib mb3-ns mb2 fl favItem">
+			<div class="dib mb3-ns mb2 fl favItem" id="tv_movies">
 				<h2 class="fg-bold black-80 lh-title f2-ns f3 mt2 mb2"><span class="caps"><span class="caps">TV</span></span></h2>
 
 				<ul class="list pl0 mt3">
@@ -445,8 +454,6 @@
 					<li data-image-url="/images/fav/dark_knight.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="https://www.youtube.com/watch?v=EXeTwQWrcwY" target="_blank">The Dark&nbsp;Knight</a></li>	
 				
 					<li data-image-url="/images/fav/ex_machina.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="https://www.youtube.com/watch?v=EoQuVnKhxaM" target="_blank">Ex&nbsp;Machina</a></li>	
-				
-					<li data-image-url="/images/fav/mistaken_for_strangers.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="https://www.youtube.com/watch?v=qUrBDEdeInw" target="_blank">Mistaken for&nbsp;Strangers</a></li>	
 				
 					<li data-image-url="/images/fav/the_prestige.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="https://youtu.be/ijXruSzfGEc" target="_blank">The&nbsp;Prestige</a></li>	
 				
@@ -507,8 +514,6 @@
 					<li data-image-url="/images/fav/rewatch.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="https://www.theringer.com/the-rewatchables" target="_blank">The&nbsp;Rewatchables</a></li>	
 				
 					<li data-image-url="/images/fav/talk_show.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="https://daringfireball.net/thetalkshow/" target="_blank">The Talk&nbsp;Show</a></li>	
-				
-					<li data-image-url="/images/fav/techmeme.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="http://pca.st/9saH" target="_blank">Techmeme Ride&nbsp;Home</a></li>	
 				
 					<li data-image-url="/images/fav/wishlist.jpg" class="lh-solid f3-ns f4 fg-medium mb3 archiveTitle"><a class="black-60 hover-black-50" href="https://drive.google.com/drive/folders/1K3-KAVCZ7N0KO5CzwbsVQ96PlPLrncso?usp=sharing" target="_blank">The Wish&nbsp;List</a></li>	
 				

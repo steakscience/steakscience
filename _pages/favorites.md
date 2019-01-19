@@ -76,7 +76,7 @@ permalink: /favorites/
 		</section>
 
 		<section class="db cf mb3-ns mb1">
-			<div class="dib mb3-ns mb2 fl favItem">
+			<div class="dib mb3-ns mb2 fl favItem" id="tv_movies">
 				<h2 class="fg-bold black-80 lh-title f2-ns f3 mt2 mb2">TV</h2>
 
 				<ul class="list pl0 mt3">

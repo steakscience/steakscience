@@ -47,6 +47,15 @@ a:hover { transition: color .15s ease-in; color: #777;}
 a:active { transition: color .15s ease-in; }
 a:focus { transition: color .15s ease-in; }
 
+/*scale downnnnn*/
+.f4-ns {
+	font-size: 1.1rem;
+}
+
+.f2, .f2-ns {
+	font-size: 2.1rem;
+}
+
 /*prevent drag*/
 img {
   -webkit-user-drag: none;
@@ -190,6 +199,7 @@ blockquote {
 		--translateAmount: -80vw;
 		--rightMargin: 1.5rem;
 		--titlePad: 2rem;
+		--rightBodySpacer: 0;
 	}
 
 	#menu {
@@ -212,6 +222,7 @@ blockquote {
 
 	.simP {
 		min-width: 0;
+		margin-right: 0;
 	}
 
 	.subtitle {
@@ -224,6 +235,10 @@ blockquote {
 
 	#nav {
 		padding-top: 2rem;
+	}
+
+	#hamburger {
+		right: 0;
 	}
 }
 
@@ -243,6 +258,10 @@ blockquote {
 @media screen and (min-width: 60em) {
 	#nav {
 		padding-top: 3rem;
+	}
+
+	#hamburger {
+		right: 4rem;
 	}
 
 	.f45 {
@@ -301,7 +320,8 @@ blockquote {
 	}
 
 	.titlePad {
-		padding-left: 10vw;
+		/*padding-left: 10vw;*/
+		padding-left: 15vw;
 	}
 
 	#postBody p {
@@ -310,7 +330,7 @@ blockquote {
 		display: block;
 		/*margin-left: auto;
 		margin-right: auto;*/
-		/*margin-left: ;*/
+		/*margin-left: 0;*/
 		/*margin-right: 10%;*/
 		/*margin-right: 11%;*/
 
@@ -328,12 +348,15 @@ blockquote {
 	}
 
 	#postBody h2, .about h2 {
-		margin-right: var(--rightMargin);
+		/*margin-right: var(--rightMargin);*/
+		margin-right: 12%;
+		/*for smaller font*/
 	}
 
 	hr {
 	    margin-left: auto;
-		margin-right: calc(10% + 18rem);
+		/*margin-right: calc(10% + 18rem);*/
+		margin-right: calc(10% + 19rem);
 		float: right;
 		display: block;
 
@@ -346,8 +369,10 @@ blockquote {
 		--translateAmount: -30vw;
 		--leftStrip: 15vw;
 		/*--leftStrip: 20vw;*/
-		--rightMargin: 10%;
+		/*--rightMargin: 10vw;*/
+		--rightMargin: 15vw;
 		--titlePad: 10vw;
+		--rightBodySpacer: 7%;
 	}
 
 	.archiveWrapper {
@@ -356,7 +381,8 @@ blockquote {
 	}
 
 	.simP {
-		min-width: 40em;
+		min-width: 50rem;
+		margin-right: 3rem;
 	}
 
 	.footerBlock p {
@@ -364,7 +390,7 @@ blockquote {
 	}
 
 	.subtitle {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 	}
 
 }
@@ -410,7 +436,7 @@ blockquote {
 
 	:root {
 		--leftStrip: 20vw;
-		--rightMargin: 14.5%;
+		--rightMargin: 14.5vw;
 		--titlePad: 20vw;
 	}
 
@@ -675,24 +701,25 @@ html.blue {
     /*--color-light: #E8F0F3;*/
     --color-light: #f4fafd;
     --color-mid: #DDE8ED;
-    --color-dark: #698792;
-    --color-darker: #516d77;
+    --color-dark: #829ea9;
+    --color-darker: #698792;
 }
 
 html.pink {
-    --color-light: #fff5f7;
+    --color-light: #fffafb;
     /*--color-light: #fdeff1;*/
     --color-mid: #F6E2E5;
-    --color-dark: #DB7A8A;
-    --color-darker: #b96775;
+    --color-dark: #de929e;
+    /*--color-darker: #b96775;*/
+    --color-darker: #DB7A8A;
 }
 
 html.green {
     /*--color-light: #F8FFF0;*/
     --color-light: #f9fff3;
     --color-mid: #E4FEC9;
-    --color-dark: #A3CF77; 
-    --color-darker: #89b55d;
+    --color-dark: #aad481;
+    --color-darker: #A3CF77;
 }
 
 html.yellow {
@@ -701,16 +728,16 @@ html.yellow {
     /*--color-light: #fff7e1;*/
     --color-mid: #FCEFCA;
     /*--color-dark: #EBCF80;*/
-    --color-dark: #F0CC65;
-    --color-darker: #dcba58;
+    --color-dark: #f3d276;
+    --color-darker: #F0CC65;
 }
 
 html.gray {
     --color-light: #F6F6F6;
     --color-mid: #E9E9E9;
     /*--color-dark: #9C9C9C;*/
-    --color-dark: #a5a5a5;
-    --color-darker: #8e8e8e;
+    --color-dark: #b9b9b9;
+    --color-darker: #a5a5a5;
 }
 
 html.purple {
@@ -718,8 +745,8 @@ html.purple {
     --color-light: #fcf7ff;
     /*--color-light: #f5effb;*/
     --color-mid: #F1E5FB;
-    --color-dark: #9B7CB5; 
-    --color-darker: #8666a0;
+    --color-dark: #ba9fd0; 
+    --color-darker: #9B7CB5;
 }
 
 html.orange {
@@ -727,8 +754,8 @@ html.orange {
 	/*--color-light: #fff2ef;*/
 	--color-light: #fffcf5;
     --color-mid: #ffd5cb;
-    --color-dark: #ff8d73;
-    --color-darker: #ff7151;
+    --color-dark: #ffa28d;
+    --color-darker: #ff8d73;
 }
 
 /*end pallette*/
@@ -780,8 +807,15 @@ html.orange {
 	opacity: 0.8;
 }
 
+/*adds right space to body*/
+#postBody {
+	margin-right: var(--rightBodySpacer);
+}
+
 #postBody p {
-	margin-right: var(--rightMargin);
+	/*margin-right: var(--rightMargin);*/
+	margin-right: 12%;
+	/*fits with smaller font*/
 }
 
 ::-moz-selection { 
@@ -844,6 +878,10 @@ html.orange {
 	width: 100%;
 
 	margin-bottom: 1.5rem;
+
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #heroVid {
@@ -851,7 +889,7 @@ html.orange {
 }
 
 #logo {
-	width: 6rem;
+	width: 5.5rem;
 }
 
 #menuLogo {
@@ -876,7 +914,6 @@ html.orange {
 #hamburger {
 	width: 2rem;
 	position: relative;
-	right: 0;
 	top: 0;
 
 	/*padding-top: 3rem;*/

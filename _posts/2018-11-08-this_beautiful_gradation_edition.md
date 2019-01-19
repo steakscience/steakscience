@@ -1,7 +1,7 @@
 ---
 layout: this
 author: Nirawit Jittipairoj
-title:  This! – “Beautiful Gradation of Textures” Edition
+title:  This! – “Beautiful Gradation of Textures”
 date:   2018-11-08
 categories: 'this'	
 thisID: this1

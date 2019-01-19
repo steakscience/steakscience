@@ -33,6 +33,15 @@ layout: compress.html
 
 #thisBody p {
 	line-height: 1.4;
-	max-width: 35rem;
+  /*max-width: 35rem;*/
+	max-width: 30rem;
 	color: rgba(0,0,0,0.6);
+}
+
+#thisBody h2 p {
+  margin-bottom: 0;
+}
+
+#thisBody .tag {
+  color: rgba(0,0,0,0.4);
 }

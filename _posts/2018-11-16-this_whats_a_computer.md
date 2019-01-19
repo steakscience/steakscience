@@ -1,9 +1,9 @@
 ---
 layout: this
 author: Nirawit Jittipairoj
-title:  This! – “What’s a Computer?” Edition
+title:  This! – “What’s a Computer?”
 date:   2018-11-16
-categories: 'this'	
+categories: 'this'
 thisID: this2
 image: /images/this/ipad.jpg
 ---

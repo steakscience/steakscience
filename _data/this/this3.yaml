@@ -1,0 +1,49 @@
+---
+item:
+      - title: "*Isle of Dogs* Movie Trailer"
+        link: https://www.youtube.com/watch?v=dt__kig8PVU
+        tag: watch
+        text:
+            - p: After I saw *Isle of Dogs*, I was telling all my friends they should watch it. “Is it good?” they would ask, and I would struggle to give them an answer.
+            - p: “It’s not good plot-wise, but it’s very meticulous and it’s beautiful to watch and you should totally watch it,” I would say.
+            - p: “So it’s not good,” they would respond skeptically, as if they just caught me in a lie.
+            - p: And that’s the whole conundrum with any Wes Anderson movie, whether it’s *Grand Budapest Hotel* or *Isle of Dogs*. They’re not very good; the plot and dialogue are bad and at best mediocre. And yet, they have this unique charm. Every shot is beautiful and you just know that everything—every aspect—was meticulously crafted by a visionary.
+            - p: "So, here’s how I would evangelize the film: don’t watch it for the plot. Watch it for the puppets, the sets, and the music. Then just be amazed at the possibilities of human creativity. It’s really good, I promise."
+        youtube: dt__kig8PVU
+
+      - title: "*Isle of Dogs* Animation Featurette"
+        link: https://youtu.be/xCBOiaJEoFw
+        tag: watch
+        text:
+            - p: There’s always an easy way to do something, and then there’s the hard way. Wes Anderson wanted to make this movie the hard way.
+            - p: "Everything had to made physically: each puppet had individual hair strands and replaceable mouths to convincingly portray speech. The explosions were filmed frame by frame as artists manipulated cotton. As a result, the movie took years to make."
+            - p: Of course, Wes could’ve taken the easier route. He could just digitally animate everything. But then, the movie would lose its visceral quality, and that’s something that’s very hard to describe with words. The movie feels real and emotive in a way that grips the audience so I’m glad he did the hard way.
+        youtube: xCBOiaJEoFw
+        photo:
+            - img: iod4.jpg
+            - img: iod5.jpg
+            - img: iod6.jpg
+
+      - title: Designing *Isle of Dogs*
+        link: https://www.semipermanent.com/articles/isle-of-dogs
+        tag: read
+        text:
+            - p: As a designer, the graphic design of the movie really stood out to me. There’s typography everywhere, whether it’s the stylish credits or within the movie itself, on posters, can labels, and store signage.
+            - p: It turns out the movie employed quite a few incredible designers. One of them is [Erica Dorn](http://ericadorn.co.uk/) and she has opened up about the design process for the movie.
+            - p: The whole interview is worth a read, but my favorite part was how she collaborated with Wes Anderson to choose the typeface for the credits.
+            - p: Wes, she said, has such a strong visual taste, and knew exactly what he wanted. And because he didn’t have formal design training, he didn’t hesitate to break typography rules, which turned out brilliantly. He wanted to “push and pull” and basically distort letterforms, which is normally anathema. He also wanted bad spacing and kerning, again, terms he couldn’t verbalize but he knew he wanted. And together, these changes resulted in the old retro look that perfectly resonated with the movie.
+        photo:
+            - img: iod1.jpg
+            - img: iod2.jpg
+            - img: iod3.jpg
+
+      - title: Inu Keyset
+        link: https://geekhack.org/index.php?topic=95100.0
+        tag: look
+        text:
+            - p: If you haven’t already known this, I am a keyboard nerd. I like being able to choose what material the case made of, or what each key press feels like, but above all, I like being to control what it looks like.
+            - p: Inu is a keyset (keyboard keycaps) inspired by the typography and visual language of the film. The movie has such a striking visual presence, and it’s nice to know it can be celebrated in such a nerdy and strange fashion.
+        photo:
+            - img: inu1.jpg
+            - img: inu2.jpg
+...

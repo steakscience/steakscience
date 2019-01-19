@@ -53,9 +53,9 @@ people:
       link: https://www.washingtonpost.com/people/alexandra-petri/?utm_term=.6b42a6485ec9
       image: /images/fav/alexandra_petri.jpg
     
-    - text: Austin Carr
-      link: http://www.austincarr.com/archive-list/
-      image: /images/fav/austin_carr.jpg
+    # - text: Austin Carr
+    #   link: http://www.austincarr.com/archive-list/
+    #   image: /images/fav/austin_carr.jpg
 
     - text: Austin Kleon
       link: https://austinkleon.com/
@@ -89,9 +89,9 @@ people:
       link: https://en.wikipedia.org/wiki/Jonathan_Nolan
       image: /images/fav/jonathan_nolan.jpg
 
-    - text: Kara Swisher
-      link: https://en.m.wikipedia.org/wiki/Kara_Swisher
-      image: /images/fav/kara_swisher.jpg
+    # - text: Kara Swisher
+    #   link: https://en.m.wikipedia.org/wiki/Kara_Swisher
+    #   image: /images/fav/kara_swisher.jpg
 
     - text: Lisa Joy
       link: https://www.elle.com/culture/movies-tv/a19181638/lisa-joy-westworld-tv-interview-season-two/
@@ -278,9 +278,9 @@ podcasts:
     link: https://daringfireball.net/thetalkshow/
     image: /images/fav/talk_show.jpg
 
-  - text: Techmeme Ride Home
-    link: http://pca.st/9saH
-    image: /images/fav/techmeme.jpg
+  # - text: Techmeme Ride Home
+  #   link: http://pca.st/9saH
+  #   image: /images/fav/techmeme.jpg
 
   # - text: Tomorrow
   #   link: http://pca.st/tomorrow
@@ -395,9 +395,9 @@ movies:
     link: https://www.youtube.com/watch?v=EoQuVnKhxaM
     image: /images/fav/ex_machina.jpg
 
-  - text: Mistaken for Strangers
-    link: https://www.youtube.com/watch?v=qUrBDEdeInw
-    image: /images/fav/mistaken_for_strangers.jpg
+  # - text: Mistaken for Strangers
+  #   link: https://www.youtube.com/watch?v=qUrBDEdeInw
+  #   image: /images/fav/mistaken_for_strangers.jpg
 
   - text: The Prestige
     link: https://youtu.be/ijXruSzfGEc

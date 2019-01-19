@@ -44,7 +44,7 @@ I haven’t seen Microsoft’s internal metrics, so this next part is pure specu
 
 Does Edge really increase adoption of Microsoft services? I struggle to see the direct line between someone using Edge and someone buying an Office subscription.
 
-My suspicion is that there is no direct causation — one does not cause the other. Rather, people who use Edge are less-savvy users who stick to the defaults and services recommended to them (in this case, Microsoft services). This means that these people aren’t using these services because of Edge, but because they use whatever Windows tells them to use.
+My suspicion is that there is no direct causation—one does not cause the other. Rather, people who use Edge are less-savvy users who stick to the defaults and services recommended to them (in this case, Microsoft services). This means that these people aren’t using these services because of Edge, but because they use whatever Windows tells them to use.
 
 So, does repeatedly pestering Chrome and Firefox users to switch to Edge result in more Office subscriptions? Probably not. These users are more savvy and make their own decisions on which services to use, so blindly pushing Edge on users is most likely not productive. Probably unproductive.
 
