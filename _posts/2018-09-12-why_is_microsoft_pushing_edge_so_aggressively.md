@@ -48,5 +48,12 @@ My suspicion is that there is no direct causation—one does not cause the other
 
 So, does repeatedly pestering Chrome and Firefox users to switch to Edge result in more Office subscriptions? Probably not. These users are more savvy and make their own decisions on which services to use, so blindly pushing Edge on users is most likely not productive. Probably unproductive.
 
+***
+
+## You should also check out:
+
+[Jon Bell’s Defensive Microsoft](https://medium.com/near-future-field-notes/defensive-microsoft-76a05dbffdeb){:target="_blank"}
+<br>
+
 [^1]: Windows and Office teams used to fight *a lot*. If you ever meet an older MSFT employee at a party, ask them for Windows vs Office stories.
 [^n]: For a list of funny correlation not causation examples, check out [this website](http://www.tylervigen.com/spurious-correlations){:target="_blank"}

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://steakscience.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://steakscience.com/" rel="alternate" type="text/html" /><updated>2019-01-18T17:46:49-08:00</updated><id>http://steakscience.com/</id><title type="html">steakscience</title><subtitle>A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj.</subtitle><entry><title type="html">This! – “Their Own Devices”</title><link href="http://steakscience.com/this_their_own_devices/" rel="alternate" type="text/html" title="This! – “Their Own Devices”" /><published>2019-01-04T00:00:00-08:00</published><updated>2019-01-04T00:00:00-08:00</updated><id>http://steakscience.com/this_their_own_devices</id><content type="html" xml:base="http://steakscience.com/this_their_own_devices/">&lt;div class=&quot;w-100 db mb3 cf&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://steakscience.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://steakscience.com/" rel="alternate" type="text/html" /><updated>2019-01-28T17:34:12-08:00</updated><id>http://steakscience.com/</id><title type="html">steakscience</title><subtitle>A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj.</subtitle><entry><title type="html">This! – “Their Own Devices”</title><link href="http://steakscience.com/this_their_own_devices/" rel="alternate" type="text/html" title="This! – “Their Own Devices”" /><published>2019-01-04T00:00:00-08:00</published><updated>2019-01-04T00:00:00-08:00</updated><id>http://steakscience.com/this_their_own_devices</id><content type="html" xml:base="http://steakscience.com/this_their_own_devices/">&lt;div class=&quot;w-100 db mb3 cf&quot;&gt;
 	&lt;div class=&quot;v-top dib-ns db fl&quot;&gt;
 		&lt;a href=&quot;https://thepodglomerate.com/shows/theirowndevices/&quot; target=&quot;_blank&quot; class=&quot;black-70 hover-black-60&quot;&gt;
 			&lt;h2 class=&quot;f4-ns f5 mb1 lh-title mw5&quot;&gt;&lt;p&gt;&lt;em&gt;Their Own Devices&lt;/em&gt; Podcast&lt;/p&gt;
@@ -1198,6 +1198,13 @@
 &lt;p&gt;My suspicion is that there is no direct causation—one does not cause the other. Rather, people who use Edge are less-savvy users who stick to the defaults and services recommended to them (in this case, Microsoft services). This means that these people aren’t using these services because of Edge, but because they use whatever Windows tells them to use.&lt;/p&gt;
 
 &lt;p&gt;So, does repeatedly pestering Chrome and Firefox users to switch to Edge result in more Office subscriptions? Probably not. These users are more savvy and make their own decisions on which services to use, so blindly pushing Edge on users is most likely not productive. Probably unproductive.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;you-should-also-check-out&quot;&gt;You should also check out:&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/near-future-field-notes/defensive-microsoft-76a05dbffdeb&quot; target=&quot;_blank&quot;&gt;Jon Bell’s Defensive Microsoft&lt;/a&gt;
+&lt;br /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;

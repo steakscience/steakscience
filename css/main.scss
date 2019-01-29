@@ -49,7 +49,7 @@ a:focus { transition: color .15s ease-in; }
 
 /*scale downnnnn*/
 .f4-ns {
-	font-size: 1.1rem;
+	font-size: 1.15rem;
 }
 
 .f2, .f2-ns {
@@ -240,6 +240,11 @@ blockquote {
 	#hamburger {
 		right: 0;
 	}
+
+	twitter-widget {
+		margin-left: auto;
+		margin-right: auto !important;
+	}
 }
 
 @media screen and (min-width: 26em) {
@@ -273,12 +278,13 @@ blockquote {
 		max-width: 28em;
 
 		margin-left: auto;
-		margin-right: 8%;
+		/*margin-right: 8%;*/
+		margin-right: calc(10% + 2rem);
 	}	
 
-	twitterwidget {
+	twitter-widget {
 		margin-left: auto;
-		margin-right: 14.5% !important;
+		margin-right: 15% !important;
 	}
 
 	.heroFigure {
@@ -328,6 +334,8 @@ blockquote {
 		max-width: 36rem; /*from 35em*/
 		min-width: 36rem;
 		display: block;
+
+		margin-right: 12%;
 		/*margin-left: auto;
 		margin-right: auto;*/
 		/*margin-left: 0;*/
@@ -382,7 +390,8 @@ blockquote {
 
 	.simP {
 		min-width: 50rem;
-		margin-right: 3rem;
+		/*margin-right: 3rem;*/
+		margin-right: 0rem;
 	}
 
 	.footerBlock p {
@@ -415,14 +424,16 @@ blockquote {
 		margin-right: 12%;
 	}
 
-	twitterwidget {
+	twitter-widget {
 		margin-left: auto;
-		margin-right: 18% !important;
+		/*margin-right: 18% !important;*/
+		margin-right: 15.5% !important;
 	}
 
 	hr {
 		/*margin-right: calc(12.5% + 18rem);*/
-		margin-right: calc(14% + 18rem);
+		/*margin-right: calc(14% + 18rem);*/
+		margin-right: calc(12% + 18rem);
 	}
 
 	#menu {
@@ -672,7 +683,11 @@ figure.src figcaption a {
 	/*margin-bottom: -0.5rem !important;
 	padding-top: 1rem !important;*/
 	/*padding-bottom: 1rem;*/
-	float: right;
+	/*float: right;*/
+
+    clear: both;
+    padding-top: 1.5rem !important;
+    margin-bottom: 1rem !important;
 }
 
 /*https://github.com/nathancy/jekyll-embed-video*/
@@ -814,7 +829,7 @@ html.orange {
 
 #postBody p {
 	/*margin-right: var(--rightMargin);*/
-	margin-right: 12%;
+	/*margin-right: 12%;*/
 	/*fits with smaller font*/
 }
 
@@ -946,7 +961,8 @@ html.orange {
 }
 
 .favItem {
-	min-width: 14em;
+	/*min-width: 14em;*/
+	min-width: 16em;
 	max-width: 16em;
 	/*margin-right: 1.5rem;*/
 	padding-right: 1.5rem;
