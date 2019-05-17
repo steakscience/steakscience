@@ -20,7 +20,6 @@ gems:
     - jekyll-figure
     - jekyll-sitemap
     - jekyll-seo-tag
-    - s3_website
     - jekyll-analytics
     - jekyll-feed
     - jekyll-typogrify

@@ -10,6 +10,7 @@ ruby RUBY_VERSION
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "3.4.3"
+gem "rake", "~> 12"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
@@ -26,7 +27,6 @@ group :jekyll_plugins do
    # gem 'octopress-minify-html'
    gem 'jekyll-sitemap'
    gem 'jekyll-seo-tag'
-   gem 's3_website'
    gem 'jekyll-analytics'
    gem 'jekyll-typogrify'
    gem 'ffi', '1.9.18'
