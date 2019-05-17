@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.3.1
+install:
+- bundle install
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: a532e7ba228c0757fe59d3d2d093f6bd0f259dfa
+  local_dir: _site
+  target_branch: master
+  on:
+    branch: source
