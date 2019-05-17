@@ -1,35 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <!--  /**
- * @license
- * MyFonts Webfont Build ID 3328218, 2017-01-06T13:02:43-0500
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: NeueHaasUnicaPro-Bold by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/bold/
- * Licensed pageviews: 500,000
- * 
- * Webfont: NeueHaasUnicaPro-Italic by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/italic/
- * Licensed pageviews: 250,000
- * 
- * Webfont: NeueHaasUnicaPro-Regular by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/regular/
- * Licensed pageviews: 500,000
- * 
- * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=3328218
- * Webfonts copyright: Copyright &#x00A9; 2015 Monotype Imaging Inc.  All rights
- * reserved.
- * 
- * © 2017 MyFonts Inc
-*/ -->
+  <head>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,13 +8,14 @@
   <title>Soylent, Three Years Later – steakscience</title>
   <meta name="description" content="For the past three years, I’ve replaced most of my meals with Soylent.">
   <meta name="author" content="Nirawit Jittipairoj">
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+  <!-- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/> -->
+  <link rel="stylesheet" href="/css/tachyons.css">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css">
 
-  <!--  -->
-
-  <link rel="canonical" href="http://steakscience.com/soylent-three-years-later/">
-  <link rel="alternate" type="application/rss+xml" title="steakscience" href="http://steakscience.com/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/soylent-three-years-later/">
+  <link rel="alternate" type="application/rss+xml" title="steakscience" href="http://localhost:4000/feed.xml">
 
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -51,126 +23,9 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f75f64">
 
 
-  <!-- not critical css -->
-  <!-- <link rel="preload" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css" as="style"> -->
-  <link rel="preload" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css"></noscript>
-  <link rel="preload" href="/css/dia.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/dia.css"></noscript>
-  <link rel="preload" href="/css/fg.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/fg.css"></noscript>
-  <link rel="preload" href="/css/ideal_sans.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/ideal_sans.css"></noscript>
-
-  <script>
-    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-  (function( w ){
-    "use strict";
-    // rel=preload support test
-    if( !w.loadCSS ){
-      w.loadCSS = function(){};
-    }
-    // define on the loadCSS obj
-    var rp = loadCSS.relpreload = {};
-    // rel=preload feature support test
-    // runs once and returns a function for compat purposes
-    rp.support = (function(){
-      var ret;
-      try {
-        ret = w.document.createElement( "link" ).relList.supports( "preload" );
-      } catch (e) {
-        ret = false;
-      }
-      return function(){
-        return ret;
-      };
-  })();
-
-  // if preload isn't supported, get an asynchronous load by using a non-matching media attribute
-  // then change that media back to its intended value on load
-  rp.bindMediaToggle = function( link ){
-    // remember existing media attr for ultimate state, or default to 'all'
-    var finalMedia = link.media || "all";
-
-    function enableStylesheet(){
-      link.media = finalMedia;
-    }
-
-    // bind load handlers to enable media
-    if( link.addEventListener ){
-      link.addEventListener( "load", enableStylesheet );
-    } else if( link.attachEvent ){
-      link.attachEvent( "onload", enableStylesheet );
-    }
-
-    // Set rel and non-applicable media type to start an async request
-    // note: timeout allows this to happen async to let rendering continue in IE
-    setTimeout(function(){
-      link.rel = "stylesheet";
-      link.media = "only x";
-    });
-    // also enable media after 3 seconds,
-    // which will catch very old browsers (android 2.x, old firefox) that don't support onload on link
-    setTimeout( enableStylesheet, 3000 );
-  };
-
-  // loop through link elements in DOM
-  rp.poly = function(){
-    // double check this to prevent external calls from running
-    if( rp.support() ){
-      return;
-    }
-    var links = w.document.getElementsByTagName( "link" );
-    for( var i = 0; i < links.length; i++ ){
-      var link = links[ i ];
-      // qualify links to those with rel=preload and as=style attrs
-      if( link.rel === "preload" && link.getAttribute( "as" ) === "style" && !link.getAttribute( "data-loadcss" ) ){
-        // prevent rerunning on link
-        link.setAttribute( "data-loadcss", true );
-        // bind listeners to toggle media back
-        rp.bindMediaToggle( link );
-      }
-    }
-  };
-
-  // if unsupported, run the polyfill
-  if( !rp.support() ){
-    // run once at least
-    rp.poly();
-
-    // rerun poly on an interval until onload
-    var run = w.setInterval( rp.poly, 500 );
-    if( w.addEventListener ){
-      w.addEventListener( "load", function(){
-        rp.poly();
-        w.clearInterval( run );
-      } );
-    } else if( w.attachEvent ){
-      w.attachEvent( "onload", function(){
-        rp.poly();
-        w.clearInterval( run );
-      } );
-    }
-  }
-
-
-  // commonjs
-  if( typeof exports !== "undefined" ){
-    exports.loadCSS = loadCSS;
-  }
-  else {
-    w.loadCSS = loadCSS;
-  }
-}( typeof global !== "undefined" ? global : this ) );
-</script>
-
-<!-- end loadcss -->
-
-  <!-- load jquery -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-    crossorigin="anonymous">
-  </script> -->
-
   
 
-  <!-- Begin Jekyll SEO tag v2.5.0 -->
+  <!-- Begin Jekyll SEO tag v2.6.0 -->
 <title>Soylent, Three Years Later | steakscience</title>
 <meta name="generator" content="Jekyll v3.4.3" />
 <meta property="og:title" content="Soylent, Three Years Later" />
@@ -178,195 +33,128 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="For the past three years, I’ve replaced most of my meals with Soylent." />
 <meta property="og:description" content="For the past three years, I’ve replaced most of my meals with Soylent." />
-<link rel="canonical" href="http://steakscience.com/soylent-three-years-later/" />
-<meta property="og:url" content="http://steakscience.com/soylent-three-years-later/" />
+<link rel="canonical" href="http://localhost:4000/soylent-three-years-later/" />
+<meta property="og:url" content="http://localhost:4000/soylent-three-years-later/" />
 <meta property="og:site_name" content="steakscience" />
-<meta property="og:image" content="http://steakscience.com/images/soylent_3/hero.jpg" />
+<meta property="og:image" content="http://localhost:4000/images/soylent_3/hero.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2017-12-19T00:00:00-08:00" />
+<meta property="article:published_time" content="2017-12-19T00:00:00+07:00" />
 <script type="application/ld+json">
-{"headline":"Soylent, Three Years Later","dateModified":"2017-12-19T00:00:00-08:00","datePublished":"2017-12-19T00:00:00-08:00","image":"http://steakscience.com/images/soylent_3/hero.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://steakscience.com/soylent-three-years-later/"},"url":"http://steakscience.com/soylent-three-years-later/","author":{"@type":"Person","name":"Nirawit Jittipairoj"},"description":"For the past three years, I’ve replaced most of my meals with Soylent.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"url":"http://localhost:4000/soylent-three-years-later/","headline":"Soylent, Three Years Later","datePublished":"2017-12-19T00:00:00+07:00","description":"For the past three years, I’ve replaced most of my meals with Soylent.","dateModified":"2017-12-19T00:00:00+07:00","image":"http://localhost:4000/images/soylent_3/hero.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/soylent-three-years-later/"},"author":{"@type":"Person","name":"Nirawit Jittipairoj"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
+</head>
 
-    <!-- Google Analytics -->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-61560416-2', 'auto');
-	ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
-	ga('set', 'anonymizeIp', false);
-    </script>
-    <!-- End Google Analytics -->
-    </head>
-
-<body class="bg-light">
-
-<!-- <div class="db w-100 ph3-ns ph2-m ph4 cf bg-light-gray mb4-ns mb3"> -->
-<div class="db w-100 cf mt0 bg-dark">
-<header class="db w-100 relative" id="nav">
-	
-	<div class="dib titlePad">
-		<a class="link" href="/">
-			<img src="/images/logo_white.svg" id="logo" class="link dim fl">
-		</a>
-	</div>
-
-	
-
-  	<div id="navWrapper" class="cf dib">	
-		<div id="hamWrapper">
-			<img src="/images/hamburger.svg" id="hamburger" class="link v-mid fr dim">
-			<!-- <img src="/images/close.svg" id="close" class="link v-mid fr show"> -->
-		</div>
-	</div>
-
-	<div id="menuWrapper">
-		<div id="menu">
-
-			<a class="link" href="/">
-				<img src="/images/logo_white.svg" id="menuLogo" class="link dim">
-			</a>
-			<h1 class="f2 fg-semibold white lh-solid mb0">steakscience</h1>
-			<p class="ideal-book f4 white-60 mt0 mw6">A blog about technology, design, and culture. Probably off-topic.</p>
-
-			<!-- white line -->
-			<div class="bt b--white-20 bw1 w-100 menuLine"></div>
-
-			<!-- links -->
-			<ul class="list pl0">
-				
-				<li class="mb4 f3 fg-medium"><a href="/archive/" class="white-80 hover-white-60">Archive</a></li>
-				
-				<li class="mb4 f3 fg-medium"><a href="/favorites/" class="white-80 hover-white-60">Favorites</a></li>
-				
-			</ul>
-		</div>
-	</div>
-
-
-</header>
+  <body class="w-100 mw8 pa4 black db center cf f5 lh-copy">
+      <div>
+    <a>
+        <img src="/images/logo_ss_black.svg" style="width: 4.5rem;">
+    </a>
 </div>
+  
+  <div class="" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <!-- <div class="w-70-ns w-80-m w-100 center ph3-ns ph2-m ph4"> -->
-    
-    <main class="w-100"><!-- title bar -->
-<div class="bg-dark db w-100 mb0 titlePad" id="titleBar" itemscope itemtype="http://schema.org/BlogPosting">
-	<a href="/soylent-three-years-later/" class="white-70 hover-white-50 f45"><span class="fg-semibold f45"><span itemprop="datePublished">19 December&nbsp;2017</span></span> 
-		<span class="white-40">&middot;</span>
-	<a href="/categories/#culture" class="ttl white-70 hover-white-50 fg-medium f45">#culture</a></span>
-	
-	<h1 class="lh-solid f2 mt3 pt1 mb2-ns mb1 fg-bold mw8 white" itemprop="name headline">
+	<div class="db mb0 mt3 bb bt pv2 fw4">
+		<a href="/soylent-three-years-later/" class="black f5 link"><span itemprop="datePublished">19 December&nbsp;2017</span></span> 
+			<span class="">/</span>
+		<a href="/categories/#culture" class="ttl black f5 link">#culture</a></span></a>
+	</div>
+
+	<h1 class="f2 fw5 lh-title bb bw1 pv2 mt0 mb2" itemprop="name headline" style="letter-spacing: -0.02rem;">
 		Soylent, Three Years&nbsp;Later
 	</h1>
 
-	
-	<h2 class="white-70 fg-medium subtitle mt2 mb1">
+<!-- 	<h2 class="f3 fw5">
 		Why don’t you like real&nbsp;food?
-	</h2>
-	
+	</h2> -->
 
-	
-	
-
-</div>
-
-<!-- left strip -->
-<div class="bg-mid" id="leftStrip">
 </div>
 
 <!-- article wrap -->
-<article id="articleWrapper" class="">
+<div class="db w-100 center">
 	
-		<figure id="heroImg"><img class="" src="/images/soylent_3/hero.jpg" />
+		<figure id="heroImg" class="w-100 ma0"><img class="w-100" src="/images/soylent_3/hero.jpg" />
 		
 		</figure>
 
 	
 
-	<section class="db f4-ns f5 lh-copy black-70 cf" id="postBody" itemprop="articleBody">
+	<section class="postBody mt1 pt2" itemprop="articleBody">
 
-		<p>For the past three years, I’ve replaced most of my meals with&nbsp;Soylent.</p>
+		<p>For the past three years, I’ve replaced most of my meals&nbsp;with Soylent.</p>
 
-<p>Three years is a great time to reflect on the state of Soylent—the company and the mission, as well as what Soylent has been like for&nbsp;me.</p>
+<p>Three years is a great time to reflect on the state of Soylent<span class="emdash">—</span>the com­pany and the mis­sion, as well as what Soy­lent has been like&nbsp;for me.</p>
 
-<hr />
+<hr>
 
-<h2 id="the-soylent-dream">The Soylent&nbsp;Dream</h2>
+<h2 id="the-soylent-dream">The&nbsp;Soylent Dream</h2>
 
-<p>Before I fell in love with Soylent, I fell in love with <em>the idea of Soylent</em>. The idea that we have the understanding and the technology to create the perfect food for ourselves. Food that is nutritionally perfect (most of what we eat are not). Food that is efficient—efficient to manufacture and efficient to&nbsp;transport.</p>
+<p>Before I fell in love with Soy­lent, I fell in love with <em>the idea of Soylent</em>. The idea that we have the under­stand­ing and the tech­nol­ogy to cre­ate the per­fect food for our­selves. Food that is nutri­tion­ally per­fect (most of what we eat are not). Food that is efficient<span class="emdash">—</span>effi­cient to man­u­fac­ture and effi­cient&nbsp;to transport.</p>
 
-<p>Instead of shipping around perishable solids, we can ship powder. Then, by just adding clean water, people can make the nutritionally perfect&nbsp;meal.</p>
+<p>Instead of ship­ping around per­ish­able solids, we can ship pow­der. Then, by just adding clean water, peo­ple can make the nutri­tion­ally&nbsp;perfect meal.</p>
 
-<h2 id="moving-away-from-powder">Moving Away from&nbsp;Powder</h2>
+<h2 id="moving-away-from-powder">Moving Away&nbsp;from Powder</h2>
 
-<p>Rob Rhinehart, who created Soylent and championed the idea of Powder, now stocks dozens of bottles of Soylent in his home and drinks them&nbsp;full-time.</p>
+<p>Rob Rhine­hart, who cre­ated Soy­lent and cham­pi­oned the idea of Pow­der, now stocks dozens of bot­tles of Soy­lent in his home and drinks&nbsp;them full-time.</p>
 
-<p>The idea of shipping liquids around the country is ridiculously inefficient. In fact, it’s antithetical to the Soylent&nbsp;Dream.</p>
+<p>The idea of ship­ping liq­uids around the coun­try is ridicu­lously inef­fi­cient. In fact, it’s anti­thet­i­cal to the&nbsp;Soylent Dream.</p>
 
-<p>Sadly, that Dream has been put on hold. The company’s focus is now on snacking, which is where the consumer demand and the profits are. I don’t blame them. After all, Soylent is a profit-seeking&nbsp;company.</p>
+<p>Sad­ly, that Dream has been put on hold. The com­pa­ny’s focus is now on snack­ing, which is where the con­sumer demand and the prof­its are. I don’t blame them. After all, Soy­lent is a&nbsp;profit-seeking company.</p>
 
-<p>That means Powder is now neglected, while Drinks are constantly being improved upon. My last Powder experience was version <span class="caps"><span class="caps">1.5</span></span>, which tasted disgusting and sometimes caused indigestion. It was bad, and like Rhinehart, I’ve moved away from&nbsp;Powder.</p>
+<p>That means Pow­der is now neglect­ed, while Drinks are con­stantly being improved upon. My last Pow­der expe­ri­ence was ver­sion <span class="caps"><span class="caps">1.5</span></span>, which tasted dis­gust­ing and some­times caused indi­ges­tion. It was bad, and like Rhine­hart, I’ve moved away&nbsp;from Powder.</p>
 
-<h2 id="the-daily-experience">The Daily&nbsp;Experience</h2>
+<h2 id="the-daily-experience">The&nbsp;Daily Experience</h2>
 
-<p>When I last <a href="http://steakscience.com/drinking-the-future/">wrote about Soylent</a>, I had a very positive experience. That is still the&nbsp;same.</p>
+<p>When I last <a href="http://steakscience.com/drinking-the-future/">wrote about Soylent</a>, I had a very pos­i­tive expe­ri­ence. That is still&nbsp;the same.</p>
 
-<p>Soylent fits perfectly into my daily life. I’m going to university and I also have a job. That means I’m either at work or in class. With Soylent, I can have lunch anywhere without disrupting whatever task I’m doing at the&nbsp;time.</p>
+<p>Soy­lent fits per­fectly into my daily life. I’m going to uni­ver­sity and I also have a job. That means I’m either at work or in class. With Soy­lent, I can have lunch any­where with­out dis­rupt­ing what­ever task I’m doing at&nbsp;the time.</p>
 
-<hr />
+<hr>
 
-<p>My friends and co-workers often see me with Soylent and I usually get asked the same&nbsp;questions.</p>
+<p>My friends and co-­work­ers often see me with Soy­lent and I usu­ally get asked the&nbsp;same questions.</p>
 
-<p>What does it taste like? Does it taste good? Do you actually get full? Why don’t you like real&nbsp;food?</p>
+<p>What does it taste like? Does it taste good? Do you actu­ally get full? Why don’t you like&nbsp;real food?</p>
 
-<p>These are great questions, and I’ll answer them here as&nbsp;well.</p>
+<p>These are great ques­tions, and I’ll answer them here&nbsp;as well.</p>
 
-<h2 id="what-does-it-taste-like-does-it-taste-good">What does it taste like? Does it taste&nbsp;good?</h2>
+<h2 id="what-does-it-taste-like-does-it-taste-good">What does it taste like? Does it&nbsp;taste good?</h2>
 
-<p>My go-to answer for is that Soylent tastes like cereal milk, but thicker in texture and not&nbsp;sweet.</p>
+<p>My go-to answer for is that Soy­lent tastes like cereal milk, but thicker in tex­ture and&nbsp;not sweet.</p>
 
-<p>Does it taste good? It’s difficult to answer this one, not just because taste is subjective, but because Soylent isn’t meant to be savored or tasted. Soylent is supposed to be a neutral sustenance; one that you can drink every day without tiring. It tastes pretty neutral and I don’t actively think about the taste when I drink. I just drink. Like how I drink&nbsp;water.</p>
+<p>Does it taste good? It’s dif­fi­cult to answer this one, not just because taste is sub­jec­tive, but because Soy­lent isn’t meant to be savored or tast­ed. Soy­lent is sup­posed to be a neu­tral sus­te­nance; one that you can drink every day with­out tir­ing. It tastes pretty neu­tral and I don’t actively think about the taste when I drink. I just drink. Like how I&nbsp;drink water.</p>
 
-<h2 id="do-you-actually-get-full">Do you actually get&nbsp;full?</h2>
+<h2 id="do-you-actually-get-full">Do you actually&nbsp;get full?</h2>
 
-<p>Soylent doesn’t actually get me full. Instead, it gets me to this in-between state, which is even better. When you think about it, getting full isn’t a good thing. It’s your body saying, “don’t even try to shove more food in here.” Getting to that point means you’ve already eaten more than you&nbsp;should’ve.</p>
+<p>Soy­lent does­n’t actu­ally get me full. Instead, it gets me to this in-­be­tween state, which is even bet­ter. When you think about it, get­ting full isn’t a good thing. It’s your body say­ing, “don’t even try to shove more food in here.” Get­ting to that point means you’ve already eaten more than&nbsp;you should’ve.</p>
 
-<p>The in-between state I’m speaking of is different. It’s the perfect balance between being hungry and full. There’s no urge to consume anymore, nor is there any fatigue or discomfort from consuming too much. Just&nbsp;perfect.</p>
+<p>The in-­be­tween state I’m speak­ing of is dif­fer­ent. It’s the per­fect bal­ance between being hun­gry and full. There’s no urge to con­sume any­more, nor is there any fatigue or dis­com­fort from con­sum­ing too much.&nbsp;Just per­fect.</p>
 
-<p>Now for the direct answer. The average person needs 2000 calories per day. A single Soylent drink has 400 calories, so I drink five a day. Of course, some people need more, and others less. You can experiment and find the right amount for&nbsp;you.</p>
+<p>Now for the direct answer. The aver­age per­son needs 2000 calo­ries per day. A sin­gle Soy­lent drink has 400 calo­ries, so I drink five a day. Of course, some peo­ple need more, and oth­ers less. You can exper­i­ment and find the right amount&nbsp;for you.</p>
 
-<h2 id="why-dont-you-like-real-food">Why don’t you like real&nbsp;food?</h2>
+<h2 id="why-dont-you-like-real-food">Why don’t you like&nbsp;real food?</h2>
 
-<p>Ha. I do like real&nbsp;food.</p>
+<p>Ha. I do like&nbsp;real food.</p>
 
-<p>Most food I have access to is bad—unhealthy, tastes bad, time-consuming to eat, and expensive. I never say Soylent is for everyone, but it is perfect for&nbsp;me.</p>
+<p>Most food I have access to is bad<span class="emdash">—</span>unhealthy, tastes bad, time-­con­sum­ing to eat, and expen­sive. I never say Soy­lent is for every­one, but it is per­fect&nbsp;for me.</p>
 
 
 	</section>
 	
 
-</article>&nbsp;<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-crossorigin="anonymous">
-</script>
+</div>
 
-<footer id="footer" class="fg-medium cf pv0 ph4-l ph4 mt5-l mt3">
+<footer id="footer" class="cf pb0 pt2 ph0 mt5 bt">
 	<div class="footerBlock">
 
 		
-	    <div class="fl tl cf dim">
+	    <div class="fl tl cf">
 
-	        <a href="/seattle-mechanical-keyboard/" class="link white hover-white">
+	        <a href="/seattle-mechanical-keyboard/" class="link black f5">
 
 	    		<!-- <img src="/images/next.svg" class="icon fr"> -->
 
 	    		<div class="v-mid">
-	    			<img src="/images/prev.svg" class="icon dib v-mid" style="position: relative; left: 0;">
-	    			<p class="v-mid dib ml2 f4-ns f5" style="padding-top: 0.5rem;">Seattle Mechanical Keyboard&nbsp;Meetup</p>
+	    			<p class="v-mid dib f5 mv0">Seattle Mechanical Keyboard&nbsp;Meetup</p>
 	    		</div>
 
 	        </a>
@@ -375,15 +163,14 @@ crossorigin="anonymous">
 	    
 
 		
-	    <div class="fr tr cf dim">
+	    <div class="fr tr cf">
 
-	        <a href="/the-iconic-iphone/" class="link white hover-white">
+	        <a href="/the-iconic-iphone/" class="link black f5">
 
 	    		<!-- <img src="/images/next.svg" class="icon fr"> -->
 
 	    		<div class="v-mid">
-	    			<p class="v-mid dib mr2 f4-ns f5" style="padding-top: 0.5rem;">The Iconic&nbsp;iPhone</p>
-	    			<img src="/images/next.svg" class="icon dib v-mid" style="position: relative; right: 0;">
+	    			<p class="v-mid dib f5 mv0">The Iconic&nbsp;iPhone</p>
 	    		</div>
 
 	        </a>
@@ -393,56 +180,22 @@ crossorigin="anonymous">
 
 	</div>
 </footer>
-</main>
-    
-  <!-- </div> -->
-  
-</body>
 
-<!-- load jquery -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
     crossorigin="anonymous">
-  </script> -->
-
-  <!-- random color scheme https://stackoverflow.com/questions/40791621/change-color-scheme-on-refresh -->
-  <script type="text/javascript">
-    $( document ).ready(function() {
-      var listOfClasses = ["blue","pink","green", "yellow", "gray", "purple", "orange"];
-      var randomNum = Math.floor(Math.random() * listOfClasses.length); 
-      $("html").addClass(listOfClasses[randomNum]);
-    });
   </script>
 
-<!-- menu stuff -->
-<script type="text/javascript">
-	$(function() {
-	  $('#hamburger').on('click', function() {
-	    // $('#hamburger').toggleClass('opened');
-	    // $('#close').toggleClass('show');
-	    // $('#hamburger').attr("src","/images/close.svg");
+  <!-- footnote -->
+  <script src="/js/footnotes/dist/jquery.inline-footnotes.min.js" type="text/javascript"></script>
 
-	    var src = ($(this).attr('src') === "/images/hamburger.svg")
-            ? "/images/close.svg"
-            : "/images/hamburger.svg"
-         $(this).attr('src', src);
-
-	    $('#menu').toggleClass('visible');
-	    $('body').toggleClass('noScroll');
-	  });
-
-	});
-</script>
-
-<!-- footnote -->
-<script src="/js/footnotes/dist/jquery.inline-footnotes.min.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-  	$.inlineFootnotes();
-  });
-</script>
-
-
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $.inlineFootnotes();
+    });
+  </script>
 
 </html>

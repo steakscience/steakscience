@@ -1,28 +1,17 @@
-<!-- title bar -->
-<div class="bg-dark db w-100 mb0 titlePad" id="titleBar" itemscope itemtype="http://schema.org/BlogPosting">
-	<a href="{{include.myPost.url}}" class="white-70 hover-white-50 f45"><span class="fg-semibold f45"><span itemprop="datePublished">{{include.myPost.date | date: "%-d %B %Y"}}</span></span> 
-		<span class="white-40">&middot;</span>
-	<a href="{{site.baseurl}}/categories/#{{include.myPost.categories}}" class="ttl white-70 hover-white-50 fg-medium f45">#{{include.myPost.categories}}</a></span>
-	
-	<h1 class="lh-solid f2 mt3 pt1 mb2-ns mb1 fg-bold mw8 white" itemprop="name headline">
+<div class="" itemscope itemtype="http://schema.org/BlogPosting">
+
+	<div class="db mb0 mt3 bb bt pv2 fw4">
+		<a href="{{include.myPost.url}}" class="black f5 link"><span itemprop="datePublished">{{include.myPost.date | date: "%-d %B %Y"}}</span></span> 
+			<span class="">/</span>
+		<a href="{{site.baseurl}}/categories/#{{include.myPost.categories}}" class="ttl black f5 link">#{{include.myPost.categories}}</a></span></a>
+	</div>
+
+	<h1 class="f2 fw5 lh-title bb bw1 pv2 mt0 mb2" itemprop="name headline" style="letter-spacing: -0.02rem;">
 		{{include.myPost.title | widont}}
 	</h1>
 
-	{% if include.myPost.subtitle %}
-	<h2 class="white-70 fg-medium subtitle mt2 mb1">
+<!-- 	<h2 class="f3 fw5">
 		{{include.myPost.subtitle | widont}}
-	</h2>
-	{% endif %}
-
-	{% if include.myPost.layout == 'this' %}
-	<h2 class="white-80 fg-medium subtitle mt2 mb1">
-		{% if include.myPost.subtitle %}
-			
-		{% else %}
-		A collection of cool and interesting things. Curated weekly.
-		{% endif %}
-	</h2>
-	{% endif %}
-	
+	</h2> -->
 
 </div>

@@ -1,0 +1,28 @@
+<!-- title bar -->
+<div class="bg-dark db w-100 mb0 titlePad" id="titleBar" itemscope itemtype="http://schema.org/BlogPosting">
+	<a href="{{include.myPost.url}}" class="white-70 hover-white-50 f45"><span class="fg-semibold f45"><span itemprop="datePublished">{{include.myPost.date | date: "%-d %B %Y"}}</span></span> 
+		<span class="white-40">&middot;</span>
+	<a href="{{site.baseurl}}/categories/#{{include.myPost.categories}}" class="ttl white-70 hover-white-50 fg-medium f45">#{{include.myPost.categories}}</a></span>
+	
+	<h1 class="lh-solid f2 mt3 pt1 mb2-ns mb1 fg-bold white" itemprop="name headline">
+		{{include.myPost.title | widont}}
+	</h1>
+
+	{% if include.myPost.subtitle %}
+	<h2 class="white-70 fg-medium subtitle mt2 mb1">
+		{{include.myPost.subtitle | widont}}
+	</h2>
+	{% endif %}
+
+	{% if include.myPost.layout == 'this' %}
+	<h2 class="white-80 fg-medium subtitle mt2 mb1">
+		{% if include.myPost.subtitle %}
+			
+		{% else %}
+		A collection of cool and interesting things. Curated weekly.
+		{% endif %}
+	</h2>
+	{% endif %}
+	
+
+</div>

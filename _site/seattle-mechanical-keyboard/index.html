@@ -1,35 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <!--  /**
- * @license
- * MyFonts Webfont Build ID 3328218, 2017-01-06T13:02:43-0500
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: NeueHaasUnicaPro-Bold by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/bold/
- * Licensed pageviews: 500,000
- * 
- * Webfont: NeueHaasUnicaPro-Italic by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/italic/
- * Licensed pageviews: 250,000
- * 
- * Webfont: NeueHaasUnicaPro-Regular by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/regular/
- * Licensed pageviews: 500,000
- * 
- * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=3328218
- * Webfonts copyright: Copyright &#x00A9; 2015 Monotype Imaging Inc.  All rights
- * reserved.
- * 
- * © 2017 MyFonts Inc
-*/ -->
+  <head>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,13 +8,14 @@
   <title>Seattle Mechanical Keyboard Meetup – steakscience</title>
   <meta name="description" content="Twice a year, mechanical keyboard enthusiasts meetup in Seattle. Most are from the area, some fly in, and everyone brings their keyboards.">
   <meta name="author" content="Nirawit Jittipairoj">
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+  <!-- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/> -->
+  <link rel="stylesheet" href="/css/tachyons.css">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css">
 
-  <!--  -->
-
-  <link rel="canonical" href="http://steakscience.com/seattle-mechanical-keyboard/">
-  <link rel="alternate" type="application/rss+xml" title="steakscience" href="http://steakscience.com/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/seattle-mechanical-keyboard/">
+  <link rel="alternate" type="application/rss+xml" title="steakscience" href="http://localhost:4000/feed.xml">
 
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -51,126 +23,9 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f75f64">
 
 
-  <!-- not critical css -->
-  <!-- <link rel="preload" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css" as="style"> -->
-  <link rel="preload" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css"></noscript>
-  <link rel="preload" href="/css/dia.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/dia.css"></noscript>
-  <link rel="preload" href="/css/fg.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/fg.css"></noscript>
-  <link rel="preload" href="/css/ideal_sans.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/ideal_sans.css"></noscript>
-
-  <script>
-    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-  (function( w ){
-    "use strict";
-    // rel=preload support test
-    if( !w.loadCSS ){
-      w.loadCSS = function(){};
-    }
-    // define on the loadCSS obj
-    var rp = loadCSS.relpreload = {};
-    // rel=preload feature support test
-    // runs once and returns a function for compat purposes
-    rp.support = (function(){
-      var ret;
-      try {
-        ret = w.document.createElement( "link" ).relList.supports( "preload" );
-      } catch (e) {
-        ret = false;
-      }
-      return function(){
-        return ret;
-      };
-  })();
-
-  // if preload isn't supported, get an asynchronous load by using a non-matching media attribute
-  // then change that media back to its intended value on load
-  rp.bindMediaToggle = function( link ){
-    // remember existing media attr for ultimate state, or default to 'all'
-    var finalMedia = link.media || "all";
-
-    function enableStylesheet(){
-      link.media = finalMedia;
-    }
-
-    // bind load handlers to enable media
-    if( link.addEventListener ){
-      link.addEventListener( "load", enableStylesheet );
-    } else if( link.attachEvent ){
-      link.attachEvent( "onload", enableStylesheet );
-    }
-
-    // Set rel and non-applicable media type to start an async request
-    // note: timeout allows this to happen async to let rendering continue in IE
-    setTimeout(function(){
-      link.rel = "stylesheet";
-      link.media = "only x";
-    });
-    // also enable media after 3 seconds,
-    // which will catch very old browsers (android 2.x, old firefox) that don't support onload on link
-    setTimeout( enableStylesheet, 3000 );
-  };
-
-  // loop through link elements in DOM
-  rp.poly = function(){
-    // double check this to prevent external calls from running
-    if( rp.support() ){
-      return;
-    }
-    var links = w.document.getElementsByTagName( "link" );
-    for( var i = 0; i < links.length; i++ ){
-      var link = links[ i ];
-      // qualify links to those with rel=preload and as=style attrs
-      if( link.rel === "preload" && link.getAttribute( "as" ) === "style" && !link.getAttribute( "data-loadcss" ) ){
-        // prevent rerunning on link
-        link.setAttribute( "data-loadcss", true );
-        // bind listeners to toggle media back
-        rp.bindMediaToggle( link );
-      }
-    }
-  };
-
-  // if unsupported, run the polyfill
-  if( !rp.support() ){
-    // run once at least
-    rp.poly();
-
-    // rerun poly on an interval until onload
-    var run = w.setInterval( rp.poly, 500 );
-    if( w.addEventListener ){
-      w.addEventListener( "load", function(){
-        rp.poly();
-        w.clearInterval( run );
-      } );
-    } else if( w.attachEvent ){
-      w.attachEvent( "onload", function(){
-        rp.poly();
-        w.clearInterval( run );
-      } );
-    }
-  }
-
-
-  // commonjs
-  if( typeof exports !== "undefined" ){
-    exports.loadCSS = loadCSS;
-  }
-  else {
-    w.loadCSS = loadCSS;
-  }
-}( typeof global !== "undefined" ? global : this ) );
-</script>
-
-<!-- end loadcss -->
-
-  <!-- load jquery -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-    crossorigin="anonymous">
-  </script> -->
-
   
 
-  <!-- Begin Jekyll SEO tag v2.5.0 -->
+  <!-- Begin Jekyll SEO tag v2.6.0 -->
 <title>Seattle Mechanical Keyboard Meetup | steakscience</title>
 <meta name="generator" content="Jekyll v3.4.3" />
 <meta property="og:title" content="Seattle Mechanical Keyboard Meetup" />
@@ -178,404 +33,298 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Twice a year, mechanical keyboard enthusiasts meetup in Seattle. Most are from the area, some fly in, and everyone brings their keyboards." />
 <meta property="og:description" content="Twice a year, mechanical keyboard enthusiasts meetup in Seattle. Most are from the area, some fly in, and everyone brings their keyboards." />
-<link rel="canonical" href="http://steakscience.com/seattle-mechanical-keyboard/" />
-<meta property="og:url" content="http://steakscience.com/seattle-mechanical-keyboard/" />
+<link rel="canonical" href="http://localhost:4000/seattle-mechanical-keyboard/" />
+<meta property="og:url" content="http://localhost:4000/seattle-mechanical-keyboard/" />
 <meta property="og:site_name" content="steakscience" />
-<meta property="og:image" content="http://steakscience.com/images/smk/hero.jpg" />
+<meta property="og:image" content="http://localhost:4000/images/smk/hero.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-01-14T00:00:00-08:00" />
+<meta property="article:published_time" content="2018-01-14T00:00:00+07:00" />
 <script type="application/ld+json">
-{"headline":"Seattle Mechanical Keyboard Meetup","dateModified":"2018-01-14T00:00:00-08:00","datePublished":"2018-01-14T00:00:00-08:00","image":"http://steakscience.com/images/smk/hero.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://steakscience.com/seattle-mechanical-keyboard/"},"url":"http://steakscience.com/seattle-mechanical-keyboard/","author":{"@type":"Person","name":"Nirawit Jittipairoj"},"description":"Twice a year, mechanical keyboard enthusiasts meetup in Seattle. Most are from the area, some fly in, and everyone brings their keyboards.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"url":"http://localhost:4000/seattle-mechanical-keyboard/","headline":"Seattle Mechanical Keyboard Meetup","datePublished":"2018-01-14T00:00:00+07:00","description":"Twice a year, mechanical keyboard enthusiasts meetup in Seattle. Most are from the area, some fly in, and everyone brings their keyboards.","dateModified":"2018-01-14T00:00:00+07:00","image":"http://localhost:4000/images/smk/hero.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/seattle-mechanical-keyboard/"},"author":{"@type":"Person","name":"Nirawit Jittipairoj"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
+</head>
 
-    <!-- Google Analytics -->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-61560416-2', 'auto');
-	ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
-	ga('set', 'anonymizeIp', false);
-    </script>
-    <!-- End Google Analytics -->
-    </head>
-
-<body class="bg-light">
-
-<!-- <div class="db w-100 ph3-ns ph2-m ph4 cf bg-light-gray mb4-ns mb3"> -->
-<div class="db w-100 cf mt0 bg-dark">
-<header class="db w-100 relative" id="nav">
-	
-	<div class="dib titlePad">
-		<a class="link" href="/">
-			<img src="/images/logo_white.svg" id="logo" class="link dim fl">
-		</a>
-	</div>
-
-	
-
-  	<div id="navWrapper" class="cf dib">	
-		<div id="hamWrapper">
-			<img src="/images/hamburger.svg" id="hamburger" class="link v-mid fr dim">
-			<!-- <img src="/images/close.svg" id="close" class="link v-mid fr show"> -->
-		</div>
-	</div>
-
-	<div id="menuWrapper">
-		<div id="menu">
-
-			<a class="link" href="/">
-				<img src="/images/logo_white.svg" id="menuLogo" class="link dim">
-			</a>
-			<h1 class="f2 fg-semibold white lh-solid mb0">steakscience</h1>
-			<p class="ideal-book f4 white-60 mt0 mw6">A blog about technology, design, and culture. Probably off-topic.</p>
-
-			<!-- white line -->
-			<div class="bt b--white-20 bw1 w-100 menuLine"></div>
-
-			<!-- links -->
-			<ul class="list pl0">
-				
-				<li class="mb4 f3 fg-medium"><a href="/archive/" class="white-80 hover-white-60">Archive</a></li>
-				
-				<li class="mb4 f3 fg-medium"><a href="/favorites/" class="white-80 hover-white-60">Favorites</a></li>
-				
-			</ul>
-		</div>
-	</div>
-
-
-</header>
+  <body class="w-100 mw8 pa4 black db center cf f5 lh-copy">
+      <div>
+    <a>
+        <img src="/images/logo_ss_black.svg" style="width: 4.5rem;">
+    </a>
 </div>
+  
+  <div class="" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <!-- <div class="w-70-ns w-80-m w-100 center ph3-ns ph2-m ph4"> -->
-    
-    <main class="w-100"><!-- title bar -->
-<div class="bg-dark db w-100 mb0 titlePad" id="titleBar" itemscope itemtype="http://schema.org/BlogPosting">
-	<a href="/seattle-mechanical-keyboard/" class="white-70 hover-white-50 f45"><span class="fg-semibold f45"><span itemprop="datePublished">14 January&nbsp;2018</span></span> 
-		<span class="white-40">&middot;</span>
-	<a href="/categories/#technology" class="ttl white-70 hover-white-50 fg-medium f45">#technology</a></span>
-	
-	<h1 class="lh-solid f2 mt3 pt1 mb2-ns mb1 fg-bold mw8 white" itemprop="name headline">
+	<div class="db mb0 mt3 bb bt pv2 fw4">
+		<a href="/seattle-mechanical-keyboard/" class="black f5 link"><span itemprop="datePublished">14 January&nbsp;2018</span></span> 
+			<span class="">/</span>
+		<a href="/categories/#technology" class="ttl black f5 link">#technology</a></span></a>
+	</div>
+
+	<h1 class="f2 fw5 lh-title bb bw1 pv2 mt0 mb2" itemprop="name headline" style="letter-spacing: -0.02rem;">
 		Seattle Mechanical Keyboard&nbsp;Meetup
 	</h1>
 
-	
+<!-- 	<h2 class="f3 fw5">
+		
+	</h2> -->
 
-	
-	
-
-</div>
-
-<!-- left strip -->
-<div class="bg-mid" id="leftStrip">
 </div>
 
 <!-- article wrap -->
-<article id="articleWrapper" class="">
+<div class="db w-100 center">
 	
-		<figure id="heroImg"><img class="" src="/images/smk/hero.jpg" />
+		<figure id="heroImg" class="w-100 ma0"><img class="w-100" src="/images/smk/hero.jpg" />
 		
 		</figure>
 
 	
 
-	<section class="db f4-ns f5 lh-copy black-70 cf" id="postBody" itemprop="articleBody">
+	<section class="postBody mt1 pt2" itemprop="articleBody">
 
-		<p>Twice a year, mechanical keyboard enthusiasts <a href="https://ckeys.org/events/smkmeetup/">meetup in Seattle</a>. Most are from the area, some fly in, and everyone brings their&nbsp;keyboards.</p>
+		<p>Twice a year, mechan­i­cal key­board enthu­si­asts <a href="https://ckeys.org/events/smkmeetup/">meetup in Seattle</a>. Most are from the area, some fly in, and every­one brings&nbsp;their keyboards.</p>
 
-<p>Inside, there are dozens of tables where people display their keyboards alongside placards detailing the model, switch, keycaps, and other modifications. From there, people walk around and mingle, nerding out about keyboards, typing on them, and just having a great&nbsp;time.</p>
+<p>Inside, there are dozens of tables where peo­ple dis­play their key­boards along­side plac­ards detail­ing the mod­el, switch, key­caps, and other mod­i­fi­ca­tions. From there, peo­ple walk around and min­gle, nerd­ing out about key­boards, typ­ing on them, and just hav­ing a&nbsp;great time.</p>
 
-<p>The mechanical keyboard community is one of the kindest and most helpful communities on the internet. There are many meetups around the world, and attending them provides an opportunity to meet people <span class="caps"><span class="caps">IRL</span></span> and put their faces to their online&nbsp;names.</p>
+<p>The mechan­i­cal key­board com­mu­nity is one of the kind­est and most help­ful com­mu­ni­ties on the inter­net. There are many mee­tups around the world, and attend­ing them pro­vides an oppor­tu­nity to meet peo­ple <span class="caps"><span class="caps">IRL</span></span> and put their faces to their&nbsp;online names.</p>
 
-<hr />
+<hr>
 
-<p>Behind each keyboard is a story; how it was built, what all the parts are, and why the person built it. I went around talking to awesome people and took their&nbsp;portraits.</p>
+<p>Behind each key­board is a sto­ry; how it was built, what all the parts are, and why the per­son built it. I went around talk­ing to awe­some peo­ple and took&nbsp;their portraits.</p>
 
 <figure class="leftCaption">
-  <img src="/images/smk/p1.jpg" alt="" />
-  
-  <figcaption>(Left) Magicforce 68 keys Mini keyboard, Maxkey Lime&nbsp;keycaps
-<br /> (Right) <span class="caps"><span class="caps">WASD</span></span> <span class="caps"><span class="caps">V2</span></span> keyboard</figcaption>
+<p><img src="/images/smk/p1.jpg" alt=""></p>
+  <figcaption>(Left) Magicforce 68 keys Mini keyboard, Maxkey&nbsp;Lime keycaps
+<br> (Right) <span class="caps"><span class="caps">WASD</span></span> <span class="caps"><span class="caps">V2</span></span> keyboard</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/p2.jpg" alt="" />
-  
+<p><img src="/images/smk/p2.jpg" alt=""></p>
   <figcaption>60% Typewriter Wood Case, keycaps from Alibaba with chrome sides, <span class="caps"><span class="caps">PIP</span></span> LEDs</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/p3.jpg" alt="" />
-  
-  <figcaption>(Left) Kinensis Advantage with vinyl&nbsp;sticker
-<br /> (Right) Iris keyboard</figcaption>
+<p><img src="/images/smk/p3.jpg" alt=""></p>
+  <figcaption>(Left) Kinensis Advantage with&nbsp;vinyl sticker
+<br> (Right) Iris keyboard</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/p4.jpg" alt="" />
-  
+<p><img src="/images/smk/p4.jpg" alt=""></p>
   <figcaption><span class="caps"><span class="caps">RAMA</span></span> <span class="caps"><span class="caps">M65</span>-A</span> keyboard, <span class="caps"><span class="caps">GMK</span></span> Oblivion keycaps</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/p5.jpg" alt="" />
-  
+<p><img src="/images/smk/p5.jpg" alt=""></p>
   <figcaption>Mech<span class="caps">27-<span class="caps">TKL</span></span> keyboard, Gateron linear switches, <span class="caps"><span class="caps">GMK</span></span> Plum keycaps</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/p6.jpg" alt="" />
-  
+<p><img src="/images/smk/p6.jpg" alt=""></p>
   <figcaption>Mech<span class="caps">27-<span class="caps">TKL</span>-<span class="caps">V1</span></span> keyboard, Brown Alps switches, custom acrylic plate, <span class="caps"><span class="caps">SP</span></span> LightCycle keycaps</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/p6-2.jpg" alt="" />
-  
+<p><img src="/images/smk/p6-2.jpg" alt=""></p>
   <figcaption>Apple <span class="caps"><span class="caps">M0110</span></span> keyboard, custom <span class="caps"><span class="caps">PCB</span></span> with Bluetooth, Gateron Yellow switches</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/p7.jpg" alt="" />
-  
+<p><img src="/images/smk/p7.jpg" alt=""></p>
   <figcaption>Hardwired cork board, 67cN Zandas/Pealios, <span class="caps"><span class="caps">GMK</span></span> Plum keycaps</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/p8.jpg" alt="" />
-  
-  <figcaption>(Left) Pok3r keyboard, Cherry Blue switches, grab bag&nbsp;keycaps
-<br />(Right) Unknown Sony video editing keyboard</figcaption>
+<p><img src="/images/smk/p8.jpg" alt=""></p>
+  <figcaption>(Left) Pok3r keyboard, Cherry Blue switches, grab&nbsp;bag keycaps
+<br>(Right) Unknown Sony video editing keyboard</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/p9.jpg" alt="" />
-  
-  <figcaption>(Left) Leopold <span class="caps"><span class="caps">FC660M</span></span> keyboard, Cherry <span class="caps"><span class="caps">MX</span></span> Brown switches, purple <span class="caps"><span class="caps">WASD</span></span>&nbsp;keycaps
-<br />(Right) Genovation <span class="caps"><span class="caps">CP24</span></span> <span class="caps"><span class="caps">USB</span></span> <span class="caps"><span class="caps">HID</span></span>, Cherry <span class="caps"><span class="caps">MX</span></span> Black switches, Relegendable keycaps</figcaption>
+<p><img src="/images/smk/p9.jpg" alt=""></p>
+  <figcaption>(Left) Leopold <span class="caps"><span class="caps">FC660M</span></span> keyboard, Cherry <span class="caps"><span class="caps">MX</span></span> Brown switches, purple <span class="caps"><span class="caps">WASD</span></span> keycaps
+<br>(Right) Genovation <span class="caps"><span class="caps">CP24</span></span> <span class="caps"><span class="caps">USB</span></span> <span class="caps"><span class="caps">HID</span></span>, Cherry <span class="caps"><span class="caps">MX</span></span> Black switches, Relegendable keycaps</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/p10.jpg" alt="" />
-  
+<p><img src="/images/smk/p10.jpg" alt=""></p>
   <figcaption><span class="caps"><span class="caps">KBD</span></span> keyboard, Gateron Red switches, translucent top, side printed keycaps, dancing LEDs</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/p11.jpg" alt="" />
-  
+<p><img src="/images/smk/p11.jpg" alt=""></p>
   <figcaption><span class="caps"><span class="caps">HHKB</span></span> Pro 2, orange spacebar, artisan and stock Topres (rubber domes) and keycaps.</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/p12.jpg" alt="" />
-  
+<p><img src="/images/smk/p12.jpg" alt=""></p>
   <figcaption><span class="caps"><span class="caps">OLKB</span></span> Preonic keyboard, Adler Typewriter keycaps</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/p12-2.jpg" alt="" />
-  
+<p><img src="/images/smk/p12-2.jpg" alt=""></p>
   <figcaption><span class="caps"><span class="caps">RAMA</span></span> <span class="caps"><span class="caps">M65</span>-O</span>, custom ortho <span class="caps"><span class="caps">PCB</span></span> by /u/wootpatoot, 67g Zealio switches, <span class="caps"><span class="caps">SA</span></span> Hyper-7/Symbiosis keycaps</figcaption>
 </figure>
 
-<hr />
+<hr>
 
-<p>Some photos of the&nbsp;event:</p>
+<p>Some pho­tos of&nbsp;the event:</p>
 
 <figure>
-  <img src="/images/smk/c0.jpg" alt="" />
-  
+<p><img src="/images/smk/c0.jpg" alt=""></p>
 </figure>
 
 <figure>
-  <img src="/images/smk/c1.jpg" alt="" />
-  
+<p><img src="/images/smk/c1.jpg" alt=""></p>
 </figure>
 
 <figure>
-  <img src="/images/smk/c2.jpg" alt="" />
-  
+<p><img src="/images/smk/c2.jpg" alt=""></p>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/c3.jpg" alt="" />
-  
+<p><img src="/images/smk/c3.jpg" alt=""></p>
   <figcaption>This guy works at Github on the Atom team. For some reason, I thought it would be a good idea to tell him I use Sublime Text because Atom is slow. I should have said, “I appreciate you making an opensource text editor that everyone can use.” Sorry about that.</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/c20.jpg" alt="" />
-  
+<p><img src="/images/smk/c20.jpg" alt=""></p>
   <figcaption>Some Paul Allen computer hacked to run Windows 7.</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/c4.jpg" alt="" />
-  
+<p><img src="/images/smk/c4.jpg" alt=""></p>
   <figcaption>Numpad with different kinds of switches.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/smk/c5.jpg" alt="" />
-  
+<p><img src="/images/smk/c5.jpg" alt=""></p>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/c6.jpg" alt="" />
-  
+<p><img src="/images/smk/c6.jpg" alt=""></p>
   <figcaption>(Right) I ran into another <span class="caps"><span class="caps">UW</span></span> student, Scott.</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/c7.jpg" alt="" />
-  
+<p><img src="/images/smk/c7.jpg" alt=""></p>
   <figcaption>This is Scott’s board. The aluminum case was very well-manufactured. Apparently the two-layer cable cost the same amount though.</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/c8.jpg" alt="" />
-  
+<p><img src="/images/smk/c8.jpg" alt=""></p>
   <figcaption>My keyboard! Pok3r with <span class="caps"><span class="caps">MX</span></span> Clears and <span class="caps"><span class="caps">SP</span></span> Think Different keycaps, <span class="caps"><span class="caps">SP</span></span> red <span class="caps"><span class="caps">ESC</span></span> key.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/smk/c9.jpg" alt="" />
-  
+<p><img src="/images/smk/c9.jpg" alt=""></p>
 </figure>
 
 <figure>
-  <img src="/images/smk/c10.jpg" alt="" />
-  
+<p><img src="/images/smk/c10.jpg" alt=""></p>
 </figure>
 
 <figure>
-  <img src="/images/smk/c11.jpg" alt="" />
-  
+<p><img src="/images/smk/c11.jpg" alt=""></p>
 </figure>
 
 <figure>
-  <img src="/images/smk/c12.jpg" alt="" />
-  
+<p><img src="/images/smk/c12.jpg" alt=""></p>
 </figure>
 
 <figure>
-  <img src="/images/smk/c13.jpg" alt="" />
-  
+<p><img src="/images/smk/c13.jpg" alt=""></p>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/c14.jpg" alt="" />
-  
+<p><img src="/images/smk/c14.jpg" alt=""></p>
   <figcaption>These boards belong to b-randen, one of the organizers. The one on the left is probably my favorite keyboard in the whole event, from an aesthetics standpoint.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/smk/c15.jpg" alt="" />
-  
+<p><img src="/images/smk/c15.jpg" alt=""></p>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/c16.jpg" alt="" />
-  
+<p><img src="/images/smk/c16.jpg" alt=""></p>
   <figcaption><a href="https://www.youtube.com/channel/UCdfrYMwAJ8LHvy8-j_WIxAw">MechMerlin</a>, a YouTuber, filming his video at the meetup.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/smk/c17.jpg" alt="" />
-  
+<p><img src="/images/smk/c17.jpg" alt=""></p>
 </figure>
 
 <figure>
-  <img src="/images/smk/c18.jpg" alt="" />
-  
+<p><img src="/images/smk/c18.jpg" alt=""></p>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/c19.jpg" alt="" />
-  
+<p><img src="/images/smk/c19.jpg" alt=""></p>
   <figcaption>Someone modded two keyboards with really heavy keys (160g and 280g) for people to test their typing speeds on. 160g was quite heavy, 280g was ridiculous.</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/a1.jpg" alt="" />
-  
+<p><img src="/images/smk/a1.jpg" alt=""></p>
   <figcaption>Artisan/novel keycaps are unique. Unlike regular keys which represent letters or symbols, artisans are color heads, faces, or even <a href="https://imgur.com/gallery/vm7Y2">ramen</a>. They are quite expensive and can be one-of-a-kind. At the event, some people were selling and trading their artisans.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/smk/a2.jpg" alt="" />
-  
+<p><img src="/images/smk/a2.jpg" alt=""></p>
 </figure>
 
 <figure>
-  <img src="/images/smk/a3.jpg" alt="" />
-  
+<p><img src="/images/smk/a3.jpg" alt=""></p>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/a4.jpg" alt="" />
-  
+<p><img src="/images/smk/a4.jpg" alt=""></p>
   <figcaption>There was also an artisan keycap making area, where attendees carved some kind of soft brown rubber.</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/solder.jpg" alt="" />
-  
+<p><img src="/images/smk/solder.jpg" alt=""></p>
   <figcaption>There were soldering and handwiring workshops as well. This is a necessary skill for building a keyboard from scratch.</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/tele1.jpg" alt="" />
-  
+<p><img src="/images/smk/tele1.jpg" alt=""></p>
   <figcaption>Jack Humbert, the owner of <span class="caps"><span class="caps">OLKB</span></span>, went around the meetup via telepresence robot.</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/tele2.jpg" alt="" />
-  
+<p><img src="/images/smk/tele2.jpg" alt=""></p>
   <figcaption>My favorite photo I took at the meetup. There’s a comical seriousness to someone holding up a keyboard to show a robot.</figcaption>
 </figure>
 
 <figure class="leftCaption">
-  <img src="/images/smk/trivia.jpg" alt="" />
-  
-  <figcaption>There was a trivia for prizes. It was very fun and was quite casual. Not the nasty competitive&nbsp;kind.
-<br />I teamed up with a random stranger, and somehow we got 6/10, through some lucky guesses and random facts we knew. This turned out to a high enough score and we got artisan-shaped chocolate.</figcaption>
+<p><img src="/images/smk/trivia.jpg" alt=""></p>
+  <figcaption>There was a trivia for prizes. It was very fun and was quite casual. Not the nasty&nbsp;competitive kind.
+<br>I teamed up with a random stranger, and somehow we got 6/10, through some lucky guesses and random facts we knew. This turned out to a high enough score and we got artisan-shaped chocolate.</figcaption>
 </figure>
 
-<hr />
+<hr>
 
-<p>This was my first meetup and I’m quite new and ignorant about keyboards. Nonetheless, people were always willing to answer questions. The community is awesome, and I had a&nbsp;blast.</p>
+<p>This was my first meetup and I’m quite new and igno­rant about key­boards. Nonethe­less, peo­ple were always will­ing to answer ques­tions. The com­mu­nity is awe­some, and I had&nbsp;a blast.</p>
 
-<p><br /><span class="black-60">Photos taken on January 13<sup>th</sup>,&nbsp;2018</span></p>
+<p><br><span class="black-60">Pho­tos taken on Jan­u­ary 13<sup>th</sup>, 2018</span></p>
 
 
 	</section>
 	
 
-</article>&nbsp;<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-crossorigin="anonymous">
-</script>
+</div>
 
-<footer id="footer" class="fg-medium cf pv0 ph4-l ph4 mt5-l mt3">
+<footer id="footer" class="cf pb0 pt2 ph0 mt5 bt">
 	<div class="footerBlock">
 
 		
-	    <div class="fl tl cf dim">
+	    <div class="fl tl cf">
 
-	        <a href="/yasukuni_shrine/" class="link white hover-white">
+	        <a href="/yasukuni_shrine/" class="link black f5">
 
 	    		<!-- <img src="/images/next.svg" class="icon fr"> -->
 
 	    		<div class="v-mid">
-	    			<img src="/images/prev.svg" class="icon dib v-mid" style="position: relative; left: 0;">
-	    			<p class="v-mid dib ml2 f4-ns f5" style="padding-top: 0.5rem;">Hanging out with the Yakuza at Yasukuni&nbsp;Shrine</p>
+	    			<p class="v-mid dib f5 mv0">Hanging out with the Yakuza at Yasukuni&nbsp;Shrine</p>
 	    		</div>
 
 	        </a>
@@ -584,15 +333,14 @@ crossorigin="anonymous">
 	    
 
 		
-	    <div class="fr tr cf dim">
+	    <div class="fr tr cf">
 
-	        <a href="/soylent-three-years-later/" class="link white hover-white">
+	        <a href="/soylent-three-years-later/" class="link black f5">
 
 	    		<!-- <img src="/images/next.svg" class="icon fr"> -->
 
 	    		<div class="v-mid">
-	    			<p class="v-mid dib mr2 f4-ns f5" style="padding-top: 0.5rem;">Soylent, Three Years&nbsp;Later</p>
-	    			<img src="/images/next.svg" class="icon dib v-mid" style="position: relative; right: 0;">
+	    			<p class="v-mid dib f5 mv0">Soylent, Three Years&nbsp;Later</p>
 	    		</div>
 
 	        </a>
@@ -602,56 +350,22 @@ crossorigin="anonymous">
 
 	</div>
 </footer>
-</main>
-    
-  <!-- </div> -->
-  
-</body>
 
-<!-- load jquery -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
     crossorigin="anonymous">
-  </script> -->
-
-  <!-- random color scheme https://stackoverflow.com/questions/40791621/change-color-scheme-on-refresh -->
-  <script type="text/javascript">
-    $( document ).ready(function() {
-      var listOfClasses = ["blue","pink","green", "yellow", "gray", "purple", "orange"];
-      var randomNum = Math.floor(Math.random() * listOfClasses.length); 
-      $("html").addClass(listOfClasses[randomNum]);
-    });
   </script>
 
-<!-- menu stuff -->
-<script type="text/javascript">
-	$(function() {
-	  $('#hamburger').on('click', function() {
-	    // $('#hamburger').toggleClass('opened');
-	    // $('#close').toggleClass('show');
-	    // $('#hamburger').attr("src","/images/close.svg");
+  <!-- footnote -->
+  <script src="/js/footnotes/dist/jquery.inline-footnotes.min.js" type="text/javascript"></script>
 
-	    var src = ($(this).attr('src') === "/images/hamburger.svg")
-            ? "/images/close.svg"
-            : "/images/hamburger.svg"
-         $(this).attr('src', src);
-
-	    $('#menu').toggleClass('visible');
-	    $('body').toggleClass('noScroll');
-	  });
-
-	});
-</script>
-
-<!-- footnote -->
-<script src="/js/footnotes/dist/jquery.inline-footnotes.min.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-  	$.inlineFootnotes();
-  });
-</script>
-
-
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $.inlineFootnotes();
+    });
+  </script>
 
 </html>

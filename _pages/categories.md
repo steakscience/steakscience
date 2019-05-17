@@ -16,7 +16,7 @@ permalink: /categories/
 
 			{% for post in site.categories.design %}
 			<span class="fg-medium f45 black-50">{{ post.date | date_to_long_string }}</span>
-			<h2 data-image-url="{{post.image}}" class="lh-solid f2-ns f3 fg-semibold mt1 mb1 archiveTitle"><a class="black-60 hover-black-50" href="{{ post.url }}">{{ post.title }}</a></h2>
+			<h2 data-image-url="{{post.image}}" class="lh-solid f2-ns f3 fg-semibold mt1 mb1 archiveTitle archiveList"><a class="black-60 hover-black-50" href="{{ post.url }}">{{ post.title }}</a></h2>
 			<p class="lh-title f3-ns f4 fg-medium mt1 black-40">{{ post.subtitle }}</p>
 			{% endfor %}
 		</div>
@@ -26,7 +26,7 @@ permalink: /categories/
 
 			{% for post in site.categories.technology %}
 			<span class="fg-medium f45 black-50">{{ post.date | date_to_long_string }}</span>
-			<h2 data-image-url="{{post.image}}" class="lh-solid f2-ns f3 fg-semibold mt1 mb1 archiveTitle"><a class="black-60 hover-black-50" href="{{ post.url }}">{{ post.title }}</a></h2>
+			<h2 data-image-url="{{post.image}}" class="lh-solid f2-ns f3 fg-semibold mt1 mb1 archiveTitle archiveList"><a class="black-60 hover-black-50" href="{{ post.url }}">{{ post.title }}</a></h2>
 			<p class="lh-title f3-ns f4 fg-medium mt1 black-40">{{ post.subtitle }}</p>
 
 			{% endfor %}
@@ -37,7 +37,7 @@ permalink: /categories/
 
 			{% for post in site.categories.culture %}
 			<span class="fg-medium f45 black-50">{{ post.date | date_to_long_string }}</span>
-			<h2 data-image-url="{{post.image}}" class="lh-solid f2-ns f3 fg-semibold mt1 mb1 archiveTitle"><a class="black-60 hover-black-50" href="{{ post.url }}">{{ post.title }}</a></h2>
+			<h2 data-image-url="{{post.image}}" class="lh-solid f2-ns f3 fg-semibold mt1 mb1 archiveTitle archiveList"><a class="black-60 hover-black-50" href="{{ post.url }}">{{ post.title }}</a></h2>
 			<p class="lh-title f3-ns f4 fg-medium mt1 black-40">{{ post.subtitle }}</p>
 
 			{% endfor %}
@@ -48,7 +48,7 @@ permalink: /categories/
 
 			{% for post in site.categories.this %}
 			<span class="fg-medium f45 black-50">{{ post.date | date_to_long_string }}</span>
-			<h2 data-image-url="{{post.image}}" class="lh-solid f2-ns f3 fg-semibold mt1 mb1 archiveTitle"><a class="black-60 hover-black-50" href="{{ post.url }}">{{ post.title }}</a></h2>
+			<h2 data-image-url="{{post.image}}" class="lh-solid f2-ns f3 fg-semibold mt1 mb1 archiveTitle archiveList"><a class="black-60 hover-black-50" href="{{ post.url }}">{{ post.title }}</a></h2>
 			<p class="lh-title f3-ns f4 fg-medium mt1 black-40">{{ post.subtitle }}</p>
 
 			{% endfor %}
@@ -59,7 +59,7 @@ permalink: /categories/
 
 			{% for post in site.categories.personal %}
 			<span class="fg-medium f45 black-50">{{ post.date | date_to_long_string }}</span>
-			<h2 data-image-url="{{post.image}}" class="lh-solid f2-ns f3 fg-semibold mt1 mb1 archiveTitle"><a class="black-60 hover-black-50" href="{{ post.url }}">{{ post.title }}</a></h2>
+			<h2 data-image-url="{{post.image}}" class="lh-solid f2-ns f3 fg-semibold mt1 mb1 archiveTitle archiveList"><a class="black-60 hover-black-50" href="{{ post.url }}">{{ post.title }}</a></h2>
 			<p class="lh-title f3-ns f4 fg-medium mt1 black-40">{{ post.subtitle }}</p>
 			
 			{% endfor %}

@@ -1,16 +1,15 @@
-<footer id="footer" class="fg-medium cf pv0 ph4-l ph4 mt5-l mt3">
+<footer id="footer" class="cf pb0 pt2 ph0 mt5 bt">
 	<div class="footerBlock">
 
 		{% if include.myPost.next %}
-	    <div class="fl tl cf dim">
+	    <div class="fl tl cf">
 
-	        <a href="{{include.myPost.next.url}}" class="link white hover-white">
+	        <a href="{{include.myPost.next.url}}" class="link black f5">
 
 	    		<!-- <img src="{{site.baseurl}}/images/next.svg" class="icon fr"> -->
 
 	    		<div class="v-mid">
-	    			<img src="{{site.baseurl}}/images/prev.svg" class="icon dib v-mid" style="position: relative; left: 0;">
-	    			<p class="v-mid dib ml2 f4-ns f5" style="padding-top: 0.5rem;">{{include.myPost.next.title}}</p>
+	    			<p class="v-mid dib f5 mv0">{{include.myPost.next.title}}</p>
 	    		</div>
 
 	        </a>
@@ -19,15 +18,14 @@
 	    {% endif %}
 
 		{% if include.myPost.previous %}
-	    <div class="fr tr cf dim">
+	    <div class="fr tr cf">
 
-	        <a href="{{include.myPost.previous.url}}" class="link white hover-white">
+	        <a href="{{include.myPost.previous.url}}" class="link black f5">
 
 	    		<!-- <img src="{{site.baseurl}}/images/next.svg" class="icon fr"> -->
 
 	    		<div class="v-mid">
-	    			<p class="v-mid dib mr2 f4-ns f5" style="padding-top: 0.5rem;">{{include.myPost.previous.title}}</p>
-	    			<img src="{{site.baseurl}}/images/next.svg" class="icon dib v-mid" style="position: relative; right: 0;">
+	    			<p class="v-mid dib f5 mv0">{{include.myPost.previous.title}}</p>
 	    		</div>
 
 	        </a>

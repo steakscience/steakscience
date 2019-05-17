@@ -10,14 +10,14 @@ url: "http://steakscience.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-exclude: [node_modules, package.json, gulpfile.js, README.md]
+exclude: [node_modules, package.json, gulpfile.js, README.md, vendor, Gemfile, Gemfile.lock, LICENSE, Rakefile]
 include: [_pages, _posts]
 permalink: /:title/
 
 gems:
     # - jekyll-minifier
     # - octopress-minify-html
-    - jekyll/figure
+    - jekyll-figure
     - jekyll-sitemap
     - jekyll-seo-tag
     - s3_website
@@ -25,6 +25,7 @@ gems:
     - jekyll-feed
     - jekyll-typogrify
     - jekyll-autoprefixer
+    # - jekyll-hyphenate-filter
 
 autoprefixer:
   only_production: true

@@ -1,35 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <!--  /**
- * @license
- * MyFonts Webfont Build ID 3328218, 2017-01-06T13:02:43-0500
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: NeueHaasUnicaPro-Bold by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/bold/
- * Licensed pageviews: 500,000
- * 
- * Webfont: NeueHaasUnicaPro-Italic by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/italic/
- * Licensed pageviews: 250,000
- * 
- * Webfont: NeueHaasUnicaPro-Regular by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/regular/
- * Licensed pageviews: 500,000
- * 
- * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=3328218
- * Webfonts copyright: Copyright &#x00A9; 2015 Monotype Imaging Inc.  All rights
- * reserved.
- * 
- * © 2017 MyFonts Inc
-*/ -->
+  <head>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,13 +8,14 @@
   <title>The Future is in Redmond – steakscience</title>
   <meta name="description" content="A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj.">
   <meta name="author" content="Nirawit Jittipairoj">
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+  <!-- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/> -->
+  <link rel="stylesheet" href="/css/tachyons.css">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css">
 
-  <!--  -->
-
-  <link rel="canonical" href="http://steakscience.com/_posts/2015-04-18-the-future-is-in-redmond/">
-  <link rel="alternate" type="application/rss+xml" title="steakscience" href="http://steakscience.com/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/_posts/2015-04-18-the-future-is-in-redmond/">
+  <link rel="alternate" type="application/rss+xml" title="steakscience" href="http://localhost:4000/feed.xml">
 
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -51,126 +23,9 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f75f64">
 
 
-  <!-- not critical css -->
-  <!-- <link rel="preload" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css" as="style"> -->
-  <link rel="preload" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css"></noscript>
-  <link rel="preload" href="/css/dia.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/dia.css"></noscript>
-  <link rel="preload" href="/css/fg.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/fg.css"></noscript>
-  <link rel="preload" href="/css/ideal_sans.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/ideal_sans.css"></noscript>
-
-  <script>
-    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-  (function( w ){
-    "use strict";
-    // rel=preload support test
-    if( !w.loadCSS ){
-      w.loadCSS = function(){};
-    }
-    // define on the loadCSS obj
-    var rp = loadCSS.relpreload = {};
-    // rel=preload feature support test
-    // runs once and returns a function for compat purposes
-    rp.support = (function(){
-      var ret;
-      try {
-        ret = w.document.createElement( "link" ).relList.supports( "preload" );
-      } catch (e) {
-        ret = false;
-      }
-      return function(){
-        return ret;
-      };
-  })();
-
-  // if preload isn't supported, get an asynchronous load by using a non-matching media attribute
-  // then change that media back to its intended value on load
-  rp.bindMediaToggle = function( link ){
-    // remember existing media attr for ultimate state, or default to 'all'
-    var finalMedia = link.media || "all";
-
-    function enableStylesheet(){
-      link.media = finalMedia;
-    }
-
-    // bind load handlers to enable media
-    if( link.addEventListener ){
-      link.addEventListener( "load", enableStylesheet );
-    } else if( link.attachEvent ){
-      link.attachEvent( "onload", enableStylesheet );
-    }
-
-    // Set rel and non-applicable media type to start an async request
-    // note: timeout allows this to happen async to let rendering continue in IE
-    setTimeout(function(){
-      link.rel = "stylesheet";
-      link.media = "only x";
-    });
-    // also enable media after 3 seconds,
-    // which will catch very old browsers (android 2.x, old firefox) that don't support onload on link
-    setTimeout( enableStylesheet, 3000 );
-  };
-
-  // loop through link elements in DOM
-  rp.poly = function(){
-    // double check this to prevent external calls from running
-    if( rp.support() ){
-      return;
-    }
-    var links = w.document.getElementsByTagName( "link" );
-    for( var i = 0; i < links.length; i++ ){
-      var link = links[ i ];
-      // qualify links to those with rel=preload and as=style attrs
-      if( link.rel === "preload" && link.getAttribute( "as" ) === "style" && !link.getAttribute( "data-loadcss" ) ){
-        // prevent rerunning on link
-        link.setAttribute( "data-loadcss", true );
-        // bind listeners to toggle media back
-        rp.bindMediaToggle( link );
-      }
-    }
-  };
-
-  // if unsupported, run the polyfill
-  if( !rp.support() ){
-    // run once at least
-    rp.poly();
-
-    // rerun poly on an interval until onload
-    var run = w.setInterval( rp.poly, 500 );
-    if( w.addEventListener ){
-      w.addEventListener( "load", function(){
-        rp.poly();
-        w.clearInterval( run );
-      } );
-    } else if( w.attachEvent ){
-      w.attachEvent( "onload", function(){
-        rp.poly();
-        w.clearInterval( run );
-      } );
-    }
-  }
-
-
-  // commonjs
-  if( typeof exports !== "undefined" ){
-    exports.loadCSS = loadCSS;
-  }
-  else {
-    w.loadCSS = loadCSS;
-  }
-}( typeof global !== "undefined" ? global : this ) );
-</script>
-
-<!-- end loadcss -->
-
-  <!-- load jquery -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-    crossorigin="anonymous">
-  </script> -->
-
   
 
-  <!-- Begin Jekyll SEO tag v2.5.0 -->
+  <!-- Begin Jekyll SEO tag v2.6.0 -->
 <title>The Future is in Redmond | steakscience</title>
 <meta name="generator" content="Jekyll v3.4.3" />
 <meta property="og:title" content="The Future is in Redmond" />
@@ -178,200 +33,134 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj." />
 <meta property="og:description" content="A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj." />
-<link rel="canonical" href="http://steakscience.com/_posts/2015-04-18-the-future-is-in-redmond/" />
-<meta property="og:url" content="http://steakscience.com/_posts/2015-04-18-the-future-is-in-redmond/" />
+<link rel="canonical" href="http://localhost:4000/_posts/2015-04-18-the-future-is-in-redmond/" />
+<meta property="og:url" content="http://localhost:4000/_posts/2015-04-18-the-future-is-in-redmond/" />
 <meta property="og:site_name" content="steakscience" />
-<meta property="og:image" content="http://steakscience.com/images/redmond/microsoft-13.jpg" />
+<meta property="og:image" content="http://localhost:4000/images/redmond/microsoft-13.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2015-04-18T00:00:00-07:00" />
+<meta property="article:published_time" content="2015-04-18T00:00:00+07:00" />
 <script type="application/ld+json">
-{"headline":"The Future is in Redmond","dateModified":"2015-04-18T00:00:00-07:00","datePublished":"2015-04-18T00:00:00-07:00","image":"http://steakscience.com/images/redmond/microsoft-13.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://steakscience.com/_posts/2015-04-18-the-future-is-in-redmond/"},"url":"http://steakscience.com/_posts/2015-04-18-the-future-is-in-redmond/","author":{"@type":"Person","name":"Nirawit Jittipairoj"},"description":"A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"url":"http://localhost:4000/_posts/2015-04-18-the-future-is-in-redmond/","headline":"The Future is in Redmond","datePublished":"2015-04-18T00:00:00+07:00","description":"A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj.","dateModified":"2015-04-18T00:00:00+07:00","image":"http://localhost:4000/images/redmond/microsoft-13.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/_posts/2015-04-18-the-future-is-in-redmond/"},"author":{"@type":"Person","name":"Nirawit Jittipairoj"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
+</head>
 
-    <!-- Google Analytics -->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-61560416-2', 'auto');
-	ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
-	ga('set', 'anonymizeIp', false);
-    </script>
-    <!-- End Google Analytics -->
-    </head>
-
-<body class="bg-light">
-
-<!-- <div class="db w-100 ph3-ns ph2-m ph4 cf bg-light-gray mb4-ns mb3"> -->
-<div class="db w-100 cf mt0 bg-dark">
-<header class="db w-100 relative" id="nav">
-	
-	<div class="dib titlePad">
-		<a class="link" href="/">
-			<img src="/images/logo_white.svg" id="logo" class="link dim fl">
-		</a>
-	</div>
-
-	
-
-  	<div id="navWrapper" class="cf dib">	
-		<div id="hamWrapper">
-			<img src="/images/hamburger.svg" id="hamburger" class="link v-mid fr dim">
-			<!-- <img src="/images/close.svg" id="close" class="link v-mid fr show"> -->
-		</div>
-	</div>
-
-	<div id="menuWrapper">
-		<div id="menu">
-
-			<a class="link" href="/">
-				<img src="/images/logo_white.svg" id="menuLogo" class="link dim">
-			</a>
-			<h1 class="f2 fg-semibold white lh-solid mb0">steakscience</h1>
-			<p class="ideal-book f4 white-60 mt0 mw6">A blog about technology, design, and culture. Probably off-topic.</p>
-
-			<!-- white line -->
-			<div class="bt b--white-20 bw1 w-100 menuLine"></div>
-
-			<!-- links -->
-			<ul class="list pl0">
-				
-				<li class="mb4 f3 fg-medium"><a href="/archive/" class="white-80 hover-white-60">Archive</a></li>
-				
-				<li class="mb4 f3 fg-medium"><a href="/favorites/" class="white-80 hover-white-60">Favorites</a></li>
-				
-			</ul>
-		</div>
-	</div>
-
-
-</header>
+  <body class="w-100 mw8 pa4 black db center cf f5 lh-copy">
+      <div>
+    <a>
+        <img src="/images/logo_ss_black.svg" style="width: 4.5rem;">
+    </a>
 </div>
+  
+  <div class="" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <!-- <div class="w-70-ns w-80-m w-100 center ph3-ns ph2-m ph4"> -->
-    
-    <main class="w-100"><!-- title bar -->
-<div class="bg-dark db w-100 mb0 titlePad" id="titleBar" itemscope itemtype="http://schema.org/BlogPosting">
-	<a href="/_posts/2015-04-18-the-future-is-in-redmond/" class="white-70 hover-white-50 f45"><span class="fg-semibold f45"><span itemprop="datePublished">18 April&nbsp;2015</span></span> 
-		<span class="white-40">&middot;</span>
-	<a href="/categories/#technology" class="ttl white-70 hover-white-50 fg-medium f45">#technology</a></span>
-	
-	<h1 class="lh-solid f2 mt3 pt1 mb2-ns mb1 fg-bold mw8 white" itemprop="name headline">
+	<div class="db mb0 mt3 bb bt pv2 fw4">
+		<a href="/_posts/2015-04-18-the-future-is-in-redmond/" class="black f5 link"><span itemprop="datePublished">18 April&nbsp;2015</span></span> 
+			<span class="">/</span>
+		<a href="/categories/#technology" class="ttl black f5 link">#technology</a></span></a>
+	</div>
+
+	<h1 class="f2 fw5 lh-title bb bw1 pv2 mt0 mb2" itemprop="name headline" style="letter-spacing: -0.02rem;">
 		The Future is in&nbsp;Redmond
 	</h1>
 
-	
-	<h2 class="white-70 fg-medium subtitle mt2 mb1">
+<!-- 	<h2 class="f3 fw5">
 		Windows Across Your&nbsp;Universe
-	</h2>
-	
+	</h2> -->
 
-	
-	
-
-</div>
-
-<!-- left strip -->
-<div class="bg-mid" id="leftStrip">
 </div>
 
 <!-- article wrap -->
-<article id="articleWrapper" class="">
+<div class="db w-100 center">
 	
-		<figure id="heroImg"><img class="" src="/images/redmond/microsoft-13.jpg" />
+		<figure id="heroImg" class="w-100 ma0"><img class="w-100" src="/images/redmond/microsoft-13.jpg" />
 		
 		</figure>
 
 	
 
-	<section class="db f4-ns f5 lh-copy black-70 cf" id="postBody" itemprop="articleBody">
+	<section class="postBody mt1 pt2" itemprop="articleBody">
 
-		Microsoft is really&nbsp;cool.
+		Microsoft is&nbsp;really cool.
 
-There really isn’t anyone else pursuing something like they are: one operating system across all devices: desktops, tablets, laptops, phones, and TVs (Xbox). It’s wild, it's crazy, and it's the&nbsp;future.
+There really isn’t anyone else pursuing something like they are: one operating system across all devices: desktops, tablets, laptops, phones, and TVs (Xbox). It’s wild, it's crazy, and it's&nbsp;the future.
 
 ---
 
-However, Windows has always been held back by bad hardware. <span class="caps"><span class="caps">PC</span></span> manufacturers don’t invest enough care and consideration into their products. Instead, making PCs has always been about cutting corners. In their race to the bottom, manufacturers succumb to using the worst of materials, preinstalling bloatware (and [sometimes spyware](http://www.theverge.com/2015/2/19/8067505/lenovo-installs-adware-private-data-hackers)), and using cheap hardware that guarantees a frustrating experience. When attempting to compete on the high-end, manufacturers suffer from their lack of expertise with premium materials, driving up prices. As a result, the first generation of aluminum Ultrabooks ended up being more expensive than the MacBook Air, which they were supposed to&nbsp;undercut.
+However, Windows has always been held back by bad hardware. <span class="caps"><span class="caps">PC</span></span> manufacturers don’t invest enough care and consideration into their products. Instead, making PCs has always been about cutting corners. In their race to the bottom, manufacturers succumb to using the worst of materials, preinstalling bloatware (and [sometimes spyware](http://www.theverge.com/2015/2/19/8067505/lenovo-installs-adware-private-data-hackers)), and using cheap hardware that guarantees a frustrating experience. When attempting to compete on the high-end, manufacturers suffer from their lack of expertise with premium materials, driving up prices. As a result, the first generation of aluminum Ultrabooks ended up being more expensive than the MacBook Air, which they were supposed&nbsp;to undercut.
 
-{% figure&nbsp;%}
+{%&nbsp;figure %}
 ![](/images/redmond/microsoft_retail.jpg)
-{% endfigure&nbsp;%}
+{%&nbsp;endfigure %}
 
-There has always been a deal-breaker with every <span class="caps"><span class="caps">PC</span></span>; an “all-day” battery that lasts only 3 hours, an unusable trackpad, or unbearable build quality. Using Windows meant having to choose the device with most tolerable&nbsp;flaw.
-
----
-
-In the past, Microsoft tried to fix the bloatware problem by introducing *Signature*, a line of computers with the bloatware removed. However, this fixed only half of the problem—no software can make up for ugly displays and wobbly&nbsp;plastic.
-
-To many, the solution was obvious: Microsoft should just make hardware! But the reason they couldn’t was also obvious: Microsoft was a software vendor and had to ensure a level playing field for manufacturers and making their own computer would disrupt that balance. However, everything changed with Windows&nbsp;8.
-
-The new operating system represented Microsoft’s bold vision for the future. Steven Sinofsky, President of Windows at the time, worried that manufacturers wouldn’t be able to make hardware worthy of showcasing the operating system. Windows 8 deserved something&nbsp;better.
+There has always been a deal-breaker with every <span class="caps"><span class="caps">PC</span></span>; an “all-day” battery that lasts only 3 hours, an unusable trackpad, or unbearable build quality. Using Windows meant having to choose the device with most&nbsp;tolerable flaw.
 
 ---
 
-{% figure caption:"Microsoft" | class:"src"&nbsp;%}
+In the past, Microsoft tried to fix the bloatware problem by introducing *Signature*, a line of computers with the bloatware removed. However, this fixed only half of the problem<span class="emdash">—</span>no software can make up for ugly displays and&nbsp;wobbly plastic.
+
+To many, the solution was obvious: Microsoft should just make hardware! But the reason they couldn’t was also obvious: Microsoft was a software vendor and had to ensure a level playing field for manufacturers and making their own computer would disrupt that balance. However, everything changed with&nbsp;Windows 8.
+
+The new operating system represented Microsoft’s bold vision for the future. Steven Sinofsky, President of Windows at the time, worried that manufacturers wouldn’t be able to make hardware worthy of showcasing the operating system. Windows 8 deserved&nbsp;something better.
+
+---
+
+{% figure caption:"Microsoft" |&nbsp;class:"src" %}
 ![](/images/redmond/surface_covers.jpg)
-{% endfigure&nbsp;%}
+{%&nbsp;endfigure %}
 
-Surface is the physical manifestation of Windows. It is the culmination of the best parts of Microsoft. It leverages Microsoft Research’s bleeding edge technology and all of Microsoft’s design and engineering prowess. Surface is the computer Windows&nbsp;deserves.
+Surface is the physical manifestation of Windows. It is the culmination of the best parts of Microsoft. It leverages Microsoft Research’s bleeding edge technology and all of Microsoft’s design and engineering prowess. Surface is the computer&nbsp;Windows deserves.
 
-{% figure caption:"Microsoft" | class:"src"&nbsp;%}
+{% figure caption:"Microsoft" |&nbsp;class:"src" %}
 ![](/images/redmond/surface-1.jpg)
-{% endfigure&nbsp;%}
+{%&nbsp;endfigure %}
 
-The computer of the future is not the iPad nor is it the new MacBook. The iPad excels at content consumption, but to do serious work, you’ll have to resort to a clumsy keyboard case. The new MacBook is the inverse—it is productive, but its keyboard is always there, whether you need it or not. Surface on the other hand, can seamlessly transform from a laptop to a tablet. It will change personal computing&nbsp;forever.
+The computer of the future is not the iPad nor is it the new MacBook. The iPad excels at content consumption, but to do serious work, you’ll have to resort to a clumsy keyboard case. The new MacBook is the inverse<span class="emdash">—</span>it is productive, but its keyboard is always there, whether you need it or not. Surface on the other hand, can seamlessly transform from a laptop to a tablet. It will change personal&nbsp;computing forever.
 
-Technology has always been about looking to the future and getting excited about the possibilities. To me, Surface is the embodiment of that spirit, and one I can’t stop getting excited&nbsp;about.
+Technology has always been about looking to the future and getting excited about the possibilities. To me, Surface is the embodiment of that spirit, and one I can’t stop getting&nbsp;excited about.
 
 ---
 
-So I took a pilgrimage to the Mothership yesterday. It’s quite a shame that despite living in Seattle since September, I haven’t been to Redmond&nbsp;yet.
+So I took a pilgrimage to the Mothership yesterday. It’s quite a shame that despite living in Seattle since September, I haven’t been to&nbsp;Redmond yet.
 
-{% figure&nbsp;%}
+{%&nbsp;figure %}
 ![](/images/redmond/microsoft-4.jpg)
-{% endfigure&nbsp;%}
+{%&nbsp;endfigure %}
 
-{% figure&nbsp;%}
+{%&nbsp;figure %}
 ![](/images/redmond/microsoft-5.jpg)
-{% endfigure&nbsp;%}
+{%&nbsp;endfigure %}
 
-{% figure&nbsp;%}
+{%&nbsp;figure %}
 ![](/images/redmond/microsoft-17.jpg)
-{% endfigure&nbsp;%}
+{%&nbsp;endfigure %}
 
-{% figure&nbsp;%}
+{%&nbsp;figure %}
 ![](/images/redmond/microsoft-4.jpg)
-{% endfigure&nbsp;%}
-Microsoft&nbsp;Commons.
+{%&nbsp;endfigure %}
+Microsoft Commons.
 
-{% figure&nbsp;%}
+{%&nbsp;figure %}
 ![](/images/redmond/microsoft-1.jpg)
-{% endfigure&nbsp;%}
-I assume this is Satya’s lair. (Update: It’s&nbsp;not.)
+{%&nbsp;endfigure %}
+I assume this is Satya’s lair. (Update:&nbsp;It’s not.)
 
-{% figure&nbsp;%}
+{%&nbsp;figure %}
 ![](/images/redmond/microsoft-9.jpg)
-{% endfigure&nbsp;%}
+{%&nbsp;endfigure %}
 
-{% figure&nbsp;%}
+{%&nbsp;figure %}
 ![](/images/redmond/microsoft-10.jpg)
-{% endfigure&nbsp;%}
-I met one of my favorite designers (and Surface designer) [Ralf](https://youtu.be/KrPHpN5HukQ) [Groene](http://architizer.com/blog/ralf-groene-interview/) (!!!) It was&nbsp;surreal.
+{%&nbsp;endfigure %}
+I met one of my favorite designers (and Surface designer) [Ralf](https://youtu.be/KrPHpN5HukQ) [Groene](http://architizer.com/blog/ralf-groene-interview/) (!!!) It&nbsp;was surreal.
 
 
 	</section>
 	
 
-</article>&nbsp;<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-crossorigin="anonymous">
-</script>
+</div>
 
-<footer id="footer" class="fg-medium cf pv0 ph4-l ph4 mt5-l mt3">
+<footer id="footer" class="cf pb0 pt2 ph0 mt5 bt">
 	<div class="footerBlock">
 
 		
@@ -380,56 +169,22 @@ crossorigin="anonymous">
 
 	</div>
 </footer>
-</main>
-    
-  <!-- </div> -->
-  
-</body>
 
-<!-- load jquery -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
     crossorigin="anonymous">
-  </script> -->
-
-  <!-- random color scheme https://stackoverflow.com/questions/40791621/change-color-scheme-on-refresh -->
-  <script type="text/javascript">
-    $( document ).ready(function() {
-      var listOfClasses = ["blue","pink","green", "yellow", "gray", "purple", "orange"];
-      var randomNum = Math.floor(Math.random() * listOfClasses.length); 
-      $("html").addClass(listOfClasses[randomNum]);
-    });
   </script>
 
-<!-- menu stuff -->
-<script type="text/javascript">
-	$(function() {
-	  $('#hamburger').on('click', function() {
-	    // $('#hamburger').toggleClass('opened');
-	    // $('#close').toggleClass('show');
-	    // $('#hamburger').attr("src","/images/close.svg");
+  <!-- footnote -->
+  <script src="/js/footnotes/dist/jquery.inline-footnotes.min.js" type="text/javascript"></script>
 
-	    var src = ($(this).attr('src') === "/images/hamburger.svg")
-            ? "/images/close.svg"
-            : "/images/hamburger.svg"
-         $(this).attr('src', src);
-
-	    $('#menu').toggleClass('visible');
-	    $('body').toggleClass('noScroll');
-	  });
-
-	});
-</script>
-
-<!-- footnote -->
-<script src="/js/footnotes/dist/jquery.inline-footnotes.min.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-  	$.inlineFootnotes();
-  });
-</script>
-
-
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $.inlineFootnotes();
+    });
+  </script>
 
 </html>

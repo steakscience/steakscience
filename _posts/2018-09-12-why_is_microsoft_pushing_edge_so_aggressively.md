@@ -52,7 +52,7 @@ So, does repeatedly pestering Chrome and Firefox users to switch to Edge result 
 
 ## You should also check out:
 
-[Jon Bell’s Defensive Microsoft](https://medium.com/near-future-field-notes/defensive-microsoft-76a05dbffdeb){:target="_blank"}
+[Jon Bell on Defensive Microsoft](https://medium.com/near-future-field-notes/defensive-microsoft-76a05dbffdeb){:target="_blank"}
 <br>
 
 [^1]: Windows and Office teams used to fight *a lot*. If you ever meet an older MSFT employee at a party, ask them for Windows vs Office stories.

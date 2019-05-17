@@ -1,14 +1,14 @@
 {% for i in site.data.this.[page.thisID].item %}
-<div class="w-100 db mb3 cf">
+<div class="w-100 db mb0 cf">
 	<div class="v-top dib-ns db fl">
-		<a href="{{ i.link }}" target="_blank" class="black-70 hover-black-60">
-			<h2 class="f4-ns f5 mb1 lh-title mw5">{{ i.title | jt_emdash | markdownify }}</h2>
+		<a href="{{ i.link }}" target="_blank" class="black">
+			<h2 class="f5 mb0 lh-title mw5 mt0 fw4">{{ i.title | jt_emdash | markdownify }}</h2>
 		</a>
 		{% if i.tag %}
-		<p class="f6 mb0 lh-title tag mt1">#{{ i.tag }}</p>
+		<p class="f5 mb0 lh-title tag mt1 black">#{{ i.tag }}</p>
 		{% endif %}
 		{% if i.price %}
-		<p class="f6 mb0 lh-title tag mt1">{{ i.price }}</p>
+		<p class="f5 mb0 lh-title tag mt1 black">{{ i.price }}</p>
 		{% endif %}
 	</div>
 

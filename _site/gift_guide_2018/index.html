@@ -1,35 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <!--  /**
- * @license
- * MyFonts Webfont Build ID 3328218, 2017-01-06T13:02:43-0500
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: NeueHaasUnicaPro-Bold by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/bold/
- * Licensed pageviews: 500,000
- * 
- * Webfont: NeueHaasUnicaPro-Italic by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/italic/
- * Licensed pageviews: 250,000
- * 
- * Webfont: NeueHaasUnicaPro-Regular by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/regular/
- * Licensed pageviews: 500,000
- * 
- * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=3328218
- * Webfonts copyright: Copyright &#x00A9; 2015 Monotype Imaging Inc.  All rights
- * reserved.
- * 
- * © 2017 MyFonts Inc
-*/ -->
+  <head>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,15 +8,14 @@
   <title>Joys of Capitalism 2018 – steakscience</title>
   <meta name="description" content="						Ishinomaki Laboratory Tombo Hanger								~$190										It’s often said that only the Japanese and the Scandinavians know how to treat wood. This is v...">
   <meta name="author" content="Nirawit Jittipairoj">
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+  <!-- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/> -->
+  <link rel="stylesheet" href="/css/tachyons.css">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css">
 
-  <!-- 
-    <link rel="stylesheet" href="/css/this.css">
-   -->
-
-  <link rel="canonical" href="http://steakscience.com/gift_guide_2018/">
-  <link rel="alternate" type="application/rss+xml" title="steakscience" href="http://steakscience.com/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/gift_guide_2018/">
+  <link rel="alternate" type="application/rss+xml" title="steakscience" href="http://localhost:4000/feed.xml">
 
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -53,126 +23,9 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f75f64">
 
 
-  <!-- not critical css -->
-  <!-- <link rel="preload" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css" as="style"> -->
-  <link rel="preload" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css"></noscript>
-  <link rel="preload" href="/css/dia.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/dia.css"></noscript>
-  <link rel="preload" href="/css/fg.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/fg.css"></noscript>
-  <link rel="preload" href="/css/ideal_sans.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/ideal_sans.css"></noscript>
-
-  <script>
-    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-  (function( w ){
-    "use strict";
-    // rel=preload support test
-    if( !w.loadCSS ){
-      w.loadCSS = function(){};
-    }
-    // define on the loadCSS obj
-    var rp = loadCSS.relpreload = {};
-    // rel=preload feature support test
-    // runs once and returns a function for compat purposes
-    rp.support = (function(){
-      var ret;
-      try {
-        ret = w.document.createElement( "link" ).relList.supports( "preload" );
-      } catch (e) {
-        ret = false;
-      }
-      return function(){
-        return ret;
-      };
-  })();
-
-  // if preload isn't supported, get an asynchronous load by using a non-matching media attribute
-  // then change that media back to its intended value on load
-  rp.bindMediaToggle = function( link ){
-    // remember existing media attr for ultimate state, or default to 'all'
-    var finalMedia = link.media || "all";
-
-    function enableStylesheet(){
-      link.media = finalMedia;
-    }
-
-    // bind load handlers to enable media
-    if( link.addEventListener ){
-      link.addEventListener( "load", enableStylesheet );
-    } else if( link.attachEvent ){
-      link.attachEvent( "onload", enableStylesheet );
-    }
-
-    // Set rel and non-applicable media type to start an async request
-    // note: timeout allows this to happen async to let rendering continue in IE
-    setTimeout(function(){
-      link.rel = "stylesheet";
-      link.media = "only x";
-    });
-    // also enable media after 3 seconds,
-    // which will catch very old browsers (android 2.x, old firefox) that don't support onload on link
-    setTimeout( enableStylesheet, 3000 );
-  };
-
-  // loop through link elements in DOM
-  rp.poly = function(){
-    // double check this to prevent external calls from running
-    if( rp.support() ){
-      return;
-    }
-    var links = w.document.getElementsByTagName( "link" );
-    for( var i = 0; i < links.length; i++ ){
-      var link = links[ i ];
-      // qualify links to those with rel=preload and as=style attrs
-      if( link.rel === "preload" && link.getAttribute( "as" ) === "style" && !link.getAttribute( "data-loadcss" ) ){
-        // prevent rerunning on link
-        link.setAttribute( "data-loadcss", true );
-        // bind listeners to toggle media back
-        rp.bindMediaToggle( link );
-      }
-    }
-  };
-
-  // if unsupported, run the polyfill
-  if( !rp.support() ){
-    // run once at least
-    rp.poly();
-
-    // rerun poly on an interval until onload
-    var run = w.setInterval( rp.poly, 500 );
-    if( w.addEventListener ){
-      w.addEventListener( "load", function(){
-        rp.poly();
-        w.clearInterval( run );
-      } );
-    } else if( w.attachEvent ){
-      w.attachEvent( "onload", function(){
-        rp.poly();
-        w.clearInterval( run );
-      } );
-    }
-  }
-
-
-  // commonjs
-  if( typeof exports !== "undefined" ){
-    exports.loadCSS = loadCSS;
-  }
-  else {
-    w.loadCSS = loadCSS;
-  }
-}( typeof global !== "undefined" ? global : this ) );
-</script>
-
-<!-- end loadcss -->
-
-  <!-- load jquery -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-    crossorigin="anonymous">
-  </script> -->
-
   
 
-  <!-- Begin Jekyll SEO tag v2.5.0 -->
+  <!-- Begin Jekyll SEO tag v2.6.0 -->
 <title>Joys of Capitalism 2018 | steakscience</title>
 <meta name="generator" content="Jekyll v3.4.3" />
 <meta property="og:title" content="Joys of Capitalism 2018" />
@@ -180,123 +33,58 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Ishinomaki Laboratory Tombo Hanger ~$190 It’s often said that only the Japanese and the Scandinavians know how to treat wood. This is very true. The Tombo Hanger is a well-designed and well-crafted hanger that simply leans against a wall. It’s so simple yet functional. In a delightful twist, it also features a place to prop your shoes on. Puppy Chair $149 Designed by Finnish designer, Eero Aarnio, the Puppy Chair is a gorgeous and delightful piece of furniture. You can sit on it if you want to, but its primary function is to be a playful presence in your home. eBoy Posters ~$25 These posters are crafted pixel by pixel by the incredible collective eBoy and will spice up any home. My personal favorites are Tokyo and Berlin. Monument Valley Posters ~$32–$50 Monument Valley is beautiful. Now, you can enjoy the game’s illustrations on your walls, in your home. 11+ O-Fan $38 You probably don’t need a desk fan. But this guide is called “The Joys of Capitalism” for a reason. You don’t need any of this stuff. If you appreciate design, this fan will make you cry tears of joy. And then you’ll weep because you’ll never have taste as good as the designer’s. So buy it. 11+ Monster Bottle $39 This bottle is designed by cloudandco with the Sticky Monster Lab. The end result is a colorful and functional bottle. The product speaks for itself—it’s so gorgeous. The New York Times Debossed Mug $32 Merch is often gaudy and garish. They serve as a shouting and screaming ad for the brand and worse, they’re not even free—you have to buy them. However, this mug is so different because it’s understated. A gorgeous logo doesn’t need to scream. It can be subtle. In this case, it’s debossed on a mug. So every morning, you can enjoy your coffee while supporting good journalism. The Daily Tote Bag $28 Michael Barbaro is the new Ira Glass. And his podcast, The Daily is a part of many people’s morning routines. Now, you can show your love the for podcast in really a hip way by sporting this tote bag to Whole Foods (or if you’re not an affluent tech bro, Trader Joe’s). Pitch Deck Card Game $20 If you are a fan of performative card games, Pitch Deck is a must-buy. Players are given a company and an idea, for example, Jurassic Park for Hipsters, and each player pitches their take on the concept. The beauty of this is that it’s not only humorous, it’s also a pretty good exercise in product making. You can even incorporate how the company/product works and how it makes money. Blackberry Bold 9900 ~$20–$40 Wait, why would anyone get a dumb phone from a decade ago? Oh, don’t worry. You won’t be using it as a phone. It’ll be your new paper weight. Nothing screams sophistication like a useless Blackberry. You’ll be putting this on your desk, atop the piles of important financial papers you’re surely working on. This is the first Blackberry to incorporate metal. This is the Blackberry that Kim Kardashian was stockpiling. So you can’t really go wrong with this. Nokia Lumia 920 ~$65–$100 If you’re an industrial design nerd, you’re already know you need this. But you might have reservations. Sure, it’s old and runs a dead OS, but like the Blackberry, you won’t be using it as a phone. It’ll be your new bright yellow, Finnish-designed paperweight. At a higher price point that the Blackberry, this is our upgrade pick for eye-catching paperweights. Now, when someone inquires about the phone on your desk, you can educate them on Aalto’s “gentler structure to life” philosophy. It’s true. Also, Nokia designed something incredible here and Satya Nadella killed the company. You can rant about that too." />
 <meta property="og:description" content="Ishinomaki Laboratory Tombo Hanger ~$190 It’s often said that only the Japanese and the Scandinavians know how to treat wood. This is very true. The Tombo Hanger is a well-designed and well-crafted hanger that simply leans against a wall. It’s so simple yet functional. In a delightful twist, it also features a place to prop your shoes on. Puppy Chair $149 Designed by Finnish designer, Eero Aarnio, the Puppy Chair is a gorgeous and delightful piece of furniture. You can sit on it if you want to, but its primary function is to be a playful presence in your home. eBoy Posters ~$25 These posters are crafted pixel by pixel by the incredible collective eBoy and will spice up any home. My personal favorites are Tokyo and Berlin. Monument Valley Posters ~$32–$50 Monument Valley is beautiful. Now, you can enjoy the game’s illustrations on your walls, in your home. 11+ O-Fan $38 You probably don’t need a desk fan. But this guide is called “The Joys of Capitalism” for a reason. You don’t need any of this stuff. If you appreciate design, this fan will make you cry tears of joy. And then you’ll weep because you’ll never have taste as good as the designer’s. So buy it. 11+ Monster Bottle $39 This bottle is designed by cloudandco with the Sticky Monster Lab. The end result is a colorful and functional bottle. The product speaks for itself—it’s so gorgeous. The New York Times Debossed Mug $32 Merch is often gaudy and garish. They serve as a shouting and screaming ad for the brand and worse, they’re not even free—you have to buy them. However, this mug is so different because it’s understated. A gorgeous logo doesn’t need to scream. It can be subtle. In this case, it’s debossed on a mug. So every morning, you can enjoy your coffee while supporting good journalism. The Daily Tote Bag $28 Michael Barbaro is the new Ira Glass. And his podcast, The Daily is a part of many people’s morning routines. Now, you can show your love the for podcast in really a hip way by sporting this tote bag to Whole Foods (or if you’re not an affluent tech bro, Trader Joe’s). Pitch Deck Card Game $20 If you are a fan of performative card games, Pitch Deck is a must-buy. Players are given a company and an idea, for example, Jurassic Park for Hipsters, and each player pitches their take on the concept. The beauty of this is that it’s not only humorous, it’s also a pretty good exercise in product making. You can even incorporate how the company/product works and how it makes money. Blackberry Bold 9900 ~$20–$40 Wait, why would anyone get a dumb phone from a decade ago? Oh, don’t worry. You won’t be using it as a phone. It’ll be your new paper weight. Nothing screams sophistication like a useless Blackberry. You’ll be putting this on your desk, atop the piles of important financial papers you’re surely working on. This is the first Blackberry to incorporate metal. This is the Blackberry that Kim Kardashian was stockpiling. So you can’t really go wrong with this. Nokia Lumia 920 ~$65–$100 If you’re an industrial design nerd, you’re already know you need this. But you might have reservations. Sure, it’s old and runs a dead OS, but like the Blackberry, you won’t be using it as a phone. It’ll be your new bright yellow, Finnish-designed paperweight. At a higher price point that the Blackberry, this is our upgrade pick for eye-catching paperweights. Now, when someone inquires about the phone on your desk, you can educate them on Aalto’s “gentler structure to life” philosophy. It’s true. Also, Nokia designed something incredible here and Satya Nadella killed the company. You can rant about that too." />
-<link rel="canonical" href="http://steakscience.com/gift_guide_2018/" />
-<meta property="og:url" content="http://steakscience.com/gift_guide_2018/" />
+<link rel="canonical" href="http://localhost:4000/gift_guide_2018/" />
+<meta property="og:url" content="http://localhost:4000/gift_guide_2018/" />
 <meta property="og:site_name" content="steakscience" />
-<meta property="og:image" content="http://steakscience.com/images/this/gift_guide/tombo_hanger.jpg" />
+<meta property="og:image" content="http://localhost:4000/images/this/gift_guide/tombo_hanger.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-12-19T00:00:00-08:00" />
+<meta property="article:published_time" content="2018-12-19T00:00:00+07:00" />
 <script type="application/ld+json">
-{"headline":"Joys of Capitalism 2018","dateModified":"2018-12-19T00:00:00-08:00","datePublished":"2018-12-19T00:00:00-08:00","image":"http://steakscience.com/images/this/gift_guide/tombo_hanger.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://steakscience.com/gift_guide_2018/"},"url":"http://steakscience.com/gift_guide_2018/","author":{"@type":"Person","name":"Nirawit Jittipairoj"},"description":"Ishinomaki Laboratory Tombo Hanger ~$190 It’s often said that only the Japanese and the Scandinavians know how to treat wood. This is very true. The Tombo Hanger is a well-designed and well-crafted hanger that simply leans against a wall. It’s so simple yet functional. In a delightful twist, it also features a place to prop your shoes on. Puppy Chair $149 Designed by Finnish designer, Eero Aarnio, the Puppy Chair is a gorgeous and delightful piece of furniture. You can sit on it if you want to, but its primary function is to be a playful presence in your home. eBoy Posters ~$25 These posters are crafted pixel by pixel by the incredible collective eBoy and will spice up any home. My personal favorites are Tokyo and Berlin. Monument Valley Posters ~$32–$50 Monument Valley is beautiful. Now, you can enjoy the game’s illustrations on your walls, in your home. 11+ O-Fan $38 You probably don’t need a desk fan. But this guide is called “The Joys of Capitalism” for a reason. You don’t need any of this stuff. If you appreciate design, this fan will make you cry tears of joy. And then you’ll weep because you’ll never have taste as good as the designer’s. So buy it. 11+ Monster Bottle $39 This bottle is designed by cloudandco with the Sticky Monster Lab. The end result is a colorful and functional bottle. The product speaks for itself—it’s so gorgeous. The New York Times Debossed Mug $32 Merch is often gaudy and garish. They serve as a shouting and screaming ad for the brand and worse, they’re not even free—you have to buy them. However, this mug is so different because it’s understated. A gorgeous logo doesn’t need to scream. It can be subtle. In this case, it’s debossed on a mug. So every morning, you can enjoy your coffee while supporting good journalism. The Daily Tote Bag $28 Michael Barbaro is the new Ira Glass. And his podcast, The Daily is a part of many people’s morning routines. Now, you can show your love the for podcast in really a hip way by sporting this tote bag to Whole Foods (or if you’re not an affluent tech bro, Trader Joe’s). Pitch Deck Card Game $20 If you are a fan of performative card games, Pitch Deck is a must-buy. Players are given a company and an idea, for example, Jurassic Park for Hipsters, and each player pitches their take on the concept. The beauty of this is that it’s not only humorous, it’s also a pretty good exercise in product making. You can even incorporate how the company/product works and how it makes money. Blackberry Bold 9900 ~$20–$40 Wait, why would anyone get a dumb phone from a decade ago? Oh, don’t worry. You won’t be using it as a phone. It’ll be your new paper weight. Nothing screams sophistication like a useless Blackberry. You’ll be putting this on your desk, atop the piles of important financial papers you’re surely working on. This is the first Blackberry to incorporate metal. This is the Blackberry that Kim Kardashian was stockpiling. So you can’t really go wrong with this. Nokia Lumia 920 ~$65–$100 If you’re an industrial design nerd, you’re already know you need this. But you might have reservations. Sure, it’s old and runs a dead OS, but like the Blackberry, you won’t be using it as a phone. It’ll be your new bright yellow, Finnish-designed paperweight. At a higher price point that the Blackberry, this is our upgrade pick for eye-catching paperweights. Now, when someone inquires about the phone on your desk, you can educate them on Aalto’s “gentler structure to life” philosophy. It’s true. Also, Nokia designed something incredible here and Satya Nadella killed the company. You can rant about that too.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"url":"http://localhost:4000/gift_guide_2018/","headline":"Joys of Capitalism 2018","datePublished":"2018-12-19T00:00:00+07:00","description":"Ishinomaki Laboratory Tombo Hanger ~$190 It’s often said that only the Japanese and the Scandinavians know how to treat wood. This is very true. The Tombo Hanger is a well-designed and well-crafted hanger that simply leans against a wall. It’s so simple yet functional. In a delightful twist, it also features a place to prop your shoes on. Puppy Chair $149 Designed by Finnish designer, Eero Aarnio, the Puppy Chair is a gorgeous and delightful piece of furniture. You can sit on it if you want to, but its primary function is to be a playful presence in your home. eBoy Posters ~$25 These posters are crafted pixel by pixel by the incredible collective eBoy and will spice up any home. My personal favorites are Tokyo and Berlin. Monument Valley Posters ~$32–$50 Monument Valley is beautiful. Now, you can enjoy the game’s illustrations on your walls, in your home. 11+ O-Fan $38 You probably don’t need a desk fan. But this guide is called “The Joys of Capitalism” for a reason. You don’t need any of this stuff. If you appreciate design, this fan will make you cry tears of joy. And then you’ll weep because you’ll never have taste as good as the designer’s. So buy it. 11+ Monster Bottle $39 This bottle is designed by cloudandco with the Sticky Monster Lab. The end result is a colorful and functional bottle. The product speaks for itself—it’s so gorgeous. The New York Times Debossed Mug $32 Merch is often gaudy and garish. They serve as a shouting and screaming ad for the brand and worse, they’re not even free—you have to buy them. However, this mug is so different because it’s understated. A gorgeous logo doesn’t need to scream. It can be subtle. In this case, it’s debossed on a mug. So every morning, you can enjoy your coffee while supporting good journalism. The Daily Tote Bag $28 Michael Barbaro is the new Ira Glass. And his podcast, The Daily is a part of many people’s morning routines. Now, you can show your love the for podcast in really a hip way by sporting this tote bag to Whole Foods (or if you’re not an affluent tech bro, Trader Joe’s). Pitch Deck Card Game $20 If you are a fan of performative card games, Pitch Deck is a must-buy. Players are given a company and an idea, for example, Jurassic Park for Hipsters, and each player pitches their take on the concept. The beauty of this is that it’s not only humorous, it’s also a pretty good exercise in product making. You can even incorporate how the company/product works and how it makes money. Blackberry Bold 9900 ~$20–$40 Wait, why would anyone get a dumb phone from a decade ago? Oh, don’t worry. You won’t be using it as a phone. It’ll be your new paper weight. Nothing screams sophistication like a useless Blackberry. You’ll be putting this on your desk, atop the piles of important financial papers you’re surely working on. This is the first Blackberry to incorporate metal. This is the Blackberry that Kim Kardashian was stockpiling. So you can’t really go wrong with this. Nokia Lumia 920 ~$65–$100 If you’re an industrial design nerd, you’re already know you need this. But you might have reservations. Sure, it’s old and runs a dead OS, but like the Blackberry, you won’t be using it as a phone. It’ll be your new bright yellow, Finnish-designed paperweight. At a higher price point that the Blackberry, this is our upgrade pick for eye-catching paperweights. Now, when someone inquires about the phone on your desk, you can educate them on Aalto’s “gentler structure to life” philosophy. It’s true. Also, Nokia designed something incredible here and Satya Nadella killed the company. You can rant about that too.","dateModified":"2018-12-19T00:00:00+07:00","image":"http://localhost:4000/images/this/gift_guide/tombo_hanger.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/gift_guide_2018/"},"author":{"@type":"Person","name":"Nirawit Jittipairoj"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
+</head>
 
-    <!-- Google Analytics -->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-61560416-2', 'auto');
-	ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
-	ga('set', 'anonymizeIp', false);
-    </script>
-    <!-- End Google Analytics -->
-    </head>
-
-<body class="bg-light">
-
-<!-- <div class="db w-100 ph3-ns ph2-m ph4 cf bg-light-gray mb4-ns mb3"> -->
-<div class="db w-100 cf mt0 bg-dark">
-<header class="db w-100 relative" id="nav">
-	
-	<div class="dib titlePad">
-		<a class="link" href="/">
-			<img src="/images/logo_white.svg" id="logo" class="link dim fl">
-		</a>
-	</div>
-
-	
-
-  	<div id="navWrapper" class="cf dib">	
-		<div id="hamWrapper">
-			<img src="/images/hamburger.svg" id="hamburger" class="link v-mid fr dim">
-			<!-- <img src="/images/close.svg" id="close" class="link v-mid fr show"> -->
-		</div>
-	</div>
-
-	<div id="menuWrapper">
-		<div id="menu">
-
-			<a class="link" href="/">
-				<img src="/images/logo_white.svg" id="menuLogo" class="link dim">
-			</a>
-			<h1 class="f2 fg-semibold white lh-solid mb0">steakscience</h1>
-			<p class="ideal-book f4 white-60 mt0 mw6">A blog about technology, design, and culture. Probably off-topic.</p>
-
-			<!-- white line -->
-			<div class="bt b--white-20 bw1 w-100 menuLine"></div>
-
-			<!-- links -->
-			<ul class="list pl0">
-				
-				<li class="mb4 f3 fg-medium"><a href="/archive/" class="white-80 hover-white-60">Archive</a></li>
-				
-				<li class="mb4 f3 fg-medium"><a href="/favorites/" class="white-80 hover-white-60">Favorites</a></li>
-				
-			</ul>
-		</div>
-	</div>
-
-
-</header>
+  <body class="w-100 mw8 pa4 black db center cf f5 lh-copy">
+      <div>
+    <a>
+        <img src="/images/logo_ss_black.svg" style="width: 4.5rem;">
+    </a>
 </div>
+  
+  <div class="" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <!-- <div class="w-70-ns w-80-m w-100 center ph3-ns ph2-m ph4"> -->
-    
-    <main class="w-100"><!-- title bar -->
-<div class="bg-dark db w-100 mb0 titlePad" id="titleBar" itemscope itemtype="http://schema.org/BlogPosting">
-	<a href="/gift_guide_2018/" class="white-70 hover-white-50 f45"><span class="fg-semibold f45"><span itemprop="datePublished">19 December&nbsp;2018</span></span> 
-		<span class="white-40">&middot;</span>
-	<a href="/categories/#gift_guide" class="ttl white-70 hover-white-50 fg-medium f45">#gift_guide</a></span>
-	
-	<h1 class="lh-solid f2 mt3 pt1 mb2-ns mb1 fg-bold mw8 white" itemprop="name headline">
+	<div class="db mb0 mt3 bb bt pv2 fw4">
+		<a href="/gift_guide_2018/" class="black f5 link"><span itemprop="datePublished">19 December&nbsp;2018</span></span> 
+			<span class="">/</span>
+		<a href="/categories/#gift_guide" class="ttl black f5 link">#gift_guide</a></span></a>
+	</div>
+
+	<h1 class="f2 fw5 lh-title bb bw1 pv2 mt0 mb2" itemprop="name headline" style="letter-spacing: -0.02rem;">
 		Joys of Capitalism&nbsp;2018
 	</h1>
 
-	
-	<h2 class="white-70 fg-medium subtitle mt2 mb1">
+<!-- 	<h2 class="f3 fw5">
 		Cool things to buy this holiday&nbsp;season.
-	</h2>
-	
-
-	
-	<h2 class="white-80 fg-medium subtitle mt2 mb1">
-		
-			
-		
-	</h2>
-	
-	
+	</h2> -->
 
 </div>
 
 <link rel="stylesheet" property="stylesheet" href="/css/this.css">
 
 <!-- article wrap -->
-<article class="db f4-ns f5 lh-copy black-70 titlePad cf" id="thisBody" itemprop="articleBody">
+<article class="db f5 lh-copy black" id="thisBody" itemprop="articleBody" style="margin-bottom: -2rem;">
 
 	
-<div class="w-100 db mb3 cf">
+<div class="w-100 db mb0 cf">
 	<div class="v-top dib-ns db fl">
-		<a href="https://ishinomaki-lab.org/products/tombo-hanger/" target="_blank" class="black-70 hover-black-60">
-			<h2 class="f4-ns f5 mb1 lh-title mw5"><p>Ishinomaki Laboratory Tombo&nbsp;Hanger</p>
+		<a href="https://ishinomaki-lab.org/products/tombo-hanger/" target="_blank" class="black">
+			<h2 class="f5 mb0 lh-title mw5 mt0 fw4"><p>Ishinomaki Laboratory Tombo&nbsp;Hanger</p>
 </h2>
 		</a>
 		
 		
-		<p class="f6 mb0 lh-title tag mt1">~$190</p>
+		<p class="f5 mb0 lh-title tag mt1 black">~$190</p>
 		
 	</div>
 
@@ -326,15 +114,15 @@
 
 </div>
 
-<div class="w-100 db mb3 cf">
+<div class="w-100 db mb0 cf">
 	<div class="v-top dib-ns db fl">
-		<a href="https://store.moma.org/kids/preschool-3-4/eero-aarnio-puppy/5077.html" target="_blank" class="black-70 hover-black-60">
-			<h2 class="f4-ns f5 mb1 lh-title mw5"><p>Puppy&nbsp;Chair</p>
+		<a href="https://store.moma.org/kids/preschool-3-4/eero-aarnio-puppy/5077.html" target="_blank" class="black">
+			<h2 class="f5 mb0 lh-title mw5 mt0 fw4"><p>Puppy&nbsp;Chair</p>
 </h2>
 		</a>
 		
 		
-		<p class="f6 mb0 lh-title tag mt1">$149</p>
+		<p class="f5 mb0 lh-title tag mt1 black">$149</p>
 		
 	</div>
 
@@ -359,15 +147,15 @@
 
 </div>
 
-<div class="w-100 db mb3 cf">
+<div class="w-100 db mb0 cf">
 	<div class="v-top dib-ns db fl">
-		<a href="https://shop.eboy.com/collections/poster" target="_blank" class="black-70 hover-black-60">
-			<h2 class="f4-ns f5 mb1 lh-title mw5"><p>eBoy&nbsp;Posters</p>
+		<a href="https://shop.eboy.com/collections/poster" target="_blank" class="black">
+			<h2 class="f5 mb0 lh-title mw5 mt0 fw4"><p>eBoy&nbsp;Posters</p>
 </h2>
 		</a>
 		
 		
-		<p class="f6 mb0 lh-title tag mt1">~$25</p>
+		<p class="f5 mb0 lh-title tag mt1 black">~$25</p>
 		
 	</div>
 
@@ -397,15 +185,15 @@
 
 </div>
 
-<div class="w-100 db mb3 cf">
+<div class="w-100 db mb0 cf">
 	<div class="v-top dib-ns db fl">
-		<a href="https://store.iam8bit.com/collections/monument-valley?page=2" target="_blank" class="black-70 hover-black-60">
-			<h2 class="f4-ns f5 mb1 lh-title mw5"><p>Monument Valley&nbsp;Posters</p>
+		<a href="https://store.iam8bit.com/collections/monument-valley?page=2" target="_blank" class="black">
+			<h2 class="f5 mb0 lh-title mw5 mt0 fw4"><p>Monument Valley&nbsp;Posters</p>
 </h2>
 		</a>
 		
 		
-		<p class="f6 mb0 lh-title tag mt1">~$32–$50</p>
+		<p class="f5 mb0 lh-title tag mt1 black">~$32–$50</p>
 		
 	</div>
 
@@ -430,15 +218,15 @@
 
 </div>
 
-<div class="w-100 db mb3 cf">
+<div class="w-100 db mb0 cf">
 	<div class="v-top dib-ns db fl">
-		<a href="https://elevenpl.us/product/o-fan/" target="_blank" class="black-70 hover-black-60">
-			<h2 class="f4-ns f5 mb1 lh-title mw5"><p>11+&nbsp;O-Fan</p>
+		<a href="https://elevenpl.us/product/o-fan/" target="_blank" class="black">
+			<h2 class="f5 mb0 lh-title mw5 mt0 fw4"><p>11+&nbsp;O-Fan</p>
 </h2>
 		</a>
 		
 		
-		<p class="f6 mb0 lh-title tag mt1">$38</p>
+		<p class="f5 mb0 lh-title tag mt1 black">$38</p>
 		
 	</div>
 
@@ -470,23 +258,23 @@
 
 </div>
 
-<div class="w-100 db mb3 cf">
+<div class="w-100 db mb0 cf">
 	<div class="v-top dib-ns db fl">
-		<a href="https://elevenpl.us/product/monster-bottle/" target="_blank" class="black-70 hover-black-60">
-			<h2 class="f4-ns f5 mb1 lh-title mw5"><p>11+ Monster&nbsp;Bottle</p>
+		<a href="https://elevenpl.us/product/monster-bottle/" target="_blank" class="black">
+			<h2 class="f5 mb0 lh-title mw5 mt0 fw4"><p>11+ Monster&nbsp;Bottle</p>
 </h2>
 		</a>
 		
 		
-		<p class="f6 mb0 lh-title tag mt1">$39</p>
+		<p class="f5 mb0 lh-title tag mt1 black">$39</p>
 		
 	</div>
 
 	<div class="v-top dib-ns db fr-ns fl mb3-ns mb2">
 		
-		<!-- <p class="measure lh-copy black-60"><p>This bottle is designed by cloudandco with the Sticky Monster Lab. The end result is a colorful and functional bottle. The product speaks for itself—it’s so&nbsp;gorgeous.</p>
+		<!-- <p class="measure lh-copy black-60"><p>This bottle is designed by cloudandco with the Sticky Monster Lab. The end result is a colorful and functional bottle. The product speaks for itself<span class="emdash">&mdash;</span>it’s so&nbsp;gorgeous.</p>
 </p> -->
-		<p>This bottle is designed by cloudandco with the Sticky Monster Lab. The end result is a colorful and functional bottle. The product speaks for itself—it’s so&nbsp;gorgeous.</p>
+		<p>This bottle is designed by cloudandco with the Sticky Monster Lab. The end result is a colorful and functional bottle. The product speaks for itself<span class="emdash">&mdash;</span>it’s so&nbsp;gorgeous.</p>
 
 		
 	</div>
@@ -505,23 +293,23 @@
 
 </div>
 
-<div class="w-100 db mb3 cf">
+<div class="w-100 db mb0 cf">
 	<div class="v-top dib-ns db fl">
-		<a href="https://store.nytimes.com/products/debossed-new-york-times-mugs" target="_blank" class="black-70 hover-black-60">
-			<h2 class="f4-ns f5 mb1 lh-title mw5"><p>The New York Times Debossed&nbsp;Mug</p>
+		<a href="https://store.nytimes.com/products/debossed-new-york-times-mugs" target="_blank" class="black">
+			<h2 class="f5 mb0 lh-title mw5 mt0 fw4"><p>The New York Times Debossed&nbsp;Mug</p>
 </h2>
 		</a>
 		
 		
-		<p class="f6 mb0 lh-title tag mt1">$32</p>
+		<p class="f5 mb0 lh-title tag mt1 black">$32</p>
 		
 	</div>
 
 	<div class="v-top dib-ns db fr-ns fl mb3-ns mb2">
 		
-		<!-- <p class="measure lh-copy black-60"><p>Merch is often gaudy and garish. They serve as a shouting and screaming ad for the brand and worse, they’re not even free—you have to buy&nbsp;them.</p>
+		<!-- <p class="measure lh-copy black-60"><p>Merch is often gaudy and garish. They serve as a shouting and screaming ad for the brand and worse, they’re not even free<span class="emdash">&mdash;</span>you have to buy&nbsp;them.</p>
 </p> -->
-		<p>Merch is often gaudy and garish. They serve as a shouting and screaming ad for the brand and worse, they’re not even free—you have to buy&nbsp;them.</p>
+		<p>Merch is often gaudy and garish. They serve as a shouting and screaming ad for the brand and worse, they’re not even free<span class="emdash">&mdash;</span>you have to buy&nbsp;them.</p>
 
 		
 		<!-- <p class="measure lh-copy black-60"><p>However, this mug is so different because it’s understated. A gorgeous logo doesn’t need to scream. It can be subtle. In this case, it’s debossed on a&nbsp;mug.</p>
@@ -548,15 +336,15 @@
 
 </div>
 
-<div class="w-100 db mb3 cf">
+<div class="w-100 db mb0 cf">
 	<div class="v-top dib-ns db fl">
-		<a href="https://store.nytimes.com/collections/the-daily/products/daily-tote-bag" target="_blank" class="black-70 hover-black-60">
-			<h2 class="f4-ns f5 mb1 lh-title mw5"><p><em>The Daily</em> Tote&nbsp;Bag</p>
+		<a href="https://store.nytimes.com/collections/the-daily/products/daily-tote-bag" target="_blank" class="black">
+			<h2 class="f5 mb0 lh-title mw5 mt0 fw4"><p><em>The Daily</em> Tote&nbsp;Bag</p>
 </h2>
 		</a>
 		
 		
-		<p class="f6 mb0 lh-title tag mt1">$28</p>
+		<p class="f5 mb0 lh-title tag mt1 black">$28</p>
 		
 	</div>
 
@@ -586,15 +374,15 @@
 
 </div>
 
-<div class="w-100 db mb3 cf">
+<div class="w-100 db mb0 cf">
 	<div class="v-top dib-ns db fl">
-		<a href="http://pitchdeck.business/" target="_blank" class="black-70 hover-black-60">
-			<h2 class="f4-ns f5 mb1 lh-title mw5"><p>Pitch Deck Card&nbsp;Game</p>
+		<a href="http://pitchdeck.business/" target="_blank" class="black">
+			<h2 class="f5 mb0 lh-title mw5 mt0 fw4"><p>Pitch Deck Card&nbsp;Game</p>
 </h2>
 		</a>
 		
 		
-		<p class="f6 mb0 lh-title tag mt1">$20</p>
+		<p class="f5 mb0 lh-title tag mt1 black">$20</p>
 		
 	</div>
 
@@ -624,15 +412,15 @@
 
 </div>
 
-<div class="w-100 db mb3 cf">
+<div class="w-100 db mb0 cf">
 	<div class="v-top dib-ns db fl">
-		<a href="https://www.ebay.com/sch/i.html?_from=R40&amp;_trksid=p2380057.m570.l1313.TR9.TRC1.A0.H0.Xblackberry+bold+9900.TRS0&amp;_nkw=blackberry+bold+9900&amp;_sacat=0" target="_blank" class="black-70 hover-black-60">
-			<h2 class="f4-ns f5 mb1 lh-title mw5"><p>Blackberry Bold&nbsp;9900</p>
+		<a href="https://www.ebay.com/sch/i.html?_from=R40&amp;_trksid=p2380057.m570.l1313.TR9.TRC1.A0.H0.Xblackberry+bold+9900.TRS0&amp;_nkw=blackberry+bold+9900&amp;_sacat=0" target="_blank" class="black">
+			<h2 class="f5 mb0 lh-title mw5 mt0 fw4"><p>Blackberry Bold&nbsp;9900</p>
 </h2>
 		</a>
 		
 		
-		<p class="f6 mb0 lh-title tag mt1">~$20–$40</p>
+		<p class="f5 mb0 lh-title tag mt1 black">~$20–$40</p>
 		
 	</div>
 
@@ -669,15 +457,15 @@
 
 </div>
 
-<div class="w-100 db mb3 cf">
+<div class="w-100 db mb0 cf">
 	<div class="v-top dib-ns db fl">
-		<a href="https://www.ebay.com/sch/i.html?_from=R40&amp;_trksid=p2334524.m570.l1312.R1.TR10.TRC2.A0.H0.Xlumi.TRS2&amp;_nkw=lumia+920+yellow&amp;_sacat=0&amp;LH_TitleDesc=0&amp;_osacat=0&amp;_odkw=blackberry+bold+9900" target="_blank" class="black-70 hover-black-60">
-			<h2 class="f4-ns f5 mb1 lh-title mw5"><p>Nokia Lumia&nbsp;920</p>
+		<a href="https://www.ebay.com/sch/i.html?_from=R40&amp;_trksid=p2334524.m570.l1312.R1.TR10.TRC2.A0.H0.Xlumi.TRS2&amp;_nkw=lumia+920+yellow&amp;_sacat=0&amp;LH_TitleDesc=0&amp;_osacat=0&amp;_odkw=blackberry+bold+9900" target="_blank" class="black">
+			<h2 class="f5 mb0 lh-title mw5 mt0 fw4"><p>Nokia Lumia&nbsp;920</p>
 </h2>
 		</a>
 		
 		
-		<p class="f6 mb0 lh-title tag mt1">~$65–$100</p>
+		<p class="f5 mb0 lh-title tag mt1 black">~$65–$100</p>
 		
 	</div>
 
@@ -721,19 +509,18 @@ integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
 crossorigin="anonymous">
 </script>
 
-<footer id="footer" class="fg-medium cf pv0 ph4-l ph4 mt5-l mt3">
+<footer id="footer" class="cf pb0 pt2 ph0 mt5 bt">
 	<div class="footerBlock">
 
 		
-	    <div class="fl tl cf dim">
+	    <div class="fl tl cf">
 
-	        <a href="/this_their_own_devices/" class="link white hover-white">
+	        <a href="/this_their_own_devices/" class="link black f5">
 
 	    		<!-- <img src="/images/next.svg" class="icon fr"> -->
 
 	    		<div class="v-mid">
-	    			<img src="/images/prev.svg" class="icon dib v-mid" style="position: relative; left: 0;">
-	    			<p class="v-mid dib ml2 f4-ns f5" style="padding-top: 0.5rem;">This! – “Their Own&nbsp;Devices”</p>
+	    			<p class="v-mid dib f5 mv0">This! – “Their Own&nbsp;Devices”</p>
 	    		</div>
 
 	        </a>
@@ -742,15 +529,14 @@ crossorigin="anonymous">
 	    
 
 		
-	    <div class="fr tr cf dim">
+	    <div class="fr tr cf">
 
-	        <a href="/this_isle_of_dogs/" class="link white hover-white">
+	        <a href="/this_isle_of_dogs/" class="link black f5">
 
 	    		<!-- <img src="/images/next.svg" class="icon fr"> -->
 
 	    		<div class="v-mid">
-	    			<p class="v-mid dib mr2 f4-ns f5" style="padding-top: 0.5rem;">This! – “Isle of&nbsp;Dogs”</p>
-	    			<img src="/images/next.svg" class="icon dib v-mid" style="position: relative; right: 0;">
+	    			<p class="v-mid dib f5 mv0">This! – “Isle of&nbsp;Dogs”</p>
 	    		</div>
 
 	        </a>
@@ -760,56 +546,22 @@ crossorigin="anonymous">
 
 	</div>
 </footer>
-</main>
-    
-  <!-- </div> -->
-  
-</body>
 
-<!-- load jquery -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
     crossorigin="anonymous">
-  </script> -->
-
-  <!-- random color scheme https://stackoverflow.com/questions/40791621/change-color-scheme-on-refresh -->
-  <script type="text/javascript">
-    $( document ).ready(function() {
-      var listOfClasses = ["blue","pink","green", "yellow", "gray", "purple", "orange"];
-      var randomNum = Math.floor(Math.random() * listOfClasses.length); 
-      $("html").addClass(listOfClasses[randomNum]);
-    });
   </script>
 
-<!-- menu stuff -->
-<script type="text/javascript">
-	$(function() {
-	  $('#hamburger').on('click', function() {
-	    // $('#hamburger').toggleClass('opened');
-	    // $('#close').toggleClass('show');
-	    // $('#hamburger').attr("src","/images/close.svg");
+  <!-- footnote -->
+  <script src="/js/footnotes/dist/jquery.inline-footnotes.min.js" type="text/javascript"></script>
 
-	    var src = ($(this).attr('src') === "/images/hamburger.svg")
-            ? "/images/close.svg"
-            : "/images/hamburger.svg"
-         $(this).attr('src', src);
-
-	    $('#menu').toggleClass('visible');
-	    $('body').toggleClass('noScroll');
-	  });
-
-	});
-</script>
-
-<!-- footnote -->
-<script src="/js/footnotes/dist/jquery.inline-footnotes.min.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-  	$.inlineFootnotes();
-  });
-</script>
-
-
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $.inlineFootnotes();
+    });
+  </script>
 
 </html>

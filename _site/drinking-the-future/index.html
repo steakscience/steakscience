@@ -1,35 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <!--  /**
- * @license
- * MyFonts Webfont Build ID 3328218, 2017-01-06T13:02:43-0500
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: NeueHaasUnicaPro-Bold by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/bold/
- * Licensed pageviews: 500,000
- * 
- * Webfont: NeueHaasUnicaPro-Italic by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/italic/
- * Licensed pageviews: 250,000
- * 
- * Webfont: NeueHaasUnicaPro-Regular by Linotype
- * URL: http://www.myfonts.com/fonts/linotype/neue-haas-unica/regular/
- * Licensed pageviews: 500,000
- * 
- * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=3328218
- * Webfonts copyright: Copyright &#x00A9; 2015 Monotype Imaging Inc.  All rights
- * reserved.
- * 
- * © 2017 MyFonts Inc
-*/ -->
+  <head>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,13 +8,14 @@
   <title>Drinking the Future – steakscience</title>
   <meta name="description" content="One afternoon in February 2013, Rob Rhinehart published a blog post about how he stopped eating food. Unbeknownst to him, he started a revolution and his lif...">
   <meta name="author" content="Nirawit Jittipairoj">
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+  <!-- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/> -->
+  <link rel="stylesheet" href="/css/tachyons.css">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css">
 
-  <!--  -->
-
-  <link rel="canonical" href="http://steakscience.com/drinking-the-future/">
-  <link rel="alternate" type="application/rss+xml" title="steakscience" href="http://steakscience.com/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/drinking-the-future/">
+  <link rel="alternate" type="application/rss+xml" title="steakscience" href="http://localhost:4000/feed.xml">
 
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -51,126 +23,9 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f75f64">
 
 
-  <!-- not critical css -->
-  <!-- <link rel="preload" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css" as="style"> -->
-  <link rel="preload" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/js/footnotes/stylesheets/jquery.inline-footnotes.css"></noscript>
-  <link rel="preload" href="/css/dia.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/dia.css"></noscript>
-  <link rel="preload" href="/css/fg.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/fg.css"></noscript>
-  <link rel="preload" href="/css/ideal_sans.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/ideal_sans.css"></noscript>
-
-  <script>
-    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-  (function( w ){
-    "use strict";
-    // rel=preload support test
-    if( !w.loadCSS ){
-      w.loadCSS = function(){};
-    }
-    // define on the loadCSS obj
-    var rp = loadCSS.relpreload = {};
-    // rel=preload feature support test
-    // runs once and returns a function for compat purposes
-    rp.support = (function(){
-      var ret;
-      try {
-        ret = w.document.createElement( "link" ).relList.supports( "preload" );
-      } catch (e) {
-        ret = false;
-      }
-      return function(){
-        return ret;
-      };
-  })();
-
-  // if preload isn't supported, get an asynchronous load by using a non-matching media attribute
-  // then change that media back to its intended value on load
-  rp.bindMediaToggle = function( link ){
-    // remember existing media attr for ultimate state, or default to 'all'
-    var finalMedia = link.media || "all";
-
-    function enableStylesheet(){
-      link.media = finalMedia;
-    }
-
-    // bind load handlers to enable media
-    if( link.addEventListener ){
-      link.addEventListener( "load", enableStylesheet );
-    } else if( link.attachEvent ){
-      link.attachEvent( "onload", enableStylesheet );
-    }
-
-    // Set rel and non-applicable media type to start an async request
-    // note: timeout allows this to happen async to let rendering continue in IE
-    setTimeout(function(){
-      link.rel = "stylesheet";
-      link.media = "only x";
-    });
-    // also enable media after 3 seconds,
-    // which will catch very old browsers (android 2.x, old firefox) that don't support onload on link
-    setTimeout( enableStylesheet, 3000 );
-  };
-
-  // loop through link elements in DOM
-  rp.poly = function(){
-    // double check this to prevent external calls from running
-    if( rp.support() ){
-      return;
-    }
-    var links = w.document.getElementsByTagName( "link" );
-    for( var i = 0; i < links.length; i++ ){
-      var link = links[ i ];
-      // qualify links to those with rel=preload and as=style attrs
-      if( link.rel === "preload" && link.getAttribute( "as" ) === "style" && !link.getAttribute( "data-loadcss" ) ){
-        // prevent rerunning on link
-        link.setAttribute( "data-loadcss", true );
-        // bind listeners to toggle media back
-        rp.bindMediaToggle( link );
-      }
-    }
-  };
-
-  // if unsupported, run the polyfill
-  if( !rp.support() ){
-    // run once at least
-    rp.poly();
-
-    // rerun poly on an interval until onload
-    var run = w.setInterval( rp.poly, 500 );
-    if( w.addEventListener ){
-      w.addEventListener( "load", function(){
-        rp.poly();
-        w.clearInterval( run );
-      } );
-    } else if( w.attachEvent ){
-      w.attachEvent( "onload", function(){
-        rp.poly();
-        w.clearInterval( run );
-      } );
-    }
-  }
-
-
-  // commonjs
-  if( typeof exports !== "undefined" ){
-    exports.loadCSS = loadCSS;
-  }
-  else {
-    w.loadCSS = loadCSS;
-  }
-}( typeof global !== "undefined" ? global : this ) );
-</script>
-
-<!-- end loadcss -->
-
-  <!-- load jquery -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-    crossorigin="anonymous">
-  </script> -->
-
   
 
-  <!-- Begin Jekyll SEO tag v2.5.0 -->
+  <!-- Begin Jekyll SEO tag v2.6.0 -->
 <title>Drinking the Future | steakscience</title>
 <meta name="generator" content="Jekyll v3.4.3" />
 <meta property="og:title" content="Drinking the Future" />
@@ -178,188 +33,122 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="One afternoon in February 2013, Rob Rhinehart published a blog post about how he stopped eating food. Unbeknownst to him, he started a revolution and his life, along with many others, would never be the same again:" />
 <meta property="og:description" content="One afternoon in February 2013, Rob Rhinehart published a blog post about how he stopped eating food. Unbeknownst to him, he started a revolution and his life, along with many others, would never be the same again:" />
-<link rel="canonical" href="http://steakscience.com/drinking-the-future/" />
-<meta property="og:url" content="http://steakscience.com/drinking-the-future/" />
+<link rel="canonical" href="http://localhost:4000/drinking-the-future/" />
+<meta property="og:url" content="http://localhost:4000/drinking-the-future/" />
 <meta property="og:site_name" content="steakscience" />
-<meta property="og:image" content="http://steakscience.com/images/soylent/soylent_fallback.png" />
+<meta property="og:image" content="http://localhost:4000/images/soylent/soylent_fallback.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2015-05-30T00:00:00-07:00" />
+<meta property="article:published_time" content="2015-05-30T00:00:00+07:00" />
 <script type="application/ld+json">
-{"headline":"Drinking the Future","dateModified":"2015-05-30T00:00:00-07:00","datePublished":"2015-05-30T00:00:00-07:00","image":"http://steakscience.com/images/soylent/soylent_fallback.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://steakscience.com/drinking-the-future/"},"url":"http://steakscience.com/drinking-the-future/","author":{"@type":"Person","name":"Nirawit Jittipairoj"},"description":"One afternoon in February 2013, Rob Rhinehart published a blog post about how he stopped eating food. Unbeknownst to him, he started a revolution and his life, along with many others, would never be the same again:","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"url":"http://localhost:4000/drinking-the-future/","headline":"Drinking the Future","datePublished":"2015-05-30T00:00:00+07:00","description":"One afternoon in February 2013, Rob Rhinehart published a blog post about how he stopped eating food. Unbeknownst to him, he started a revolution and his life, along with many others, would never be the same again:","dateModified":"2015-05-30T00:00:00+07:00","image":"http://localhost:4000/images/soylent/soylent_fallback.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/drinking-the-future/"},"author":{"@type":"Person","name":"Nirawit Jittipairoj"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
+</head>
 
-    <!-- Google Analytics -->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-61560416-2', 'auto');
-	ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
-	ga('set', 'anonymizeIp', false);
-    </script>
-    <!-- End Google Analytics -->
-    </head>
-
-<body class="bg-light">
-
-<!-- <div class="db w-100 ph3-ns ph2-m ph4 cf bg-light-gray mb4-ns mb3"> -->
-<div class="db w-100 cf mt0 bg-dark">
-<header class="db w-100 relative" id="nav">
-	
-	<div class="dib titlePad">
-		<a class="link" href="/">
-			<img src="/images/logo_white.svg" id="logo" class="link dim fl">
-		</a>
-	</div>
-
-	
-
-  	<div id="navWrapper" class="cf dib">	
-		<div id="hamWrapper">
-			<img src="/images/hamburger.svg" id="hamburger" class="link v-mid fr dim">
-			<!-- <img src="/images/close.svg" id="close" class="link v-mid fr show"> -->
-		</div>
-	</div>
-
-	<div id="menuWrapper">
-		<div id="menu">
-
-			<a class="link" href="/">
-				<img src="/images/logo_white.svg" id="menuLogo" class="link dim">
-			</a>
-			<h1 class="f2 fg-semibold white lh-solid mb0">steakscience</h1>
-			<p class="ideal-book f4 white-60 mt0 mw6">A blog about technology, design, and culture. Probably off-topic.</p>
-
-			<!-- white line -->
-			<div class="bt b--white-20 bw1 w-100 menuLine"></div>
-
-			<!-- links -->
-			<ul class="list pl0">
-				
-				<li class="mb4 f3 fg-medium"><a href="/archive/" class="white-80 hover-white-60">Archive</a></li>
-				
-				<li class="mb4 f3 fg-medium"><a href="/favorites/" class="white-80 hover-white-60">Favorites</a></li>
-				
-			</ul>
-		</div>
-	</div>
-
-
-</header>
+  <body class="w-100 mw8 pa4 black db center cf f5 lh-copy">
+      <div>
+    <a>
+        <img src="/images/logo_ss_black.svg" style="width: 4.5rem;">
+    </a>
 </div>
+  
+  <div class="" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <!-- <div class="w-70-ns w-80-m w-100 center ph3-ns ph2-m ph4"> -->
-    
-    <main class="w-100"><!-- title bar -->
-<div class="bg-dark db w-100 mb0 titlePad" id="titleBar" itemscope itemtype="http://schema.org/BlogPosting">
-	<a href="/drinking-the-future/" class="white-70 hover-white-50 f45"><span class="fg-semibold f45"><span itemprop="datePublished">30 May&nbsp;2015</span></span> 
-		<span class="white-40">&middot;</span>
-	<a href="/categories/#culture" class="ttl white-70 hover-white-50 fg-medium f45">#culture</a></span>
-	
-	<h1 class="lh-solid f2 mt3 pt1 mb2-ns mb1 fg-bold mw8 white" itemprop="name headline">
+	<div class="db mb0 mt3 bb bt pv2 fw4">
+		<a href="/drinking-the-future/" class="black f5 link"><span itemprop="datePublished">30 May&nbsp;2015</span></span> 
+			<span class="">/</span>
+		<a href="/categories/#culture" class="ttl black f5 link">#culture</a></span></a>
+	</div>
+
+	<h1 class="f2 fw5 lh-title bb bw1 pv2 mt0 mb2" itemprop="name headline" style="letter-spacing: -0.02rem;">
 		Drinking the&nbsp;Future
 	</h1>
 
-	
+<!-- 	<h2 class="f3 fw5">
+		
+	</h2> -->
 
-	
-	
-
-</div>
-
-<!-- left strip -->
-<div class="bg-mid" id="leftStrip">
 </div>
 
 <!-- article wrap -->
-<article id="articleWrapper" class="">
+<div class="db w-100 center">
 	
-		<video class="pb2 mh0 w-100" id="heroVid" width=100% autoplay="autoplay" muted poster="/images/soylent/soylent_fallback.png">
+		<video class="w-100" width=100% autoplay="autoplay" muted poster="/images/soylent/soylent_fallback.png">
 			<source src="/images/soylent/soylent_hero.mp4" type="video/mp4" />
 		</video>
 
 	
 
-	<section class="db f4-ns f5 lh-copy black-70 cf" id="postBody" itemprop="articleBody">
+	<section class="postBody mt1 pt2" itemprop="articleBody">
 
-		<p>One afternoon in February 2013, Rob Rhinehart published a <a href="https://web.archive.org/web/20170316224815/http://robrhinehart.com/?p=298">blog post</a> about how he stopped eating food. Unbeknownst to him, he started a revolution and his life, along with many others, would never be the same&nbsp;again:</p>
+		<p>One after­noon in Feb­ru­ary 2013, Rob Rhine­hart pub­lished a <a href="https://web.archive.org/web/20170316224815/http://robrhinehart.com/?p=298">blog post</a> about how he stopped eat­ing food. Unbe­knownst to him, he started a rev­o­lu­tion and his life, along with many oth­ers, would never be the&nbsp;same again:</p>
 
 <blockquote>
-  <p>“I hypothesized that the body doesn’t need food itself, merely the chemicals and elements it contains. So, I resolved to embark on an experiment. What if I consumed only the raw ingredients the body uses for&nbsp;energy?”</p>
+  <p>“I hypoth­e­sized that the body does­n’t need food itself, merely the chem­i­cals and ele­ments it con­tains. So, I resolved to embark on an exper­i­ment. What if I con­sumed only the raw ingre­di­ents the body uses&nbsp;for energy?”</p>
 </blockquote>
 
-<p>His blog exploded in popularity. As it turned out, many people were intrigued by the idea of not eating food. Almost as many wanted to try it out. So Rhinehart came up with the first prototype of what he called “Soylent” and enlisted many enthusiasts in his the&nbsp;trials.</p>
+<p>His blog exploded in pop­u­lar­i­ty. As it turned out, many peo­ple were intrigued by the idea of not eat­ing food. Almost as many wanted to try it out. So Rhine­hart came up with the first pro­to­type of what he called “Soy­lent” and enlisted many enthu­si­asts in his&nbsp;the trials.</p>
 
-<p>Although many have aspired to create a meal-replacement drink for decades, none have been this well-executed and well-thought-out. To take Soylent to its next step, Rhinehart started a crowdfunding campaign. In the end, Soylent raked in over one million dollars, exponentially exceeding its target goal of 100&nbsp;thousand.</p>
+<p>Although many have aspired to cre­ate a meal-re­place­ment drink for decades, none have been this well-ex­e­cuted and well-thought-out. To take Soy­lent to its next step, Rhine­hart started a crowd­fund­ing cam­paign. In the end, Soy­lent raked in over one mil­lion dol­lars, expo­nen­tially exceed­ing its tar­get goal of&nbsp;100 thousand.</p>
 
-<hr />
+<hr>
 
-<p>As a species, we have done a great job—we colonized the earth and we eternally established ourselves on the very top of the food chain. However, as the most intelligent inhabitants of this planet, we have failed miserably. We have trashed the Earth and our way of life is not only unsustainable, it is grossly wasteful. Meat is especially inefficient—one kilogram of beef requires 30 kilograms of grain to make, not to mention the unspeakable atrocities we have to subject our animals to just to feed ourselves. According to projections, we will need to double our food production to feed ourselves in 40 years. Doubling our production would mean much more cruelty and&nbsp;waste.</p>
+<p>As a species, we have done a great job<span class="emdash">—</span>we col­o­nized the earth and we eter­nally estab­lished our­selves on the very top of the food chain. How­ev­er, as the most intel­li­gent inhab­i­tants of this plan­et, we have failed mis­er­ably. We have trashed the Earth and our way of life is not only unsus­tain­able, it is grossly waste­ful. Meat is espe­cially inefficient<span class="emdash">—</span>one kilo­gram of beef requires 30 kilo­grams of grain to make, not to men­tion the unspeak­able atroc­i­ties we have to sub­ject our ani­mals to just to feed our­selves. Accord­ing to pro­jec­tions, we will need to dou­ble our food pro­duc­tion to feed our­selves in 40 years. Dou­bling our pro­duc­tion would mean much more cru­elty&nbsp;and waste.</p>
 
-<p>In <em>Interstellar</em>, when asked about the survival of the human species, Cooper (Matthew McConaughey) says, “We’ll find a way, we always have.” Soylent is incredibly efficient, humane, and easy to store and transport. Maybe this is it. Maybe Soylent is going to solve our food&nbsp;crisis.</p>
+<p>In <em>Interstellar</em>, when asked about the sur­vival of the human species, Cooper (Matthew McConaugh­ey) says, “We’ll find a way, we always have.” Soy­lent is incred­i­bly effi­cient, humane, and easy to store and trans­port. Maybe this is it. Maybe Soy­lent is going to solve our&nbsp;food crisis.</p>
 
-<hr />
-
-<figure>
-  <img src="/images/soylent/soylent-2.jpg" alt="" />
-  
-</figure>
-
-<p>I have always been fascinated by technology and how it will impact our future. When I heard about Soylent, I knew I had to try it&nbsp;out.</p>
-
-<p>Soylent is a living product, it is constantly being updated and even comes with a changelog. Currently, it is at version <span class="caps"><span class="caps">1.4</span></span>, which is the version I&nbsp;tried.</p>
-
-<p>Making Soylent is easy, especially if you want to make one bag at a time, which is what I did. All I had to do was dump the whole bag into a pitcher, fill it water, and shake for a minute. Others blend it to achieve perfect consistency, but I find that leaving it overnight in the fridge works just as well. A bag is good for 3–4&nbsp;meals.</p>
-
-<p>The first glass is always the hardest. It was very strange to replace a whole meal with just a glass of light brown liquid which tasted foreign. Others have compared the taste to pancake batter, to me, it tasted like a nuttier version of almond milk. The consensus is that Soylent gets much better after the first glass, so I suggest you ease your way in by mixing in some vanilla extract, which makes Soylent quite&nbsp;delicious.</p>
-
-<p>I drink Soylent 2–3 times a day, usually replacing my breakfast and lunch. Unlike real food, Soylent fills me up instantly. I assume this is related to its aqueous nature. The greatest strength of Soylent however, is that it saves large amounts of time. I can finish a whole meal within 3 minutes and I can multitask while doing so. I cannot stress the importance of this. There are days when I spend hours in the computer lab. Instead of having to waste upwards of 30 minutes on food, I can just drink, focus on my work, and never have to leave the&nbsp;room.</p>
-
-<p>The other benefit is that every meal has just the right amount of nutrition and energy. Living on campus food has been disastrous in this regard. I can either get overpriced salad and know they I’ll be hungry by 4 <span class="caps"><span class="caps">PM</span></span>, or get some processed protein submerged in gravy that ensures that I’m tired and sleepy for the rest of the day. As you can see, the meals are woefully unbalanced and I’m facing undesirable consequences either way. With Soylent however, my energy level is just right. I’m never hungry or full, but rather, I’m in this in-between state that is perfect for getting things&nbsp;done.</p>
+<hr>
 
 <figure>
-  <img src="/images/soylent/soylent-1.jpg" alt="" />
-  
+<p><img src="/images/soylent/soylent-2.jpg" alt=""></p>
 </figure>
 
-<p>Of course, there are some drawbacks to Soylent. The first that everyone always mentions is that food is not just sustenance, it is also a social activity. That is true, but the reality is, a lot of the time people eat their meals alone, in which case, Soylent would be great. I don’t completely dismiss real food. Cooking is an art form and there many experiences exclusive to dining. This is where I think Soylent marketing has it wrong—they should promote replacing quick and solitary meals with Soylent, not promote going full-time&nbsp;Soylent.</p>
+<p>I have always been fas­ci­nated by tech­nol­ogy and how it will impact our future. When I heard about Soy­lent, I knew I had to try&nbsp;it out.</p>
 
-<p>There are some small annoyances with consuming a mostly liquid diet. Some people have experienced some problems with their jaw because they don’t chew enough, but this has not been an issue with myself or others I’ve talked to. Also, drinking Soylent psychologically decreases the urge to drink water, which can become problematic in the summer. I have definitely experienced dehydration. The last annoyance I can come up with is that Soylent contains a lot of grains, which makes me quite gassy. I fart more than&nbsp;usual.</p>
+<p>Soy­lent is a liv­ing pro­duct, it is con­stantly being updated and even comes with a changel­og. Cur­rent­ly, it is at ver­sion <span class="caps"><span class="caps">1.4</span></span>, which is the ver­sion&nbsp;I tried.</p>
+
+<p>Mak­ing Soy­lent is easy, espe­cially if you want to make one bag at a time, which is what I did. All I had to do was dump the whole bag into a pitcher, fill it water, and shake for a minute. Oth­ers blend it to achieve per­fect con­sis­ten­cy, but I find that leav­ing it overnight in the fridge works just as well. A bag is good for&nbsp;3–4 meals.</p>
+
+<p>The first glass is always the hard­est. It was very strange to replace a whole meal with just a glass of light brown liq­uid which tasted for­eign. Oth­ers have com­pared the taste to pan­cake bat­ter, to me, it tasted like a nut­tier ver­sion of almond milk. The con­sen­sus is that Soy­lent gets much bet­ter after the first glass, so I sug­gest you ease your way in by mix­ing in some vanilla extract, which makes Soy­lent&nbsp;quite delicious.</p>
+
+<p>I drink Soy­lent 2–3 times a day, usu­ally replac­ing my break­fast and lunch. Unlike real food, Soy­lent fills me up instant­ly. I assume this is related to its aque­ous nature. The great­est strength of Soy­lent how­ev­er, is that it saves large amounts of time. I can fin­ish a whole meal within 3 minutes and I can mul­ti­task while doing so. I can­not stress the impor­tance of this. There are days when I spend hours in the com­puter lab. Instead of hav­ing to waste upwards of 30 minutes on food, I can just drink, focus on my work, and never have to leave&nbsp;the room.</p>
+
+<p>The other ben­e­fit is that every meal has just the right amount of nutri­tion and ener­gy. Liv­ing on cam­pus food has been dis­as­trous in this regard. I can either get over­priced salad and know they I’ll be hun­gry by 4 <span class="caps"><span class="caps">PM</span></span>, or get some processed pro­tein sub­merged in gravy that ensures that I’m tired and sleepy for the rest of the day. As you can see, the meals are woe­fully unbal­anced and I’m fac­ing unde­sir­able con­se­quences either way. With Soy­lent how­ev­er, my energy level is just right. I’m never hun­gry or full, but rather, I’m in this in-­be­tween state that is per­fect for get­ting&nbsp;things done.</p>
 
 <figure>
-  <img src="/images/soylent/soylent-3.jpg" alt="" />
-  
+<p><img src="/images/soylent/soylent-1.jpg" alt=""></p>
 </figure>
 
-<p>As a whole, Soylent is not bad at all. After drinking it for several weeks, I found myself craving it over a regular meal. Living near campus, I’m surrounded by unhealthy factory-prepared food that don’t even taste good. With that in mind, going Soylent is a no-brainer decision. It’s signficantly healthier and I never feel&nbsp;bloated.</p>
+<p>Of course, there are some draw­backs to Soy­lent. The first that every­one always men­tions is that food is not just sus­te­nance, it is also a social activ­i­ty. That is true, but the real­ity is, a lot of the time peo­ple eat their meals alone, in which case, Soy­lent would be great. I don’t com­pletely dis­miss real food. Cook­ing is an art form and there many expe­ri­ences exclu­sive to din­ing. This is where I think Soy­lent mar­ket­ing has it wrong<span class="emdash">—</span>they should pro­mote replac­ing quick and soli­tary meals with Soy­lent, not pro­mote going&nbsp;full-time Soylent.</p>
 
-<p>Ultimately, no one really knows whether a drink will replace food for future generations. But as long as <a href="http://mosaicscience.com/story/eating-insects">insects</a> are the alternative, I’ll be perfectly happy with&nbsp;Soylent.</p>
+<p>There are some small annoy­ances with con­sum­ing a mostly liq­uid diet. Some peo­ple have expe­ri­enced some prob­lems with their jaw because they don’t chew enough, but this has not been an issue with myself or oth­ers I’ve talked to. Also, drink­ing Soy­lent psy­cho­log­i­cally decreases the urge to drink water, which can become prob­lem­atic in the sum­mer. I have def­i­nitely expe­ri­enced dehy­dra­tion. The last annoy­ance I can come up with is that Soy­lent con­tains a lot of grains, which makes me quite gassy. I fart more&nbsp;than usual.</p>
+
+<figure>
+<p><img src="/images/soylent/soylent-3.jpg" alt=""></p>
+</figure>
+
+<p>As a whole, Soy­lent is not bad at all. After drink­ing it for sev­eral weeks, I found myself crav­ing it over a reg­u­lar meal. Liv­ing near cam­pus, I’m sur­rounded by unhealthy fac­to­ry-pre­pared food that don’t even taste good. With that in mind, going Soy­lent is a no-brainer deci­sion. It’s sign­f­i­cantly health­ier and I never&nbsp;feel bloated.</p>
+
+<p>Ulti­mate­ly, no one really knows whether a drink will replace food for future gen­er­a­tions. But as long as <a href="http://mosaicscience.com/story/eating-insects">insects</a> are the alter­na­tive, I’ll be per­fectly happy&nbsp;with Soylent.</p>
 
 
 	</section>
 	
 
-</article>&nbsp;<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-crossorigin="anonymous">
-</script>
+</div>
 
-<footer id="footer" class="fg-medium cf pv0 ph4-l ph4 mt5-l mt3">
+<footer id="footer" class="cf pb0 pt2 ph0 mt5 bt">
 	<div class="footerBlock">
 
 		
-	    <div class="fl tl cf dim">
+	    <div class="fl tl cf">
 
-	        <a href="/the-iconic-iphone/" class="link white hover-white">
+	        <a href="/the-iconic-iphone/" class="link black f5">
 
 	    		<!-- <img src="/images/next.svg" class="icon fr"> -->
 
 	    		<div class="v-mid">
-	    			<img src="/images/prev.svg" class="icon dib v-mid" style="position: relative; left: 0;">
-	    			<p class="v-mid dib ml2 f4-ns f5" style="padding-top: 0.5rem;">The Iconic&nbsp;iPhone</p>
+	    			<p class="v-mid dib f5 mv0">The Iconic&nbsp;iPhone</p>
 	    		</div>
 
 	        </a>
@@ -368,15 +157,14 @@ crossorigin="anonymous">
 	    
 
 		
-	    <div class="fr tr cf dim">
+	    <div class="fr tr cf">
 
-	        <a href="/the-future-is-in-redmond/" class="link white hover-white">
+	        <a href="/the-future-is-in-redmond/" class="link black f5">
 
 	    		<!-- <img src="/images/next.svg" class="icon fr"> -->
 
 	    		<div class="v-mid">
-	    			<p class="v-mid dib mr2 f4-ns f5" style="padding-top: 0.5rem;">The Future is in&nbsp;Redmond</p>
-	    			<img src="/images/next.svg" class="icon dib v-mid" style="position: relative; right: 0;">
+	    			<p class="v-mid dib f5 mv0">The Future is in&nbsp;Redmond</p>
 	    		</div>
 
 	        </a>
@@ -386,56 +174,22 @@ crossorigin="anonymous">
 
 	</div>
 </footer>
-</main>
-    
-  <!-- </div> -->
-  
-</body>
 
-<!-- load jquery -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
     crossorigin="anonymous">
-  </script> -->
-
-  <!-- random color scheme https://stackoverflow.com/questions/40791621/change-color-scheme-on-refresh -->
-  <script type="text/javascript">
-    $( document ).ready(function() {
-      var listOfClasses = ["blue","pink","green", "yellow", "gray", "purple", "orange"];
-      var randomNum = Math.floor(Math.random() * listOfClasses.length); 
-      $("html").addClass(listOfClasses[randomNum]);
-    });
   </script>
 
-<!-- menu stuff -->
-<script type="text/javascript">
-	$(function() {
-	  $('#hamburger').on('click', function() {
-	    // $('#hamburger').toggleClass('opened');
-	    // $('#close').toggleClass('show');
-	    // $('#hamburger').attr("src","/images/close.svg");
+  <!-- footnote -->
+  <script src="/js/footnotes/dist/jquery.inline-footnotes.min.js" type="text/javascript"></script>
 
-	    var src = ($(this).attr('src') === "/images/hamburger.svg")
-            ? "/images/close.svg"
-            : "/images/hamburger.svg"
-         $(this).attr('src', src);
-
-	    $('#menu').toggleClass('visible');
-	    $('body').toggleClass('noScroll');
-	  });
-
-	});
-</script>
-
-<!-- footnote -->
-<script src="/js/footnotes/dist/jquery.inline-footnotes.min.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-  	$.inlineFootnotes();
-  });
-</script>
-
-
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $.inlineFootnotes();
+    });
+  </script>
 
 </html>

@@ -31,6 +31,7 @@ group :jekyll_plugins do
    gem 'jekyll-typogrify'
    gem 'ffi', '1.9.18'
    gem 'jekyll-autoprefixer'
+   gem 'jekyll-hyphenate_filter', '~> 0.0.2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

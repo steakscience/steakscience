@@ -2,16 +2,8 @@
 layout: compress.html
 ---
 
-#titleBar {
-	padding-bottom: 1.2rem;
-}
-
 #thisBody {
 	margin-top: 1.5rem;
-}
-
-#thisBody {
-	margin-right: var(--rightMargin);
 }
 
 .embed-container {
@@ -32,16 +24,25 @@ layout: compress.html
 }
 
 #thisBody p {
-	line-height: 1.4;
   /*max-width: 35rem;*/
 	max-width: 30rem;
-	color: rgba(0,0,0,0.6);
-}
-
-#thisBody h2 p {
-  margin-bottom: 0;
 }
 
 #thisBody .tag {
-  color: rgba(0,0,0,0.4);
+  // color: rgba(0,0,0,0.4);
+}
+
+#thisBody a {
+  box-shadow: inset 0 -1px 0;
+  text-decoration: none;
+  color: var(--black);
+}
+
+#thisBody a:hover {
+  transition: color .15s ease-in;
+  color: #777;
+}
+
+h2 p {
+  margin-bottom: 0;
 }
