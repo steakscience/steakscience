@@ -1,1 +1,182 @@
-:root{--black: #333}body{font-family:'ss',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;font-weight:400;font-variant-ligatures:common-ligatures;-moz-font-feature-settings:"liga", "clig";-webkit-font-feature-settings:"liga", "clig";font-feature-settings:"liga", "clig";font-synthesis:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:geometricPrecision;overflow-x:hidden;transition:all .2s ease;color:var(--black)}a:link,a:visited{transition:color .15s ease-in}a:hover{transition:color .15s ease-in;color:#777}a:active{transition:color .15s ease-in}a:focus{transition:color .15s ease-in}h1,h2,h3,h4{font-weight:400}.black{color:var(--black)}img{-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;-o-user-drag:none;user-drag:none}figure{margin-left:auto;margin-right:auto}figure img{width:100%}.postBody p{max-width:30rem;margin-left:auto;margin-right:auto}blockquote{margin-left:auto;margin-right:auto;margin-top:2rem;margin-bottom:2rem;max-width:30rem;padding:0;color:#777;border-left:3px solid rgba(0,0,0,0.05);border-color:#ccc;padding-left:1.2rem}.postBody blockquote p{max-width:32rem}.postBody figure p{max-width:none}.postBody figure{margin-left:auto;margin-right:auto;margin-top:1.5rem;margin-bottom:1.5rem}.postBody a{box-shadow:inset 0 -1px 0;text-decoration:none;color:var(--black)}.postBody a:hover{transition:color .15s ease-in;color:#777}.inline-footnote a{color:inherit}.embed-container{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin-top:1.5rem;margin-bottom:1.5rem}.embed-container iframe,.embed-container object,.embed-container embed{position:absolute;top:0;left:0;width:100%;height:100%}hr{border-style:solid;border-bottom:none;border-width:1px;margin-top:2.5rem;margin-bottom:2.5rem;width:3.5rem;color:#ccc}.emdash::before,.emdash::after{content:" "}.src figcaption{margin-top:-3rem;margin-right:0.6rem;color:white;text-align:right;font-size:0.8em}h2{font-size:1em;max-width:30rem;margin-left:auto;margin-right:auto;font-weight:500;margin-top:2rem}.postBody .footnote{font-variant-position:super;-moz-font-feature-settings:"sups";-webkit-font-feature-settings:"sups";font-feature-settings:"sups";box-shadow:none;font-size:0.8em}.leftCaption figcaption{margin-top:-1rem;font-size:0.9em;color:#555}
+:root {
+  --black: #333;
+}
+
+body {
+  font-family: 'ss',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 400;
+
+  font-variant-ligatures: common-ligatures;
+  -moz-font-feature-settings: "liga", "clig";
+  -webkit-font-feature-settings: "liga", "clig";
+  font-feature-settings: "liga", "clig";
+
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
+
+  overflow-x: hidden;
+
+  transition: all .2s ease;
+
+  color: var(--black);
+}
+
+a:link, a:visited { transition: color .15s ease-in; }
+a:hover { transition: color .15s ease-in; color: #777;}
+a:active { transition: color .15s ease-in; }
+a:focus { transition: color .15s ease-in; }
+
+
+h1, h2, h3, h4 {
+	font-weight: 400;
+}
+
+.black {
+  color: var(--black);
+}
+
+/*prevent drag*/
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+figure  {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure img {
+  width: 100%;
+}
+
+.postBody p {
+  // measure
+	max-width: 30rem;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*inspired by github*/
+blockquote {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+
+  max-width: 30rem;
+  padding: 0;
+  color: #777; /*gray*/
+  border-left: 3px solid rgba(0,0,0,0.05);
+  border-color: #ccc;
+  /*used to be 0.25em*/
+
+
+  padding-left: 1.2rem;
+	/*padding-right: 1rem;*/
+}
+
+.postBody blockquote p {
+  max-width: 32rem;
+}
+
+.postBody figure p {
+  max-width: none;
+}
+
+.postBody figure {
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.postBody a {
+  box-shadow: inset 0 -1px 0;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.postBody a:hover {
+  transition: color .15s ease-in;
+  color: #777;
+}
+
+.inline-footnote a {
+  color: inherit;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+hr {
+  border-style: solid;
+  border-bottom: none;
+  border-width: 1px;
+
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 3.5rem;
+  color: #ccc;
+}
+
+.emdash::before, .emdash::after {
+  content: " ";
+}
+
+.src figcaption {
+  margin-top: -3rem;
+  margin-right: 0.6rem;
+  color: white;
+  text-align: right;
+  font-size: 0.8em;
+}
+
+h2 {
+  font-size: 1em;
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+
+  margin-top: 2rem;
+}
+
+.postBody .footnote {
+  font-variant-position: super;
+  -moz-font-feature-settings: "sups";
+  -webkit-font-feature-settings: "sups";
+  font-feature-settings: "sups";
+
+  box-shadow: none;
+  font-size: 0.8em;
+}
+
+.leftCaption figcaption {
+  margin-top: -1rem;
+  font-size: 0.9em;
+  color: #555;
+}
