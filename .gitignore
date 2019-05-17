@@ -3,3 +3,4 @@ bower_components
 **/.sass-cache
 .jekyll-metadata
 _site
+.DS_Store
