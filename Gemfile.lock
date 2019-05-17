@@ -78,7 +78,7 @@ PLATFORMS
 
 DEPENDENCIES
   ffi (= 1.9.18)
-  jekyll (= 3.4.3)
+  jekyll
   jekyll-analytics
   jekyll-autoprefixer
   jekyll-feed (~> 0.6)
