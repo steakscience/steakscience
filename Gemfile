@@ -25,6 +25,7 @@ group :jekyll_plugins do
    gem 'jekyll-figure'
    # gem 'jekyll-minifier'
    # gem 'octopress-minify-html'
+   gem 's3_website'
    gem 'jekyll-sitemap'
    gem 'jekyll-seo-tag'
    gem 'jekyll-analytics'

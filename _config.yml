@@ -1,7 +1,7 @@
 title: steakscience
 description: "A blog about technology, design, and culture. Probably off-topic. Written by Nirawit Jittipairoj."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://steakscience.com" # the base hostname & protocol for your site
+url: "http://sixfingeredamish.github.io/steakscience" # the base hostname & protocol for your site
 
 #Information that is used to create the Terms of Service & Privacy Policy pages
 # company: Company Name
@@ -24,6 +24,7 @@ gems:
     - jekyll-feed
     - jekyll-typogrify
     - jekyll-autoprefixer
+    - s3_website
     # - jekyll-hyphenate-filter
 
 autoprefixer:
