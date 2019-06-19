@@ -1,15 +1,15 @@
-<footer id="footer" class="cf pb0 pt2 ph0 mt5 bt">
+<footer id="footer" class="cf pb0 pt2 ph0 mt5-ns mt4 bt silver b--gray">
 	<div class="footerBlock">
 
 		{% if include.myPost.next %}
 	    <div class="fl tl cf">
 
-	        <a href="{{include.myPost.next.url}}" class="link black f5">
+	        <a href="{{include.myPost.next.url}}" class="link gray f5">
 
 	    		<!-- <img src="{{site.baseurl}}/images/next.svg" class="icon fr"> -->
 
 	    		<div class="v-mid">
-	    			<p class="v-mid dib f5 mv0">{{include.myPost.next.title}}</p>
+	    			<p class="v-mid dib f5 mv0">← {{include.myPost.next.title}}</p>
 	    		</div>
 
 	        </a>
@@ -20,12 +20,12 @@
 		{% if include.myPost.previous %}
 	    <div class="fr tr cf">
 
-	        <a href="{{include.myPost.previous.url}}" class="link black f5">
+	        <a href="{{include.myPost.previous.url}}" class="link gray f5">
 
 	    		<!-- <img src="{{site.baseurl}}/images/next.svg" class="icon fr"> -->
 
 	    		<div class="v-mid">
-	    			<p class="v-mid dib f5 mv0">{{include.myPost.previous.title}}</p>
+	    			<p class="v-mid dib f5 mv0">{{include.myPost.previous.title}} →</p>
 	    		</div>
 
 	        </a>

@@ -32,6 +32,7 @@ group :jekyll_plugins do
    gem 'jekyll-typogrify'
    gem 'ffi', '1.9.18'
    gem 'jekyll-autoprefixer'
+   # gem 'jekyll-commonmark'
    gem 'jekyll-hyphenate_filter', '~> 0.0.2'
 end
 

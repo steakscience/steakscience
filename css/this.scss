@@ -3,7 +3,7 @@ layout: compress.html
 ---
 
 #thisBody {
-	margin-top: 1.5rem;
+	// margin-top: 1.5rem;
 }
 
 .embed-container {
@@ -45,4 +45,8 @@ layout: compress.html
 
 h2 p {
   margin-bottom: 0;
+}
+
+.thisItem:nth-last-child(1) {
+	border: none;
 }

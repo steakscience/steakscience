@@ -1,7 +1,7 @@
 {% include title_bar.html %}
 
 <!-- article wrap -->
-<div class="db w-100 center">
+<div class="db w-100 center mt3">
 	{% if include.myPost.hero_vid %}
 		<video class="w-100" width=100% autoplay="autoplay" muted poster="{{include.myPost.image}}">
 			<source src="{{include.myPost.hero_vid}}" type="video/mp4" />
@@ -16,9 +16,9 @@
 
 	{% endif %}
 
-	<section class="postBody mt1 pt2" itemprop="articleBody">
+	<section class="postBody mt1-ns mt0 pt2-ns pt0" itemprop="articleBody">
 
-		{{include.myPost.content | widont | jt_caps | jt_emdash | hyphenate }}
+		{{include.myPost.content | widont | jt_caps | jt_emdash | hyphenate | replace: '&amp;amp;', '&amp;' }}
 
 	</section>
 	

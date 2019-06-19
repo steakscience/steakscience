@@ -32,7 +32,7 @@ a:active { transition: color .15s ease-in; }
 a:focus { transition: color .15s ease-in; }
 
 
-h1, h2, h3, h4 {
+.postBody h1, .postBody h2, .postBody h3, .postBody h4 {
 	font-weight: 400;
 }
 
@@ -158,7 +158,7 @@ hr {
   font-size: 0.8em;
 }
 
-h2 {
+.postBody h2 {
   font-size: 1em;
   max-width: 30rem;
   margin-left: auto;
@@ -182,4 +182,22 @@ h2 {
   margin-top: -1rem;
   font-size: 0.9em;
   color: #555;
+}
+
+.caps {
+  letter-spacing: 0.03rem;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+  -moz-font-feature-settings: "tnum";
+  -webkit-font-feature-settings: "tnum";
+  font-feature-settings: "tnum";
+}
+
+#livePic {
+  position: sticky;
+  position: -webkit-sticky;
+  /* margin-top: 2rem; */
+  top: 2rem;
 }
