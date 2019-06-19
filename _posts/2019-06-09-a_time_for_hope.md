@@ -7,6 +7,8 @@ categories: culture
 image: "/images/fwp_1_year/DSC06560.jpg"
 
 ---
+test
+
 {% figure %}
 ![](/images/fwp_1_year/DSC06430.jpg)
 {% endfigure %}
