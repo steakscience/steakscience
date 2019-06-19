@@ -15,7 +15,7 @@ exclude: [node_modules, package.json, gulpfile.js, README.md, vendor, Gemfile, G
 include: [_pages, _posts]
 permalink: /:title/
 
-gems:
+plugins:
     # - jekyll-minifier
     # - octopress-minify-html
     - jekyll-figure
@@ -25,7 +25,7 @@ gems:
     - jekyll-feed
     - jekyll-typogrify
     - jekyll-autoprefixer
-    - s3_website
+    # - s3_website
     # - jekyll-hyphenate-filter
 
 autoprefixer:
