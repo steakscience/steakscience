@@ -9,7 +9,9 @@ sections:
   create: all
 - type: jekyll-posts
   label: Posts
-  create: all
+  create: documents
+  templates:
+  - blog-post
 upload_dir: images/uploads
 public_path: "/images/uploads"
 front_matter_path: ''
