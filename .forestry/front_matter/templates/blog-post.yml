@@ -5,15 +5,20 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: post
+  hidden: true
 - type: text
   name: author
   label: author
+  hidden: true
+  default: Nirawit Jittipairoj
 - type: text
   name: title
   label: title
 - type: text
   name: subtitle
   label: subtitle
+  hidden: true
 - type: datetime
   name: date
   label: date
@@ -22,4 +27,4 @@ fields:
   label: categories
 - type: file
   name: image
-  label: image
+  label: hero image
