@@ -1,12 +1,12 @@
 ---
 layout: post
 author: Nirawit Jittipairoj
-title:  A Time for Hope
-date:   2019-06-09
+title: Politics and Hope
+date: 2019-06-09
 categories: culture
-image: /images/fwp_1_year/DSC06560.jpg
----
+image: "/images/fwp_1_year/DSC06560.jpg"
 
+---
 {% figure %}
 ![](/images/fwp_1_year/DSC06430.jpg)
 {% endfigure %}
@@ -62,11 +62,3 @@ image: /images/fwp_1_year/DSC06560.jpg
 {% figure %}
 ![](/images/fwp_1_year/DSC06570.jpg)
 {% endfigure %}
-
-
-
-
-
-
-
-
