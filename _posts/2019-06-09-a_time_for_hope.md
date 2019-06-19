@@ -7,7 +7,7 @@ categories: culture
 image: "/images/fwp_1_year/DSC06560.jpg"
 
 ---
-test
+Politics is often hopeless.
 
 {% figure %}
 ![](/images/fwp_1_year/DSC06430.jpg)
