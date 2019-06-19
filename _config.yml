@@ -12,7 +12,7 @@ url: "https://steakscience.com" # the base hostname & protocol for your site
 markdown: kramdown
 # markdown: CommonMark
 exclude: [node_modules, package.json, gulpfile.js, README.md, vendor, Gemfile, Gemfile.lock, LICENSE, Rakefile]
-include: [_pages, _posts]
+include: [_pages, .nojekyll]
 permalink: /:title/
 
 plugins:
