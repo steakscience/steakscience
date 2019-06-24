@@ -2,7 +2,7 @@
 layout: post
 author: Nirawit Jittipairoj
 title: Politics and Hope
-date: 2019-06-09
+date: 2019-06-22 17:00:00 +0000
 categories: culture
 image: "/images/fwp_1_year/DSC06560.jpg"
 
