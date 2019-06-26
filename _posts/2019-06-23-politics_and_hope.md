@@ -110,7 +110,7 @@ The event had very unorthodox structure. Instead of a “lecture” by distingui
 ![](/images/fwp_1_year/DSC06604.jpg)
 {% endfigure %}
 
-{% figure caption:"Chris Potranandana, FWP co-founder and MP candidate, and many FWP staffers also attended the event." | class:"leftCaption" %}
+{% figure caption:"Chris Potranandana (right), FWP co-founder and MP candidate, and many FWP staffers also attended the event." | class:"leftCaption" %}
 ![](/images/fwp_1_year/DSC06632.jpg)
 {% endfigure %}
 
