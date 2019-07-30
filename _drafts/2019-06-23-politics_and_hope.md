@@ -2,12 +2,11 @@
 layout: post
 author: Nirawit Jittipairoj
 title: Politics and Hope
-date: 2019-06-23 17:00:00 +0000
+date: 2019-06-23T17:00:00.000+00:00
 categories: culture
 image: "/images/fwp_1_year/DSC06560.jpg"
 
 ---
-
 Several months ago, Thailand finally had an election, after years of military dictatorship. 
 
 The results weren’t very surprising. As expected, the dictator remained Prime Minister, but this time, he gets to pretend he is legitimate despite rigging all the rules in his favor.
@@ -113,4 +112,3 @@ The event had very unorthodox structure. Instead of a “lecture” by distingui
 {% figure caption:"Chris Potranandana (right), FWP co-founder and MP candidate, and many FWP staffers also attended the event." | class:"leftCaption" %}
 ![](/images/fwp_1_year/DSC06632.jpg)
 {% endfigure %}
-
