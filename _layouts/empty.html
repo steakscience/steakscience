@@ -8,12 +8,19 @@ layout: default
 <script type="text/javascript">
 	$(function() {
 	  $('.archiveTitle').on('mouseenter', function() {
-	  	var url = $(this).data('image-url');
-	    $('#tv').attr("src",url);
+	  	// var url = $(this).data('image-url');
+	  	$this = $(this);
+        var image = $this.data('image-url');
+        var imageUrl = 'url(' + image + ')';
+	    // $('#tv').attr("src",url);
+	    $('#tv').css("background-image", imageUrl);
+        $('#tv img').attr("src", image);
 	  });
 
 	  $('.archiveWrapper').on('mouseleave', function() {
-        $('#tv').attr("src","");
+        // $('#tv').attr("src","");
+        $('#tv').css("background-image", "");
+        $('#tv img').attr("src", "");
 
 	  });
 
