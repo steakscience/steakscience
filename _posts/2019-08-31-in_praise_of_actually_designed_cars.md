@@ -71,4 +71,4 @@ Sure, your opinion is as valid as mine, but the Firefly has the best design rati
 
 But sadly, like most stories, this one ends in tragedy. The Firefly was retired a few years after it was shown off. Google decided that they shouldn’t make their own cars. They should just partner with car makers and sell self-driving car tech instead. It makes sense business-wise, but it’s a tragedy for well-designed cars nonetheless.
 
-So what’s next? I wait for the next actually designed car. I won’t be long, I hope.
+So what’s next? I wait for the next actually designed car. It won’t be long, I hope.
