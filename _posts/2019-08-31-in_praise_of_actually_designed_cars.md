@@ -61,7 +61,7 @@ The Firefly was designed to make self-driving cars pleasant and friendly. It has
 ![](/images/waymo/tesla.jpg)
 {% endfigure %}
 
-If you look at other cars like the Tesla, they look very science fiction. They’re space lasers and sharp lines. That’s cool, that will attract money from nerds, but maybe something that looks like a prop from *The Age of Ultron* shouldn’t be the face of AI and self-driving cars.
+If you look at other cars like the Tesla, they look very science fiction. They’re space lasers and sharp lines. That’s cool, that will attract money from nerds, but maybe something that looks like a prop from *Age of Ultron* shouldn’t be the face of AI and self-driving cars.
 
 I can’t gush enough about the Firefly. It takes a lot of courage to make something entirely new and I’m sure there are lots of people who scoffed at the design. One of my friends who loves car design hates the Firefly. He thinks it looks ridiculous. He even sees a Hitler mustache. 
 
