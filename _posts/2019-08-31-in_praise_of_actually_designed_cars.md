@@ -9,11 +9,11 @@ image: /images/waymo/waymo_front.jpg
 
 I have never really been into cars. 
 
-It is normal to not be interested in cars. Most people are indifferent. Cars are a mode of transportation — that’s it. But, if you’ve been immersed in industrial design education, you’ll find that basically everyone around you is super into cars.
+It is normal to not be interested in cars. Most people are indifferent. Cars are a mode of transportation—that’s it. But, if you’ve been immersed in industrial design education, you’ll find that basically everyone around you is super into cars.
 
 Oh look at the front lights on this car. Look at the curves and lines here. Yeah, not for me.
 
-I’ve put some thought into why I’m the odd one out here. It mostly has to do me finding cars boring. Modern design — American goal-oriented design — really drills down the philosophy that design should serve a purpose or solve a problem. Otherwise, it’s just art or decoration. 
+I’ve put some thought into why I’m the odd one out here. It mostly has to do me finding cars boring. Modern design—American goal-oriented design—really drills down the philosophy that design should serve a purpose or solve a problem. Otherwise, it’s just art or decoration. 
 
 And that’s how I look at cars. There is no story or goal. It’s just a shiny object. It’s also depressing, because car companies make cheaper cars ugly on purpose. Imagine that; it’s gross.
 
