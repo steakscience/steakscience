@@ -25,6 +25,7 @@ body {
   color: var(--black);
 }
 
+
 /* inter metrics */
 
 .f5 {
@@ -44,8 +45,7 @@ body {
 a:link, a:visited { transition: color .15s ease-in; }
 a:hover { transition: color .15s ease-in; color: #777;}
 a:active { transition: color .15s ease-in; }
-a:focus { transition: color .15s ease-in; }
-
+a:focus {outline: none;}
 
 .postBody h1, .postBody h2, .postBody h3, .postBody h4 {
 	font-weight: 400;
