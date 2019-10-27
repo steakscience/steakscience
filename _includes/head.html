@@ -12,6 +12,10 @@
   <!-- <link rel="stylesheet" href="{{ "/css/fonts.css" | prepend: site.baseurl }}"> -->
   <link rel="stylesheet" href="{{ "/js/jquery.inline-footnotes.css" | prepend: site.baseurl }}">
 
+  {% if page.isIndex %}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  {% endif %}
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
