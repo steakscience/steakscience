@@ -1,10 +1,10 @@
 ---
 layout: post
 author: Nirawit Jittipairoj
-title:  The Mental Model of Cooking
-date:   2019-09-22
+title: The Mental Model of Cooking
+date: 2019-09-22T00:00:00.000Z
 categories: culture
-image: /images/cooking/cucumber.jpg
+image: /images/uploads/dsc02452.jpg
 ---
 
 A mental model is our internal explanation of what something is and how it works. This is how we operate in the world—we see something, we try to understand it, we construct mental models to explain what we see, and then we act accordingly.
