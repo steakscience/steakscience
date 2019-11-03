@@ -8,7 +8,7 @@ categories: design
 image: "/images/notch/og.jpg"
 
 ---
-With any Apple-related topic, there are no shortage of opinions. Most of them are rushed, sensationalistic, and not worth anyone’s time—they’re just there to attract pageviews and boost ad revenue. Then there’s the small segment of thoughtful and nuanced pieces that are actually worth your time.
+With any Apple-related topic, there is no shortage of opinions. Most of them are rushed, sensationalistic, and not worth anyone’s time—they’re just there to attract pageviews and boost ad revenue. Then there’s the small segment of thoughtful and nuanced pieces that are actually worth your time.
 
 In any case, with this flood of opinion, you can be sure the “correct take” is hidden in there somewhere. However, with the iPhone X notch, that doesn’t seem to be the case. 
 
