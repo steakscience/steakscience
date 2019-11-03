@@ -2,7 +2,7 @@
 layout: post
 author: Nirawit Jittipairoj
 title: The Mental Model of Cooking
-date: 23 Sep 2019
+date: 22 Sep 2019
 categories: culture
 image: /images/uploads/dsc02452.jpg
 ---
