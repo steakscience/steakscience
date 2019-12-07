@@ -5,6 +5,7 @@ title: The Mental Model of Cooking
 date: 22 Sep 2019
 categories: culture
 image: /images/uploads/dsc02452.jpg
+image_thumb: /images/uploads/dsc02452_thumb.jpg
 ---
 
 A mental model is our internal explanation of what something is and how it works. This is how we operate in the world—we see something, we try to understand it, we construct mental models to explain what we see, and then we act accordingly.

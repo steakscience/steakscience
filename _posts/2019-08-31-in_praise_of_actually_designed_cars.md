@@ -5,6 +5,7 @@ title:  In Praise of Actually Designed Cars
 date:   2019-08-31
 categories: design
 image: /images/waymo/waymo_front.jpg
+image_thumb: /images/waymo/thumb.jpg
 ---
 
 I have never really been into cars. 

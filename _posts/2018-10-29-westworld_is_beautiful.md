@@ -6,6 +6,7 @@ subtitle: And every frame is a painting.
 date:   2018-10-29
 categories: culture
 image: /images/westworld/hero.jpg
+image_thumb: /images/westworld/thumb.jpg
 ---
 
 If you have not seen *Westworld*, you need to see it. The show is incredibly timely. It deals with topics like artificial intelligence and consciousness. It also has great writing and it’s full intricately crafted mysteries. The harder you look at the show, the better it gets.

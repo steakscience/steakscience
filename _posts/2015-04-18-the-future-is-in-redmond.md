@@ -6,6 +6,7 @@ subtitle: Windows Across Your Universe
 date: 2015-04-18
 categories: technology
 image: /images/redmond/microsoft-13.jpg
+image_thumb: /images/redmond/thumb.jpg
 ---
 
 Microsoft is really cool.

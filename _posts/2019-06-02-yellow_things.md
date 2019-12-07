@@ -5,6 +5,7 @@ title:  Yellow Things
 date:   2019-06-02
 categories: design
 image: /images/yellow/playdate.jpg
+image_thumb: /images/yellow/thumb.jpg
 ---
 
 Last week, Panic announced Playdate, a handheld console with a black and white screen, a crank, partially funded by a game-subscription service.

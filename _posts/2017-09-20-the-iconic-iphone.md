@@ -6,6 +6,7 @@ subtitle: Why the notch is incredible
 date: 2017-09-13 17:00:00 +0000
 categories: design
 image: "/images/notch/og.jpg"
+image_thumb: "/images/notch/thumb.jpg"
 
 ---
 With any Apple-related topic, there is no shortage of opinions. Most of them are rushed, sensationalistic, and not worth anyone’s time—they’re just there to attract pageviews and boost ad revenue. Then there’s the small segment of thoughtful and nuanced pieces that are actually worth your time.

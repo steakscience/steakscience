@@ -6,6 +6,7 @@ subtitle: “The safer, faster browser for Windows 10.”
 date:   2018-09-12
 categories: technology
 image: /images/edge/hero.jpg
+image_thumb: /images/edge/thumb.jpg
 ---
 
 Today, some users using a preview version of Windows noticed [something strange when they tried to install Chrome or Firefox](https://www.theverge.com/2018/9/12/17850146/microsoft-windows-10-chrome-firefox-warning){:target="_blank"}. Windows would hijack their installer with a warning, proclaiming, “you already have Microsoft Edge – the safer, faster browser for Windows 10.” 

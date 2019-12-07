@@ -6,10 +6,9 @@
   <title>{% if page.title %}{{ page.title | escape }} – {{site.title | escape}}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="Nirawit Jittipairoj">
-  <!-- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/> -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/tachyons.css" | prepend: site.baseurl }}">
-  <!-- <link rel="stylesheet" href="{{ "/css/fonts.css" | prepend: site.baseurl }}"> -->
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <link rel="stylesheet" href="{{ "/js/jquery.inline-footnotes.css" | prepend: site.baseurl }}">
 
   {% if page.isIndex %}

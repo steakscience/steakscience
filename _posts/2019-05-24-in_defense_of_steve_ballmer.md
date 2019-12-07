@@ -5,6 +5,7 @@ title:  In Defense of Steve Ballmer
 date:   2019-05-24
 categories: tech
 image: /images/ballmer/hero.jpg
+image_thumb: /images/ballmer/thumb.jpg
 ---
 
 It’s been about five years since Steve Ballmer stepped down as Microsoft CEO and Satya Nadella took his place. 

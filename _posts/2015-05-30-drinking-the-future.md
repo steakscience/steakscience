@@ -5,6 +5,7 @@ title:  Drinking the Future
 date:   2015-05-30
 categories: culture
 image: /images/soylent/soylent_fallback.png
+image_thumb: /images/soylent/thumb.jpg
 hero_vid: /images/soylent/soylent_hero.mp4
 ---
 One afternoon in February 2013, Rob Rhinehart published a [blog post](https://web.archive.org/web/20170316224815/http://robrhinehart.com/?p=298) about how he stopped eating food. Unbeknownst to him, he started a revolution and his life, along with many others, would never be the same again:

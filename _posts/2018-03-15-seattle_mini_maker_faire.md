@@ -5,6 +5,7 @@ title:  Seattle Mini Maker Faire
 date:   2018-03-15
 categories: technology
 image: /images/makerfaire/hero.jpg
+image_thumb: /images/makerfaire/thumb.jpg
 ---
 
 Every once in a while, some government somewhere bombastically declares that they’ll be creating the next Silicon Valley, along with announcing some kind of one-time investment (yeah, it’s going to take more commitment than that).

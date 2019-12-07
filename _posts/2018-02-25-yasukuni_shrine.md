@@ -6,6 +6,7 @@ subtitle: A Journey into Japan’s Right-Wing Nationalism
 date:   2018-02-25
 categories: culture
 image: /images/yasukuni/hero.jpg
+image_thumb: /images/yasukuni/thumb.jpg
 ---
 
 On the 72<sup>nd</sup> anniversary of Japan’s surrender in World War II, I visited Yasukuni Shrine.

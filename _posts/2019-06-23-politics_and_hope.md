@@ -4,7 +4,8 @@ author: Nirawit Jittipairoj
 title: Politics and Hope
 date: 2019-06-23T17:00:00.000+00:00
 categories: culture
-image: "/images/fwp_1_year/DSC06560.jpg"
+image: "/images/fwp_1_year/DSC06560bw.jpg"
+image_thumb: "/images/fwp_1_year/thumb.jpg"
 
 ---
 Several months ago, Thailand finally had an election, after years of military dictatorship. 

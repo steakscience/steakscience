@@ -6,6 +6,7 @@ subtitle: From all of us, this is for you.
 date:   2018-06-09
 categories: personal
 image: /images/design_show/hero.jpg
+image_thumb: /images/design_show/thumb.jpg
 ---
 
 Every year, graduating [UW Design](https://art.washington.edu/design){:target="_blank"} students put together a show to exhibit their best work. 

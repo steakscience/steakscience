@@ -6,6 +6,7 @@ subtitle: Why don’t you like real food?
 date:   2017-12-19
 categories: culture
 image: /images/soylent_3/hero.jpg
+image_thumb: /images/soylent_3/thumb.jpg
 ---
 
 For the past three years, I’ve replaced most of my meals with Soylent.

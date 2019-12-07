@@ -5,6 +5,7 @@ title:  Seattle Mechanical Keyboard Meetup
 date:   2018-01-14
 categories: technology
 image: /images/smk/hero.jpg
+image_thumb: /images/smk/thumb.jpg
 ---
 
 Twice a year, mechanical keyboard enthusiasts [meetup in Seattle](https://ckeys.org/events/smkmeetup/). Most are from the area, some fly in, and everyone brings their keyboards.
