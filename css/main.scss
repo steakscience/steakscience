@@ -1,4 +1,5 @@
-/* @import url('https://rsms.me/inter/inter.css'); */
+---
+---
 
 :root {
   --black: #333;
@@ -9,9 +10,9 @@ body {
   font-weight: 400;
 
   font-variant-ligatures: common-ligatures;
-  -moz-font-feature-settings: "liga", "clig";
-  -webkit-font-feature-settings: "liga", "clig";
-  font-feature-settings: "liga", "clig";
+  -moz-font-feature-settings: "liga", "clig", "frac";
+  -webkit-font-feature-settings: "liga", "clig", "frac";
+  font-feature-settings: "liga", "clig", "frac";
 
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
@@ -51,8 +52,21 @@ a:focus {outline: none;}
 	font-weight: 400;
 }
 
+.postBody {
+  a {
+    box-shadow: inset 0 -1px 0;
+    text-decoration: none;
+    color: #555;
+
+    :hover {
+      transition: color .15s ease-in;
+      color: #777;
+    }
+  }
+}
+
 p strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .black {
@@ -118,17 +132,6 @@ blockquote {
 
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-}
-
-.postBody a {
-  box-shadow: inset 0 -1px 0;
-  text-decoration: none;
-  color: #555;
-}
-
-.postBody a:hover {
-  transition: color .15s ease-in;
-  color: #777;
 }
 
 .inline-footnote a {
