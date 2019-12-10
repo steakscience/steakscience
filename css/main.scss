@@ -26,7 +26,6 @@ body {
   color: var(--black);
 }
 
-
 /* inter metrics */
 
 .f5 {
@@ -42,6 +41,9 @@ body {
   letter-spacing: -0.016em;
 }
 
+.black {
+  color: var(--black) !important;
+}
 
 a:link, a:visited { transition: color .15s ease-in; }
 a:hover { transition: color .15s ease-in; color: #777;}
@@ -63,14 +65,56 @@ a:focus {outline: none;}
       color: #777;
     }
   }
-}
 
-p strong {
-  font-weight: 500;
-}
+  h2 {
+    font-size: 1em;
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
 
-.black {
-  color: var(--black) !important;
+    margin-top: 2rem;
+  }
+
+  p {
+    /* measure */
+    max-width: 35em;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    strong {
+      font-weight: 500;
+    }
+  }
+
+  blockquote {
+    p {
+      max-width: 32rem;
+    }
+  }
+
+  figure {
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    p {
+      max-width: none;
+    }
+  }
+
+  .footnote {
+    font-variant-position: super;
+    -moz-font-feature-settings: "sups";
+    -webkit-font-feature-settings: "sups";
+    font-feature-settings: "sups";
+
+    box-shadow: none;
+    font-size: 0.8em;
+  }
 }
 
 /*prevent drag*/
@@ -85,18 +129,10 @@ img {
 figure  {
   margin-left: auto;
   margin-right: auto;
-}
 
-figure img {
-  width: 100%;
-}
-
-.postBody p {
-  /* measure */
-	max-width: 35em;
-
-	margin-left: auto;
-	margin-right: auto;
+  img {
+    width: 100%;
+  }
 }
 
 /*inspired by github*/
@@ -116,22 +152,6 @@ blockquote {
 
   padding-left: 1.2rem;
 	/*padding-right: 1rem;*/
-}
-
-.postBody blockquote p {
-  max-width: 32rem;
-}
-
-.postBody figure p {
-  max-width: none;
-}
-
-.postBody figure {
-  margin-left: auto;
-  margin-right: auto;
-
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 
 .inline-footnote a {
@@ -177,26 +197,6 @@ hr {
   margin-right: 0.6rem;
   color: white;
   text-align: right;
-  font-size: 0.8em;
-}
-
-.postBody h2 {
-  font-size: 1em;
-  max-width: 35rem;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 500;
-
-  margin-top: 2rem;
-}
-
-.postBody .footnote {
-  font-variant-position: super;
-  -moz-font-feature-settings: "sups";
-  -webkit-font-feature-settings: "sups";
-  font-feature-settings: "sups";
-
-  box-shadow: none;
   font-size: 0.8em;
 }
 
