@@ -113,7 +113,7 @@ That is not how you affect change, and the old Barack Obama knew that. Just not 
 
 [**How to Make Japanese Food**](https://japaneseruleof7.com/how-to-make-japanese-food/){:target="_blank"}, Japanese Rule of 7
 
-[I think a lot about cooking, and why people find cooking so foreign and difficult](/the_mental_model_of_cooking/). This guide cuts through all of the nonsense that scares people and just gets them started cooking right away.
+[I think a lot about cooking, and why people find cooking so foreign and difficult](/the_mental_model_of_cooking/){:target="_blank"}. This guide cuts through all of the nonsense that scares people and just gets them started cooking right away.
 
 The more you watch videos of sushi chefs with cleanly shaved heads messaging rice into balls, the more intimidated you are of Japanese cuisine. It doesn’t have to be that daunting.
 
