@@ -207,7 +207,9 @@ hr {
 }
 
 .caps {
-  letter-spacing: 0.03rem;
+  // letter-spacing: 0.03rem;
+  font-feature-settings: "cpsp";
+  letter-spacing: 0;
 }
 
 .tabular {

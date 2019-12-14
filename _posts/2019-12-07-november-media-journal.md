@@ -10,7 +10,7 @@ image_thumb: /images/nov19_media_journal/the_politician_thumb.jpg
 
 For the longest time now, I’ve been an avid reader of media journals. On the surface, these journals are just lists of things the authors have read or watched. But done right, media journals are honest and poignant investigations of culture and an individual’s place in it.
 
-Reading these journals help me think about these topics too, but only for so much. It is only through writing that a person can really process and organize their thoughts. And with the golden age of television and podcasts upon us, there’s no better time to start a media journal — to start documenting every notable thing I consume, and hopefully, to start processing them in a much more systematic manner as well.
+Reading these journals help me think about these topics too, but only for so much. It is only through writing that a person can really process and organize their thoughts. And with the golden age of television and podcasts upon us, there’s no better time to start a media journal—to start documenting every notable thing I consume, and hopefully, to start processing them in a much more systematic manner as well.
 
 My pencils are sharp enough. Let’s give this a shot.
 
@@ -28,7 +28,7 @@ It is a near impossible feat to keep a show fresh after half a dozen seasons. He
 
 BoJack has always struggled to live a meaningful and happy life. But now, things seem to be changing: BoJack is out of rehab, he is more responsible and mature, and he is really trying to make amends.
 
-The problem is, despite the show’s bright colors and cartoon imagery, the show is a really depressing one. If the past is any indicator, BoJack will make a fatal mistake and his life will untangle — setting us up to start all over again in the next season. Except this time there is no next season. Things have to change. 
+The problem is, despite the show’s bright colors and cartoon imagery, the show is a really depressing one. If the past is any indicator, BoJack will make a fatal mistake and his life will untangle—setting us up to start all over again in the next season. Except this time there is no next season. Things have to change. 
 
 Will BoJack really see a happy ending? Can he? I don’t know, but I can’t wait to find out. (The second part of the final season airs in January)
 
@@ -58,7 +58,7 @@ All in all, the plot is empty and nonsensical, but you’re supposed to fill in 
 
 This show was supposed to be Amazon’s answer to *Game of Thrones*. An expansive world with many distinct factions, fueled by good writing and captivating characters. Unfortunately, season 1 landed, had poor pacing and questionable writing, and the show fell out of Amazon’s graces.
 
-Fast forward several seasons, the show has new showrunners and writers, and the show has finally found its voice. Earlier in its run, the show irresponsibly portrayed the Nazis in a pretty glossy light. But in this final season, the characters start to examine their own flaws for first time (how did we get here? how did we erase our history and exterminate millions because of their race?). And the show examines itself too — finally adding black characters who were absent previously, and they are portrayed as the real strength and backbone of the American resistance and a symbol of the timeless fight against oppression.
+Fast forward several seasons, the show has new showrunners and writers, and the show has finally found its voice. Earlier in its run, the show irresponsibly portrayed the Nazis in a pretty glossy light. But in this final season, the characters start to examine their own flaws for first time (how did we get here? how did we erase our history and exterminate millions because of their race?). And the show examines itself too—finally adding black characters who were absent previously, and they are portrayed as the real strength and backbone of the American resistance and a symbol of the timeless fight against oppression.
 
 All of this came together too late of course, but the final season is quite a spectacle and I hope you watch it.
 
@@ -72,9 +72,9 @@ All of this came together too late of course, but the final season is quite a sp
 
 Much like *Succession*, *The Politician* straddles the line between drama and dark comedy. The show follows Peyton, a high schooler who wants to be president and has planned his life accordingly. 
 
-He surrounds himself with a team of his classmates, who if all goes well, would also end up as senior White House officials or cabinet secretaries. But for now, they’re stuck running Peyton’s student government campaign, which they take to an absurd level — conducting polls, writing speeches (“If you elect me, I will fight for you every day”), and squashing scandals before they even happen. 
+He surrounds himself with a team of his classmates, who if all goes well, would end up as senior White House officials or cabinet secretaries. But for now, they’re stuck running Peyton’s student government campaign, which they take to an absurd level—conducting polls, writing speeches (“If you elect me, I will fight for you every day”), and squashing scandals before they even happen. 
 
-As for Peyton, he has to win this race so he can get into Harvard — specifically Harvard, because half of the six most recent presidents are Harvard alums, and Peyton really really wants to be president.
+As for Peyton, he has to win this race so he can get into Harvard—specifically Harvard, because half of the six most recent presidents are Harvard alums, and Peyton really really wants to be president.
 
 This show is so so good, and even as it tries to be too much to too many people (it even tries to be a musical!), the show somehow makes it work. Worth every minute of your time.
 
@@ -101,11 +101,11 @@ So that begs the question: why do the Thai people still not love democracy even 
 
 [**What Obama Really Wants**](https://prospect.org/politics/what-obama-really-wants/){:target="_blank"}, The American Prospect
 
-I am progressive. I believe we can only get an equitable society that works for all of us only when we fight for us — no one is going to hand it us. It’s not enough to elect Democrats for president, Congress, and state legislatures. Once they’re in there, we need to push and prod them in the right direction.
+I am progressive. I believe we can only get an equitable society that works for all of us only when we fight for us—no one is going to hand it us. It’s not enough to elect Democrats for president, Congress, and state legislatures. Once they’re in there, we need to push and prod them in the right direction.
 
 But even so, I understand the restrictions of the job and just being practical. I believe Barack Obama was probably the best president ever and what he accomplished domestically with healthcare, and abroad with Iran and climate change was incredible.
 
-However, I can’t help but agree with this article. Post-presidency, Obama has been making the rounds, doing speeches and hanging with the ultra-rich. No matter what believes, it’s undeniable that this behavior would warp his thinking. And it has — Obama is now a spokesperson for cautious moderates who would give up before any fight, whose starting positions is already one of extreme compromise. 
+However, I can’t help but agree with this article. Post-presidency, Obama has been making the rounds, doing speeches and hanging with the ultra-rich. No matter what believes, it’s undeniable that this behavior would warp his thinking. And it has—Obama is now a spokesperson for cautious moderates who would give up before any fight, whose starting positions is already one of extreme compromise. 
 
 That is not how you affect change, and the old Barack Obama knew that. Just not this new one.
 
@@ -117,4 +117,4 @@ That is not how you affect change, and the old Barack Obama knew that. Just not 
 
 The more you watch videos of sushi chefs with cleanly shaved heads messaging rice into balls, the more intimidated you are of Japanese cuisine. It doesn’t have to be that daunting.
 
-As this article so masterfully demonstrates, Japanese food — like any other foods — has a flavor profile to it. Just start cooking with soy sauce, rice vinegar, dash, and so on and you’re already half way there. Just read it, then try cooking something.
+As this article so masterfully demonstrates, Japanese food—like any other foods—has a flavor profile to it. Just start cooking with soy sauce, rice vinegar, dash, and so on and you’re already half way there. Just read it, then try cooking something.
