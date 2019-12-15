@@ -1,11 +1,10 @@
 ---
 layout: post
 author: Nirawit Jittipairoj
-title: Promotional Tie-Ins Are Really Good
+title: Promotional Tie-In Songs Are Really Good
 date: 14 Dec 2019
 categories: culture
 image: /images/uploads/hunger_games.jpg
-image_thumb: /images/uploads/hunger_games_thumb.jpg
 ---
 
 I’m really really into songs written and released to promote movies.
