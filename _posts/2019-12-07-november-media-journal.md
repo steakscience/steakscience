@@ -101,7 +101,7 @@ So that begs the question: why do the Thai people still not love democracy even 
 
 [**What Obama Really Wants**](https://prospect.org/politics/what-obama-really-wants/){:target="_blank"}, The American Prospect
 
-I am progressive. I believe we can only get an equitable society that works for all of us only when we fight for us—no one is going to hand it us. It’s not enough to elect Democrats for president, Congress, and state legislatures. Once they’re in there, we need to push and prod them in the right direction.
+I am a progressive. I believe we can only get an equitable society that works for all of us only when we fight for it—no one is going to hand it over to us. It’s not enough to elect Democrats for president, Congress, and state legislatures. Once they’re in there, we need to push and prod them in the right direction.
 
 But even so, I understand the restrictions of the job and just being practical. I believe Barack Obama was probably the best president ever and what he accomplished domestically with healthcare, and abroad with Iran and climate change was incredible.
 
