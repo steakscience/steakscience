@@ -1,0 +1,106 @@
+---
+item:
+      - title: "AeroPress Coffee Maker"
+        link: https://www.amazon.com/AeroPress-Coffee-Espresso-Maker-Bitterness/dp/B0047BIWSK
+        price: ~$30
+        text:
+            - p: It’s often said that only the Japanese and the Scandinavians know how to treat wood. This is very true.
+            - p: The Tombo Hanger is a well-designed and well-crafted hanger that simply leans against a wall. It’s so simple yet functional. In a delightful twist, it also features a place to prop your shoes on.
+        photo:
+            - img: gift_guide/tombo_hanger.jpg
+
+      - title: "Puppy Chair"
+        link: https://store.moma.org/kids/preschool-3-4/eero-aarnio-puppy/5077.html
+        price: $149
+        text:
+            - p: Designed by Finnish designer, Eero Aarnio, the Puppy Chair is a gorgeous and delightful piece of furniture. You can sit on it if you want to, but its primary function is to be a playful presence in your home.
+        photo:
+            - img: gift_guide/puppy.jpg
+
+      - title: eBoy Posters
+        link: https://shop.eboy.com/collections/poster
+        price: ~$25
+        text:
+            - p: These posters are crafted pixel by pixel by the incredible collective eBoy and will spice up any home.
+            - p: My personal favorites are Tokyo and Berlin.
+        photo:
+            - img: gift_guide/eboy.jpg
+
+      - title: Monument Valley Posters
+        link: https://store.iam8bit.com/collections/monument-valley?page=2
+        price: ~$32–$50
+        text:
+            - p: Monument Valley is beautiful. Now, you can enjoy the game’s illustrations on your walls, in your home.
+        photo:
+            - img: gift_guide/mv.png
+
+      - title: 11+ O-Fan
+        link: https://elevenpl.us/product/o-fan/
+        price: $38
+        text:
+            - p: You probably don’t need a desk fan. But this guide is called “The Joys of Capitalism” for a reason. You don’t need any of this stuff.
+            - p: If you appreciate design, this fan will make you cry tears of joy. And then you’ll weep because you’ll never have taste as good as the designer’s. So buy it.
+        photo:
+            - img: gift_guide/ofan1.jpg
+            - img: gift_guide/ofan2.jpg
+
+      - title: 11+ Monster Bottle
+        link: https://elevenpl.us/product/monster-bottle/
+        price: $39
+        text:
+            - p: This bottle is designed by cloudandco with the Sticky Monster Lab. The end result is a colorful and functional bottle. The product speaks for itself—it’s so gorgeous.
+        photo:
+            - img: gift_guide/monster1.jpg
+            - img: gift_guide/monster2.jpg
+
+      - title: The New York Times Debossed Mug
+        link: https://store.nytimes.com/products/debossed-new-york-times-mugs
+        price: $32
+        text:
+            - p: Merch is often gaudy and garish. They serve as a shouting and screaming ad for the brand and worse, they’re not even free—you have to buy them.
+            - p: However, this mug is so different because it’s understated. A gorgeous logo doesn’t need to scream. It can be subtle. In this case, it’s debossed on a mug.
+            - p: So every morning, you can enjoy your coffee while supporting good journalism.
+        photo:
+            - img: gift_guide/nytmug.jpg
+
+      - title: "*The Daily* Tote Bag"
+        link: https://store.nytimes.com/collections/the-daily/products/daily-tote-bag
+        price: $28
+        text:
+            - p: Michael Barbaro is the new Ira Glass. And his podcast, *The Daily* is a part of many people’s morning routines.
+            - p: Now, you can show your love the for podcast in really a hip way by sporting this tote bag to Whole Foods (or if you’re not an affluent tech bro, Trader Joe’s).
+        photo:
+            - img: gift_guide/nyttote.jpg
+
+      - title: Pitch Deck Card Game
+        link: http://pitchdeck.business/
+        price: $20
+        text:
+            - p: If you are a fan of performative card games, Pitch Deck is a must-buy. Players are given a company and an idea, for example, Jurassic Park for Hipsters, and each player pitches their take on the concept.
+            - p: The beauty of this is that it’s not only humorous, it’s also a pretty good exercise in product making. You can even incorporate how the company/product works and how it makes money.
+        photo:
+            - img: gift_guide/pitchdeck.jpg
+
+      - title: Blackberry Bold 9900
+        link: https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313.TR9.TRC1.A0.H0.Xblackberry+bold+9900.TRS0&_nkw=blackberry+bold+9900&_sacat=0
+        price: ~$20–$40
+        text:
+            - p: Wait, why would anyone get a dumb phone from a decade ago? Oh, don’t worry. You won’t be using it as a phone. It’ll be your new paper weight.
+            - p: Nothing screams sophistication like a useless Blackberry. You’ll be putting this on your desk, atop the piles of important financial papers you’re surely working on.
+            - p: This is the first Blackberry to incorporate metal. This is the Blackberry that [Kim Kardashian was stockpiling](https://qz.com/749927/kim-kardashians-out-of-production-blackberry-sold-out-on-ebay-and-she-doesnt-know-what-to-do/). So you can’t really go wrong with this.
+        photo:
+            - img: gift_guide/bold9900.jpg
+            - img: gift_guide/bold99002.jpg
+
+      - title: Nokia Lumia 920
+        link: https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1312.R1.TR10.TRC2.A0.H0.Xlumi.TRS2&_nkw=lumia+920+yellow&_sacat=0&LH_TitleDesc=0&_osacat=0&_odkw=blackberry+bold+9900
+        price: ~$65–$100
+        text:
+            - p: If you’re an industrial design nerd, you’re already know you need this. But you might have reservations. Sure, it’s old and runs a dead OS, but like the Blackberry, you won’t be using it as a phone.
+            - p: It’ll be your new bright yellow, Finnish-designed paperweight. At a higher price point that the Blackberry, this is our upgrade pick for eye-catching paperweights.
+            - p: Now, when someone inquires about the phone on your desk, you can educate them on Aalto’s “gentler structure to life” philosophy. It’s true. Also, Nokia designed something incredible here and Satya Nadella killed the company. You can rant about that too.
+        photo:
+            - img: gift_guide/lumia1.jpg
+            - img: gift_guide/lumia2.jpg
+
+...
