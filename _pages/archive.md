@@ -13,15 +13,15 @@ permalink: /archive/
 
 <div class="fr w-60-ns w-100 archiveWrapper mb4-ns">
 
-	{% for post in site.posts %}
+    {% for post in site.posts %}
 
-	<div class="bb b--light-silver pv2 mv1 cf">
-		<span data-image-url="{{post.image_thumb}}" class="lh-title f4 fw4 mv2 archiveTitle"><a class="link black" href="{{ post.url }}">{{ post.title }}</a></span>
+    <div class="bb b--light-silver pv2 mv1 cf">
+    	<span data-image-url="{{post.image_thumb}}" class="lh-title f4-ns f5 fw4 mv2-ns mv1 archiveTitle"><a class="link black" href="{{ post.url }}">{{ post.title }}</a></span>
 
-		<span class="f5 gray tr fr tabular">{{ post.date | date: "%-m/%y" }}</span>
-	</div>
+    	<span class="f5-ns f6 gray tr fr tabular">{{ post.date | date: "%-m/%y" }}</span>
+    </div>
 
-	{% endfor %}
+    {% endfor %}
 
 </div>
 

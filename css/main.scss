@@ -6,7 +6,8 @@
 }
 
 body {
-  font-family: 'Inter','ss',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "Inter", "ss", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: 400;
 
   font-variant-ligatures: common-ligatures;
@@ -21,7 +22,7 @@ body {
 
   overflow-x: hidden;
 
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 
   color: var(--black);
 }
@@ -45,13 +46,26 @@ body {
   color: var(--black) !important;
 }
 
-a:link, a:visited { transition: color .15s ease-in; }
-a:hover { transition: color .15s ease-in; color: #777;}
-a:active { transition: color .15s ease-in; }
-a:focus {outline: none;}
+a:link,
+a:visited {
+  transition: color 0.15s ease-in;
+}
+a:hover {
+  transition: color 0.15s ease-in;
+  color: #777;
+}
+a:active {
+  transition: color 0.15s ease-in;
+}
+a:focus {
+  outline: none;
+}
 
-.postBody h1, .postBody h2, .postBody h3, .postBody h4 {
-	font-weight: 400;
+.postBody h1,
+.postBody h2,
+.postBody h3,
+.postBody h4 {
+  font-weight: 400;
 }
 
 .postBody {
@@ -61,7 +75,7 @@ a:focus {outline: none;}
     color: #555;
 
     :hover {
-      transition: color .15s ease-in;
+      transition: color 0.15s ease-in;
       color: #777;
     }
   }
@@ -135,7 +149,7 @@ img {
   user-drag: none;
 }
 
-figure  {
+figure {
   margin-left: auto;
   margin-right: auto;
 
@@ -146,21 +160,20 @@ figure  {
 
 /*inspired by github*/
 blockquote {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   max-width: 30rem;
   padding: 0;
   color: #777; /*gray*/
-  border-left: 3px solid rgba(0,0,0,0.05);
+  border-left: 3px solid rgba(0, 0, 0, 0.05);
   border-color: #ccc;
   /*used to be 0.25em*/
 
-
   padding-left: 1.2rem;
-	/*padding-right: 1rem;*/
+  /*padding-right: 1rem;*/
 }
 
 .inline-footnote a {
@@ -178,7 +191,9 @@ blockquote {
   margin-bottom: 1.5rem;
 }
 
-.embed-container iframe, .embed-container object, .embed-container embed {
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -197,7 +212,8 @@ hr {
   color: #ccc;
 }
 
-.emdash::before, .emdash::after {
+.emdash::before,
+.emdash::after {
   content: " ";
 }
 
@@ -234,4 +250,10 @@ hr {
   position: -webkit-sticky;
   /* margin-top: 2rem; */
   top: 2rem;
+}
+
+.archiveWrapper {
+  > div:last-child {
+    border: none;
+  }
 }
