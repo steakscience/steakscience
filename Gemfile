@@ -28,7 +28,6 @@ group :jekyll_plugins do
    # gem 's3_website'
    gem 'jekyll-sitemap'
    gem 'jekyll-seo-tag'
-   gem 'jekyll-analytics'
    gem 'jekyll-typogrify'
    gem 'ffi', '1.9.18'
    gem 'jekyll-autoprefixer'

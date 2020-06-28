@@ -21,7 +21,6 @@ plugins:
     - jekyll-figure
     - jekyll-sitemap
     - jekyll-seo-tag
-    - jekyll-analytics
     - jekyll-feed
     - jekyll-typogrify
     - jekyll-autoprefixer
@@ -32,9 +31,4 @@ autoprefixer:
   only_production: true
 
 sass:
-  style: compressed
-
-jekyll_analytics: 
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-61560416-2       # Required - replace with your tracking id
-    anonymizeIp: true   
+  style: compressed 
