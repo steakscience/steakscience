@@ -1,1 +1,1 @@
-![gif](sv.gif)
+![gif](/sv.gif)
