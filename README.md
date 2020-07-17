@@ -1,1 +1,1 @@
-![gif](/sv.gif)
+![gif](https://github.com/steakscience/steakscience/raw/master/sv.gif)
