@@ -1,4 +1,4 @@
-![](https://media2.giphy.com/media/oxU4aYICwH4Aymx1jt/giphy.gif)
+![](sv.gif)
 
 <!--
 **steakscience/steakscience** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
