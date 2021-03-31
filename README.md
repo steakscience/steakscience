@@ -5,7 +5,7 @@ I’m a designer.
 
 In other words, I try to make complex concepts feel simple.
 
-Currently, I’m at ScreenCloud, where I’m designing an interface to manage screens and content.
+Currently, I’m designing an interface to manage screens and content at ScreenCloud.
 
 Previously, I studied design at the University of Washington, where I got to work on projects with Microsoft’s Surface/Xbox team and with TEAGUE, a consultancy that designs airplane experiences for Boeing.
 
