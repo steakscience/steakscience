@@ -1,5 +1,8 @@
-Hey there —
-I’m a designer. In other words, I try to make complex concepts feel simple.
+![gif](https://github.com/steakscience/steakscience/raw/master/ghost.gif)
+
+Hey there,
+I’m a designer. <br/>
+In other words, I try to make complex concepts feel simple.
 
 Currently, I’m at ScreenCloud, where I’m designing an interface to manage screens and content.
 
@@ -11,6 +14,4 @@ Thanks for stopping by, <br/>
 Nirawit
 
 [My personal website →](https://nirawit.me) <br/>
-[My blog →](https://steakscience.com) <br/>
-
-![gif](https://github.com/steakscience/steakscience/raw/master/ghost.gif)
+[My blog →](https://steakscience.com)
