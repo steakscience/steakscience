@@ -1,9 +1,8 @@
 ![gif](https://github.com/steakscience/steakscience/raw/master/ghost.gif)
 
 Hey there,
-I’m a designer.
 
-In other words, I try to make complex concepts feel simple.
+I enjoy tackling new problems and making complex concepts feel simple.
 
 Currently, I’m designing an interface to manage screens and content at ScreenCloud.
 
