@@ -8,11 +8,10 @@ Previously, I studied design at the University of Washington, where I got to wor
 
 After hours, I design git for recipes, write blogs, and record podcasts. I’m always interested in meeting curious and passionate people — let’s grab a coffee.
 
-Thanks for stopping by,
-
+Thanks for stopping by, <br/>
 Nirawit
 
-[My personal website →](https://nirawit.me)
+[My personal website →](https://nirawit.me) <br/>
 [My blog →](https://steakscience.com)
 
 ![gif](https://github.com/steakscience/steakscience/raw/master/ghost.gif)
