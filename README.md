@@ -13,5 +13,5 @@ After hours, I design git for recipes, write blogs, and record podcasts. I love 
 Thanks for stopping by, <br/>
 Nirawit
 
-[My personal website →](https://nirawit.me) <br/>
+[My portfolio →](https://nirawit.me) <br/>
 [My blog →](https://steakscience.com)
