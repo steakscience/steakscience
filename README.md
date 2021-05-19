@@ -1,6 +1,8 @@
-Designer, gadget nerd, and izakaya enthusiast. Trying to make complex ideas appear simple.
+Designer, gadget nerd, and izakaya enthusiast. 
+<br />
+Trying to make complex ideas appear simple.
+<br />
 
-***
 
 ![](/remix.png)
 
