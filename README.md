@@ -2,6 +2,8 @@ Designer, gadget nerd, and izakaya enthusiast.
 <br />
 Trying to make complex ideas appear simple.
 <br />
+<br />
+<br />
 
 **remix** - Git for recipes. Cooking is all about experimenting and interating. (In-progress)
 <br />
