@@ -1,6 +1,6 @@
 Designer, gadget nerd, and izakaya enthusiast. Trying to make complex ideas appear simple.
 
-**Side projects**
+***
 
 ![](/remix.png)
 
