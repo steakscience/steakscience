@@ -1,17 +1,19 @@
-![gif](https://github.com/steakscience/steakscience/raw/master/ghost.gif)
+Designer, gadget nerd, and izakaya enthusiast. Trying to make complex ideas appear simple.
 
-Hey there,
+**Side projects**
 
-I enjoy tackling new problems and making complex concepts feel simple.
+![](/remix.png)
 
-Currently, I’m designing an interface to manage screens and content at ScreenCloud.
+**remix** - Git for recipes. Cooking is all about experimenting and interating. (In-progress)
 
-Previously, I studied design at the University of Washington, where I got to work on projects with Microsoft’s Surface/Xbox team and with TEAGUE, a consultancy that designs airplane experiences for Boeing.
+![](/seerstone.png)
 
-After hours, I design [git for recipes](https://steakscience.com/making-git-for-recipes/), write blogs, and record podcasts. I love meeting curious and passionate people — let’s grab a coffee.
+[**seerstone**](https://seerstone.vercel.app) - tracking stats for our inhouse Dota games. Made with love in Bangkok, Seattle, and Vancouver.
 
-Thanks for stopping by, <br/>
-Nirawit
+![](/facingtrump.png)
 
-[My portfolio →](https://nirawit.me) <br/>
-[My blog →](https://steakscience.com)
+[**Facing Trump**](https://www.facingtrump.com) - portraits of Seattleites on the day after the election.
+
+![](/uwbathrooms.png)
+
+[**UW Bathrooms**](https://uwbathrooms.netlify.app) - a mirror and ode to the legendary campus bathroom reviews blog.
