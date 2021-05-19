@@ -11,14 +11,14 @@ Trying to make complex ideas appear simple.
 
 [**seerstone**](https://seerstone.vercel.app) - tracking stats for our inhouse Dota games. Made with love in Bangkok, Seattle, and Vancouver.
 <br /><br />
-![](/seerstone.png)
+[![](/seerstone.png)](https://seerstone.vercel.app)
 
 [**Facing Trump**](https://www.facingtrump.com) - portraits of Seattleites on the day after the election.
 <br /><br />
-![](/facingtrump.png)
+[![](/facingtrump.png)](https://www.facingtrump.com)
 
 [**UW Bathrooms**](https://uwbathrooms.netlify.app) - a mirror and ode to the legendary campus bathroom reviews blog.
 <br /><br />
-![](/uwbathrooms.png)
+[![](/uwbathrooms.png)](https://uwbathrooms.netlify.app)
 
 
