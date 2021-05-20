@@ -5,7 +5,7 @@ Trying to make complex ideas appear simple.
 <br />
 <br />
 
-**remix** - Git for recipes. Cooking is all about experimenting and interating. (In-progress)
+**remix** - Git for recipes. Cooking is all about experimenting and remixing. (In-progress)
 <br /><br />
 ![](/remix.png)
 
