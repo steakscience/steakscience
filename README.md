@@ -9,7 +9,7 @@ Trying to make complex ideas appear simple.
 <br /><br />
 ![](/remix.png)
 
-[**seerstone**](https://seerstone.vercel.app) - tracking stats for our inhouse Dota games. Made with [Hiep Can](https://www.linkedin.com/in/hiepcan/) and [Norawit Jittipairoj](https://www.linkedin.com/in/norawitjittipairoj/).
+[**seerstone**](https://seerstone.vercel.app) - tracking stats for our inhouse Dota games.
 <br /><br />
 [![](/seerstone.png)](https://seerstone.vercel.app)
 
