@@ -5,15 +5,15 @@ Trying to make complex ideas appear simple.
 <br />
 <br />
 
-**remix** - Git for recipes. Cooking is all about experimenting and remixing. (In-progress)
+**remix** - Git for recipes. Cooking is all about experimenting and remixing. (Vue + Firebase)
 <br /><br />
 ![](/remix.png)
 
-[**seerstone**](https://seerstone.vercel.app) - tracking stats for our inhouse Dota games. Made with [Hiep Can](https://www.linkedin.com/in/hiepcan/) and [Norawit Jittipairoj](https://www.linkedin.com/in/norawitjittipairoj/).
+[**seerstone**](https://seerstone.vercel.app) - tracking stats for our inhouse Dota games. Made with [Hiep Can](https://www.linkedin.com/in/hiepcan/) and [Norawit Jittipairoj](https://www.linkedin.com/in/norawitjittipairoj/). (Next.js + Go + Firebase)
 <br /><br />
 [![](/seerstone.png)](https://seerstone.vercel.app)
 
-[**The Bastion**](https://the-bastion.org) - A blog about Thai politics.
+[**The Bastion**](https://the-bastion.org) - A blog about Thai politics. (Next.js + Ghost)
 <br /><br />
 [![](/bastion.png)](https://the-bastion.org)
 
