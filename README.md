@@ -13,6 +13,10 @@ Trying to make complex ideas appear simple.
 <br /><br />
 [![](/seerstone.png)](https://seerstone.vercel.app)
 
+[**The Bastion**](https://the-bastion.org) - A blog about Thai politics.
+<br /><br />
+[![](/bastion.png)](https://the-bastion.org)
+
 [**Facing Trump**](https://www.facingtrump.com) - portraits of Seattleites on the day after the election.
 <br /><br />
 [![](/facingtrump.png)](https://www.facingtrump.com)
