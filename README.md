@@ -5,7 +5,7 @@ Trying to make complex ideas appear simple.
 <br />
 <br />
 
-**remix** - Git for recipes. Cooking is all about experimenting and remixing. (Vue + Firebase)
+**remix** - git for recipes. Cooking is all about experimenting and remixing. (Vue + Firebase)
 <br /><br />
 ![](/remix.png)
 
@@ -13,7 +13,7 @@ Trying to make complex ideas appear simple.
 <br /><br />
 [![](/seerstone.png)](https://seerstone.vercel.app)
 
-[**The Bastion**](https://the-bastion.org) - A blog about Thai politics. (Next.js + Ghost)
+[**The Bastion**](https://the-bastion.org) - a blog about Thai politics. (Next.js + Ghost)
 <br /><br />
 [![](/bastion.png)](https://the-bastion.org)
 
