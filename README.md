@@ -1,6 +1,6 @@
 Designer, gadget nerd, and izakaya enthusiast. 
 <br />
-Trying to make complex ideas appear simple.
+Let’s make better mistakes tomorrow.
 <br />
 <br />
 <br />
