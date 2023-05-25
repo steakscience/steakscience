@@ -5,9 +5,9 @@ We grow old because we stop playing.
 <br />
 <br />
 
-**remix** - git for recipes. Cooking is all about experimenting and remixing. (Vue + Firebase)
+**Test Kitchen** - GitHub for recipes. Cooking is all about experimenting and remixing. (Vue + Firebase)
 <br /><br />
-![](/remix.png)
+![](/testkitchen.png)
 
 [**seerstone**](https://seerstone.vercel.app) - tracking stats for our inhouse Dota games. Made with [Hiep Can](https://www.linkedin.com/in/hiepcan/) and [Norawit Jittipairoj](https://www.linkedin.com/in/norawitjittipairoj/). (Next.js + Go + Firebase)
 <br /><br />
@@ -24,5 +24,3 @@ We grow old because we stop playing.
 [**UW Bathrooms**](https://uwbathrooms.netlify.app) - a mirror and ode to the legendary campus bathroom reviews blog.
 <br /><br />
 [![](/uwbathrooms.png)](https://uwbathrooms.netlify.app)
-
-
