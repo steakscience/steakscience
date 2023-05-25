@@ -13,9 +13,9 @@ We grow old because we stop playing.
 <br /><br />
 [![](/seerstone.png)](https://seerstone.vercel.app)
 
-[**The Bastion**](https://the-bastion.org) - a blog about Thai politics. (Next.js + Ghost)
+[**Broken Axis**](https:/brokenaxis.com) - a blog about Thai politics. (Next.js + Notion)
 <br /><br />
-[![](/bastion.png)](https://the-bastion.org)
+[![](/brokenaxis.png)](https:/brokenaxis.com)
 
 [**Facing Trump**](https://www.facingtrump.com) - portraits of Seattleites on the day after the election.
 <br /><br />
