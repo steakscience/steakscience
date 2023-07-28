@@ -7,7 +7,7 @@ We grow old because we stop playing.
 
 **Test Kitchen** - GitHub for recipes. Cooking is all about experimenting and remixing. (Vue + Firebase)
 <br /><br />
-![](/testkitchen.png)
+![](/browser.png)
 
 [**seerstone**](https://seerstone.vercel.app) - tracking stats for our inhouse Dota games. Made with [Hiep Can](https://www.linkedin.com/in/hiepcan/) and [Norawit Jittipairoj](https://www.linkedin.com/in/norawitjittipairoj/). (Next.js + Go + Firebase)
 <br /><br />
