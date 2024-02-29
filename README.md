@@ -5,7 +5,7 @@ We grow old because we stop playing.
 <br />
 <br />
 
-**Test Kitchen** - GitHub for recipes. Cooking is all about experimenting and remixing. (Vue + Firebase)
+[**Test Kitchen**](https://testkitchen.fun/) - GitHub for recipes. Cooking is all about experimenting and remixing. (Vue + Firebase)
 <br /><br />
 ![](/browser.png)
 
