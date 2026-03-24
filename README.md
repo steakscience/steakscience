@@ -9,7 +9,7 @@ We grow old because we stop playing.
 <br /><br />
 ![](/browser.png)
 
-[**seerstone**](https://seerstone.vercel.app) - tracking stats for our inhouse Dota games. Made with [Hiep Can](https://www.linkedin.com/in/hiepcan/) and [Norawit Jittipairoj](https://www.linkedin.com/in/norawitjittipairoj/). (Next.js + Go + Firebase)
+[**seerstone**](https://seerstone.vercel.app) - tracking stats for inhouse Dota games. (Next.js + Go + Firebase)
 <br /><br />
 [![](/seerstone.png)](https://seerstone.vercel.app)
 
