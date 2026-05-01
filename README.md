@@ -13,14 +13,6 @@ We grow old because we stop playing.
 <br /><br />
 [![](/seerstone.png)](https://seerstone.vercel.app)
 
-[**Broken Axis**](https:/brokenaxis.com) - a blog about Thai politics. (Next.js + Notion)
-<br /><br />
-[![](/brokenaxis.png)](https:/brokenaxis.com)
-
 [**Facing Trump**](https://www.facingtrump.com) - portraits of Seattleites on the day after the election.
 <br /><br />
 [![](/facingtrump.png)](https://www.facingtrump.com)
-
-[**UW Bathrooms**](https://uwbathrooms.netlify.app) - a mirror and ode to the legendary campus bathroom reviews blog.
-<br /><br />
-[![](/uwbathrooms.png)](https://uwbathrooms.netlify.app)
